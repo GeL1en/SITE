@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<!--[if IE 6]>    <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P24PF4B');</script>
+
+	<link rel="alternate" type="application/rss+xml" title="WordPress.tv RSS Feed" href="https://wordpress.tv/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="WordPress.tv Blog RSS Feed" href="https://blog.wordpress.tv/feed/" />
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://wordpress.tv/xmlrpc.php" />
+
+	<script type="text/javascript" src="https://use.typekit.com/mgi6udv.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<title>WordCampTV Videos &#8211; WordPress.tv</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="google-site-verification" content="0qakxHNaM2wWyhBzdmbdqyDKFUGDxRK-Sb-UNniGZqk" />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=131574'
+					+ '&is_singular=';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly93b3JkcHJlc3MudHY%3D"
+		+ "&wpcomid=5089392"
+		+ "&time=1734190418";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="WordPress.tv &raquo; WordCampTV Category Feed" href="https://wordpress.tv/category/wordcamptv/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1719498190i&ver=6.8-alpha-59438"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/_static/??-eJyVzMsKAjEMheEXshMHKYML8Vl6CSVjJy1NivTtrSK4dnng/B88qyEOuUcUCCIQSRR8LuFhMvnm2gDRkXE5iJd5OMEsQmFFVqi5J2KB1Of02JL5lAI7anVvwo3S1aRG8cv8TTSnxEl++f24rdtlPVt7tdv+As8OR/w=&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s2.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s1.wp.com/_static/??-eJx9jdEKwjAMRX/IGGYZ24v4LV0XZqXpypK6+fdmDJ8UX0I4nMPFtUCYs1JW5Aol1SlmwTAvZJyLVzSDaYyeErFp5yBywt/ZGseJ1HL5/KC0/U+KzcAwlIVEwC7HyqB325Kv7sDo+2BUnxcUfSXatRtfm7bvXNu4zj3eEyNPNA==&cssminify=yes' type='text/css' media='all' />
+<!--[if IE 6]>
+<link rel='stylesheet' id='wptv-ie-css' href='https://s2.wp.com/wp-content/themes/a8c/wptv2/ie6.css?m=1412160810i&#038;ver=6.8-alpha-59438' media='all' />
+<![endif]-->
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s1.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1i9KTcrJTwcy0/WTi5G5ekCujj52Temp+bo5+cmJJZn5eSgc3bScxMwikFb7XFtDE1NLExMLc0OTLACohS2q&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s2.wp.com/wp-content/themes/h4/global.css?m=1420737423i&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"5089392","postID":"0","siteURL":"https:\/\/wordpress.tv","xhrURL":"https:\/\/wordpress.tv\/wp-admin\/admin-ajax.php","nonce":"ff68272601","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-mu-wpcom-settings-js-before">
+/* <![CDATA[ */
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/sun\/vendor\/automattic\/jetpack-mu-wpcom\/src\/build\/"};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/wp-content/js/rlt-proxy.js?m=1720530689i'></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+/* ]]> */
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wptv.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+	<style>
+		@font-face {
+			font-family: Recoleta;
+			font-display: swap;
+			src: url('https://s1.wp.com/i/fonts/recoleta/400.woff2')
+		}
+	</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="WordCampTV Videos &#8211; WordPress.tv" />
+<meta property="og:url" content="https://wordpress.tv/category/wordcamptv/" />
+<meta property="og:description" content="Presentations, Highlights, and Behind-the-Scenes looks from WordCamps around the World" />
+<meta property="og:site_name" content="WordPress.tv" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="player" />
+<meta name="twitter:player" content="https://videopress.com/v/pm5bqVT9?autoplay=0" />
+<meta name="twitter:player:width" content="560" />
+<meta name="twitter:player:height" content="315" />
+<meta name="twitter:player:stream" content="https://wordpress.tv/wp-content/uploads/2024/12/video-df592ac9bb.mp4" />
+<meta name="twitter:player:stream:content_type" content="video/mp4" />
+<meta property="og:video:type" content="video/mp4" />
+<meta property="og:video" content="https://wordpress.tv/wp-content/uploads/2024/12/video-df592ac9bb.mp4" />
+<meta property="og:video:secure_url" content="https://wordpress.tv/wp-content/uploads/2024/12/video-df592ac9bb.mp4" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s2.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://wordpress.tv/?openidserver=1' />
+<link rel='openid.delegate' href='https://wordpress.tv/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://wordpress.tv/osd.xml" title="WordPress.tv" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<link rel="canonical" href="https://wordpress.tv/category/wordcamptv/"><link rel="next" href="https://wordpress.tv/category/wordcamptv/page/2/?simply_static_page=1237">
+<meta name="application-name" content="WordPress.tv" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="WordPress-related videos curated and moderated by the WordPress.org community" /><meta name="description" content="Presentations, Highlights, and Behind-the-Scenes looks from WordCamps around the World" />
+			<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s2.wp.com/?custom-css=1&#038;csblog=llYY&#038;cscache=6&#038;csrev=11" />
+			</head>
+
+<body class="archive category category-wordcamptv category-12784353 jps-theme-a8c/wptv2 customizer-styles-applied jetpack-reblog-enabled">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P24PF4B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="page">
+	<div id="header">
+		<div class="sleeve">
+
+			<h1><a rel="home" href="https://wordpress.tv/"><img src="https://s2.wp.com/wp-content/themes/a8c/wptv2/i/wptv-2x.png" alt="WordPress.tv" height="40" width="210" /></a></h1>
+
+			<form id="searchform" name="searchform" method="get" action="https://wordpress.tv/">
+				<label for="searchbox" class="screen-reader-text">Search WordPress.tv</label>
+				<input type="search" placeholder="Search WordPress.tv" id="searchbox" name="s" value=""  />
+				<input type="submit" value="Search" />
+			</form>
+
+			<div id="menu">
+				<div class="menu-primary-container"><ul id="menu-primary" class="menu"><li id="menu-item-10486" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-10486"><a href="https://wordpress.tv/category/wordcamptv/" aria-current="page">WordCamps</a></li>
+<li id="menu-item-115905" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115905"><a href="https://wordpress.tv/category/wordpress-meetup/">Meetups</a></li>
+<li id="menu-item-115906" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115906"><a href="https://wordpress.tv/category/keynote/">Keynotes</a></li>
+<li id="menu-item-10487" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10487"><a href="https://wordpress.tv/category/how-to/">How To</a></li>
+<li id="menu-item-39536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39536"><a href="https://wordpress.tv/get-involved/">Get Involved</a></li>
+</ul></div>			</div>
+
+		</div><!-- .sleeve -->
+	</div><!-- #header -->
+<div class="wptv-hero group">
+	<div class="container">
+
+		<h2 class="page-title">WordCampTV</h2>
+		<div class="desc"><p>Presentations, Highlights, and Behind-the-Scenes looks from WordCamps around the World</p>
+</div>
+
+					<div class="main-video">
+				<iframe title='VideoPress Video Player' aria-label='VideoPress Video Player' width='575' height='323' src='https://video.wordpress.com/embed/3fnjoLuI?hd=1&amp;autoPlay=0&amp;permalink=1&amp;loop=0&amp;preloadContent=metadata&amp;muted=0&amp;playsinline=0&amp;controls=1&amp;cover=1' frameborder='0' allowfullscreen  allow='clipboard-write' ></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1725245713'></script>
+				<h3>
+					<a href="https://wordpress.tv/2024/10/11/an-in-person-qa-with-matt-mullenweg/" rel="bookmark" class="video-title">An In-Person Q&amp;A With Matt Mullenweg</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-us-2024/">WordCamp US 2024</a></strong>				</h3>
+			</div><!-- .main-video -->
+		
+		<div class="secondary-videos">
+			<ul>
+
+								<li class="group">
+					<a href="https://wordpress.tv/2024/07/03/wordpress-project-summer-update/" rel="bookmark">
+						<span class="video-thumbnail">
+							<img src="https://videos.files.wordpress.com/7RNSsr6e/video-d39ebc7dfe_mp4.scrubthumb.jpg" alt="" />						</span>
+						<span class="video-title">WordPress Project Summer&nbsp;Update</span>
+					</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-europe-2024/">WordCamp Europe 2024</a></strong>				</li>
+								<li class="group">
+					<a href="https://wordpress.tv/2024/04/03/an-in-person-qa-with-wordpress-co-founder-matt-mullenweg/" rel="bookmark">
+						<span class="video-thumbnail">
+							<img src="https://videos.files.wordpress.com/E1SXZq1L/video-4a8631d745_m4v.scrubthumb.jpg" alt="" />						</span>
+						<span class="video-title">An In-person Q&amp;A with WordPress Co-Founder Matt Mullenweg</span>
+					</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-asia-2024/">WordCamp Asia 2024</a></strong>				</li>
+								<li class="group">
+					<a href="https://wordpress.tv/2023/12/10/career-opportunities-in-wordpress/" rel="bookmark">
+						<span class="video-thumbnail">
+							<img src="https://videos.files.wordpress.com/WXKw61fT/video-289cbc75f3_mp4.scrubthumb.jpg" alt="" />						</span>
+						<span class="video-title">Career opportunities in WordPress</span>
+					</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-hong-kong-2023/">WordCamp Hong Kong 2023</a></strong>				</li>
+								<li class="group">
+					<a href="https://wordpress.tv/2023/12/10/15-ways-user-experience-impacts-business-success/" rel="bookmark">
+						<span class="video-thumbnail">
+							<img src="https://videos.files.wordpress.com/N6wLNtQb/video-30957f3a4d_mp4.scrubthumb.jpg" alt="" />						</span>
+						<span class="video-title">15 ways user experience impacts business&nbsp;success</span>
+					</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-europe-2023/">WordCamp Europe 2023</a></strong>				</li>
+								<li class="group">
+					<a href="https://wordpress.tv/2023/12/10/harnessing-the-power-of-chatgpt-4-0-for-wordpress-publishing/" rel="bookmark">
+						<span class="video-thumbnail">
+							<img src="https://videos.files.wordpress.com/eJ9nGK5G/video-b2ac55844b_mp4.scrubthumb.jpg" alt="" />						</span>
+						<span class="video-title">Harnessing the power of ChatGPT-4 for WordPress publishing</span>
+					</a>
+					<strong class="video-event"><a href="https://wordpress.tv/event/wordcamp-vancouver-2023/">WordCamp Vancouver 2023</a></strong>				</li>
+				
+			</ul>
+		</div><!-- .secondary-videos -->
+	</div><!-- .container -->
+</div><!-- .wptv-hero -->
+
+<div class="container">
+	<div class="primary-content">
+
+		<div class="menu-featured-wordcamps-container"><ul id="menu-featured-wordcamps" class="menu">		<div>
+			<h3>
+				WordCamp Asia 2024				<a href="https://wordpress.tv/event/wordcamp-asia-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/04/10/starting-a-wordpress-meetup-the-highs-and-lows/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/57vxucgO/video-6077b9521d_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Starting a WordPress Meetup: The highs and&nbsp;lows</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/10/translate-live-in-context-translation-using-wordpress-playground/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/cCVwiUaK/video-0b7776be91_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Translate Live: in-context translation using WordPress Playground</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/10/ai-enhanced-woocommerce-store-management-from-present-to-future/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/kVmtj2kY/video-a40eb775c6_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">AI-Enhanced WooCommerce Store Management: From Present to&nbsp;Future</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/10/journey-of-5-years-with-headless-wordpress-evolution-challenges-and-opportunities/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/nAMEi5tO/video-de09169d3a_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Journey of 5 Years with Headless WordPress: Evolution, Challenges, and Opportunities</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp US 2024				<a href="https://wordpress.tv/event/wordcamp-us-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/10/13/opening-remarks-4/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/FZUUZrkl/video-375f158b3c_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Opening remarks</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/10/13/wordpress-bootcamp-for-educators-turn-your-knowledge-into-engaging-courses/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/anwYqgnn/video-6a68ecaee9_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress Bootcamp for Educators: Turn Your Knowledge into Engaging&nbsp;Courses</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/10/13/enhancing-wordpress-accessibility-tools-techniques-and-real-world-solutions/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/9Smt7MPO/video-676a58bca3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Enhancing WordPress Accessibility: Tools, Techniques, and Real-World Solutions</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/10/13/from-bottlenecks-to-breakthroughs-how-the-new-york-post-mastered-scalability/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/RpBdlkgn/213-frombottleneckstobreakthroughshowthenewyorkpost-rosecity-v1-33_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Bottlenecks to Breakthroughs: How the New York Post Mastered Scalability</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Europe 2023				<a href="https://wordpress.tv/event/wordcamp-europe-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/12/10/15-ways-user-experience-impacts-business-success/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/N6wLNtQb/video-30957f3a4d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">15 ways user experience impacts business&nbsp;success</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/10/international-appeal-making-your-themes-and-plugins-translatable/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/V5KSOmTT/video-56000c40a9_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">International appeal: making your themes and plugins translatable</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/30/ai-in-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/qNAjkFCN/video-1ef27e8988_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">AI in WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/18/wordpress-extended-build-unique-websites-on-top-of-wp/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/TtLOzZt8/video-5424535d9a_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress extended: build unique websites on top of&nbsp;WP</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Griñón 2024				<a href="https://wordpress.tv/event/wordcamp-grinon-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/11/28/conoce-la-nueva-herramienta-para-hacer-tu-plugin-mas-seguro-y-cumpla-buenas-practicas/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/6lEd9DnW/video-38ec48307b_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Conoce la nueva Herramienta para hacer tu Plugin más seguro y cumpla buenas Prácticas</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/26/5-aspectos-para-diferenciar-tu-tienda-en-mercados-globales/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/52wrsBpK/video-6a98eb83fc_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">5 aspectos para diferenciar tu tienda en mercados&nbsp;globales</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/25/haz-que-otros-trabajen-por-ti-guia-para-afiliados-con-woocommerce/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/irVRIlVP/hazqueotrostrabajenportiguiaparaafiliadosconwoocommerce_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Haz que otros trabajen por ti: guía para afiliados con WooCommerce</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/25/aprendiendo-de-los-mejores-como-no-hacer-las-cosas-en-ecommerce/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Bp4lfxWZ/02miguelsanz_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Aprendiendo de los mejores… cómo NO hacer las cosas en ecommerce</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Sydney 2024				<a href="https://wordpress.tv/event/wordcamp-sydney-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/11/27/polishing-%f0%9f%92%a9-how-to-design-beautiful-websites-from-horrible-logos-ui-ux/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/mFzUJ5v7/video-4bfe27e83d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Polishing 💩: How to design beautiful websites from horrible logos [UI &amp;&nbsp;UX]</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/27/case-study-scaling-a-woocommerce-store-from-16k-to-6-5m-in-3-years/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/hXhDwP4O/video-6a511fc8ed_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Case study: Scaling a WooCommerce Store from 16k to 6.5M in 3&nbsp;Years</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/27/the-enterprise-approach-to-wordpress-security-2/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/AIxqm2aY/video-4199a64fd8_mp4.scrubthumb-1-1.jpg" alt="" /></span>
+						<span class="video-title">The Enterprise Approach to WordPress Security</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/27/the-problem-with-wordpress-a-deep-dive-into-the-wordpress-database/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/NxZznoAX/video-0cfd885882_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">The Problem With WordPress: A Deep Dive Into the WordPress Database</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Sevilla 2024				<a href="https://wordpress.tv/event/wordcamp-sevilla-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/11/11/bienvenida-y-presentacion-de-la-comunidad-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/tK9tPkjY/video-3ea3839fe3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Bienvenida y presentación de la comunidad WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/11/conoce-a-los-equipos-de-la-comunidad-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/jVHcgTqD/video-8c4ef649fa_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Conoce a los equipos de la comunidad WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/11/como-conseguir-trabajo-con-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/xP4ltdpq/video-f1388f2c87_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cómo conseguir trabajo con WordPress</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Granada 2024				<a href="https://wordpress.tv/event/wordcamp-granada-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/11/06/mesa-debate-turismo-y-opensource/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/EUAGG4FY/video-e137d48e23_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Mesa debate Turismo y OpenSource</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/11/06/apertura-y-bienvenida/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Tq32zFlE/video-6a496fd704_mp4.scrubthumb-16.jpg" alt="" /></span>
+						<span class="video-title">Apertura y Bienvenida</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/10/31/turismo-de-interior-fiestas-y-actividades-culturales-montando-la-guia-definitiva-de-pueblos-con-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ipn6RzW4/video-cf0fe4f837_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Turismo de interior, fiestas y actividades culturales: montando la guía definitiva de pueblos con WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/10/31/web-propia-plataforma-externa-de-reservas-o-mitad-y-mitad/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/aC0Buft2/video-3238277851_mov.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">¿Web propia, plataforma externa de reservas o mitad y&nbsp;mitad?</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Chiclana 2024				<a href="https://wordpress.tv/event/wordcamp-chiclana-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/04/25/charla-de-bienvenida/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/lZ8WMU6y/video-a37c076917_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Charla de bienvenida</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/25/cierre-del-evento/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/m7Qi2wm7/video-8819596341_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cierre del evento</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/09/interactivity-api-una-nueva-experiencia-para-hacer-bloques/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/rP9gOWs6/video-198633c768_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Interactivity API: Una nueva experiencia para hacer&nbsp;bloques</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/04/09/marketing-de-guerrilla-para-vender-de-forma-disruptiva-y-barata-sin-acabar-en-el-juzgado/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/mFI7iwgC/video-100443947a_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Marketing de guerrilla para vender de forma disruptiva y barata sin acabar en el&nbsp;juzgado</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Torrelodones 2024				<a href="https://wordpress.tv/event/wordcamp-torrelodones-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/03/26/presentacion-del-evento/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/euWmeZQH/video-b6fe953277_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Presentación del evento</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/03/26/agradecimientos-y-cierre/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ly45qmIA/video-2dade6aed5_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Agradecimientos y cierre</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/03/26/leccion-1-de-accesibilidad-web-centrate-en-el-contenido-que-wordpress-hara-el-resto/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/MTSvgJJO/video-786b993c87_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Lección 1 de Accesibilidad web: céntrate en el contenido, que WordPress hará el&nbsp;resto</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/03/26/ampliar-la-definicion-de-diseno-inclusivo/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/8SWD3Ghf/video-7e601005d3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Ampliar la definición de diseño inclusivo</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Zaragoza 2024				<a href="https://wordpress.tv/event/wordcamp-zaragoza-2024/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/01/22/presentacion-de-wczgz24/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/h1kgpEgQ/video-826df75a0e_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Presentación de #WCZGZ24</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/22/quedan-345-dias-y-aun-no-sabes-hacer-una-web-accesible/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/eYOsjScW/video-6b79f04fd7_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Quedan 345 días y aún no sabes hacer una web accesible</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/22/el-arte-de-entenderse-un-workflow-efectivo-entre-el-cliente-y-la-disenadora/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/BZfNEpWC/video-d7ed116180_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">El arte de entenderse: un workflow efectivo entre el cliente y la diseñadora</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/22/cierre-wczgz24/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/gnOURUjZ/video-90d30df4d6_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cierre #WCZGZ24</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Atlanta 2023				<a href="https://wordpress.tv/event/wordcamp-atlanta-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/02/28/using-ai-for-your-web-project-management/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/W28J1DRC/video-4c44dd1e0f_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Using AI for Your Web Project Management</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/02/27/the-wordpress-seo-checkup-tools-for-regular-site-audits/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/kUjmoJhM/video-5aad191793_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">The WordPress SEO Checkup: Tools for Regular Site&nbsp;Audits</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/02/27/the-independent-theme-developers-field-guide-to-modern-wordpress-2/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/zpcFKGsp/video-553e39908f_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">The independent theme developer’s field guide to modern WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/02/27/you-need-a-gps-for-the-managed-wordpress-hosting-maze/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/nZEp5eYK/video-064a987e40_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">You Need a GPS for the Managed WordPress Hosting&nbsp;Maze!</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Barcelona 2023				<a href="https://wordpress.tv/event/wordcamp-barcelona-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/15/cierre-y-agradecimientos-de-la-wordcamp-barcelona-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/cW7I9l32/video-63b0a4069b_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cierre y agradecimientos de la WordCamp Barcelona 2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/15/disenar-con-el-espacio/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/0SsA2cU7/video-31610fd174_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Diseñar con el&nbsp;espacio</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/15/10-2-basics-daccessibilitat/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/C3ZN50kq/video-df4f518e98_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">10 + 2 bàsics d’accessibilitat</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/10/tot-el-que-la-teva-web-necessita-per-complir-amb-la-normativa/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/KohXQnNK/video-255d76524d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Tot el que la teva web necessita per complir amb la normativa</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Biarritz 2023				<a href="https://wordpress.tv/event/wordcamp-biarritz-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/23/augmentez-le-trafic-et-les-ventes-de-votre-site-woocommerce-grace-a-facebook-instagram-pinterest-e/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/BwCDrMWY/video-e9e30f8c94_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Augmentez le trafic et les ventes de votre site WooCommerce grâce à Facebook, Instagram, Pinterest e</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/23/experts-wordpress-decouvrez-comment-vous-proteger-des-3-plus-gros-risques-clients/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/3wW26RkL/video-b0d393db6f_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Experts WordPress : découvrez comment vous protéger des 3 plus gros risques&nbsp;clients</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/23/wordpress-est-ce-que-ca-scale/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/gvdzZ9nG/video-a8e6be297c_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">WordPress, est-ce que ça scale&nbsp;?</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/23/creez-un-plugin-reconciliant-le-php-moderne-et-le-developpement-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/c0D7FQLs/video-7e0a8903c1_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Créez un plugin réconciliant le PHP moderne et le développement WordPress</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Bogotá 2023				<a href="https://wordpress.tv/event/wordcamp-bogota-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/08/28/google-tag-manager-la-navaja-suiza-del-marketer/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/kqrQsYwO/video-f4ec4486e1_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Google Tag Manager, la navaja suiza del&nbsp;marketer</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/08/28/inteligencia-artificial-aplicada-al-embudo-de-ventas/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/maeoghqy/video-2f3aaa9e29_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Inteligencia artificial aplicada al embudo de&nbsp;ventas</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/08/28/el-uso-correcto-de-los-encabezados-en-las-webs-con-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/RzZfBtA5/video-3d776081e4_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">El uso correcto de los encabezados en las webs con WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/08/27/optimiza-el-diseno-de-la-pagina-de-producto-de-woocommerce/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/2eYWWpCb/video-f8c34f1875_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Optimiza el diseño de la página de producto de WooCommerce</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Buffalo 2023				<a href="https://wordpress.tv/event/wordcamp-buffalo-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/22/ben-dunkle-are-child-themes-dead/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Mr3JKq0s/video-79d07aa945_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Ben Dunkle: Are Child Themes&nbsp;Dead?</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/22/courtney-robertson-the-wordpress-training-teams-journey-towards-creating-accessible-and-engaging-educational-materials/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/uQudaQ4f/video-77ff3d9799_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Courtney Robertson: The WordPress Training Team’s Journey Towards Creating Accessible and Engaging Educational Materials</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/22/marybeth-smith-how-to-monetize-your-wordpress-site-without-spamming-it-with-ads/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/upUEWpex/video-287504d58c_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Marybeth Smith: How to Monetize Your WordPress Site Without Spamming it With&nbsp;Ads!</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/22/maestro-stevens-sell-smarter-with-your-headless-starter/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/rOEMPWjH/video-e5bec39709_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Maestro Stevens: Sell Smarter With Your HEADless&nbsp;Starter</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Chiclana 2023				<a href="https://wordpress.tv/event/wordcamp-chiclana-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/25/clausura-wordcamp-chiclana-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/jGgqv8gp/video-65e8943203_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Clausura WordCamp Chiclana&nbsp;2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/22/disena-para-wordpress-con-penpot-el-figma-libre-y-gratuito/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/iTO4fxsA/video-b22e85bfe3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Diseña para WordPress con Penpot: el Figma libre y&nbsp;gratuito</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/12/configuraciones-para-promocionar-nuestra-tienda-con-woocommerce/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/EDjgDtTe/video-d285a3e259_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Configuraciones para promocionar nuestra tienda con WooCommerce</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/12/mapas-en-tu-wordpress-el-software-libre-siempre-gana/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/wuVau9PD/video-97945ec071_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Mapas en tu WordPress: el software libre siempre&nbsp;gana.</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Germany 2023				<a href="https://wordpress.tv/event/wordcamp-germany-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/10/25/state-of-tv-vortragsaufzeichnung-aktueller-stand-und-ausblick/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/KNrnlTlj/video-f23a9037d4_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">State of TV – Vortragsaufzeichnung, aktueller Stand und&nbsp;Ausblick</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/22/manja-neumann-woocommerce-blocks-ein-aktueller-blick-auf-die-neuen-blocke-fur-produktseiten-cart/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/2kfigaB1/video-80ef4529a5_mp4.scrubthumb-9.jpg" alt="" /></span>
+						<span class="video-title">WooCommerce Blocks – Ein aktueller Blick auf die neuen Blöcke für Produktseiten, Cart</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/22/tammie-lister-exploring-the-power-of-generative-styling/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Rlbp2p7t/video-ddfd4d5624_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Exploring the power of generative styling</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/22/anne-mieke-bovelett-how-to-counter-arguments-from-developers-designers-and-managers-against-accessibility/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/H0ZtyUC3/video-7ef62859f8_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">How to counter arguments from developers, designers, and managers against accessibility</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Hong Kong&nbsp;2023				<a href="https://wordpress.tv/event/wordcamp-hong-kong-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/12/10/career-opportunities-in-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/WXKw61fT/video-289cbc75f3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Career opportunities in WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/09/experience-sharing-wordcamp-hopping/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/IjSgJTem/video-d338c3b010_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Experience Sharing: WordCamp&nbsp;Hopping</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/09/running-a-remote-distributed-company-powered-by-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Fzw62H5N/video-cab8bf246b_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Running a Remote Distributed Company Powered by WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/09/google-adsense-monetization/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/iJDDjFTR/video-ccccf9b9bc_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Google Adsense Monetization</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Kathmandu 2023				<a href="https://wordpress.tv/event/wordcamp-kathmandu-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/01/15/translating-wordpress-into-nepali-a-voyage-of-localization-and-inclusivity/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/JF9JHG1X/video-658bb592f3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Translating WordPress into Nepali: A Voyage of Localization and Inclusivity</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/15/technical-seo-guide-for-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/PgIXervb/video-0064893e9c_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Technical SEO Guide for WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/15/from-steel-beams-to-web-themes-a-civil-engineers-wordpress-adventure/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/z67JzePp/video-21275b7a47_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Steel Beams to Web Themes: A Civil Engineer’s WordPress Adventure</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/01/15/navigating-seo-and-content-creation-in-the-ai-era/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ysaz7a5M/video-99bd836b42_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Navigating SEO and Content Creation in the AI&nbsp;Era</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Kerala 2023				<a href="https://wordpress.tv/event/wordcamp-kerala-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/06/13/is-work-not-satisfying-anymore-a-few-proven-ideas-to-think/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Sp6eF3ew/video-8d55438acf_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Prince Kumar: Is work not satisfying anymore? A few proven ideas to&nbsp;think</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/06/13/contributing-to-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/xLiOCAfd/video-0d0d825e5a_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Alexander Gounder: Contributing to WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/22/mujeebu-rahman-wordpress-data-privacy/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/dt5RH7mD/video-fb1ee3ac79_mp4_hd.original.jpg" alt="" /></span>
+						<span class="video-title">Mujeebu Rahman: WordPress Data&nbsp;Privacy</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Lisboa 2023				<a href="https://wordpress.tv/event/wordcamp-lisboa-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/30/consideracoes-iniciais/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/kK3YyElk/video-6630969a21_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Considerações iniciais</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/30/closing-remarks-3/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/mKQcm7LJ/video-c014288a6f_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Closing remarks</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/30/20-years-thats-a-lot-of-community/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/N1WVBGsj/video-183393fd39_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">20 Years. That’s a Lot of Community</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/30/la-importancia-de-la-marca-personal-para-los-profesionales/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/et2IHeHK/video-4c9f77d64a_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">La importancia de la marca personal para los profesionales</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Madrid 2023				<a href="https://wordpress.tv/event/wordcamp-madrid-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/14/presentacion-wordcamp-madrid-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/vpfmPuHt/video-166a60801f_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Presentación WordCamp Madrid&nbsp;2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/09/crea-tu-primer-bloque-de-gutenberg-desde-cero/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/RaRGr0Ag/video-e2e97b91ef_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Crea tu primer bloque de Gutenberg desde&nbsp;cero</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/09/de-la-idea-al-lanzamiento-como-configurar-paginas-de-landing-thank-you-y-registro-efectivas-en-wor/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/4HYZndGg/video-39dd56a71e_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">De la idea al lanzamiento: Configurar páginas de landing, thank you y registro efectivas en WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/09/automatizar-procesos-de-diseno-con-wordpress-woocommerce/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/aT5Hcm6Z/video-6c6ced6288_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Automatizar procesos de diseño con WordPress / WooCommerce</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Malaysia 2023				<a href="https://wordpress.tv/event/wordcamp-malaysia-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/10/15/taking-wordpress-to-infinity-and-beyond-with-chatgpt-api/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Jya8YXoV/video-c642d6ee72_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Taking WordPress to Infinity and Beyond with ChatGPT&nbsp;API</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/13/everyone-can-design/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/R4xe4SH1/video-0a44953cc3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Everyone can design</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/01/wordpress-a-journey-to-remember/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/yLBNyYkE/video-ae4c5ec616_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress: A journey to&nbsp;remember</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/01/from-pixels-to-platforms-navigating-the-ui-ux-design-to-wordpress-development-expedition/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/a1iKZnaP/video-40bdcc634d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Pixels to Platforms: Navigating the UI/UX Design to WordPress Development Expedition</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Masaka 2023				<a href="https://wordpress.tv/event/wordcamp-masaka-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/how-to-automate-your-wordpress-workflows-with-instawp/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/oGKnuLw0/video-947130c261_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">How to Automate Your WordPress Workflows With&nbsp;InstaWP</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/creating-an-intuitive-woocommerce-checkout-experience/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/F0XfwCJI/video-8b1fd852e9_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Creating an Intuitive WooCommerce Checkout Experience</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/from-passion-to-profit-navigating-the-journey-of-launching-a-digital-agency/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/S6fLiV5W/video-e39356a119_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Passion to Profit: Navigating the Journey of Launching a Digital&nbsp;Agency</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/getting-started-with-writing-on-wordpress-com/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/GYEsu9RM/video-4f0140a825_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Getting Started with Writing on WordPress.com</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Montclair 2023				<a href="https://wordpress.tv/event/wordcamp-montclair-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/10/13/things-well-meaning-wordpress-developers-do-that-hurts-seo-in-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/b2vTf3H9/video-652291ac0c_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">What well-meaning WordPress developers do that hurts SEO in&nbsp;2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/13/introduction-to-web-accessibility/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/mM0XhjiN/video-06d05a83d6_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Introduction to web accessibility</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/02/building-a-generous-business/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/VjuV8Hpb/video-8dc9e20ec5_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Building a Generous&nbsp;Business</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/02/so-you-want-to-launch-a-podcast/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/g4qvJMzH/video-6f18dcb6b3_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">So You Want to Launch a Podcast…</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Montreal 2023				<a href="https://wordpress.tv/event/wordcamp-montreal-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/the-creation-of-small-business-websites-in-wordpress-my-process/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/UQcNMTZg/video-59cc204018_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">The Creation Of Small Business Websites In WordPress – My&nbsp;Process</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/getting-started-with-the-e2e-playwright-test-utils-for-wordpress-today-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/cjeCHuoT/video-ce25b1a7b1_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Getting started with the E2E Playwright test utils for WordPress today&nbsp;(2023)</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/a-comprehensive-guide-to-accessibility-for-backend-engineers/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/GfLNyoQv/video-e4b13a8d59_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">A Comprehensive Guide to Accessibility for Backend Engineers</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/wordpress-playground-the-famous-5-second-install/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/WTESc6Jf/video-0f1b48d8ad_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress Playground: The Famous « 5 Second »&nbsp;Install</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Netherlands 2023				<a href="https://wordpress.tv/event/wordcamp-netherlands-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/18/your-code-can-be-poetry-too/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ru5B06NU/video-c4586a43c1_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Your code can be poetry&nbsp;too</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/13/numbers-dont-lie-using-analytics-to-improve-your-checkout-process/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/r6x7gq2O/video-9bd22d7edc_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Number’s don’t lie: Using analytics to improve your checkout&nbsp;process</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/06/cross-culture-taking-your-shop-abroad/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/snJp7deT/video-e166d6e917_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cross culture: taking your shop&nbsp;abroad</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/06/react-elastic-search-integratie-voor-een-optimale-zoekervaring/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/gAm5354M/video-3de6b75de4_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">React Elastic Search integratie voor een optimale zoekervaring</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Paris 2023				<a href="https://wordpress.tv/event/wordcamp-paris-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/25/limportance-de-designer-le-process-client/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/XKzLNztT/video-7910c1d441_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">L’importance de designer le process&nbsp;client</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/25/le-pouvoir-de-lobsession-client-comment-ladoption-dun-etat-desprit-centre-sur-le-client-peut-transformer-votre-entreprise/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/jl2wtmiS/video-d6a9c256c3_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Le pouvoir de l’obsession client : Comment l’adoption d’un état d’esprit centré sur le client peut transformer votre entreprise</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/25/exploiter-les-pleins-potentiels-du-design-dans-son-projet-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/DLaE7uZT/video-96d53eca63_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Exploiter les pleins potentiels du Design dans son projet WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/25/cookies-et-consentement-comment-etre-en-conformite/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/vo5ueIKv/video-da570089b9_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Cookies et consentement : comment être en conformité ?</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Pontevedra 2023				<a href="https://wordpress.tv/event/wordcamp-pontevedra-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/09/22/los-contenidos-generados-por-ia-posicionan-lamentablemente-y-en-esta-charla-os-explico-por-que/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ASWV7PEU/video-8b5b5e423d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Los contenidos generados por IA posicionan (lamentablemente) y ¡en esta charla os explico por&nbsp;qué!</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/19/como-gane-mi-primer-millon-gracias-a-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/IXqotDPE/video-7c77500c29_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cómo gané mi primer millón gracias a WordPress</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/18/cierre-wordcamp-pontevedra-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/KbPoIhuq/video-95f3d98955_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cierre WordCamp Pontevedra 2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/18/apertura-wordcamp-pontevedra-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/AvWT6FhW/video-d848f78ba7_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Apertura WordCamp Pontevedra 2023</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Rochester 2023				<a href="https://wordpress.tv/event/wordcamp-rochester-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/10/13/using-ai-to-speed-up-your-wordpress-builds/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/tBSOhg02/video-02ec6e4148_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Using AI to speed up your WordPress builds</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/04/charity-begins-at-home-why-communities-are-stronger-together/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/p6cjRLeI/video-a4499370ff_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Charity Begins at Home, Why Communities are Stronger&nbsp;Together</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/04/your-sales-page-sucks-tips-to-improve-it/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/OthghzIC/video-249057d2f8_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Your Sales Page Sucks: Tips to Improve&nbsp;It</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/04/supercharging-your-wordpress-journey-with-artificial-intelligence/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/9WGjvZYM/video-00b595c61f_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Supercharging Your WordPress Journey with Artificial Intelligence</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp San José&nbsp;2023				<a href="https://wordpress.tv/event/wordcamp-san-jose-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/21/build-your-career-with-the-wordpress-site-editor/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/7HpZUrEp/video-1c0a8035e3_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Build Your Career with the WordPress Site&nbsp;Editor</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/06/seo-101-join-the-ranks-of-the-best/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/nTmjY2bc/video-d6a05fbbe7_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">SEO 101: Join The Ranks Of The&nbsp;Best</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/06/conceptos-basicos-de-seo-y-su-importancia-para-el-exito-en-linea/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/iVzSer97/video-2438711dd6_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Conceptos básicos de SEO y su importancia para el éxito en&nbsp;línea</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/06/como-un-podcast-puede-aumentar-tu-trafico-web-y-generar-leads/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/yIHYm1qe/video-198bf3bc46_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">¿Cómo un podcast puede aumentar tu tráfico web y generar&nbsp;leads?</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Sevilla 2023				<a href="https://wordpress.tv/event/wordcamp-sevilla-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/10/24/charla-de-apertura/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/rV1lXQCc/video-5cc23f6525_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Charla de apertura</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/24/tu-primer-rato-con-wordpress-en-que-puedes-convertir-tu-blog-usando-plugins/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/sXLcCdOH/video-052f1a681e_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Tu primer rato con WordPress: en qué puedes convertir tu blog usando&nbsp;plugins</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/24/teo-aprende-a-vender-desde-su-pagina-web/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/iGjc3aZH/video-30f3571812_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Teo aprende a vender desde su página&nbsp;web</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/10/24/breve-introduccion-tecnica-a-magento/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/pjeMHQE2/video-d1e3c7b077_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Breve introducción técnica a&nbsp;Magento</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Switzerland 2023				<a href="https://wordpress.tv/event/wordcamp-switzerland-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/09/20/wordpress-speedoptimierung/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/PCMo6umz/video-c31a7a16b3_mp4.scrubthumb-2.jpg" alt="" /></span>
+						<span class="video-title">WordPress Speedoptimierung</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/20/wozu-design/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/rV1ZF32U/video-a74541ee26_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Wozu Design?</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/20/markus-winter-der-wordpress-navigations-block/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Ah65ncY8/video-87e9436243_mp4.scrubthumb-2.jpg" alt="" /></span>
+						<span class="video-title">Der WordPress Navigations Block</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/20/wordpress-in-2025/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/J5yeGkBo/video-667c6dbaa6_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress in 2025</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Sylhet 2023				<a href="https://wordpress.tv/event/wordcamp-sylhet-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/09/21/panel-wordpress-contributions-make-global-impact-from-here-leave-your-mark/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/DiIXKzwO/video-3344f0e3b0_mp4_hd.original.jpg" alt="" /></span>
+						<span class="video-title">Panel: WordPress Contributions: Make Global Impact From Here &amp; Leave Your&nbsp;Mark</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/21/the-art-of-wordpress-plugin-development-common-mistakes-to-avoid/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/REJMdO3Q/video-b931da90de_mp4_hd.original.jpg" alt="" /></span>
+						<span class="video-title">The Art of WordPress Plugin Development: Common Mistakes to&nbsp;Avoid</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/09/21/themes-and-plugins-building-modern-admin-panels-with-modern-js-frameworks/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/9ZiShrIY/video-b744e82290_mp4_hd.original.jpg" alt="" /></span>
+						<span class="video-title">Themes and Plugins – Building Modern Admin Panels with Modern JS Frameworks</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/07/28/the-power-of-localization-in-wordpress-product-marketing/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/5giWraVm/video-aceb924ea6_mp4_hd.original.jpg" alt="" /></span>
+						<span class="video-title">The Power of Localization in WordPress Product Marketing</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Tokyo 2023				<a href="https://wordpress.tv/event/wordcamp-tokyo-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/07/where-did-wordpress-come-from-what-is-wordpress-where-is-wordpress-heading/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/W0EJhCIp/video-701d05a1dc_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress はどこから来たのか WordPress は何者か WordPress はどこへ行くのか</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/07/how-to-deal-with-wordpress-themes-in-the-future/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/jg0iuH4Y/video-373f644837_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">これからの WordPress テーマとの付き合い方</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/07/why-are-we-able-to-continue-to-use-wordpress/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/hL6QcWsH/video-1a434ba5aa_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">私たちが WordPress を使い続けられる理由</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/07/how-to-maintain-wordpress-in-a-rapidly-changing-environment/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Js3iYa1K/video-1c87b06824_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">環境変化の激しい WordPress のメンテナンスをどう考えるか</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Torrelodones 2023				<a href="https://wordpress.tv/event/wordcamp-torrelodones-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/03/24/clausura-de-wordcamp-torrelodones-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/d50qVKfb/video-22860f1daa_m4v.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Clausura de WordCamp Torrelodones 2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/20/presentacion-de-wordcamp-torrelodones-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/tA5PQo6m/video-c1abde0def_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Presentación de WordCamp Torrelodones 2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/20/planifica-automatiza-y-disfruta-de-la-familia/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/cw1aTRfE/video-9150006496_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Planifica, automatiza y disfruta de la&nbsp;familia</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/03/15/haz-match-con-tus-clientes/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/0fG7DeWp/video-c5bca4d37c_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Haz match con tus&nbsp;clientes</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Valencia 2023				<a href="https://wordpress.tv/event/wordcamp-valencia-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/11/20/cagadas-que-haces-en-wordpress-por-las-que-nadie-te-ha-reganado/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/RwZubd0M/video-250a9dd45e_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">CAGADAS que haces en WORDPRESS por las que nadie te ha REGAÑADO</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/13/bienvenida-a-la-wordcamp-valencia-2/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/Jl4VBX4t/video-bcbafa239c_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Bienvenida a la WordCamp&nbsp;Valencia</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/13/factores-criticos-para-mejorar-el-seo-de-tu-wordpress-y-superar-a-la-competencia/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/gQ4A8kdA/video-d78b98a1a0_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Factores críticos para mejorar el SEO de tu WordPress y superar a la competencia</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/13/conoces-la-formula-perfecta-para-construir-tu-marca-personal/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/9POAtFxv/video-e9abe1eaac_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">¿Conoces la fórmula perfecta para construir tu marca personal?</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Vancouver 2023				<a href="https://wordpress.tv/event/wordcamp-vancouver-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/12/10/harnessing-the-power-of-chatgpt-4-0-for-wordpress-publishing/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/eJ9nGK5G/video-b2ac55844b_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Harnessing the power of ChatGPT-4 for WordPress publishing</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/09/the-power-of-visual-storytelling-in-web-design/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/mGEq9ygX/video-323f1beef2_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">The power of visual storytelling in web&nbsp;design</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/22/beyond-code-creating-value-through-outstanding-customer-experiences/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/hv8hBjQG/video-68a431a23d_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Beyond Code: Creating Value through Outstanding Customer Experiences</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/11/20/from-vulnerable-to-viable-enhancing-your-wordpress-security-posture-2/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/7EdczGGa/video-96db1b37ba_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Vulnerable to Viable: Enhancing Your WordPress Security&nbsp;Posture</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Verona 2023				<a href="https://wordpress.tv/event/wordcamp-verona-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/12/20/leveraging-well-structured-themes-for-project-success/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/2luYFg13/video-69fa0ae58a_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Leveraging well-structured themes for project&nbsp;success</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/20/wordpress-come-strumento-di-empowerment-per-giovani-attivisti/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/gN2rmJkK/video-c46eb11d99_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress come strumento di empowerment per giovani attivisti</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/20/community-marketing-vs-management/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/N7zI52bl/video-c6d9285766_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Community marketing vs management</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/18/wcag-2-2-ci-siamo-cosa-cambia-per-laccessibilita/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/t8mJhCD8/video-25f5932e74_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WCAG 2.2: ci siamo! Cosa cambia per l’accessibilità?</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Vienna 2023				<a href="https://wordpress.tv/event/wordcamp-vienna-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/04/17/website-radar-2023-zustand-osterreichischer-webseiten/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/rL6XGvoi/video-e617e0aaa8_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Website-Radar 2023: Zustand österreichischer Webseiten</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/04/17/mehr-erfolg-und-erfullung-in-deinem-wordpress-business/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/hcwXIMbb/video-4ba1fcb20e_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">Mehr Erfolg und Erfüllung in deinem WordPress-Business</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/04/17/wordpress-seo-fehler-die-du-vielleicht-noch-nie-beachtet-hast/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/np4oEKP3/video-14646fa3de_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">WordPress SEO Fehler – Die du vielleicht noch nie beachtet&nbsp;hast</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/04/17/wordpress-login-mit-2-faktor-absichern/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/ZabVH3Et/video-8a64cfd4e5_mp4_hd_1080p.original.jpg" alt="" /></span>
+						<span class="video-title">WordPress Login mit 2-Faktor absichern</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Whitley Bay&nbsp;2023				<a href="https://wordpress.tv/event/wordcamp-whitley-bay-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2024/02/26/embracing-gutenberg-as-a-product/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/a9NfSgIb/video-038cd9aa3b_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Embracing Gutenberg as a&nbsp;Product</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/02/20/from-small-blogs-to-big-brands/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/qrL5Z4Bo/video-6892d020a4_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">From Small Blogs to Big&nbsp;Brands</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2024/02/20/lessons-from-leadership/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/hPDowVE3/video-5a99872cf7_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Lessons from Leadership</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/12/10/a-somewhat-practical-wordpress-security-talk/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/FdbUMw0I/video-46157aef7c_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">A somewhat practical WordPress security&nbsp;talk</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+				<div>
+			<h3>
+				WordCamp Zaragoza 2023				<a href="https://wordpress.tv/event/wordcamp-zaragoza-2023/" class="view-more">More &rarr;</a>
+			</h3>
+			<ul class="video-list four-col">
+								<li>
+					<a href="https://wordpress.tv/2023/05/26/blockchain-cryptocurrencies-feediverse-tokenization-web3-daos/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/HOClNFof/video-4e1c2963cb_mp4.scrubthumb-1.jpg" alt="" /></span>
+						<span class="video-title">Blockchain, Cryptocurrencies, Feediverse, Tokenization, Web3, DAOs, ICOs, dApps, NFTs, Smart&nbsp;Contrac</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/26/cierre-de-la-wordcamp-zaragoza-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/fCgd6QW1/video-a7595315b5_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cierre de la WordCamp Zaragoza&nbsp;2023</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/26/programando-un-bloque-gutenberg-de-wordpress-en-react-desde-cero/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/LaN4BKoI/video-406805a2ec_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Programando un bloque Gutenberg de WordPress en React desde&nbsp;cero</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://wordpress.tv/2023/05/26/como-torear-a-google-en-seo-en-2023/">
+						<span class="video-thumbnail"><img src="https://videos.files.wordpress.com/AgAeMCAx/video-d8f516b748_mp4.scrubthumb.jpg" alt="" /></span>
+						<span class="video-title">Cómo torear a Google en SEO en&nbsp;2023</span>
+					</a>
+				</li>
+							</ul>
+		</div>
+		</ul></div>
+	</div><!-- .primary-content -->
+	<div class="secondary-content">
+	<ul>
+	   
+		<li id="recent-posts-2" class="widget widget_recent_entries">
+		<h3>Latest Videos</h3>
+		<ul>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/block-themes-the-future-of-full-site-editing-and-what-to-expect-from-wordpress-6-7/">Block themes: The future of Full Site Editing and what to expect from WordPress 6.7</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/how-we-create-elementor-landing-pages-that-convert-over-4/">How We Create Elementor Landing Pages That Convert Over&nbsp;4%</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/woocommerce-automations-revolutionizing-ecommerce-with-practical-solutions/">WooCommerce Automations: Revolutionizing eCommerce with Practical Solutions</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/forking-the-gpl-way/">Forking the GPL&nbsp;Way</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/ezycourse-vs-wordpress-a-cms-for-creating-e-class-platforms-and-the-example-of-vetvr-pro-platform/">EzyCourse vs WordPress! A CMS for creating e-class platforms, and the example of VETVR.pro platform</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/make-your-users-search-experience-great/">Make your users’ search experience great</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/find-clients-for-your-agency-by-leveraging-all-your-channels/">Find Clients for Your Agency by Leveraging All Your&nbsp;Channels</a>
+									</li>
+											<li>
+					<a href="https://wordpress.tv/2024/12/13/code-test-repeat-accelerating-development-with-wordpress-playground/">Code, Test, Repeat: Accelerating Development with WordPress Playground</a>
+									</li>
+					</ul>
+
+		</li>
+<li id="nav_menu-5" class="widget widget_nav_menu"><h3>Browse by Year</h3><div class="menu-browse-by-year-container"><ul id="menu-browse-by-year" class="menu"><li id="menu-item-125479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-125479"><a href="https://wordpress.tv/category/year/2024/">2024</a></li>
+<li id="menu-item-116491" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-116491"><a href="https://wordpress.tv/category/year/2023/">2023</a></li>
+<li id="menu-item-116489" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-116489"><a href="https://wordpress.tv/category/year/2022/">2022</a></li>
+<li id="menu-item-110182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110182"><a href="https://wordpress.tv/category/year/2021/">2021</a></li>
+<li id="menu-item-100975" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100975"><a href="https://wordpress.tv/category/year/2020-year/">2020</a></li>
+<li id="menu-item-90092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90092"><a href="https://wordpress.tv/category/year/2019/">2019</a></li>
+<li id="menu-item-100974" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100974"><a href="https://wordpress.tv/category/year/2018/">2018</a></li>
+<li id="menu-item-68446" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-68446"><a href="https://wordpress.tv/category/year/2017/">2017</a></li>
+<li id="menu-item-59064" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59064"><a href="https://wordpress.tv/category/year/2016/">2016</a></li>
+<li id="menu-item-62988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62988"><a href="https://wordpress.tv/category/year/2015/">2015</a></li>
+<li id="menu-item-34934" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34934"><a href="https://wordpress.tv/category/year/2014/">2014</a></li>
+<li id="menu-item-16520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16520"><a href="https://wordpress.tv/category/year/2013/">2013</a></li>
+<li id="menu-item-16519" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16519"><a href="https://wordpress.tv/category/year/2012/">2012</a></li>
+<li id="menu-item-16518" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16518"><a href="https://wordpress.tv/category/year/2011/">2011</a></li>
+<li id="menu-item-16517" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16517"><a href="https://wordpress.tv/category/year/2010/">2010</a></li>
+</ul></div></li>
+<li id="taxonomy_list_widget-4" class="widget widget_taxonomy_list_widget"><h3>Browse by Language</h3><ul class="tlw-list" id="taxonomy_list_widget_list_4"><li><a href="https://wordpress.tv/language/basque-euskara/" rel="nofollow">Basque/Euskara</a></li><li><a href="https://wordpress.tv/language/bengali-bangla/" rel="nofollow">Bengali/Bangla</a></li><li><a href="https://wordpress.tv/language/bulgarian%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8-%d0%b5%d0%b7%d0%b8%d0%ba/" rel="nofollow">Bulgarian/Български език</a></li><li><a href="https://wordpress.tv/language/cantonese-%e5%bb%a3%e6%9d%b1%e8%a9%b1/" rel="nofollow">Cantonese/廣東話</a></li><li><a href="https://wordpress.tv/language/catalan-catala/" rel="nofollow">Catalan/Català</a></li><li><a href="https://wordpress.tv/language/croatianhrvatski/" rel="nofollow">Croatian/Hrvatski</a></li><li><a href="https://wordpress.tv/language/czechcestina/" rel="nofollow">Czech/Čeština</a></li><li><a href="https://wordpress.tv/language/danishdansk/" rel="nofollow">Danish/Dansk</a></li><li><a href="https://wordpress.tv/language/dutchnederlands/" rel="nofollow">Dutch/Nederlands</a></li><li><a href="https://wordpress.tv/language/english/" rel="nofollow">English</a></li><li><a href="https://wordpress.tv/language/finnishsuomi/" rel="nofollow">Finnish/Suomi</a></li><li><a href="https://wordpress.tv/language/frenchfrancais/" rel="nofollow">French/Français</a></li><li><a href="https://wordpress.tv/language/galician-galego/" rel="nofollow">Galician/Galego</a></li><li><a href="https://wordpress.tv/language/germandeutsch/" rel="nofollow">German/Deutsch</a></li><li><a href="https://wordpress.tv/language/greek-%ce%b5%ce%bb%ce%bb%ce%b7%ce%bd%ce%b9%ce%ba%ce%ac/" rel="nofollow">Greek/ελληνικά</a></li><li><a href="https://wordpress.tv/language/gujarati-%e0%aa%97%e0%ab%81%e0%aa%9c%e0%aa%b0%e0%aa%be%e0%aa%a4%e0%ab%80/" rel="nofollow">Gujarati/ગુજરાતી</a></li><li><a href="https://wordpress.tv/language/hebrew%d7%a2%d7%91%d7%a8%d7%99%d7%aa/" rel="nofollow">Hebrew/עברית</a></li><li><a href="https://wordpress.tv/language/hindi-%e0%a4%b9%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%80/" rel="nofollow">Hindi/हिन्दी</a></li><li><a href="https://wordpress.tv/language/indonesian-bahasa-indonesia/" rel="nofollow">Indonesian/Bahasa Indonesia</a></li><li><a href="https://wordpress.tv/language/italianitaliano/" rel="nofollow">Italian/Italiano</a></li><li><a href="https://wordpress.tv/language/japanese%e6%97%a5%e6%9c%ac%e8%aa%9e/" rel="nofollow">Japanese/日本語</a></li><li><a href="https://wordpress.tv/language/kannada-%e0%b2%95%e0%b2%a8%e0%b3%8d%e0%b2%a8%e0%b2%a1/" rel="nofollow">Kannada/ಕನ್ನಡ</a></li><li><a href="https://wordpress.tv/language/lithuanian-lietuviu/" rel="nofollow">Lithuanian/Lietuvių</a></li><li><a href="https://wordpress.tv/language/malay-bahasa-melayu/" rel="nofollow">Malay/Bahasa Melayu</a></li><li><a href="https://wordpress.tv/language/malayalam-%e0%b4%ae%e0%b4%b2%e0%b4%af%e0%b4%be%e0%b4%b3%e0%b4%82/" rel="nofollow">Malayalam/മലയാളം</a></li><li><a href="https://wordpress.tv/language/marathi-%e0%a4%ae%e0%a4%b0%e0%a4%be%e0%a4%a0%e0%a5%80/" rel="nofollow">Marathi/मराठी</a></li><li><a href="https://wordpress.tv/language/maori/" rel="nofollow">Māori</a></li><li><a href="https://wordpress.tv/language/nepali%e0%a4%a8%e0%a5%87%e0%a4%aa%e0%a4%be%e0%a4%b2%e0%a5%80/" rel="nofollow">Nepali/नेपाली</a></li><li><a href="https://wordpress.tv/language/norwegiannorsk/" rel="nofollow">Norwegian/Norsk</a></li><li><a href="https://wordpress.tv/language/persian-farsi/" rel="nofollow">Persian/Farsi</a></li><li><a href="https://wordpress.tv/language/polishpolski/" rel="nofollow">Polish/Polski</a></li><li><a href="https://wordpress.tv/language/portugueseportugues/" rel="nofollow">Portuguese/Português</a></li><li><a href="https://wordpress.tv/language/romanianromana/" rel="nofollow">Romanian/Română</a></li><li><a href="https://wordpress.tv/language/russian%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9/" rel="nofollow">Russian/Русский</a></li><li><a href="https://wordpress.tv/language/serbian%d1%81%d1%80%d0%bf%d1%81%d0%ba%d0%b8/" rel="nofollow">Serbian/Српски</a></li><li><a href="https://wordpress.tv/language/slovakslovencina/" rel="nofollow">Slovak/Slovenčina</a></li><li><a href="https://wordpress.tv/language/spanishespanol/" rel="nofollow">Spanish/Español</a></li><li><a href="https://wordpress.tv/language/swahili-kiswahili/" rel="nofollow">Swahili/Kiswahili</a></li><li><a href="https://wordpress.tv/language/swedishsvenska/" rel="nofollow">Swedish/Svenska</a></li><li><a href="https://wordpress.tv/language/tamil-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/" rel="nofollow">Tamil/தமிழ்</a></li><li><a href="https://wordpress.tv/language/thai-%e0%b8%a0%e0%b8%b2%e0%b8%a9%e0%b8%b2%e0%b9%84%e0%b8%97%e0%b8%a2/" rel="nofollow">Thai/ภาษาไทย</a></li><li><a href="https://wordpress.tv/language/traditional-chinese/" rel="nofollow">Traditional Chinese</a></li><li><a href="https://wordpress.tv/language/turkish-turkce/" rel="nofollow">Turkish/Türkçe</a></li><li><a href="https://wordpress.tv/language/ukrainian%d1%83%d0%ba%d1%80%d0%b0%d1%97%d0%bd%d1%81%d1%8c%d0%ba%d0%b0/" rel="nofollow">Ukrainian/Українська</a></li><li><a href="https://wordpress.tv/language/urdu-%d8%a7%d9%8f%d8%b1%d8%af%d9%8f%d9%88/" rel="nofollow">Urdu/اُردُو</a></li><li><a href="https://wordpress.tv/language/vietnamese-tieng-viet/" rel="nofollow">Vietnamese/Tiếng Việt</a></li></ul><!-- .tlw-list --></li>
+<li id="text-4" class="widget widget_text">			<div class="textwidget"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+		</li>
+	</ul>
+</div></div><!-- container -->
+
+	<div id="footer">
+		<div class="container">
+			<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-39309" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39309"><a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a></li>
+<li id="menu-item-39312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39312"><a href="https://wordpress.tv/get-involved/">Get Involved</a></li>
+<li id="menu-item-81780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81780"><a href="https://wordpress.org/about/privacy/">Privacy</a></li>
+<li id="menu-item-39310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39310"><a href="http://videopress.com/">Powered by VideoPress</a></li>
+</ul></div>			<p class="automattic">An <a href="https://automattic.com/"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxvZ28iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDk0LjQgMzguMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNDk0LjQgMzguMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNMTc5LjMsMzguMmMtMTIuNiwwLTIwLjctOS4xLTIwLjctMTguNXYtMS4yYzAtOS42LDguMi0xOC41LDIwLjctMTguNWMxMi42LDAsMjAuOCw4LjksMjAuOCwxOC41djEuMg0KCUMyMDAuMSwyOS4xLDE5MS45LDM4LjIsMTc5LjMsMzguMnogTTE5My4zLDE4LjZjMC02LjktNS0xMy0xNC4xLTEzYy05LjEsMC0xNCw2LjEtMTQsMTN2MC45YzAsNi45LDUsMTMuMSwxNCwxMy4xDQoJYzkuMSwwLDE0LjEtNi4yLDE0LjEtMTMuMVYxOC42eiIvPg0KPHBhdGggZmlsbD0iIzg4ODg4OCIgZD0iTTM3LjEsMzYuOEwzMi40LDI4SDExLjZMNywzNi44SDBMMTkuMiwxLjNoNS41bDE5LjUsMzUuNUgzNy4xeiBNMjEuOCw4LjJsLTcuNywxNC45aDE1LjdMMjEuOCw4LjJ6Ii8+DQo8cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNNzQuNiwzOC4yYy0xMi43LDAtMTguNy02LjktMTguNy0xNi4yVjEuM2g2LjZ2MjAuOWMwLDYuNiw0LjMsMTAuNSwxMi41LDEwLjVjOC40LDAsMTEuOS0zLjksMTEuOS0xMC41VjEuMw0KCWg2LjdWMjJDOTMuNiwzMC44LDg3LjksMzguMiw3NC42LDM4LjJ6Ii8+DQo8cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNMTMwLjcsNi44djMwaC02Ljd2LTMwaC0xNS41VjEuM2gzNy43djUuNUgxMzAuN3oiLz4NCjxwYXRoIGZpbGw9IiM4ODg4ODgiIGQ9Ik0yNTkuNSwzNi44VjguN2wtMS44LDMuMWwtMTQuOSwyNWgtMy4zbC0xNC43LTI1bC0xLjgtMy4xdjI4LjFoLTYuNVYxLjNoOS4ybDE0LDI0LjRsMS43LDNsMS43LTNMMjU3LDEuMw0KCWg5LjF2MzUuNUgyNTkuNXoiLz4NCjxwYXRoIGZpbGw9IiM4ODg4ODgiIGQ9Ik0zMTYuNSwzNi44bC00LjctOC44SDI5MWwtNC41LDguOGgtN2wxOS4yLTM1LjVoNS41bDE5LjUsMzUuNUgzMTYuNXogTTMwMS4yLDguMmwtNy43LDE0LjloMTUuN0wzMDEuMiw4LjJ6DQoJIi8+DQo8cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNMzUwLjYsNi44djMwaC02Ljd2LTMwaC0xNS41VjEuM2gzNy43djUuNUgzNTAuNnoiLz4NCjxwYXRoIGZpbGw9IiM4ODg4ODgiIGQ9Ik0zOTkuNSw2Ljh2MzBoLTYuN3YtMzBoLTE1LjVWMS4zSDQxNXY1LjVIMzk5LjV6Ii8+DQo8cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNNDMxLjQsMzYuOFY0LjZjMi43LDAsMy43LTEuNCwzLjctMy40aDIuOHYzNS41SDQzMS40eiIvPg0KPHBhdGggZmlsbD0iIzg4ODg4OCIgZD0iTTQ5MC4yLDExLjNjLTMuMi0yLjktNy45LTUuNy0xNC4yLTUuN2MtOS41LDAtMTQuOCw2LjUtMTQuOCwxMy4zdjAuN2MwLDYuNyw1LjQsMTMsMTUuMywxMw0KCWM1LjksMCwxMC44LTIuOCwxMy45LTUuN2w0LDQuMmMtMy45LDMuOC0xMC41LDcuMS0xOC4zLDcuMWMtMTMuNCwwLTIxLjYtOC43LTIxLjYtMTguM3YtMS4yYzAtOS42LDguOS0xOC43LDIxLjktMTguNw0KCWM3LjUsMCwxNC4zLDMuMSwxOCw3LjFMNDkwLjIsMTEuM3oiLz4NCjxwYXRoIGZpbGw9IiM4ODg4ODgiIGQ9Ik0xODMuNiwxMi40YzEuMiwwLjgsMS41LDIuNCwwLjgsMy42bC02LjEsOS40Yy0wLjgsMS4yLTIuNCwxLjYtMy42LDAuOGwwLDBjLTEuMi0wLjgtMS41LTIuNC0wLjgtMy42DQoJbDYuMS05LjRDMTgwLjgsMTEuOSwxODIuNCwxMS42LDE4My42LDEyLjRMMTgzLjYsMTIuNHoiLz4NCjwvc3ZnPg0K" alt="Automattic" width="165" height="14" /></a> Joint</p>
+		</div>
+	</div><!-- #footer -->
+</div><!-- #page -->
+
+<!--  -->
+		<div class="jetpack-instant-search__widget-area" style="display: none">
+							<div id="jetpack-search-filters-3" class="widget jetpack-filters widget_search">			<div id="jetpack-search-filters-3-wrapper" class="jetpack-instant-search-wrapper">
+		</div></div>					</div>
+		<script type="text/javascript">if(jQuery.VideoPress){jQuery.VideoPress.video.flash.params.wmode="opaque";}</script><script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202450b213a1cbb4e3271ca470eb7790af362ac2e18ce468f8945952c7bd3456d2132e" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile →': 'Edit your profile →',
+							'View profile →': 'View profile →',
+							'Contact': 'Contact',
+							'Send money': 'Send money',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Profile not found.': 'Profile not found.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-a8c-wptv2 actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://wordpress.tv">
+				<img loading='lazy' alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				WordPress.tv			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 13,595 other subscribers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="5089392" />
+										<input type="hidden" name="source" value="https://wordpress.tv/category/wordcamptv/?simply_static_page=1237" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="6ffaafcdfb" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fwordpress.tv%252F2024%252F12%252F13%252Fblock-themes-the-future-of-full-site-editing-and-what-to-expect-from-wordpress-6-7%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://wordpress.tv">
+				<img loading='lazy' alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				WordPress.tv			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://wptv.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fwptv.wordpress.com%2Fcategory%2Fwordcamptv%2F%3Fsimply_static_page%3D1237">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fwordpress.tv%252F2024%252F12%252F13%252Fblock-themes-the-future-of-full-site-editing-and-what-to-expect-from-wordpress-6-7%252F">Log in</a></li>
+																	<li class="flb-report">
+										<a href="https://wordpress.com/abuse/?report_url=https://wordpress.tv" target="_blank" rel="noopener noreferrer">
+											Report this content										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/feeds/34277">
+											View site in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20241015";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+	<script type="text/javascript" id="jetpack-instant-search-js-before">
+/* <![CDATA[ */
+var JetpackInstantSearchOptions=JSON.parse(decodeURIComponent("%7B%22overlayOptions%22%3A%7B%22colorTheme%22%3A%22light%22%2C%22enableInfScroll%22%3Afalse%2C%22enableFilteringOpensOverlay%22%3Atrue%2C%22enablePostDate%22%3Atrue%2C%22enableSort%22%3Atrue%2C%22highlightColor%22%3A%22%23ffffcc%22%2C%22overlayTrigger%22%3A%22submit%22%2C%22resultFormat%22%3A%22expanded%22%2C%22showPoweredBy%22%3Afalse%2C%22defaultSort%22%3A%22relevance%22%2C%22excludedPostTypes%22%3A%5B%22attachment%22%5D%7D%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fwordpress.tv%22%2C%22locale%22%3A%22en%22%2C%22postsPerPage%22%3A12%2C%22siteId%22%3A5089392%2C%22postTypes%22%3A%7B%22post%22%3A%7B%22singular_name%22%3A%22Post%22%2C%22name%22%3A%22Posts%22%7D%2C%22page%22%3A%7B%22singular_name%22%3A%22Page%22%2C%22name%22%3A%22Pages%22%7D%2C%22attachment%22%3A%7B%22singular_name%22%3A%22Media%22%2C%22name%22%3A%22Media%22%7D%7D%2C%22webpackPublicPath%22%3A%22https%3A%5C%2F%5C%2Fs2.wp.com%5C%2Fwp-content%5C%2Fmu-plugins%5C%2Fjetpack-plugin%5C%2Fsun%5C%2Fjetpack_vendor%5C%2Fautomattic%5C%2Fjetpack-search%5C%2Fbuild%5C%2Finstant-search%5C%2F%22%2C%22isPhotonEnabled%22%3Atrue%2C%22isFreePlan%22%3Afalse%2C%22apiRoot%22%3A%22https%3A%5C%2F%5C%2Fwordpress.tv%5C%2Fwp-json%5C%2F%22%2C%22apiNonce%22%3A%22f4e87a00b4%22%2C%22isPrivateSite%22%3Afalse%2C%22isWpcom%22%3Atrue%2C%22hasOverlayWidgets%22%3Atrue%2C%22widgets%22%3A%5B%7B%22filters%22%3A%5B%7B%22name%22%3A%22Tags%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22post_tag%22%2C%22count%22%3A8%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%2C%22filter_id%22%3A%22taxonomy_0%22%7D%2C%7B%22name%22%3A%22Language%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22language%22%2C%22count%22%3A8%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%2C%22filter_id%22%3A%22taxonomy_1%22%7D%2C%7B%22name%22%3A%22Speakers%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22speakers%22%2C%22count%22%3A10%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%2C%22filter_id%22%3A%22taxonomy_2%22%7D%2C%7B%22name%22%3A%22Year%22%2C%22type%22%3A%22date_histogram%22%2C%22count%22%3A15%2C%22field%22%3A%22post_date%22%2C%22interval%22%3A%22year%22%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%2C%22filter_id%22%3A%22date_histogram_3%22%7D%5D%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%7D%5D%2C%22widgetsOutsideOverlay%22%3A%5B%5D%2C%22hasNonSearchWidgets%22%3Afalse%2C%22preventTrackingCookiesReset%22%3Atrue%7D"));
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s0.wp.com/_static/??-eJy1kEFuAjEMRS9ESAeoygZxFBQSAx4cO4odELcnrWaqbuiOXfz95P8Ufy8uChuw+VF9liMSuKZQw7lnDvkky1EXvnPIkVoC/QYTqvmLyFWXGfklgcOW/wJzVW6uUDsjdxSshHidZq+N5+hwA05SfWgmOZhh/IWDKpj6Y0NKPyWOJCSoL0WmU31VhB4nJPrXu1V6h7ZCqPEya7Na6F88hWOZXr10n3fD13rzsRlWn6vxCRiYnAs='></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-jp-i18n-loader-js-after">
+/* <![CDATA[ */
+wp.jpI18nLoader.state = {"baseUrl":"https://widgets.wp.com/languages/","locale":"en_US","domainMap":{"jetpack-admin-ui":"plugins/jetpack","jetpack-assets":"plugins/jetpack","jetpack-backup-pkg":"plugins/jetpack","jetpack-blaze":"plugins/jetpack","jetpack-boost-core":"plugins/jetpack","jetpack-boost-speed-score":"plugins/jetpack","jetpack-classic-theme-helper":"plugins/jetpack","jetpack-compat":"plugins/jetpack","jetpack-config":"plugins/jetpack","jetpack-connection":"plugins/jetpack","jetpack-explat":"plugins/jetpack","jetpack-forms":"plugins/jetpack","jetpack-image-cdn":"plugins/jetpack","jetpack-import":"plugins/jetpack","jetpack-ip":"plugins/jetpack","jetpack-jitm":"plugins/jetpack","jetpack-licensing":"plugins/jetpack","jetpack-masterbar":"plugins/jetpack","jetpack-my-jetpack":"plugins/jetpack","jetpack-password-checker":"plugins/jetpack","jetpack-plugins-installer":"plugins/jetpack","jetpack-post-list":"plugins/jetpack","jetpack-protect-models":"plugins/jetpack","jetpack-protect-status":"plugins/jetpack","jetpack-publicize-pkg":"plugins/jetpack","jetpack-search-pkg":"plugins/jetpack","jetpack-stats":"plugins/jetpack","jetpack-stats-admin":"plugins/jetpack","jetpack-sync":"plugins/jetpack","jetpack-videopress-pkg":"plugins/jetpack","jetpack-waf":"plugins/jetpack","jetpack-wordads":"plugins/jetpack","woocommerce-analytics":"plugins/jetpack"},"domainPaths":{"jetpack-admin-ui":"jetpack_vendor/automattic/jetpack-admin-ui/","jetpack-assets":"jetpack_vendor/automattic/jetpack-assets/","jetpack-backup-pkg":"jetpack_vendor/automattic/jetpack-backup/","jetpack-blaze":"jetpack_vendor/automattic/jetpack-blaze/","jetpack-boost-core":"jetpack_vendor/automattic/jetpack-boost-core/","jetpack-boost-speed-score":"jetpack_vendor/automattic/jetpack-boost-speed-score/","jetpack-classic-theme-helper":"jetpack_vendor/automattic/jetpack-classic-theme-helper/","jetpack-compat":"jetpack_vendor/automattic/jetpack-compat/","jetpack-config":"jetpack_vendor/automattic/jetpack-config/","jetpack-connection":"jetpack_vendor/automattic/jetpack-connection/","jetpack-explat":"jetpack_vendor/automattic/jetpack-explat/","jetpack-forms":"jetpack_vendor/automattic/jetpack-forms/","jetpack-image-cdn":"jetpack_vendor/automattic/jetpack-image-cdn/","jetpack-import":"jetpack_vendor/automattic/jetpack-import/","jetpack-ip":"jetpack_vendor/automattic/jetpack-ip/","jetpack-jitm":"jetpack_vendor/automattic/jetpack-jitm/","jetpack-licensing":"jetpack_vendor/automattic/jetpack-licensing/","jetpack-masterbar":"jetpack_vendor/automattic/jetpack-masterbar/","jetpack-my-jetpack":"jetpack_vendor/automattic/jetpack-my-jetpack/","jetpack-password-checker":"jetpack_vendor/automattic/jetpack-password-checker/","jetpack-plugins-installer":"jetpack_vendor/automattic/jetpack-plugins-installer/","jetpack-post-list":"jetpack_vendor/automattic/jetpack-post-list/","jetpack-protect-models":"jetpack_vendor/automattic/jetpack-protect-models/","jetpack-protect-status":"jetpack_vendor/automattic/jetpack-protect-status/","jetpack-publicize-pkg":"jetpack_vendor/automattic/jetpack-publicize/","jetpack-search-pkg":"jetpack_vendor/automattic/jetpack-search/","jetpack-stats":"jetpack_vendor/automattic/jetpack-stats/","jetpack-stats-admin":"jetpack_vendor/automattic/jetpack-stats-admin/","jetpack-sync":"jetpack_vendor/automattic/jetpack-sync/","jetpack-videopress-pkg":"jetpack_vendor/automattic/jetpack-videopress/","jetpack-waf":"jetpack_vendor/automattic/jetpack-waf/","jetpack-wordads":"jetpack_vendor/automattic/jetpack-wordads/","woocommerce-analytics":"jetpack_vendor/automattic/woocommerce-analytics/"}};
+/* ]]> */
+</script>
+<script type="text/javascript" crossorigin='anonymous' src="//stats.wp.com/w.js?ver=202450" id="jp-tracks-js"></script>
+
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?67" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'5089392','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'5089392','v':'wpcom','tz':'-7','user_id':'0','subd':'wptv'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1lSiYrZXhzUkM5fD1uTDNLUGt6QzVbd3FKb3Q4aWxfXXI3YWo4Qz1ObnoxZ1dPWjRrdlQuMmdtYV8tL0tMLi9RSDFyaG1nZGVDVDZbd2RbSEhPUkpkMU9YOVRSbGhsSzNba1BbWjdGRC9sb0pTaVhpPWZ2M2IyL2FELmhfdExDTGlOcUVYSHhXZno3d21DUnRYc3VrTDlyQi9qNEU0cVF6YmIzQU5dVjYwUjRPP1M0bFErJnZFZjJvUy5+LU45UC5qL05aVlowYWJ0fltJP2hXLTFyWT9MLU1VflU1My1OenZjQWdUcDFuRVtOUU15PUI1WndRJTB0LTlIJltWMmg3UkRaW2cyU1lsQjBod2csaEtbK2M9N3VtP0U0TEtdUg=='}]);
+_stq.push([ 'clickTrackerInit', '5089392', '0' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+( function() {
+	function getMobileUserAgentInfo() {
+		if ( typeof wpcom_mobile_user_agent_info === 'object' ) {
+			wpcom_mobile_user_agent_info.init();
+			var mobileStatsQueryString = '';
+
+			if ( wpcom_mobile_user_agent_info.matchedPlatformName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.matchedUserAgentName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.isIPad() ) {
+				mobileStatsQueryString += '&x_' + 'ipad_views' + '=' + 'views';
+			}
+
+			if ( mobileStatsQueryString != '' ) {
+				new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+			}
+		}
+	}
+
+	document.addEventListener( 'DOMContentLoaded', getMobileUserAgentInfo );
+} )();
+</script></body>
+</html>

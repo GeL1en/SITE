@@ -1,0 +1,6 @@
+[Wed Dec 18 17:42:03.702134 2024] [mpm_winnt:notice] [pid 22692:tid 304] AH00455: Apache/2.4.59 (Win64) OpenSSL/3.1.5 PHP/8.1.28 configured -- resuming normal operations
+[Wed Dec 18 17:42:03.702134 2024] [mpm_winnt:notice] [pid 22692:tid 304] AH00456: Apache Lounge VS17 Server built: Apr  4 2024 15:03:17
+[Wed Dec 18 17:42:03.702134 2024] [core:notice] [pid 22692:tid 304] AH00094: Command line: 'E:\\Server\\OSPanel\\modules\\PHP-8.1\\Apache\\bin\\httpd.exe -d E:/Server/OSPanel/modules/PHP-8.1/Apache -f E:\\Server\\OSPanel\\modules\\PHP-8.1\\Apache\\conf\\httpd.conf'
+[Wed Dec 18 17:42:03.706124 2024] [mpm_winnt:notice] [pid 22692:tid 304] AH00418: Parent: Created child process 9068
+[Wed Dec 18 17:42:04.790279 2024] [mpm_winnt:notice] [pid 9068:tid 332] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 18 19:03:31.662929 2024] [mpm_winnt:crit] [pid 9068:tid 332] AH02538: Child: Parent process exited abruptly. Child process is ending

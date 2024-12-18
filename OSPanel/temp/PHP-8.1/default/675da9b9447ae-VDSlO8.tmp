@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Design &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/design/feed/?simply_static_page=2208" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Thu, 15 Aug 2024 17:10:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Design &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>A Brand-New Way to Learn WordPress</title>
+		<link>https://wordpress.org/news/2024/08/a-brand-new-way-to-learn-wordpress/</link>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 02 Aug 2024 13:33:19 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17545</guid>
+
+					<description><![CDATA[Learn WordPress has been growing as a hub of educational resources for WordPress since 2020. Now, it’s undergone a transformation in content focus and design with the introduction of Learning Pathways and a reimagined look. The WordPress.org redesign continues Learn WordPress is the latest section of WordPress.org to receive a design refresh, following other sections [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://learn.wordpress.org/">Learn WordPress</a> has been growing as a hub of educational resources for WordPress since 2020. Now, it’s undergone a transformation in content focus and design with the introduction of Learning Pathways and a reimagined look.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="A Brand-New Way to Learn WordPress in a Reimagined Website Experience" width="500" height="281" src="https://www.youtube.com/embed/D7K4GqTQAEE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading">The WordPress.org redesign continues </h3>
+
+
+
+<p>Learn WordPress is the latest section of WordPress.org to receive a design refresh, following other sections like the <a href="https://wordpress.org/showcase/">Showcase</a> and <a href="https://developer.wordpress.org/">Developer Resources</a>. It brings a unified look and feel that’s modern, visual, and inviting.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="919" src="https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1024%2C919&#038;ssl=1" alt="" class="wp-image-17613" srcset="https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1024%2C919&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=300%2C269&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=768%2C690&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1536%2C1379&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=2048%2C1839&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Beyond its fresh aesthetic, the new Learn WordPress site prioritizes learners with a revamped user experience consistent with familiar modern learning platforms. It features a new navigation menu, eye-catching thumbnails, and search filters so you can explore and discover content quickly. The clearer and more structured layout helps you easily recognize the resources you need (courses, lessons, Online Workshops) based on your learning preferences. &nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Introducing Learning Pathways</h3>
+
+
+
+<p>This redesign also highlights a new approach to Learn WordPress content, emphasizing what learners engage with the most. The introduction of Learning Pathways lets you grow your WordPress skills progressively. You can start with beginner essentials and then work your way through more advanced concepts at your own speed. This method lets you build a solid understanding as you move through each course. Learning Pathways are geared toward specific learners, like people using WordPress for the first time or those interested in development.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="730" src="https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1024%2C730&#038;ssl=1" alt="" class="wp-image-17591" srcset="https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1024%2C730&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=300%2C214&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=768%2C548&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1536%2C1095&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=2048%2C1460&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Four Learning Pathways are already launched and ready to explore:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://learn.wordpress.org/course/beginner-wordpress-user/">Beginner WordPress User</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/intermediate-wordpress-user/">Intermediate WordPress User</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/beginner-wordpress-developer/">Beginner WordPress Developer&nbsp;</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/intermediate-theme-developer/" data-type="link" data-id="https://learn.wordpress.org/course/intermediate-theme-developer/">Intermediate Theme Developer</a></li>
+</ul>
+
+
+
+<p>You can look forward to more Learning Pathways in the User and Developer tracks soon. Two additional pathways, Designer and Contributor, are also on the roadmap. For more details about Learning Pathways, listen to <a href="https://wordpress.org/news/2024/07/episode-83-learning-pathways/">episode 83 of the WordPress Briefing</a>. </p>
+
+
+
+<p class="has-text-align-left has-off-white-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)"><strong>Get a guided tour of all the exciting Learn WordPress changes</strong> from the Training team’s very own <a href="https://profiles.wordpress.org/psykro/">Jonathan Bossenger</a>, <a href="https://profiles.wordpress.org/west7/">Wes Theron</a> and <a href="https://profiles.wordpress.org/zoonini/">Kathryn Presner</a>. Sign up for one of their upcoming Online Workshops on <a href="https://www.meetup.com/learn-wordpress-online-workshops/events/302434418/"><strong>Tuesday, August 6 at 14:00 UTC</strong> </a>or <strong><a href="https://www.meetup.com/learn-wordpress-online-workshops/events/302387426/" data-type="link" data-id="https://www.meetup.com/learn-wordpress-online-workshops/events/302387426/">Thursday, August 8 at 21:00 UTC</a>.</strong></p>
+
+
+
+<h3 class="wp-block-heading">Education for the future of WordPress</h3>
+
+
+
+<p>What started with the Training team’s effort to understand the needs and expectations of current and future learners became a push to create a dynamic learning experience. This next phase of Learn WordPress is an exciting move toward bringing more people into WordPress, whether new users just getting started or established developers looking to add more skills to their toolbox.</p>
+
+
+
+<p>If you want to propose a change or report an issue, please do so in the <a href="https://github.com/WordPress/Learn">Learn GitHub repository</a>. If you love WordPress and want to contribute to making Learn WordPress an even greater resource, join the <a href="https://wordpress.slack.com/archives/C02RW657Q">#training</a> Slack channel. Want to make an immediate impact? Share <a href="https://learn.wordpress.org/">Learn WordPress</a> with someone you know.</p>
+
+
+
+<h3 class="wp-block-heading">Thank you (and props) to all involved</h3>
+
+
+
+<p>The new Learn WordPress couldn’t have been possible without the effective collaboration of the Training, Design, Marketing, and Meta teams. </p>
+
+
+
+<p class="is-style-wporg-props-medium has-large-font-size"><a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/agiljulio/' class='mention'><span class='mentions-prefix'>@</span>agiljulio</a> <a href='https://profiles.wordpress.org/arunshenoy99/' class='mention'><span class='mentions-prefix'>@</span>arunshenoy99</a> <a href='https://profiles.wordpress.org/bsanevans/' class='mention'><span class='mentions-prefix'>@</span>bsanevans</a> <a href='https://profiles.wordpress.org/burtrw/' class='mention'><span class='mentions-prefix'>@</span>burtrw</a> <a href='https://profiles.wordpress.org/cnormandigital/' class='mention'><span class='mentions-prefix'>@</span>cnormandigital</a> <a href='https://profiles.wordpress.org/devmuhib/' class='mention'><span class='mentions-prefix'>@</span>devmuhib</a> <a href='https://profiles.wordpress.org/digitalchild/' class='mention'><span class='mentions-prefix'>@</span>digitalchild</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/ervanyuffrizal/' class='mention'><span class='mentions-prefix'>@</span>ervanyuffrizal</a> <a href='https://profiles.wordpress.org/faisalahammad/' class='mention'><span class='mentions-prefix'>@</span>faisalahammad</a> <a href='https://profiles.wordpress.org/fcoveram/' class='mention'><span class='mentions-prefix'>@</span>fcoveram</a> <a href='https://profiles.wordpress.org/hellosatya/' class='mention'><span class='mentions-prefix'>@</span>hellosatya</a> <a href='https://profiles.wordpress.org/huzaifaalmesbah/' class='mention'><span class='mentions-prefix'>@</span>huzaifaalmesbah</a> <a href='https://profiles.wordpress.org/indirabiswas27/' class='mention'><span class='mentions-prefix'>@</span>indirabiswas27</a> <a href='https://profiles.wordpress.org/ironnysh/' class='mention'><span class='mentions-prefix'>@</span>ironnysh</a> <a href='https://profiles.wordpress.org/itsmhrahman/' class='mention'><span class='mentions-prefix'>@</span>itsmhrahman</a> <a href='https://profiles.wordpress.org/jinalparekh/' class='mention'><span class='mentions-prefix'>@</span>jinalparekh</a> <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a> <a href='https://profiles.wordpress.org/joen/' class='mention'><span class='mentions-prefix'>@</span>joen</a> <a href='https://profiles.wordpress.org/jominney/' class='mention'><span class='mentions-prefix'>@</span>jominney</a> <a href='https://profiles.wordpress.org/keithnoseworthy/' class='mention'><span class='mentions-prefix'>@</span>keithnoseworthy</a> <a href='https://profiles.wordpress.org/kel-dc/' class='mention'><span class='mentions-prefix'>@</span>kel-dc</a> <a href='https://profiles.wordpress.org/lada7042/' class='mention'><span class='mentions-prefix'>@</span>lada7042</a> <a href='https://profiles.wordpress.org/laurahartwigdesign/' class='mention'><span class='mentions-prefix'>@</span>laurahartwigdesign</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/markoserb/' class='mention'><span class='mentions-prefix'>@</span>markoserb</a> <a href='https://profiles.wordpress.org/mustakim5/' class='mention'><span class='mentions-prefix'>@</span>mustakim5</a> <a href='https://profiles.wordpress.org/nazmul111/' class='mention'><span class='mentions-prefix'>@</span>nazmul111</a> <a href='https://profiles.wordpress.org/ndiego/' class='mention'><span class='mentions-prefix'>@</span>ndiego</a> <a href='https://profiles.wordpress.org/nilovelez/' class='mention'><span class='mentions-prefix'>@</span>nilovelez</a> <a href='https://profiles.wordpress.org/noruzzaman/' class='mention'><span class='mentions-prefix'>@</span>noruzzaman</a> <a href='https://profiles.wordpress.org/orangeambition/' class='mention'><span class='mentions-prefix'>@</span>orangeambition</a> <a href='https://profiles.wordpress.org/piyopiyofox/' class='mention'><span class='mentions-prefix'>@</span>piyopiyofox</a> <a href='https://profiles.wordpress.org/psykro/' class='mention'><span class='mentions-prefix'>@</span>psykro</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/rfluethi/' class='mention'><span class='mentions-prefix'>@</span>rfluethi</a> <a href='https://profiles.wordpress.org/rjfrizz/' class='mention'><span class='mentions-prefix'>@</span>rjfrizz</a> <a href='https://profiles.wordpress.org/rmartinezduque/' class='mention'><span class='mentions-prefix'>@</span>rmartinezduque</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/sakibsnaz/' class='mention'><span class='mentions-prefix'>@</span>sakibsnaz</a> <a href='https://profiles.wordpress.org/sfougnier/' class='mention'><span class='mentions-prefix'>@</span>sfougnier</a> <a href='https://profiles.wordpress.org/shsajalchowdhury/' class='mention'><span class='mentions-prefix'>@</span>shsajalchowdhury</a> <a href='https://profiles.wordpress.org/sierratr/' class='mention'><span class='mentions-prefix'>@</span>sierratr</a> <a href='https://profiles.wordpress.org/sumitsingh/' class='mention'><span class='mentions-prefix'>@</span>sumitsingh</a> <a href='https://profiles.wordpress.org/teuila_mau/' class='mention'><span class='mentions-prefix'>@</span>teuila_mau</a> <a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a> <a href='https://profiles.wordpress.org/webtechpooja/' class='mention'><span class='mentions-prefix'>@</span>webtechpooja</a>  @west7 <a href='https://profiles.wordpress.org/zoonini/' class='mention'><span class='mentions-prefix'>@</span>zoonini</a></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17545</post-id>	</item>
+		<item>
+		<title>Leap into 2024 with these Site Editor Tools</title>
+		<link>https://wordpress.org/news/2023/12/leap-into-2024-with-these-site-editor-tools/</link>
+		
+		<dc:creator><![CDATA[annezazu]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 18:35:53 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Gutenberg]]></category>
+		<category><![CDATA[Site editor]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16658</guid>
+
+					<description><![CDATA[The Site Editor gives you a powerful way to visually create every part of your site and tell your story. It lets you handle everything from big stylistic changes to simple copy updates all in a single place. To help you make the most of this new way to WordPress, here are a few standout [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The Site Editor gives you a powerful way to visually create every part of your site and tell your story. It lets you handle everything from big stylistic changes to simple copy updates all in a single place. To help you make the most of this new way to WordPress, here are a few standout tools and features you’ll want to try.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Command Palette</h3>
+
+
+
+<p>Think of the Command Palette as the ultimate shortcut tool, letting you do more with less clicks and without needing to remember where each option might be. It’s available across the editing experience, whether you’re switching between templates in the Site Editor or toggling open settings in the Post Editor, with specific contextual options depending on where you are.<strong> </strong>You can use the keyboard shortcut Cmd+K on Mac or Ctrl+K on Windows to activate it and get started.&nbsp;</p>
+
+
+
+<p>If you think of a command that doesn’t exist yet that would help with your workflow, open a <a href="https://github.com/WordPress/gutenberg/issues/new/choose">feature request issue</a> so we can consider adding it.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/Command-Palette-news-post.mp4"></video></figure>
+
+
+
+<p class="is-style-default"><a href="https://make.wordpress.org/core/2023/09/12/core-editor-improvement-commanding-the-command-palette/"><em>Read more</em></a><em> about everything you can do with the Command Palette, including a </em><a href="https://wordpress.org/documentation/article/site-editor-command-palette/#list-of-available-commands"><em>list of available commands</em></a><em>.&nbsp;</em></p>
+
+
+
+<h3 class="wp-block-heading">Style Book</h3>
+
+
+
+<p>The Style Book helps you see all the blocks on your site as you style them. It’s built into the Styles section and can be toggled on/off as you’d like. This is especially useful when you’re aiming for design consistency for a client, trying to see how a change might impact a block that might not be visible, or wanting to get a different look at how a style variation will switch things up.</p>
+
+
+
+<p>Work is also underway for the next WordPress release to <a href="https://github.com/WordPress/gutenberg/pull/56800">integrate the Style Book into Style revisions</a> to allow for an at-a-glance view of changes made. </p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/Style-book-news-post-demo.mp4"></video></figure>
+
+
+
+<p><a href="https://learn.wordpress.org/tutorial/how-to-use-the-wordpress-stylebook-with-your-block-theme/"><em>Learn more</em></a><em> about how best to use the Style Book.</em></p>
+
+
+
+<h3 class="wp-block-heading">Styling shortcuts</h3>
+
+
+
+<p>Sometimes you get a design just right—the color contrast, the perfect padding, the exact font size. Instead of needing to manually recreate the design or copy/paste the block to fill in with new content, you have two powerful options built into the editing experience: copy/paste styles and apply styles globally for all instances of the desired block.&nbsp;</p>
+
+
+
+<p>Copying and pasting styles is perfect for more nuanced and smaller changes, like headings on a landing page that you intentionally want to be distinct. Applying changes globally is best for blocks like buttons and for changes that are likely to work well across layouts, like setting a specific border radius and color. This helps keep the creativity flowing and makes achieving design consistency across your site much easier.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/Styling-options-news-post-demo.mp4"></video></figure>
+
+
+
+<p><a href="https://make.wordpress.org/core/2023/02/01/core-editor-improvement-strengthening-style-options/"><em>Read more</em></a><em> about the various styling options available.&nbsp;</em></p>
+
+
+
+<h3 class="wp-block-heading">Distraction free mode</h3>
+
+
+
+<p>Just like an artist might need to take a few steps back to view their in-progress artwork, sometimes we need to get a different view of our site before diving back in. Distraction free offers you that alternate perspective with a pared-down experience that lets you focus purely on creating, like:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Hiding the top toolbar until one intentionally hovers over where it typically sits.</li>
+
+
+
+<li>Removing many of the top toolbar buttons.</li>
+
+
+
+<li>Automatically closing any open sidebars, like block settings and list view.&nbsp;</li>
+
+
+
+<li>Hiding the insertion point indicator, reducing visual clutter.&nbsp;</li>
+
+
+
+<li>Hiding the block toolbar for individual blocks.</li>
+</ul>
+
+
+
+<p>It’s worth noting that this mode can be used when writing posts and pages too! For an added bonus and more views of your site, you can use the preview options to see how your site might look across different devices.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/Distraction-free-and-preview-news-post-demo.mp4"></video></figure>
+
+
+
+<p><a href="https://wordpress.org/documentation/article/distraction-free-mode/"><em>Learn more</em></a><em> about making the most out of Distraction free mode.&nbsp;</em></p>
+
+
+
+<h3 class="wp-block-heading">Patterns</h3>
+
+
+
+<p>Patterns are a collection of blocks that make it simple to add complex layouts and designs to any WordPress site without starting from scratch. They save time by reducing duplication and ensuring consistency. You can create your own, use theme-provided patterns, or <a href="https://wordpress.org/patterns/">lean on the Pattern Directory</a>.&nbsp;</p>
+
+
+
+<p>You can also specify whether to sync your patterns so that one change applies to all parts of your site, or to keep them unsynced so you can customize each instance. For any patterns you create, you can assign categories to make them easy to find and organize. Use the Inserter with easy filtering options to add patterns to your content, and head to the dedicated Patterns section in the Site Editor to create or edit patterns to your liking.&nbsp;</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/Patterns-news-post-demo.mp4"></video></figure>
+
+
+
+<p><a href="https://learn.wordpress.org/tutorial/creating-your-own-custom-synced-or-non-synced-patterns/"><em>Learn more</em></a><em> about creating patterns.&nbsp;</em></p>
+
+
+
+<h3 class="wp-block-heading">List View</h3>
+
+
+
+<p>List View is the go-to tool for navigating between layers of your content, selecting exactly what you need, and getting a sense of how everything fits together. Similar to the Style Book and Distraction free mode, you can toggle it on/off as you’d like. It’s currently visible in the Top Toolbar and will remain open as you navigate through your site. Beyond providing a simple view of the layers of your site, there are more recent additions to List View that makes the tool even more powerful:</p>
+
+
+
+<ul class="wp-block-list">
+<li>See previews of your images for Image and Gallery blocks reflected in List View to make it easier to find what you need.</li>
+
+
+
+<li>The Escape key deselects blocks to make it easier to purely preview your content without any blocks selected.&nbsp;</li>
+
+
+
+<li>Lean on a keyboard shortcut for duplicating blocks quickly: CMD+Shift+D for Mac or Control + Shift + D for Windows.&nbsp;</li>
+
+
+
+<li>Drag and drop blocks at any level directly within List View.</li>
+
+
+
+<li>Rename Group blocks and have the custom name reflected in List View for improved organization.</li>
+</ul>
+
+
+
+<p>Here’s how a few of these improvements come together:</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/12/List-View-news-post-demo.mp4"></video></figure>
+
+
+
+<p><a href="https://wordpress.org/documentation/article/list-view/"><em>Learn more</em></a><em> about using List View. </em></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p>As you explore these tools, remember that, except for the Style Book, you can use these features when writing posts and pages too. Expect the Site Editor and other tools to evolve with each release. To get a sneak peek at what’s planned for the next major WordPress release in March, <a href="https://make.wordpress.org/core/2023/12/07/roadmap-to-6-5/">check out the roadmap</a> and stay tuned. </p>
+
+
+
+<h3 class="wp-block-heading">Subscribe to WordPress News</h3>
+
+
+
+<p>Join other subscribers and receive WordPress news directly in your inbox. </p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://wordpress.org/news/?post_type=post&#038;p=16658" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<p><em>Thank you to the contributors who collaborated on this post: <a href="https://profiles.wordpress.org/eidolonnight/">Nicholas Garofalo</a>, <a href="https://profiles.wordpress.org/laurlittle/">Lauren Stein</a>, <a href="https://profiles.wordpress.org/joen/" data-type="link" data-id="https://profiles.wordpress.org/joen/">Joen Asmussen</a></em>.</p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://wordpress.org/news/files/2023/12/Command-Palette-news-post.mp4" length="5553759" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/12/Style-book-news-post-demo.mp4" length="30842905" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/12/Styling-options-news-post-demo.mp4" length="27873396" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/12/Distraction-free-and-preview-news-post-demo.mp4" length="24659305" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/12/Patterns-news-post-demo.mp4" length="3617911" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/12/List-View-news-post-demo.mp4" length="2163970" type="video/mp4" />
+
+		<post-id xmlns="com-wordpress:feed-additions:1">16658</post-id>	</item>
+		<item>
+		<title>Introducing Twenty Twenty-Four</title>
+		<link>https://wordpress.org/news/2023/11/introducing-twenty-twenty-four/</link>
+		
+		<dc:creator><![CDATA[Maggie Cabrera]]></dc:creator>
+		<pubDate>Mon, 13 Nov 2023 18:29:08 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[6.4]]></category>
+		<category><![CDATA[Twenty Twenty-Four]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16394</guid>
+
+					<description><![CDATA[Meet Twenty Twenty-Four, the most versatile default theme yet—bundled with WordPress 6.4 and ready to make it uniquely yours.]]></description>
+										<content:encoded><![CDATA[
+<p>When it comes to designing a website, one size doesn&#8217;t fit all. We understand that every WordPress user has unique needs and goals, whether you&#8217;re an aspiring entrepreneur, a passionate photographer, a prolific writer, or a bit of them all. That&#8217;s why we are thrilled to introduce <a href="https://wordpress.org/themes/twentytwentyfour/"><strong>Twenty Twenty-Four</strong></a>, the most versatile default theme yet—bundled with <a href="https://wordpress.org/download/releases/6-4/">WordPress 6.4</a> and ready to make it uniquely yours.</p>
+
+
+
+<figure class="wp-block-video"><video controls poster="https://wordpress.org/news/files/2023/11/TT4-square.jpg" src="https://wordpress.org/news/files/2023/11/tt4-i9-small-1.mp4"></video></figure>
+
+
+
+<h2 class="wp-block-heading">A theme for every style</h2>
+
+
+
+<p>Unlike past default themes, Twenty Twenty-Four breaks away from the tradition of focusing on a specific topic or style. Instead, this theme has been thoughtfully crafted to cater to any type of website, regardless of its focus. The theme explores <strong>three different use cases</strong>: one designed for entrepreneurs and small businesses, another for photographers and artists, and a third tailored for writers and bloggers. Thanks to its multi-faceted nature and adaptability, Twenty Twenty-Four emerges as the perfect fit for any of your projects.</p>
+
+
+
+<p>As you dive into its templates and patterns, you will notice how the new Site Editor functionality opens up different pathways for building your site seamlessly.</p>
+
+
+
+<h2 class="wp-block-heading">Patterns at every step</h2>
+
+
+
+<p>Whether you&#8217;re looking to craft an About page, showcase your work, handle RSVPs, or design captivating landing pages, Twenty Twenty-Four has got you covered.<strong> </strong>Choose from an extensive collection of <a href="https://2024.wordpress.net/index.php/patterns/"><strong>over 35 beautiful patterns</strong></a> to customize and suit your needs.</p>
+
+
+
+<p>For the first time, this theme features full-page patterns for templates like homepage, archive, search, single pages, and posts. Some are exclusively available during the template-switching and creation process, ensuring you have the right options when you need them.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/news/files/2023/11/tt4-howto-replace-template_compressed.mp4"></video></figure>
+
+
+
+<p>Moreover, you can take advantage of a variety of patterns for page sections, such as FAQs, testimonials, or pricing, to meet your site&#8217;s most specific requirements.</p>
+
+
+
+<p>With this diverse pattern library, Twenty Twenty-Four offers a flexible canvas to quickly assemble pages without having to start from scratch—saving you time and energy in the creation process. Just let your creativity flow and explore the possibilities!</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="682" src="https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?resize=1024%2C682&#038;ssl=1" alt="Screenshots of Twenty Twenty-Four patterns." class="wp-image-16397" srcset="https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?resize=1536%2C1023&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/11/TT4-Post-Image-1.jpg?w=1600&amp;ssl=1 1600w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Site editing in its finest form</h2>
+
+
+
+<p>Twenty Twenty-Four ushers in a new era of block themes by bringing together the latest WordPress site editing capabilities. Discover newer design tools such as background image support in Group blocks and vertical text, providing an intuitive and efficient way to create compelling, interactive content.</p>
+
+
+
+<p>Find image placeholders with predefined aspect ratio settings within patterns, allowing you to drop images that perfectly fill the space. To go one step further, make your visuals interactive by enabling lightboxes. Ideal for showcasing galleries or portfolio images, this feature allows your visitors to expand and engage with them in full-screen mode. Activate it globally for all images throughout your site or for specific ones.</p>
+
+
+
+<p>For a smoother browsing experience on your site, you can disable the &#8220;Force page reload&#8221; setting in the Query Loop block. This allows the necessary content to be loaded dynamically when switching between different pages without needing a full-page refresh.</p>
+
+
+
+<h2 class="wp-block-heading">Elegance with purpose</h2>
+
+
+
+<p>Twenty Twenty-Four goes beyond versatility with a beautiful aesthetic inspired by contemporary design trends, giving your website a sleek and modern look. Key design elements include:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Cardo font for headlines</strong>: The Cardo font adds a touch of elegance to your site, creating a sophisticated visual experience.</li>
+
+
+
+<li><strong>Sans-serif system font for paragraphs</strong>: The sans-serif font ensures that your texts are cleaner and easier to read, enhancing overall readability.</li>
+
+
+
+<li><strong>Eight style variations</strong>: Twenty Twenty-Four presents a light color palette for a fresh and inviting appearance out-of-the-box, but you can customize it with seven additional style variations. Each includes fonts and colors carefully curated to work beautifully alongside the patterns and templates.</li>
+
+
+
+<li><strong>Sans-serif variations</strong>: Besides the default styles, the theme offers two additional sans-serif variations, providing more choices for your site&#8217;s typography.</li>
+</ul>
+
+
+
+<p>Along with its design, Twenty Twenty-Four has been meticulously optimized for performance. This ensures that your website not only looks great but also delivers a fast and efficient user experience.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://playground.wordpress.net/?theme=twentytwentyfour">Explore Twenty Twenty-Four now</a></div>
+</div>
+
+
+
+<p>More information can be found in the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://wordpress.org/themes/twentytwentyfour/">Download Twenty Twenty-Four</a></li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/twenty-twenty-four/">Twenty Twenty-Four Documentation</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2023/08/24/introducing-twenty-twenty-four/">Twenty Twenty-Four Kick Off</a></li>
+</ul>
+
+
+
+<p><em>The Twenty Twenty-Four theme was designed by </em><a href="https://profiles.wordpress.org/beafialho/"><em>Beatriz Fialho</em></a><em> and made possible thanks to the passion and tireless work of <a href="https://github.com/WordPress/twentytwentyfour/blob/trunk/CONTRIBUTORS.md">more than 120 contributors</a>.</em></p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://wordpress.org/news/files/2023/11/tt4-i9-small-1.mp4" length="6747134" type="video/mp4" />
+<enclosure url="https://wordpress.org/news/files/2023/11/tt4-howto-replace-template_compressed.mp4" length="12815358" type="video/mp4" />
+
+		<post-id xmlns="com-wordpress:feed-additions:1">16394</post-id>	</item>
+		<item>
+		<title>A New WordPress Showcase</title>
+		<link>https://wordpress.org/news/2023/10/a-new-wordpress-showcase/</link>
+		
+		<dc:creator><![CDATA[Nicholas Garofalo]]></dc:creator>
+		<pubDate>Wed, 18 Oct 2023 17:34:19 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16173</guid>
+
+					<description><![CDATA[The journey to update WordPress.org continues with the launch of a new Showcase design. The Showcase is a natural starting point for visitors arriving on WordPress.org, and it both inspires creativity and demonstrates what’s possible with WordPress. From unique personal blogs and portfolios to enterprises and celebrity fan sites, the Showcase celebrates WordPress’s flexibility, popularity, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The <a href="https://wordpress.org/news/category/meta/">journey to update WordPress.org</a> continues with the launch of a new <a href="https://wordpress.org/showcase/">Showcase</a> design. The Showcase is a natural starting point for visitors arriving on WordPress.org, and it both inspires creativity and demonstrates what’s possible with WordPress. From unique personal blogs and portfolios to enterprises and celebrity fan sites, the Showcase celebrates WordPress’s flexibility, popularity, and the freedom to own one’s content.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-1 is-style-rectangular wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="954" data-id="16187" src="https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1024%2C954&#038;ssl=1" alt="Screenshots from the new Showcase design" class="wp-image-16187" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1024%2C954&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=300%2C280&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=768%2C716&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1536%2C1432&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=2048%2C1909&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="954" data-id="16184" src="https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1024%2C954&#038;ssl=1" alt="A grid of new design elements" class="wp-image-16184" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1024%2C954&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=300%2C280&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=768%2C716&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1536%2C1432&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=2048%2C1909&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-id="16185" src="https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1024%2C576&#038;ssl=1" alt="A collage of Showcased websites" class="wp-image-16185" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=2048%2C1152&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p>This new design provides much-needed improvements to the aesthetics and user experience. It emphasizes bold visuals and a more dynamic browsing experience through tags and categories. Individual site pages now include desktop and mobile screenshots, while the site introduces an improved layout on mobile devices.&nbsp;</p>
+
+
+
+<p>This redesign also brings new <a href="https://wordpress.org/blocks/">block-based functionality</a> and several components that will be used elsewhere on WordPress.org. All of this was made possible through collaboration between Design, Marketing, and Meta teams. Thank you to everyone.</p>
+
+
+
+<p class="is-style-wporg-props-medium"><a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/alexstine/' class='mention'><span class='mentions-prefix'>@</span>alexstine</a> <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a> <a href='https://profiles.wordpress.org/bengreeley/' class='mention'><span class='mentions-prefix'>@</span>bengreeley</a> <a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a> <a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/eidolonnight/' class='mention'><span class='mentions-prefix'>@</span>eidolonnight</a> <a href='https://profiles.wordpress.org/fcoveram/' class='mention'><span class='mentions-prefix'>@</span>fcoveram</a> <a href='https://profiles.wordpress.org/joen/' class='mention'><span class='mentions-prefix'>@</span>joen</a> <a href='https://profiles.wordpress.org/jonoaldersonwp/' class='mention'><span class='mentions-prefix'>@</span>jonoaldersonwp</a> <a href='https://profiles.wordpress.org/jpantani/' class='mention'><span class='mentions-prefix'>@</span>jpantani</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/matt/' class='mention'><span class='mentions-prefix'>@</span>matt</a> <a href='https://profiles.wordpress.org/markoserb/' class='mention'><span class='mentions-prefix'>@</span>markoserb</a> <a href='https://profiles.wordpress.org/ndiego/' class='mention'><span class='mentions-prefix'>@</span>ndiego</a> <a href='https://profiles.wordpress.org/pablohoneyhoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoneyhoney</a> <a href='https://profiles.wordpress.org/paulkevan/' class='mention'><span class='mentions-prefix'>@</span>paulkevan</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/sereedmedia/' class='mention'><span class='mentions-prefix'>@</span>sereedmedia</a> <a href='https://profiles.wordpress.org/_dorsvenabili/' class='mention'><span class='mentions-prefix'>@</span>_dorsvenabili</a></p>
+
+
+
+<p>If you would like to propose a change or report an issue, please do so in the <a href="https://github.com/WordPress/wporg-showcase-2022">wporg-showcase-2022</a>&nbsp; GitHub repository. Also, make sure to join the <a href="https://wordpress.slack.com/archives/C04U953K77A">#website-redesign</a> Slack channel if you are interested in additional updates coming to WordPress.org and want to contribute.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16173</post-id>	</item>
+		<item>
+		<title>Synced Patterns: The Evolution of Reusable Blocks</title>
+		<link>https://wordpress.org/news/2023/07/synced-patterns-the-evolution-of-reusable-blocks/</link>
+		
+		<dc:creator><![CDATA[annezazu]]></dc:creator>
+		<pubDate>Thu, 27 Jul 2023 14:45:00 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Features]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=15541</guid>
+
+					<description><![CDATA[Synced patterns are replacing Reusable blocks, offering a unified creation experience for new pattern functionality coming to WordPress 6.3. Patterns, first introduced in WordPress 5.5, are a collection of blocks that make it simple to add complex layouts and designs to any WordPress site without starting from scratch. With WordPress 6.3, set to be released [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Synced patterns are replacing Reusable blocks, offering a unified creation experience for new pattern functionality coming to WordPress 6.3. Patterns, first introduced in WordPress 5.5, are a collection of blocks that make it simple to add complex layouts and designs to any WordPress site without starting from scratch. With WordPress 6.3, set to be released on August 8th, you will be able to arrange blocks in unlimited ways and save them as patterns for use throughout your site, directly within the editing experience. You can also specify whether to sync your patterns, so that one change applies to all parts of your site, or to keep them unsynced, so you can customize each instance.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Creating and using synced patterns" width="500" height="281" src="https://www.youtube.com/embed/plZIF3jrU7E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">Create your own patterns</h2>
+
+
+
+<p>The ability to create your own patterns, on top of using the ones bundled into each WordPress release, opens up a world of possibilities. Need to repeat the same contact information across your site and keep it up to date? Create a synced pattern with all the details, and say goodbye to repeating yourself, with the ability to quickly insert the synced pattern wherever you need it. If you find yourself creating various banners for your site and want them to have the same layout with unique content, creating an unsynced pattern speeds up your workflow and ensures a level of consistency in approach. While themes and plugins have been able to offer patterns to users and <a href="https://developer.wordpress.org/block-editor/how-to-guides/curating-the-editor-experience/#utilizing-patterns">curate the experience</a>, this update allows agencies and site builders to do the same for their clients, directly in the site building process.</p>
+
+
+
+<h2 class="wp-block-heading">Dig into the details</h2>
+
+
+
+<p>Any previously made Reusable blocks will continue to function as they do now, just under the new Synced pattern name. To help adjust to these changes, a few contextual notices will be placed throughout the interface. Specifically, the menu item in the creation flow will show as “Create pattern/reusable block” until the prompt describing the switch is dismissed in one of the various locations, including the naming and syncing modal:&nbsp;</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Creating patterns" width="500" height="281" src="https://www.youtube.com/embed/fbrhammtn3Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>For folks using block themes, all patterns will be listed alongside template parts in the Site Editor &gt; Patterns section, where you can enter a focused editing mode to make changes. For Classic themes, the prior reusable block management page will now house patterns in a list, similar to the Posts &gt; All Posts view.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="590" src="https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?resize=1024%2C590&#038;ssl=1" alt="Patterns section of the WordPress Site Editor with My Patterns selected" class="wp-image-15569" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?resize=1024%2C590&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?resize=300%2C173&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?resize=768%2C443&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?resize=1536%2C885&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/07/Site-Editor-_-All-Patterns-View.png?w=2048&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>For a complete overview of patterns on your site, all patterns provided by themes and plugins will be shown in this section but without the option to edit directly.</p>
+
+
+
+<h2 class="wp-block-heading">Go further</h2>
+
+
+
+<p>With the ability to create your own patterns baked into the creation experience, remember that you can copy the patterns available in the <a href="https://wordpress.org/patterns/">Pattern Directory</a> and <a href="https://wordpress.org/patterns/about/">contribute back</a>, an excellent way to democratize design for every WordPress user and the web.</p>
+
+
+
+<p><em>For more exciting features coming to patterns in WordPress 6.3, </em><a href="https://make.wordpress.org/core/2023/07/13/core-editor-improvement-advancing-the-power-of-patterns/"><em>read on in the Advancing the Power of Patterns post</em></a><em>. Thank you to the contributors who collaborated on this post: </em><a href="https://profiles.wordpress.org/cbringmann/"><em>Chloé Bringmann</em></a><em>, </em><a href="https://profiles.wordpress.org/jpantani/"><em>Jonathan Pantani</em></a><em>, </em><a href="https://profiles.wordpress.org/chanthaboune/"><em>Josepha</em></a><em>, </em><a href="https://profiles.wordpress.org/kristastevens/"><em>Krista Stevens</em></a><em>, </em><a href="https://profiles.wordpress.org/eidolonnight/"><em>Nicholas Garofalo</em></a><em>, <a href="https://profiles.wordpress.org/provenself/">Peter Rubin</a></em>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15541</post-id>	</item>
+		<item>
+		<title>Designed with WordPress</title>
+		<link>https://wordpress.org/news/2023/07/designed-with-wordpress/</link>
+		
+		<dc:creator><![CDATA[Chloe Bringmann]]></dc:creator>
+		<pubDate>Fri, 14 Jul 2023 22:33:07 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[6.3]]></category>
+		<category><![CDATA[Gutenberg]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=15401</guid>
+
+					<description><![CDATA[The Gutenberg project has aimed to revolutionize how we manage web content as much as Johannes Gutenberg did the printed word. The project&#8217;s roadmap is comprised of four unique phases: With the upcoming release of WordPress 6.3, Phase 2 of the Gutenberg project is coming to a close; a journey worth celebrating. This video is [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="812" src="https://i0.wp.com/wordpress.org/news/files/2023/07/patterns-alt-b-dark.png?resize=1024%2C812&#038;ssl=1" alt="" class="wp-image-15421" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/patterns-alt-b-dark.png?resize=1024%2C812&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/07/patterns-alt-b-dark.png?resize=300%2C238&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/07/patterns-alt-b-dark.png?resize=768%2C609&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/07/patterns-alt-b-dark.png?w=1360&amp;ssl=1 1360w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The <a href="https://wordpress.org/gutenberg/">Gutenberg</a> project has aimed to revolutionize how we manage web content as much as <a href="https://en.wikipedia.org/wiki/Johannes_Gutenberg">Johannes Gutenberg</a> did the printed word. The project&#8217;s <a href="https://wordpress.org/about/roadmap/">roadmap</a> is comprised of four unique phases:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Easier Editing — Already available in WordPress, with ongoing improvements</li>
+
+
+
+<li>Customization — Full site editing, block patterns, block directory, block themes</li>
+
+
+
+<li>Collaboration — A more intuitive way to co-author content</li>
+
+
+
+<li>Multilingual — Core implementation for Multilingual sites</li>
+</ol>
+
+
+
+<p>With the upcoming release of WordPress 6.3, Phase 2 of the Gutenberg project is coming to a close; a journey worth celebrating.</p>
+
+
+
+<p>This video is an ode to Gutenberg&#8217;s editing and customization phases, celebrating the new design tools and the possibilities they create. The piece encapsulates the exciting steps made in the past that propel the vibrant future of WordPress.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Designed with WordPress" width="500" height="281" src="https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Everything showcased in the video is built entirely with the WordPress Editor, using currently available blocks, patterns, and themes. This new era has opened the ability for the design community to contribute to the project directly without depending on developers to translate their ideas into designs. Consider this an invitation for designers to join a new generation that embraces the diverse and expressive capabilities of WordPress.</p>
+
+
+
+<p>The work that goes into Gutenberg is a powerful testament to the collaboration of coders, developers, and designers in our community. United, we strive to build WordPress into a realm of significance and lasting impact.</p>
+
+
+
+<h2 class="wp-block-heading">Video credits</h2>
+
+
+
+<p><strong>Video credits:</strong> <a href="https://profiles.wordpress.org/tinobarreiro/">Tino Barreiro</a>, <a href="https://profiles.wordpress.org/beafialho/">Beatriz Fialho</a>, <a href="https://profiles.wordpress.org/iamtakashi/">Takashi Irie</a>, <a href="https://profiles.wordpress.org/iamarinoh/">Henrique Lamarino</a>, <a href="https://profiles.wordpress.org/richtabor/">Rich Tabor</a>, <a href="https://profiles.wordpress.org/pablohoneyhoney/">Pablo Honey</a>, <a href="https://profiles.wordpress.org/matveb/">Matías Ventura</a>, and Holographik. </p>
+
+
+
+<p><i>Thank you to the post authors </i><a style="font-style: italic" href="https://profiles.wordpress.org/tinobarreiro/">Tino Barreiro</a><i>, </i><a style="font-style: italic" href="https://profiles.wordpress.org/eidolonnight/">Nicholas Garofalo</a><i>, </i><a style="font-style: italic" href="https://profiles.wordpress.org/dansoschin/">Dan Soschin</a><i>, </i><a style="font-style: italic" href="https://profiles.wordpress.org/richtabor/">Rich Tabor</a>, <em>and <a href="https://profiles.wordpress.org/cbringmann/">Chloé Bringmann</a>.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15401</post-id>	</item>
+		<item>
+		<title>Introducing Twenty Twenty-Three</title>
+		<link>https://wordpress.org/news/2022/11/introducing-twenty-twenty-three/</link>
+		
+		<dc:creator><![CDATA[Beatriz Fialho]]></dc:creator>
+		<pubDate>Tue, 08 Nov 2022 15:42:22 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[6.1]]></category>
+		<category><![CDATA[tt3]]></category>
+		<category><![CDATA[twenty twenty-three]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=13892</guid>
+
+					<description><![CDATA[This post was written in collaboration with Lauren Stein (@laurlittle) and Anne McCarthy @annezazu). Twenty Twenty-Three is here, alongside WordPress 6.1! The new default theme offers a clean, blank canvas bundled with a collection of style variations. Style variations are predefined design options that give you the opportunity to alter the appearance of your site [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-video"><video controls poster="https://wordpress.org/news/files/2022/11/introducing_tt3_featured_image.png" src="https://wordpress.org/news/files/2022/11/Introducing-TT3_V4_captions.mp4"></video></figure>
+
+
+
+<p><em>This post was written in collaboration with Lauren Stein (<a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a>) and Anne McCarthy <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a>)</em>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p>Twenty Twenty-Three is here, alongside WordPress 6.1! The new default theme offers a clean, blank canvas bundled with a collection of style variations.</p>
+
+
+
+<p>Style variations are predefined design options that give you the opportunity to alter the appearance of your site without having to change your theme. This means that you can keep your template structure but change the visual details of your site with ease.</p>
+
+
+
+<p>For a truly diverse collection, Twenty Twenty-Three’s featured style variations were submitted by members of the WordPress community, resulting in 38 submissions from 19 people in 8 different countries. From those submissions, a curated collection of ten was chosen and bundled with the new theme.</p>
+
+
+
+<p>This approach to style variations ushers in the next generation of block themes, able to harness the potential of the platform’s latest design capabilities and tools directly in the Site Editor. Since style variations don’t require any code experience, you’re encouraged to tweak and/or create your own.</p>
+
+
+
+<p><strong>Thank you to everyone who contributed. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+
+
+
+<p>Useful links:<br><a href="https://wordpress.org/themes/twentytwentythree/">Download Twenty Twenty-Three</a><br><a href="https://wordpress.org/support/article/twenty-twenty-three/">Twenty Twenty-Three Documentation</a><br><a href="https://make.wordpress.org/design/2022/08/10/twenty-twenty-three-default-theme-project-kickoff/">Twenty Twenty-Three Project Kick Off</a><br><a href="https://make.wordpress.org/design/2022/09/07/tt3-default-theme-announcing-style-variation-selections/">Twenty Twenty-Three Selected Style Variations</a></p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://wordpress.org/news/files/2022/11/Introducing-TT3_V4_captions.mp4" length="90767180" type="video/mp4" />
+
+		<post-id xmlns="com-wordpress:feed-additions:1">13892</post-id>	</item>
+		<item>
+		<title>A New WordPress.org Homepage and Download Page</title>
+		<link>https://wordpress.org/news/2022/08/a-new-wordpress-org-homepage-and-download-page/</link>
+		
+		<dc:creator><![CDATA[Nicholas Garofalo]]></dc:creator>
+		<pubDate>Mon, 15 Aug 2022 15:34:51 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=13321</guid>
+
+					<description><![CDATA[The WordPress experience has significantly evolved in the past few years. In order to highlight the power of WordPress on WordPress.org, the last few weeks have seen a homepage and download page redesign kickoff and shared mockups. Today, these new designs are going live! Like the News pages before them, these refreshed pages are inspired [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The WordPress experience has significantly evolved in the past few years. In order to highlight the power of WordPress on WordPress.org, the last few weeks have seen a homepage and download page <a href="https://make.wordpress.org/design/2022/07/08/project-kickoff-wordpress-org-homepage-and-download-page-redesign/">redesign kickoff</a> and <a href="https://make.wordpress.org/design/2022/07/27/project-update-wordpress-org-homepage-and-download-page-mockups/">shared mockups</a>. Today, these new designs are going live! Like <a href="https://wordpress.org/news/2022/02/a-new-wordpress-news/">the News pages before them</a>, these refreshed pages are inspired by the jazzy look &amp; feel WordPress is known for.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="599" src="https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1024%2C599&#038;ssl=1" alt="" class="wp-image-13327" srcset="https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1024%2C599&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=300%2C175&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=768%2C449&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1536%2C898&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?w=1710&amp;ssl=1 1710w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The <a href="https://wordpress.org/">new homepage</a> brings more attention to the benefits and experience of using WordPress, while also highlighting the community and resources to get started. </p>
+
+
+
+<p>The <a href="https://wordpress.org/download/">new download page</a> greets visitors with a new layout that makes getting started with WordPress even easier by presenting both the download and hosting options right at the top.</p>
+
+
+
+<p>This redesign was made possible through great collaboration between Design, Marketing, and Meta teams. Thank you to everyone involved throughout this update:</p>
+
+
+
+<p class="is-style-wporg-props-long"><a href='https://profiles.wordpress.org/abuzon/' class='mention'><span class='mentions-prefix'>@</span>abuzon</a> <a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/adeebmalik/' class='mention'><span class='mentions-prefix'>@</span>adeebmalik</a> <a href='https://profiles.wordpress.org/alexandreb3/' class='mention'><span class='mentions-prefix'>@</span>alexandreb3</a> <a href='https://profiles.wordpress.org/alipawp/' class='mention'><span class='mentions-prefix'>@</span>alipawp</a> <a href='https://profiles.wordpress.org/angelasjin/' class='mention'><span class='mentions-prefix'>@</span>angelasjin</a> <a href='https://profiles.wordpress.org/aniash_29/' class='mention'><span class='mentions-prefix'>@</span>aniash_29</a> <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a> <a href='https://profiles.wordpress.org/beafialho/' class='mention'><span class='mentions-prefix'>@</span>beafialho</a> <a href='https://profiles.wordpress.org/bjmcsherry/' class='mention'><span class='mentions-prefix'>@</span>bjmcsherry</a> <a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a> <a href='https://profiles.wordpress.org/colinchadwick/' class='mention'><span class='mentions-prefix'>@</span>colinchadwick</a> <a href='https://profiles.wordpress.org/crevilaro/' class='mention'><span class='mentions-prefix'>@</span>crevilaro</a> <a href='https://profiles.wordpress.org/critterverse/' class='mention'><span class='mentions-prefix'>@</span>critterverse</a> <a href='https://profiles.wordpress.org/dansoschin/' class='mention'><span class='mentions-prefix'>@</span>dansoschin</a> <a href='https://profiles.wordpress.org/dd32/' class='mention'><span class='mentions-prefix'>@</span>dd32</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/eboxnet/' class='mention'><span class='mentions-prefix'>@</span>eboxnet</a> <a href='https://profiles.wordpress.org/eidolonnight/' class='mention'><span class='mentions-prefix'>@</span>eidolonnight</a> <a href='https://profiles.wordpress.org/elmastudio/' class='mention'><span class='mentions-prefix'>@</span>elmastudio</a> <a href='https://profiles.wordpress.org/fernandot/' class='mention'><span class='mentions-prefix'>@</span>fernandot</a> <a href='https://profiles.wordpress.org/geoffgraham/' class='mention'><span class='mentions-prefix'>@</span>geoffgraham</a> <a href='https://profiles.wordpress.org/iandunn/' class='mention'><span class='mentions-prefix'>@</span>iandunn</a> <a href='https://profiles.wordpress.org/javiarce/' class='mention'><span class='mentions-prefix'>@</span>javiarce</a> <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a> <a href='https://profiles.wordpress.org/jpantani/' class='mention'><span class='mentions-prefix'>@</span>jpantani</a> <a href='https://profiles.wordpress.org/kellychoffman/' class='mention'><span class='mentions-prefix'>@</span>kellychoffman</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a> <a href='https://profiles.wordpress.org/matt/' class='mention'><span class='mentions-prefix'>@</span>matt</a> <a href='https://profiles.wordpress.org/maurodf/' class='mention'><span class='mentions-prefix'>@</span>maurodf</a> <a href='https://profiles.wordpress.org/melchoyce/' class='mention'><span class='mentions-prefix'>@</span>melchoyce</a> <a href='https://profiles.wordpress.org/mikachan/' class='mention'><span class='mentions-prefix'>@</span>mikachan</a> <a href='https://profiles.wordpress.org/nikhilgandal/' class='mention'><span class='mentions-prefix'>@</span>nikhilgandal</a> <a href='https://profiles.wordpress.org/pablohoneyhoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoneyhoney</a> <a href='https://profiles.wordpress.org/peakzebra/' class='mention'><span class='mentions-prefix'>@</span>peakzebra</a> <a href='https://profiles.wordpress.org/poliuk/' class='mention'><span class='mentions-prefix'>@</span>poliuk</a> <a href='https://profiles.wordpress.org/priethor/' class='mention'><span class='mentions-prefix'>@</span>priethor</a> <a href='https://profiles.wordpress.org/psmits1567/' class='mention'><span class='mentions-prefix'>@</span>psmits1567</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/rmartinezduque/' class='mention'><span class='mentions-prefix'>@</span>rmartinezduque</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/santanainniss/' class='mention'><span class='mentions-prefix'>@</span>santanainniss</a> <a href='https://profiles.wordpress.org/sereedmedia/' class='mention'><span class='mentions-prefix'>@</span>sereedmedia</a> <a href='https://profiles.wordpress.org/sippis/' class='mention'><span class='mentions-prefix'>@</span>sippis</a> <a href='https://profiles.wordpress.org/tellyworth/' class='mention'><span class='mentions-prefix'>@</span>tellyworth</a> <a href='https://profiles.wordpress.org/tobifjellner/' class='mention'><span class='mentions-prefix'>@</span>tobifjellner</a> <a href='https://profiles.wordpress.org/webdados/' class='mention'><span class='mentions-prefix'>@</span>webdados</a> <a href='https://profiles.wordpress.org/willmot/' class='mention'><span class='mentions-prefix'>@</span>willmot</a></p>
+
+
+
+<p>Your comments, including some <a href="https://make.wordpress.org/meta/2016/12/12/new-homepage-redesign/">feedback from the 2016 redesign</a>, were taken into consideration with this work. Expect more updates to come as efforts to jazz up WordPress.org continue.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">13321</post-id>	</item>
+		<item>
+		<title>A New WordPress News</title>
+		<link>https://wordpress.org/news/2022/02/a-new-wordpress-news/</link>
+		
+		<dc:creator><![CDATA[Kelly Hoffman]]></dc:creator>
+		<pubDate>Wed, 16 Feb 2022 17:56:05 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=12244</guid>
+
+					<description><![CDATA[In June 2021, @beafialho in collaboration with @pablohoney floated the idea of giving WordPress News a new look. Today, those ideas become a reality—we&#8217;re excited to share that redesign of WordPress News is live! The new design leans on the aesthetics of jazz, intrinsically connected to WordPress and which ultimately translates its uniqueness, historic significance [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image alignfull size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12279" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>In June 2021, <a href='https://profiles.wordpress.org/beafialho/' class='mention'><span class='mentions-prefix'>@</span>beafialho</a> in collaboration with <a href='https://profiles.wordpress.org/pablohoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoney</a> <a href="https://make.wordpress.org/design/2021/06/03/redesign-of-wordpress-org-news/">floated the idea</a> of giving WordPress News a new look. Today, those ideas become a reality—we&#8217;re excited to share that redesign of <a href="https://wordpress.org/news/">WordPress News</a> is live!</p>
+
+
+
+<p>The new design leans on the aesthetics of jazz, intrinsically connected to WordPress and which ultimately translates its uniqueness, historic significance and future potential. Among other improvements, the new design leaves more space for content and includes new typefaces for better readability. It also uses a color palette intended to reflect the evolving Gutenberg language.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12260" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12262" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The revamp of the WordPress News page includes the header and footer of the page. We also shipped those two global elements to all pages of WordPress.org. However, there’s more work to do within the header to improve the information architecture. This new design is just the first, small step to modernize and improve the site iteratively. Any further discussion on future redesigns will occur in the <a href="http://wordpress.slack.com">#design channel on Slack</a>.</p>
+
+
+
+<figure class="wp-block-image alignfull size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12263" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Take a look around and subscribe to WordPress News if you haven’t already. If you see something in the design that doesn’t look right, please submit an issue on <a href="https://github.com/WordPress/wporg-news-2021/">GitHub</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">12244</post-id>	</item>
+		<item>
+		<title>A Look at WordPress 5.9</title>
+		<link>https://wordpress.org/news/2021/11/a-look-at-wordpress-5-9/</link>
+		
+		<dc:creator><![CDATA[Kelly Hoffman]]></dc:creator>
+		<pubDate>Tue, 23 Nov 2021 21:02:02 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Features]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=11625</guid>
+
+					<description><![CDATA[WordPress 5.9 is expected to be a ground-breaking release. It will introduce the next generation of themes with Twenty Twenty-Two joining the fun and over 30 theme blocks to build all parts of your site. In anticipation of the January 25th release, we hope you enjoy this sneak peek of 5.9. New design tools will [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Introducing WordPress 5.9" width="500" height="375" src="https://www.youtube.com/embed/XvEG9XWD4JI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>WordPress 5.9 is expected to be a ground-breaking release. It will introduce the next generation of themes with <a href="https://make.wordpress.org/core/2021/10/06/introducing-twenty-twenty-two/">Twenty Twenty-Two</a> joining the fun and over 30 theme blocks to build all parts of your site. <a href="https://make.wordpress.org/core/5-9/">In anticipation of the January 25th release</a>, we hope you enjoy this sneak peek of 5.9.</p>
+
+
+
+<p>New design tools will allow you to create exactly what you want, from adding filters to all your images to fine-tuning the border radius on all your buttons. With WordPress 5.9 providing more design control along with streamlined access to patterns, you can easily change the entire look and feel of your site without switching themes<strong>.</strong></p>
+
+
+
+<p>No matter what you’re editing, whether it&#8217;s crafting a new post or working on a header, improvements to List View make it simple to navigate content regardless of complexity. More improvements and features for everyone are to come in this release and we can&#8217;t wait to see what you create with WordPress 5.9! </p>
+
+
+
+<h2 class="wp-block-heading" id="stay-tuned">Stay Tuned</h2>
+
+
+
+<p>Stay tuned for more updates as the date draws near. If you want to help, the best thing you can do is <a href="https://make.wordpress.org/core/handbook/testing/beta-testing/">test everything</a>! For all the details, <a href="https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/">check out this Make Core post</a>.</p>
+
+
+
+<p><em>Video props: <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a> (also co-wrote the post) <a href='https://profiles.wordpress.org/michaelpick/' class='mention'><span class='mentions-prefix'>@</span>michaelpick</a> <a href='https://profiles.wordpress.org/matveb/' class='mention'><span class='mentions-prefix'>@</span>matveb</a> <a href='https://profiles.wordpress.org/beafialho/' class='mention'><span class='mentions-prefix'>@</span>beafialho</a> <a href='https://profiles.wordpress.org/javiarce/' class='mention'><span class='mentions-prefix'>@</span>javiarce</a> <a href='https://profiles.wordpress.org/critterverse/' class='mention'><span class='mentions-prefix'>@</span>critterverse</a> <a href='https://profiles.wordpress.org/joen/' class='mention'><span class='mentions-prefix'>@</span>joen</a>.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11625</post-id>	</item>
+	</channel>
+</rss>

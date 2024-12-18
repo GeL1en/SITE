@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://wordpressfoundation.org/wp/xmlrpc.php">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>do_action &#8211; WordPress Foundation</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="WordPress Foundation &raquo; Feed" href="https://wordpressfoundation.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WordPress Foundation &raquo; Comments Feed" href="https://wordpressfoundation.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WordPress Foundation &raquo; do_action Tag Feed" href="https://wordpressfoundation.org/news/tag/do_action/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wordpressfoundation.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8-alpha-59514"}};
+/*! This file is auto-generated */
+((i,n)=>{var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\u{1f3f3}\ufe0f\u200d\u26a7\ufe0f","\u{1f3f3}\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\u{1f1fa}\u{1f1f3}","\u{1f1fa}\u200b\u{1f1f3}")&&!n(e,"\u{1f3f4}\u{e0067}\u{e0062}\u{e0065}\u{e006e}\u{e0067}\u{e007f}","\u{1f3f4}\u200b\u{e0067}\u200b\u{e0062}\u200b\u{e0065}\u200b\u{e006e}\u200b\u{e0067}\u200b\u{e007f}");case"emoji":return!n(e,"\u{1f426}\u200d\u2b1b","\u{1f426}\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=(()=>{try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null})();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))})((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='twentyfifteen-jetpack-css' href='https://wordpressfoundation.org/content/plugins/jetpack/modules/theme-tools/compat/twentyfifteen.css?ver=14.1' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://wordpressfoundation.org/content/plugins/gutenberg/build/block-library/style.css?ver=19.8.0' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css' href='https://wordpressfoundation.org/content/plugins/gutenberg/build/block-library/theme.css?ver=19.8.0' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://wordpressfoundation.org/wp/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://wordpressfoundation.org/wp/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.8-alpha-59514' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-gray: #111;--wp--preset--color--light-gray: #f1f1f1;--wp--preset--color--yellow: #f4ca16;--wp--preset--color--dark-brown: #352712;--wp--preset--color--medium-pink: #e53b51;--wp--preset--color--light-pink: #ffe5d1;--wp--preset--color--dark-purple: #2e2256;--wp--preset--color--purple: #674970;--wp--preset--color--blue-gray: #22313f;--wp--preset--color--bright-blue: #55c3dc;--wp--preset--color--light-blue: #e9f2f9;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--dark-gray-gradient-gradient: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(42,42,42,1) 100%);--wp--preset--gradient--light-gray-gradient: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(215,215,215,1) 100%);--wp--preset--gradient--white-gradient: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);--wp--preset--gradient--yellow-gradient: linear-gradient(90deg, rgba(244,202,22,1) 0%, rgba(205,168,10,1) 100%);--wp--preset--gradient--dark-brown-gradient: linear-gradient(90deg, rgba(53,39,18,1) 0%, rgba(91,67,31,1) 100%);--wp--preset--gradient--medium-pink-gradient: linear-gradient(90deg, rgba(229,59,81,1) 0%, rgba(209,28,51,1) 100%);--wp--preset--gradient--light-pink-gradient: linear-gradient(90deg, rgba(255,229,209,1) 0%, rgba(255,200,158,1) 100%);--wp--preset--gradient--dark-purple-gradient: linear-gradient(90deg, rgba(46,34,86,1) 0%, rgba(66,48,123,1) 100%);--wp--preset--gradient--purple-gradient: linear-gradient(90deg, rgba(103,73,112,1) 0%, rgba(131,93,143,1) 100%);--wp--preset--gradient--blue-gray-gradient: linear-gradient(90deg, rgba(34,49,63,1) 0%, rgba(52,75,96,1) 100%);--wp--preset--gradient--bright-blue-gradient: linear-gradient(90deg, rgba(85,195,220,1) 0%, rgba(43,180,211,1) 100%);--wp--preset--gradient--light-blue-gradient: linear-gradient(90deg, rgba(233,242,249,1) 0%, rgba(193,218,238,1) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-gray-color{color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-color{color: var(--wp--preset--color--light-gray) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-dark-brown-color{color: var(--wp--preset--color--dark-brown) !important;}.has-medium-pink-color{color: var(--wp--preset--color--medium-pink) !important;}.has-light-pink-color{color: var(--wp--preset--color--light-pink) !important;}.has-dark-purple-color{color: var(--wp--preset--color--dark-purple) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-blue-gray-color{color: var(--wp--preset--color--blue-gray) !important;}.has-bright-blue-color{color: var(--wp--preset--color--bright-blue) !important;}.has-light-blue-color{color: var(--wp--preset--color--light-blue) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-gray-background-color{background-color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-background-color{background-color: var(--wp--preset--color--light-gray) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-dark-brown-background-color{background-color: var(--wp--preset--color--dark-brown) !important;}.has-medium-pink-background-color{background-color: var(--wp--preset--color--medium-pink) !important;}.has-light-pink-background-color{background-color: var(--wp--preset--color--light-pink) !important;}.has-dark-purple-background-color{background-color: var(--wp--preset--color--dark-purple) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-blue-gray-background-color{background-color: var(--wp--preset--color--blue-gray) !important;}.has-bright-blue-background-color{background-color: var(--wp--preset--color--bright-blue) !important;}.has-light-blue-background-color{background-color: var(--wp--preset--color--light-blue) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-gray-border-color{border-color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-border-color{border-color: var(--wp--preset--color--light-gray) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-dark-brown-border-color{border-color: var(--wp--preset--color--dark-brown) !important;}.has-medium-pink-border-color{border-color: var(--wp--preset--color--medium-pink) !important;}.has-light-pink-border-color{border-color: var(--wp--preset--color--light-pink) !important;}.has-dark-purple-border-color{border-color: var(--wp--preset--color--dark-purple) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-blue-gray-border-color{border-color: var(--wp--preset--color--blue-gray) !important;}.has-bright-blue-border-color{border-color: var(--wp--preset--color--bright-blue) !important;}.has-light-blue-border-color{border-color: var(--wp--preset--color--light-blue) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-dark-gray-gradient-gradient-gradient-background{background: var(--wp--preset--gradient--dark-gray-gradient-gradient) !important;}.has-light-gray-gradient-gradient-background{background: var(--wp--preset--gradient--light-gray-gradient) !important;}.has-white-gradient-gradient-background{background: var(--wp--preset--gradient--white-gradient) !important;}.has-yellow-gradient-gradient-background{background: var(--wp--preset--gradient--yellow-gradient) !important;}.has-dark-brown-gradient-gradient-background{background: var(--wp--preset--gradient--dark-brown-gradient) !important;}.has-medium-pink-gradient-gradient-background{background: var(--wp--preset--gradient--medium-pink-gradient) !important;}.has-light-pink-gradient-gradient-background{background: var(--wp--preset--gradient--light-pink-gradient) !important;}.has-dark-purple-gradient-gradient-background{background: var(--wp--preset--gradient--dark-purple-gradient) !important;}.has-purple-gradient-gradient-background{background: var(--wp--preset--gradient--purple-gradient) !important;}.has-blue-gray-gradient-gradient-background{background: var(--wp--preset--gradient--blue-gray-gradient) !important;}.has-bright-blue-gradient-gradient-background{background: var(--wp--preset--gradient--bright-blue-gradient) !important;}.has-light-blue-gradient-gradient-background{background: var(--wp--preset--gradient--light-blue-gradient) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='twentyfifteen-fonts-css' href='https://wordpressfoundation.org/content/themes/twentyfifteen/assets/fonts/noto-sans-plus-noto-serif-plus-inconsolata.css?ver=20230328' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://wordpressfoundation.org/content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css' href='https://wordpressfoundation.org/content/themes/twentyfifteen/style.css?ver=20240716' media='all' />
+<style id='twentyfifteen-style-inline-css'>
+	/* Color Scheme */
+
+	/* Background Color */
+	body {
+		background-color: #e9f2f9;
+	}
+
+	/* Sidebar Background Color */
+	body:before,
+	.site-header {
+		background-color: #55c3dc;
+	}
+
+	/* Box Background Color */
+	.post-navigation,
+	.pagination,
+	.secondary,
+	.site-footer,
+	.hentry,
+	.page-header,
+	.page-content,
+	.comments-area,
+	.widecolumn {
+		background-color: #ffffff;
+	}
+
+	/* Box Background Color */
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.pagination .prev,
+	.pagination .next,
+	.widget_calendar tbody a,
+	.widget_calendar tbody a:hover,
+	.widget_calendar tbody a:focus,
+	.page-links a,
+	.page-links a:hover,
+	.page-links a:focus,
+	.sticky-post {
+		color: #ffffff;
+	}
+
+	/* Main Text Color */
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.pagination .prev,
+	.pagination .next,
+	.widget_calendar tbody a,
+	.page-links a,
+	.sticky-post {
+		background-color: #22313f;
+	}
+
+	/* Main Text Color */
+	body,
+	blockquote cite,
+	blockquote small,
+	a,
+	.dropdown-toggle:after,
+	.image-navigation a:hover,
+	.image-navigation a:focus,
+	.comment-navigation a:hover,
+	.comment-navigation a:focus,
+	.widget-title,
+	.entry-footer a:hover,
+	.entry-footer a:focus,
+	.comment-metadata a:hover,
+	.comment-metadata a:focus,
+	.pingback .edit-link a:hover,
+	.pingback .edit-link a:focus,
+	.comment-list .reply a:hover,
+	.comment-list .reply a:focus,
+	.site-info a:hover,
+	.site-info a:focus {
+		color: #22313f;
+	}
+
+	/* Main Text Color */
+	.entry-content a,
+	.entry-summary a,
+	.page-content a,
+	.comment-content a,
+	.pingback .comment-body > a,
+	.author-description a,
+	.taxonomy-description a,
+	.textwidget a,
+	.entry-footer a:hover,
+	.comment-metadata a:hover,
+	.pingback .edit-link a:hover,
+	.comment-list .reply a:hover,
+	.site-info a:hover {
+		border-color: #22313f;
+	}
+
+	/* Secondary Text Color */
+	button:hover,
+	button:focus,
+	input[type="button"]:hover,
+	input[type="button"]:focus,
+	input[type="reset"]:hover,
+	input[type="reset"]:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	.pagination .prev:hover,
+	.pagination .prev:focus,
+	.pagination .next:hover,
+	.pagination .next:focus,
+	.widget_calendar tbody a:hover,
+	.widget_calendar tbody a:focus,
+	.page-links a:hover,
+	.page-links a:focus {
+		background-color: rgba( 34, 49, 63, 0.7);
+	}
+
+	/* Secondary Text Color */
+	blockquote,
+	a:hover,
+	a:focus,
+	.main-navigation .menu-item-description,
+	.post-navigation .meta-nav,
+	.post-navigation a:hover .post-title,
+	.post-navigation a:focus .post-title,
+	.image-navigation,
+	.image-navigation a,
+	.comment-navigation,
+	.comment-navigation a,
+	.widget,
+	.author-heading,
+	.entry-footer,
+	.entry-footer a,
+	.taxonomy-description,
+	.page-links > .page-links-title,
+	.entry-caption,
+	.comment-author,
+	.comment-metadata,
+	.comment-metadata a,
+	.pingback .edit-link,
+	.pingback .edit-link a,
+	.post-password-form label,
+	.comment-form label,
+	.comment-notes,
+	.comment-awaiting-moderation,
+	.logged-in-as,
+	.form-allowed-tags,
+	.no-comments,
+	.site-info,
+	.site-info a,
+	.wp-caption-text,
+	.gallery-caption,
+	.comment-list .reply a,
+	.widecolumn label,
+	.widecolumn .mu_register label {
+		color: rgba( 34, 49, 63, 0.7);
+	}
+
+	/* Secondary Text Color */
+	blockquote,
+	.logged-in-as a:hover,
+	.comment-author a:hover {
+		border-color: rgba( 34, 49, 63, 0.7);
+	}
+
+	/* Border Color */
+	hr,
+	.dropdown-toggle:hover,
+	.dropdown-toggle:focus {
+		background-color: rgba( 34, 49, 63, 0.1);
+	}
+
+	/* Border Color */
+	pre,
+	abbr[title],
+	table,
+	th,
+	td,
+	input,
+	textarea,
+	.main-navigation ul,
+	.main-navigation li,
+	.post-navigation,
+	.post-navigation div + div,
+	.pagination,
+	.comment-navigation,
+	.widget li,
+	.widget_categories .children,
+	.widget_nav_menu .sub-menu,
+	.widget_pages .children,
+	.site-header,
+	.site-footer,
+	.hentry + .hentry,
+	.author-info,
+	.entry-content .page-links a,
+	.page-links > span,
+	.page-header,
+	.comments-area,
+	.comment-list + .comment-respond,
+	.comment-list article,
+	.comment-list .pingback,
+	.comment-list .trackback,
+	.comment-list .reply a,
+	.no-comments {
+		border-color: rgba( 34, 49, 63, 0.1);
+	}
+
+	/* Border Focus Color */
+	a:focus,
+	button:focus,
+	input:focus {
+		outline-color: rgba( 34, 49, 63, 0.3);
+	}
+
+	input:focus,
+	textarea:focus {
+		border-color: rgba( 34, 49, 63, 0.3);
+	}
+
+	/* Sidebar Link Color */
+	.secondary-toggle:before {
+		color: #ffffff;
+	}
+
+	.site-title a,
+	.site-description {
+		color: #ffffff;
+	}
+
+	/* Sidebar Text Color */
+	.site-title a:hover,
+	.site-title a:focus {
+		color: rgba( 255, 255, 255, 0.7);
+	}
+
+	/* Sidebar Border Color */
+	.secondary-toggle {
+		border-color: rgba( 255, 255, 255, 0.1);
+	}
+
+	/* Sidebar Border Focus Color */
+	.secondary-toggle:hover,
+	.secondary-toggle:focus {
+		border-color: rgba( 255, 255, 255, 0.3);
+	}
+
+	.site-title a {
+		outline-color: rgba( 255, 255, 255, 0.3);
+	}
+
+	/* Meta Background Color */
+	.entry-footer {
+		background-color: #f1f1f1;
+	}
+
+	@media screen and (min-width: 38.75em) {
+		/* Main Text Color */
+		.page-header {
+			border-color: #22313f;
+		}
+	}
+
+	@media screen and (min-width: 59.6875em) {
+		/* Make sure its transparent on desktop */
+		.site-header,
+		.secondary {
+			background-color: transparent;
+		}
+
+		/* Sidebar Background Color */
+		.widget button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a,
+		.widget_calendar tbody a:hover,
+		.widget_calendar tbody a:focus {
+			color: #55c3dc;
+		}
+
+		/* Sidebar Link Color */
+		.secondary a,
+		.dropdown-toggle:after,
+		.widget-title,
+		.widget blockquote cite,
+		.widget blockquote small {
+			color: #ffffff;
+		}
+
+		.widget button,
+		.widget input[type="button"],
+		.widget input[type="reset"],
+		.widget input[type="submit"],
+		.widget_calendar tbody a {
+			background-color: #ffffff;
+		}
+
+		.textwidget a {
+			border-color: #ffffff;
+		}
+
+		/* Sidebar Text Color */
+		.secondary a:hover,
+		.secondary a:focus,
+		.main-navigation .menu-item-description,
+		.widget,
+		.widget blockquote,
+		.widget .wp-caption-text,
+		.widget .gallery-caption {
+			color: rgba( 255, 255, 255, 0.7);
+		}
+
+		.widget button:hover,
+		.widget button:focus,
+		.widget input[type="button"]:hover,
+		.widget input[type="button"]:focus,
+		.widget input[type="reset"]:hover,
+		.widget input[type="reset"]:focus,
+		.widget input[type="submit"]:hover,
+		.widget input[type="submit"]:focus,
+		.widget_calendar tbody a:hover,
+		.widget_calendar tbody a:focus {
+			background-color: rgba( 255, 255, 255, 0.7);
+		}
+
+		.widget blockquote {
+			border-color: rgba( 255, 255, 255, 0.7);
+		}
+
+		/* Sidebar Border Color */
+		.main-navigation ul,
+		.main-navigation li,
+		.widget input,
+		.widget textarea,
+		.widget table,
+		.widget th,
+		.widget td,
+		.widget pre,
+		.widget li,
+		.widget_categories .children,
+		.widget_nav_menu .sub-menu,
+		.widget_pages .children,
+		.widget abbr[title] {
+			border-color: rgba( 255, 255, 255, 0.1);
+		}
+
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus,
+		.widget hr {
+			background-color: rgba( 255, 255, 255, 0.1);
+		}
+
+		.widget input:focus,
+		.widget textarea:focus {
+			border-color: rgba( 255, 255, 255, 0.3);
+		}
+
+		.sidebar a:focus,
+		.dropdown-toggle:focus {
+			outline-color: rgba( 255, 255, 255, 0.3);
+		}
+	}
+
+		/* Custom Header Background Color */
+		body:before,
+		.site-header {
+			background-color: #3858e9;
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.site-header,
+			.secondary {
+				background-color: transparent;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				color: #3858e9;
+			}
+		}
+	
+</style>
+<link rel='stylesheet' id='twentyfifteen-block-style-css' href='https://wordpressfoundation.org/content/themes/twentyfifteen/css/blocks.css?ver=20240609' media='all' />
+<link rel='stylesheet' id='jetpack_likes-css' href='https://wordpressfoundation.org/content/plugins/jetpack/modules/likes/style.css?ver=14.1' media='all' />
+<link rel='stylesheet' id='jetpack-carousel-swiper-css-css' href='https://wordpressfoundation.org/content/plugins/jetpack/modules/carousel/swiper-bundle.css?ver=14.1' media='all' />
+<link rel='stylesheet' id='jetpack-carousel-css' href='https://wordpressfoundation.org/content/plugins/jetpack/modules/carousel/jetpack-carousel.css?ver=14.1' media='all' />
+<script src="https://wordpressfoundation.org/wp/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://wordpressfoundation.org/content/plugins/gutenberg/build/hooks/index.min.js?ver=84e753e2b66eb7028d38" id="wp-hooks-js"></script>
+<script src="https://wordpressfoundation.org/content/plugins/gutenberg/build/i18n/index.min.js?ver=bd5a2533e717a1043151" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src="https://wordpressfoundation.org/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://wordpressfoundation.org/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="twentyfifteen-script-js-extra">
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+</script>
+<script src="https://wordpressfoundation.org/content/themes/twentyfifteen/js/functions.js?ver=20221101" id="twentyfifteen-script-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://wordpressfoundation.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://wordpressfoundation.org/wp-json/wp/v2/tags/35" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wordpressfoundation.org/wp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8-alpha-59514" />
+<script>document.cookie.includes("eucookielaw")&&document.head.insertAdjacentHTML("beforeend", "<style>div.wp-block-jetpack-cookie-consent{display:none}</style>");</script>	<style>img#wpstats{display:none}</style>
+		<style id="custom-background-css">
+body.custom-background { background-image: url("https://wordpressfoundation.org/content/uploads/2015/03/background.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: fixed; }
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="do_action &#8211; WordPress Foundation" />
+<meta property="og:url" content="https://wordpressfoundation.org/news/tag/do_action/" />
+<meta property="og:site_name" content="WordPress Foundation" />
+<meta property="og:image" content="https://i0.wp.com/wordpressfoundation.org/content/uploads/2015/03/site_icon1-54f3ce9bv1_site_icon.png?fit=512%2C512&#038;ssl=1" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2015/03/site_icon1-54f3ce9bv1_site_icon.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2015/03/site_icon1-54f3ce9bv1_site_icon.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2015/03/site_icon1-54f3ce9bv1_site_icon.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/wordpressfoundation.org/content/uploads/2015/03/site_icon1-54f3ce9bv1_site_icon.png?fit=270%2C270&#038;ssl=1" />
+		<style id="wp-custom-css">
+			:root {
+  --wp--preset--color--charcoal-0: #1a1919;
+  --wp--preset--color--charcoal-1: #1e1e1e;
+  --wp--preset--color--charcoal-2: #23282d;
+  --wp--preset--color--charcoal-3: #40464d;
+  --wp--preset--color--charcoal-4: #656a71;
+  --wp--preset--color--charcoal-5: #979aa1;
+  --wp--preset--color--light-grey-1: #d9d9d9;
+  --wp--preset--color--light-grey-2: #f6f6f6;
+  --wp--preset--color--white-opacity-15: #ffffff26;
+  --wp--preset--color--black-opacity-15: #00000026;
+  --wp--preset--color--dark-blueberry: #1d35b4;
+  --wp--preset--color--deep-blueberry: #213fd4;
+  --wp--preset--color--blueberry-1: #3858e9;
+  --wp--preset--color--blueberry-2: #7b90ff;
+  --wp--preset--color--blueberry-3: #c7d1ff;
+  --wp--preset--color--blueberry-4: #eff2ff;
+  --wp--preset--color--pomegrade-1: #e26f56;
+  --wp--preset--color--pomegrade-2: #ffb7a7;
+  --wp--preset--color--pomegrade-3: #ffe9de;
+  --wp--preset--color--acid-green-1: #33f078;
+  --wp--preset--color--acid-green-2: #c7ffdb;
+  --wp--preset--color--acid-green-3: #e2ffed;
+  --wp--preset--color--lemon-1: #fff972;
+  --wp--preset--color--lemon-2: #fffcb5;
+  --wp--preset--color--lemon-3: #fffdd6;
+  --wp--preset--color--purple-1: #5300be;
+  --wp--preset--color--purple-2: #7a00df;
+  --wp--preset--color--purple-3: #d7a7ff;
+}
+.site-description {
+  opacity: 0.87;
+}
+@media screen and (min-width: 59.6875em) {
+  .secondary a:hover, .secondary a:focus, .main-navigation .menu-item-description, .widget, .widget blockquote, .widget .wp-caption-text, .widget .gallery-caption {
+    color: var(--wp--preset--color--blueberry-4);
+  }
+}
+.wp-block-button .wp-block-button__link {
+  text-transform: none;
+}
+.main-navigation li, .main-navigation ul {
+  border: 0;
+}
+body.custom-background {
+  background-position: bottom center;
+  background-size: 300px 300px;
+}
+input[type="submit"] {
+  background-color: var(--wp--preset--color--blueberry-1);
+}
+body.page-id-30 input[type="image"] {
+  width: 300px;
+  background: transparent;
+  border: 0;
+  margin-bottom: 1.1em;
+}
+body.page-id-30 input[type="image"]:hover {
+  opacity: 0.7;
+}
+body.page-id-30 form {
+  text-align: center;
+}
+body.page-id-30 form br {
+  display: none;
+}
+/**
+ * Annual Report Page
+ */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.prettystats > p:first-child {
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  color: #c2523b;
+  margin: 0;
+}
+.prettystats > p:first-child.blue {
+  color: var(--wp--preset--color--blueberry-1);
+}
+.prettystats > p:nth-child(2n) {
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0;
+}
+@media (max-width: 522px) {
+  .prettystats > p:nth-child(2n) {
+    font-size: 2rem;
+  }
+}
+.prettystats > p:last-child {
+  font-family: monospace;
+  margin: 0.5rem 0 0;
+  color: #00893d;
+}
+.prettystats > p:last-child .dashicons {
+  font-size: inherit;
+  line-height: inherit;
+  width: 1.2rem;
+}
+body.page-id-34937 {
+  background-image: url(http://wordpressfoundation.org/content/uploads/2017/12/beirut.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  background-position: 150px top;
+}
+body.page-id-34937 .site {
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+body.page-id-34937 .site-content {
+  width: 100%;
+  margin-left: 0;
+}
+@media (min-width: 955px) {
+  body.page-id-34937 .site-content {
+    padding-left: 29.4118%;
+  }
+}
+body.page-id-34937 .site-main {
+  padding: 0;
+}
+body.page-id-34937 .site-main p {
+  max-width: 65rem;
+  margin: 6rem auto;
+}
+body.page-id-34937 .site-main article {
+  margin: 0;
+  padding: 0;
+}
+body.page-id-34937 .site-main article.hentry {
+  box-shadow: none;
+}
+body.page-id-34937 .site-main article .entry-header {
+  display: none;
+}
+body.page-id-34937 .site-main article .entry-content {
+  padding: 6rem;
+  padding-bottom: 0;
+}
+body.page-id-34937 .site-main article hr {
+  margin: 0 -6rem;
+  background-color: var(--wp--preset--color--light-grey-1);
+}
+body.page-id-34937 .site-main article .section-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--wp--preset--color--light-grey-2);
+  color: var(--wp--preset--color--dark-blueberry);
+  margin-left: -6rem;
+  margin-right: -6rem;
+  padding: 6rem;
+}
+body.page-id-34937 .site-main article .section-divider h2 {
+  line-height: 1;
+  margin: 0;
+}
+body.page-id-34937 .site-main article .header-logo {
+  text-align: center;
+  padding: 7rem 0;
+}
+body.page-id-34937 .site-main article .header-logo img {
+  max-width: 200px;
+  width: 100%;
+}
+body.page-id-34937 .site-main article .header-logo p, body.page-id-34937 .site-main article .header-logo h3 {
+  margin: 10px 0;
+}
+body.page-id-34937 .site-main article h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 7rem 0;
+  color: var(--wp--preset--color--blueberry-1);
+}
+body.page-id-34937 .site-main article .headline {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  color: #c2523b;
+}
+body.page-id-34937 .site-main article .col2 {
+  margin: 0 !important;
+}
+body.page-id-34937 .site-main article .col2 > * {
+  margin: 0 5% 3rem 0;
+  width: 45%;
+  float: left;
+}
+body.page-id-34937 .site-main article .col2 > *:nth-child(even) {
+  margin-right: 0;
+  width: 50%;
+}
+@media (max-width: 924px) {
+  body.page-id-34937 .site-main article .col2 > * {
+    width: 100% !important;
+    margin-bottom: 5rem;
+  }
+}
+body.page-id-34937 .site-main article .col2 > p {
+  margin: 0 10% 3rem 0;
+  width: 40%;
+}
+@media (max-width: 1306px) and (min-width: 955px) {
+  body.page-id-34937 .site-main article .col2.stats > * {
+    width: 100%;
+  }
+}
+@media (max-width: 924px) {
+  body.page-id-34937 .site-main article .col2.stats > * {
+    width: 45% !important;
+  }
+}
+body.page-id-34937 .site-main article .country-data {
+  width: 100%;
+  height: 178px;
+  margin-bottom: 6rem;
+  background-image: url(https://wordpressfoundation.org/content/uploads/2018/04/country-flags.png);
+  background-size: contain;
+  background-position: center middle;
+  background-repeat: no-repeat;
+}
+body.page-id-34937 .site-main article .grey-section {
+  margin-left: -6rem;
+  margin-right: -6rem;
+  margin-top: 6rem;
+  margin-bottom: 0;
+  padding: 6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--wp--preset--color--light-grey-2);
+  border-bottom: 1px solid var(--wp--preset--color--light-grey-2);
+}
+body.page-id-34937 .site-main article .grey-section > p {
+  width: 5%;
+  margin: 0;
+}
+body.page-id-34937 .site-main article .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  margin-left: -6rem;
+  margin-right: -6rem;
+}
+@media (max-width: 522px) {
+  body.page-id-34937 .site-main article .flex {
+    padding: 2rem;
+  }
+}
+body.page-id-34937 .site-main article .flex.se-asia-map {
+  background-image: url(http://wordpressfoundation.org/content/uploads/2018/02/se-asia-map-india.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center bottom;
+  overflow: visible;
+  border-bottom: 1px solid var(--wp--preset--color--light-grey-1);
+}
+body.page-id-34937 .site-main article .flex.se-asia-map p {
+  background: #fff;
+  max-width: 50%;
+  padding-left: 1rem;
+}
+body.page-id-34937 .site-main article .flex.sponsorships {
+  border-top: 1px solid var(--wp--preset--color--light-grey-1);
+  border-bottom: 1px solid var(--wp--preset--color--light-grey-1);
+}
+body.page-id-34937 .site-main article .flex.sponsorships > * {
+  width: 50%;
+}
+body.page-id-34937 .site-main article .flex.sponsorships > p {
+  width: 5%;
+  margin: 0;
+}
+body.page-id-34937 .site-main article .flex.sponsorships .dashicons-megaphone {
+  width: 50%;
+  height: auto;
+  font-size: 245px;
+  text-align: right;
+}
+@media (max-width: 924px) {
+  body.page-id-34937 .site-main article .flex.sponsorships .dashicons-megaphone {
+    width: 150px;
+    height: 150px;
+    font-size: 150px;
+  }
+}
+body.page-id-34937 .site-main article .centered {
+  text-align: center;
+  width: 50% !important;
+  margin: 0 !important;
+  padding: 1rem;
+}
+@media (max-width: 478px) {
+  body.page-id-34937 .site-main article .centered {
+    width: 100% !important;
+  }
+}
+body.page-id-34937 .site-main article .centered h3 {
+  margin-bottom: 2rem;
+}
+body.page-id-34937 .site-main article .centered:last-child {
+  border-left: 1px solid var(--wp--preset--color--light-grey-1);
+}
+@media (max-width: 924px) {
+  body.page-id-34937 .site-main article .centered:last-child {
+    border: none;
+  }
+}
+body.page-id-34937 .site-main article .centered > div > p {
+  margin-right: 0;
+}
+@media (max-width: 1086px) {
+  body.page-id-34937 .site-main article .centered > div > p {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+body.page-id-34937 .site-main article .big {
+  font-size: 5rem;
+  line-height: 1;
+  text-align: right;
+  font-family: "Noto Serif", serif;
+}
+@media (max-width: 522px) {
+  body.page-id-34937 .site-main article .big {
+    font-size: 2rem;
+  }
+}
+body.page-id-34937 .site-main article .big + p {
+  text-align: left;
+  padding-left: 1rem;
+}
+body.page-id-34937 .site-main article .big + p > span {
+  font-family: monospace;
+  margin: 0.5rem 0 0;
+  color: #00893d;
+}
+body.page-id-34937 .site-main article .big + p > span .dashicons {
+  font-size: inherit;
+  line-height: inherit;
+  width: 1.2rem;
+}
+body.page-id-34937 .site-main article .events-widget {
+  border-bottom: 1px solid var(--wp--preset--color--light-grey-2);
+}
+body.page-id-34937 .site-main article .events-widget > * {
+  margin: 0;
+}
+body.page-id-34937 .site-main article .events-widget > p:first-child {
+  padding: 0 3rem;
+  width: 50%;
+}
+body.page-id-34937 .site-main article .events-widget img {
+  box-shadow: 0 0 8px var(--wp--preset--color--black-opacity-15);
+}
+@media (max-width: 1000px) {
+  body.page-id-34937 .site-main article .events-widget {
+    flex-direction: column;
+  }
+  body.page-id-34937 .site-main article .events-widget > p:first-child {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+body.page-id-34937 .site-footer {
+  display: none;
+}
+/* Turn off hyphenation -- xref https://teamtardisp2.wordpress.com/2021/07/09/notes-from-the-july-9-meeting-with-wordpress-foundation-lawyers/#comment-18334 */
+p, li {
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+  word-wrap: normal;
+}
+/* Fix cookie banner */
+.wp-block-jetpack-cookie-consent {
+  background: white;
+  border: 1px solid var(--wp--preset--color--black-opacity-15);
+  font-size: 1.3rem;
+}
+.wp-block-jetpack-cookie-consent > p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+/* Fix Jetpack instant search sidebar */
+.jetpack-instant-search__search-filter-list {
+  color: var(--wp--preset--color--charcoal-1);
+}
+.jetpack-instant-search__search-filter-list-input[disabled] + label {
+  color: var(--wp--preset--color--charcoal-4);
+}
+		</style>
+		</head>
+
+<body class="archive tag tag-do_action tag-35 custom-background wp-custom-logo wp-embed-responsive jps-theme-twentyfifteen">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">
+		Skip to content	</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header">
+			<div class="site-branding">
+				<a href="https://wordpressfoundation.org/" class="custom-logo-link" rel="home"><img width="1000" height="1000" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?fit=1000%2C1000&amp;ssl=1" class="custom-logo" alt="WordPress Foundation" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?resize=768%2C768&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-attachment-id="1187474" data-permalink="https://wordpressfoundation.org/wporg-white/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?fit=1000%2C1000&amp;ssl=1" data-orig-size="1000,1000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="wporg-white" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?fit=300%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2024/06/wporg-white.png?fit=660%2C660&amp;ssl=1" /></a>						<p class="site-title"><a href="https://wordpressfoundation.org/" rel="home">WordPress Foundation</a></p>
+												<p class="site-description">Supporting the WordPress community since 2010.</p>
+										<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+					<nav id="site-navigation" class="main-navigation">
+				<div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-84"><a href="https://wordpressfoundation.org/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-36128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36128"><a href="https://wordpressfoundation.org/2023-annual-report/">Annual Report</a></li>
+	<li id="menu-item-32759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32759"><a href="https://wordpressfoundation.org/about/financials/">Financials</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1187293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1187293"><a href="https://wordpressfoundation.org/about/financials/2023-financials/">2023 Financials</a></li>
+		<li id="menu-item-457608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-457608"><a href="https://wordpressfoundation.org/about/financials/2022-financials/">2022 Financials</a></li>
+		<li id="menu-item-290952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290952"><a href="https://wordpressfoundation.org/2021-financials/">2021 Financials</a></li>
+		<li id="menu-item-200628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200628"><a href="https://wordpressfoundation.org/2020-financials/">2020 Financials</a></li>
+		<li id="menu-item-120170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120170"><a href="https://wordpressfoundation.org/2019-financials/">2019 Financials</a></li>
+		<li id="menu-item-57256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57256"><a href="https://wordpressfoundation.org/2018-financials/">2018 Financials</a></li>
+		<li id="menu-item-37377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37377"><a href="https://wordpressfoundation.org/2017-financials/">2017 Financials</a></li>
+		<li id="menu-item-37376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37376"><a href="https://wordpressfoundation.org/2016-financials/">2016 Financials</a></li>
+		<li id="menu-item-32755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32755"><a href="https://wordpressfoundation.org/2015-financials/">2015 Financials</a></li>
+		<li id="menu-item-32754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32754"><a href="https://wordpressfoundation.org/2014-financials/">2014 Financials</a></li>
+		<li id="menu-item-32753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32753"><a href="https://wordpressfoundation.org/2013-financials/">2013 Financials</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80"><a href="https://wordpressfoundation.org/donate/">Donate</a>
+<ul class="sub-menu">
+	<li id="menu-item-37987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37987"><a href="https://wordpressfoundation.org/donors/">Donors</a></li>
+</ul>
+</li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-83"><a href="https://wordpressfoundation.org/news/">News</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="https://wordpressfoundation.org/philosophy/">Philosophy</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81"><a href="https://wordpressfoundation.org/projects/">Projects</a>
+<ul class="sub-menu">
+	<li id="menu-item-32735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32735"><a href="https://wordpressfoundation.org/projects/kim-parsell-memorial-scholarship/">Kim Parsell Memorial Scholarship</a></li>
+</ul>
+</li>
+<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="https://wordpressfoundation.org/trademark-policy/">Trademarks</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://wordpressfoundation.org/contact/">Contact</a></li>
+</ul></div>			</nav><!-- .main-navigation -->
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				
+		<aside id="recent-posts-3" class="widget widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2><nav aria-label="Recent Posts">
+		<ul>
+											<li>
+					<a href="https://wordpressfoundation.org/news/2024/kim-parsell-memorial-scholarship-expands-to-wordcamp-asia-and-wordcamp-europe/">Kim Parsell Memorial Scholarship Expands to WordCamp Asia and WordCamp Europe!</a>
+									</li>
+											<li>
+					<a href="https://wordpressfoundation.org/news/2024/meeting-minutes/">2024 WordPress Foundation Meeting Minutes</a>
+									</li>
+											<li>
+					<a href="https://wordpressfoundation.org/news/2024/wordpress-foundation-donation/">WordPress Foundation Donates $100,000 to Internet Archive</a>
+									</li>
+											<li>
+					<a href="https://wordpressfoundation.org/news/2024/announcing-the-2024-kim-parsell-memorial-scholarship-recipient-cynthia-norman/">Announcing the 2024 Kim Parsell Memorial Scholarship Recipient: Cynthia Norman</a>
+									</li>
+											<li>
+					<a href="https://wordpressfoundation.org/news/2024/kim-parsell-2024/">Apply for the Kim Parsell Memorial Scholarship for WordCamp US 2024</a>
+									</li>
+					</ul>
+
+		</nav></aside><aside id="block-3" class="widget widget_block widget_search"><form role="search" method="get" action="https://wordpressfoundation.org/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button wp-element-button" type="submit" >Search</button></div></form></aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		
+			<header class="page-header">
+				<h1 class="page-title">Tag: <span>do_action</span></h1>			</header><!-- .page-header -->
+
+			
+<article id="post-206345" class="post-206345 post type-post status-publish format-standard hentry category-updates tag-charity-hackathon tag-do_action tag-intro-to-open-source tag-open-source tag-report">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/looking-back-at-2021/" rel="bookmark">Looking back at 2021</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p class="has-drop-cap">As 2021 is coming to an end, it is time to look back at the year that was. 2021 was a challenging year for the world due to the continued spread of the COVID-19 pandemic. However, despite all the challenges, the WordPress Foundation was able to make excellent progress in its mission of educating the public about open source software and serving the public good &#8211; thanks to our global team of spirited volunteers and contributors.</p>
+
+
+
+<p>Read on to find out about our various programs in 2021.</p>
+
+
+
+<h2 class="wp-block-heading" id="do-action-charity-hackathons">do_action charity hackathons</h2>
+
+
+
+<p>One of our focuses this year was to <a href="https://wordpressfoundation.org/news/2021/do_action-hackathons-and-open-source-workshops-in-2021/">revamp our do_action program</a>. Thanks to our hard work, do_action organizers now have a dedicated <code>location@doaction.org</code> email ID powered by Google Workspace for Non profits, which will help them in their initiatives. We also kick-started discussions to organize a <a href="https://make.wordpress.org/community/2021/09/01/proposal-centralized-global-do_action-charity-hackathons/">global do_action charity hackathon held fully online</a>, and we are all set to execute this idea in 2022. We also announced <a href="https://wordpressfoundation.org/news/2021/announcement-in-person-do_action-hackathons-are-back/">the return of in-person do_action hackathons</a> after nearly 18 months of online events!</p>
+
+
+
+<p>We had two do_action charity hackathons planned this year: <a href="https://doaction.org/event/karnataka-2021/" target="_blank" rel="noreferrer noopener">do_action Karnataka </a>and <a href="https://doaction.org/event/nigeria-2021/">do_action Nigeria</a>. do_action Karnataka was held in August 2021, where 12 volunteers worked hand-in-hand to create websites for three non profits. You can read more about the event here: </p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-wordpress-foundation wp-block-embed-wordpress-foundation"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="ukAjoWXTFT"><a href="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/">do_action Karnataka 2021: A report</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;do_action Karnataka 2021: A report&#8221; &#8212; WordPress Foundation" src="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/embed/#?secret=68Ogx0YnBk#?secret=ukAjoWXTFT" data-secret="ukAjoWXTFT" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>While <a href="https://doaction.org/event/nigeria-2021/">do_action Nigeria had to be canceled</a> due to unforeseen circumstances, the local WordPress community &#8211; led by WordPress Community Deputy <a href="https://profiles.wordpress.org/mariaojob">Mary Job</a>, is doing a phenomenal job on the ground by uplifting women and children <a href="https://uwani.org/">through their own charitable initiatives</a> using WordPress.</p>
+
+
+
+<h2 class="wp-block-heading" id="introduction-to-open-source-workshops">Introduction to Open source workshops</h2>
+
+
+
+<p>Last year, during the COVID-19 pandemic, we <a href="https://wordpressfoundation.org/news/2020/open-source-workshops-november-2020-report/">brought back</a> our <a href="https://wordpressfoundation.org/news/2018/call-for-organizers-introduction-to-open-source-workshops-for-2018/" data-type="post" data-id="36920">Introduction to Open source workshops</a> as a way to re-engage the community and to reinforce our core mission of promoting open source software to the community. At the start of this year, we <a href="https://wordpressfoundation.org/news/2021/do_action-hackathons-and-open-source-workshops-in-2021/">announced our plans to continue these workshops in 2021</a>.</p>
+
+
+
+<p>At the time of writing this post, we have had 11 Global Introduction to Open source workshops, which have had a total of 233 RSVPs so far. We also have our <a href="https://www.meetup.com/wordpress-social-learning/events/282952546/">final Introduction to Open source workshop</a> for the year scheduled for tomorrow (December 31) as well!</p>
+
+
+
+<h2 class="wp-block-heading" id="learn-wordpress">Learn WordPress</h2>
+
+
+
+<p>Learn WordPress (<a href="https://learn.wordpress.org">learn.wordpress.org</a>) &#8211; a cross-team initiative led by the <a href="https://make.wordpress.org/training/">Make WordPress Training team</a> was launched in December 2020. The initiative serves to democratize and support WordPress learning by providing high-quality WordPress learning content in different formats. At the time of publishing this post, the platform had published the following content in 2021 alone:</p>
+
+
+
+<ul class="wp-block-list"><li>39 <a href="//learn.wordpress.org/workshops/" target="_blank" rel="noreferrer noopener">video workshops</a></li><li>2 new text/video based <a href="https://learn.wordpress.org/courses/">courses</a></li><li>20 <a href="https://learn.wordpress.org/lesson-plans/">lesson plans</a></li><li>134 <a href="https://learn.wordpress.org/social-learning/">social learning spaces</a></li><li>4367 RSVPs for <a href="https://learn.wordpress.org/social-learning/">social learning spaces</a>. </li></ul>
+
+
+
+<p>The contributor teams working on this project have some amazing plans for the project, and the WordPress Foundation will continue to support their work in the best way possible. </p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Several individuals contributed generously to the WordPress foundation this year. We would like to extend our heartfelt gratitude to <a href="https://wordpressfoundation.org/donors/">all our donors</a> who supported us in sustaining the foundation this year. Special mention to the following individuals who went above and beyond in supporting us in 2021:</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="wp-block-heading" id="sustainer-1000-per-year">Sustainer &#8211; $1000 per year</h3>
+
+
+
+<ul class="wp-block-list"><li>10up</li><li>Human Made</li><li>Jetpack</li><li>Matt Mullenweg</li><li>Multidots, Inc</li><li>Sujay Pawar</li><li>Wordfence</li><li>InMotion Hosting</li></ul>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="wp-block-heading" id="sustainer-200-per-year">Sustainer &#8211; $200 per year</h3>
+
+
+
+<ul class="wp-block-list"><li>Donavon Guyot</li><li>Eric Kuznacic</li><li>Ellen and Karl Olinger</li><li>Pippin Williamson</li><li>W4</li><li>René Hermenau / WP Staging</li></ul>
+</div>
+</div>
+
+
+
+<p>The WordPress Foundation has several ambitious plans for 2022, none of which would be possible without your help. If you would like to support the WordPress Foundation and contribute to our mission of serving the public good and educating the public about open source software, please consider donating to the WordPress Foundation. Your donation goes a long way in keeping the web open. Please use the link below to donate. </p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-wordpress-foundation wp-block-embed-wordpress-foundation"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="ujjKw9RuLr"><a href="https://wordpressfoundation.org/donate/">Donate</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Donate&#8221; &#8212; WordPress Foundation" src="https://wordpressfoundation.org/donate/embed/#?secret=7wtqMPFNJT#?secret=ujjKw9RuLr" data-secret="ujjKw9RuLr" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Thank you for your continued support of the WordPress Foundation. Here&#8217;s wishing you all an excellent holiday season and a happy 2022!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/looking-back-at-2021/" rel="bookmark"><time class="entry-date published updated" datetime="2021-12-30T12:48:59+00:00">December 30, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/intro-to-open-source/" rel="tag">intro to open source</a>, <a href="https://wordpressfoundation.org/news/tag/open-source/" rel="tag">open source</a>, <a href="https://wordpressfoundation.org/news/tag/report/" rel="tag">report</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-206345 -->
+
+<article id="post-197414" class="post-197414 post type-post status-publish format-standard hentry category-announcements category-programs category-updates tag-charity-hackathon tag-do_action tag-events tag-hackathon">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/announcement-in-person-do_action-hackathons-are-back/" rel="bookmark">Announcement: In-person do_action hackathons are back!</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p class="has-drop-cap">As <a href="https://make.wordpress.org/community/2021/09/27/announcement-returning-to-in-person-do_action-charity-hackathons/">announced in the Make/WordPress Community blog</a>, in-person do_action charity hackathons are back! do_action hackathons moved online in March 2020, following the COVID-19 pandemic, and in the past 18 months, we have had five do_action hackathons so far. As more and more people around the world are getting vaccinated and as the spread COVID-19 pandemic, it is time to bring back in-person do_action charity hackathons. While our online hackathons have been impactful, in-person do_action hackathons bring people volunteers, and non profits together in a shared space, helping to create a wonderful experience for everyone.</p>
+
+
+
+<h2 class="wp-block-heading">How do I organize an in-person do_action charity hackathon</h2>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-make-wordpress-communities wp-block-embed-make-wordpress-communities"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="tP9aByAhay"><a href="https://make.wordpress.org/community/2021/09/27/announcement-returning-to-in-person-do_action-charity-hackathons/">Announcement: Returning to in-person do_action charity hackathons</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Announcement: Returning to in-person do_action charity hackathons&#8221; &#8212; Make WordPress Community" src="https://make.wordpress.org/community/2021/09/27/announcement-returning-to-in-person-do_action-charity-hackathons/embed/#?secret=bblIklaIwd#?secret=tP9aByAhay" data-secret="tP9aByAhay" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Local WordPress Meetup groups can organize an in-person do_action charity hackathon if their region allows in-person events AND if their COVID cases are under control OR if vaccination/testing is freely available. The flowchart below describes the conditions for organizing an in-person charity hackathon.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="371" data-attachment-id="197415" data-permalink="https://wordpressfoundation.org/news/2021/announcement-in-person-do_action-hackathons-are-back/hackathons/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?fit=960%2C540&amp;ssl=1" data-orig-size="960,540" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hackathons" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?fit=660%2C371&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?resize=660%2C371&#038;ssl=1" alt="" class="wp-image-197415" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?w=960&amp;ssl=1 960w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/09/Hackathons.png?resize=768%2C432&amp;ssl=1 768w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a></figure>
+
+
+
+<p>If you wish to organize an in-person do_action charity hackathon, follow these steps:</p>
+
+
+
+<ol class="wp-block-list"><li>First, check if your local health authority allows in-person events. If local gatherings are not allowed, you cannot organize an in-person event in your region.</li><li>If your local health authority allows in-person events, fill up the <a href="https://make.wordpress.org/community/handbook/meetup-organizer/2021-returning-to-in-person-meetups/in-person-meetup-decision-checklist/">in-person meetup decision checklist</a> in the Make/Community Handbook. <em>(Here&#8217;s a <a href="https://wordcampcentral.survey.fm/host-in-person-meetup-checklist-updated">direct link</a>)</em></li><li>If the checklist recommends that you organize a do_action hackathon, go ahead and fill up the <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">do_action event application</a>. A community deputy will get back to you with more details on how to organize the event.</li><li>If the checklist does not recommend organizing an in-person event, you can still consider <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/organising-an-online-do_action-event/">organizing an online do_action event</a>. </li></ol>
+
+
+
+<p class="has-yellow-background-color has-background">The WordPress Foundation would like to highlight do_action events (whether they are held online or in-person) on the WordPress Foundation website (<a href="http://wordpressfoundation.org">wordpressfoundation.org</a>), through social media, and whenever possible, in local media. Send an email to <a href="mailto:info@doaction.org">info@doaction.org</a> or ping one of the Community Deputies in Make/WordPress Slack if you would like help with organizing a do_action hackathon or if you need help with outreach.</p>
+
+
+
+<p>Feeling inspired? Do you wish to organize an in-person do_action charity hackathon? <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">Apply now</a>!</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h3 class="wp-block-heading">do_action Nigeria coming up on <meta charset="utf-8">November 29 &#8211; December 5!</h3>
+
+
+
+<p>The WordPress community of Nigeria is back once again to organize an online do_action charity hackathon from November 29 &#8211; December 5, 2021! For the last three years, local communities in Nigeria have organized in-person do_action WordPress Charity Hackathons in several cities, where they had spent an entire day building brand new websites for a selection of local charities and NGOs. This year, for the second annual regional do_action Nigeria event, the team aims to repeat the same in an online format, for a handful of charitable organizations! Learn more about the event by following the link below:</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-do-action wp-block-embed-do-action"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="2DoApFzoUt"><a href="https://doaction.org/event/nigeria-2021/">Nigeria 2021</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Nigeria 2021&#8221; &#8212; do_action" src="https://doaction.org/event/nigeria-2021/embed/#?secret=X44sKfHgVm#?secret=2DoApFzoUt" data-secret="2DoApFzoUt" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?ssl=1"></a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/announcement-in-person-do_action-hackathons-are-back/" rel="bookmark"><time class="entry-date published" datetime="2021-09-27T12:26:08+00:00">September 27, 2021</time><time class="updated" datetime="2021-09-30T12:20:29+00:00">September 30, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/announcements/" rel="category tag">Announcements</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/events/" rel="tag">events</a>, <a href="https://wordpressfoundation.org/news/tag/hackathon/" rel="tag">hackathon</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-197414 -->
+
+<article id="post-194408" class="post-194408 post type-post status-publish format-standard hentry category-community category-programs category-updates tag-charity-hackathon tag-do_action tag-hackathon tag-karnataka tag-report">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/" rel="bookmark">do_action Karnataka 2021: A report</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p class="has-drop-cap">WordPress Community members in the state of Karnataka, India organized a do_action charity hackathon from 07 to 15 August 2021. The event, which was supported by 12 volunteers, helped create websites for 3 non-profits. do_action Karnataka was held completely online due to the COVID-19 pandemic, and it concluded symbolically on August 15th 2021 — the 75th Independence Day of India. This is the second do_action Hackathon in Karnataka — the first one being <a href="https://doaction.org/event/bengaluru-2019/">do_action Bengaluru</a>, which was held in 2019.</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-do-action wp-block-embed-do-action"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="RBSTZyrEKb"><a href="https://doaction.org/event/karnataka-2021/">Karnataka 2021</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Karnataka 2021&#8221; &#8212; do_action" src="https://doaction.org/event/karnataka-2021/embed/#?secret=edbrpiBMl1#?secret=RBSTZyrEKb" data-secret="RBSTZyrEKb" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Efforts behind <a href="https://doaction.org/event/karnataka-2021/">do_action Karnataka</a> kicked off three months prior, in April 2021. <a href="https://profiles.wordpress.org/nsuresha/">N Suresha</a>, <a href="https://profiles.wordpress.org/freewebmentor/">Prem Tiwari</a>, <a href="https://www.linkedin.com/in/ucriyaz/?originalSubdomain=in">UC Riyaz</a>, <a href="https://twitter.com/sagarvora786?lang=en">Sagar Vora</a>, <a href="https://www.linkedin.com/in/venkatesh-kumar-s-r-945b8821/">SR Venkatesh</a>, and <a href="https://profiles.wordpress.org/yoga1103/">Yogesh Londhe</a> (myself) from the WordPress Community of Karnataka, joined hands to support local non-profits by helping them build websites. The following non-profits signed up for our hackathon:&nbsp;</p>
+
+
+
+<ul class="wp-block-list"><li><strong>Luv Kush Foster Home:</strong> A foster home that aims to care for animals in need</li><li><strong>Vridhi Foundation:</strong> which aims to support the education of underprivileged children</li><li><strong>Peacespark Foundation:</strong> Welfare of women and children</li></ul>
+
+
+
+<p>12 volunteers immediately signed up to build websites for these non-profits. Not everyone could participate due to personal challenges related to COVID-19, but the teams worked hard to complete the work within the stipulated time. As a result of all that hard work, two non-profit sites were launched, and one is in the pipeline!</p>
+
+
+
+<p><strong>Peacespark Foundation:</strong> <a href="https://www.peacespark.org/">https://www.peacespark.org/</a></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="413" data-attachment-id="194409" data-permalink="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/image-3/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?fit=2048%2C1280&amp;ssl=1" data-orig-size="2048,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?fit=300%2C188&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?fit=660%2C413&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?resize=660%2C413&#038;ssl=1" alt="A screenshot of the Peacespark Foundation website created by the do_action Karnataka 2021 team." class="wp-image-194409" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?resize=1024%2C640&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?resize=768%2C480&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?resize=1536%2C960&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?w=2048&amp;ssl=1 2048w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?w=1320&amp;ssl=1 1320w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.png?w=1980&amp;ssl=1 1980w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a><figcaption><meta charset="utf-8">A screenshot of the Peacespark Foundation website created by the do_action Karnataka 2021 team.</figcaption></figure>
+
+
+
+<p>The website of Peacespark Foundation was built by <a href="https://www.linkedin.com/in/venkatesh-kumar-s-r-945b8821/">SR Venkatesh</a> (project manager) and <a href="https://profiles.wordpress.org/harishanker">Hari Shanker</a> (content writer). Venkatesh collected all the content and the photos from the non-profit, and he was also in constant communication with the team. He also single-handedly designed and developed the website for the team! Since the content manager volunteer could not join on time, Hari stepped in to prepare the content for the site. As a result, the site was ready well within the deadline, and the non-profit was happy and grateful!</p>
+
+
+
+<p><strong>Vridhi Foundation: </strong><a href="https://vridhifoundation.org/">https://vridhifoundation.org/</a>:&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="413" data-attachment-id="194410" data-permalink="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/image-1-2/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?fit=2048%2C1280&amp;ssl=1" data-orig-size="2048,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-1" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?fit=300%2C188&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?fit=660%2C413&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?resize=660%2C413&#038;ssl=1" alt="A screenshot of the Vridhi Foundation website created by the do_action Karnataka 2021 team." class="wp-image-194410" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?resize=1024%2C640&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?resize=768%2C480&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?resize=1536%2C960&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?w=2048&amp;ssl=1 2048w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?w=1320&amp;ssl=1 1320w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image-1.png?w=1980&amp;ssl=1 1980w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a><figcaption>A screenshot of the Vridhi Foundation website created by the do_action Karnataka 2021 team.</figcaption></figure>
+
+
+
+<p><a href="https://profiles.wordpress.org/nsuresha/">N Suresha</a> (project manager), along with Hussna Hussain (content writer) and <a href="https://www.linkedin.com/in/ucriyaz/?originalSubdomain=in">UC Riyaz</a> (designer) built the website for Vridhi Foundation. <a href="https://profiles.wordpress.org/mkrndmane/">Makarand Mane</a> helped with the multilingual translation plugin, the theme, and the required templates. <a href="https://profiles.wordpress.org/freewebmentor/">Prem Tiwari</a> set up the site and provided technical support during the development, as well. Together, the team worked in synergy to burn the midnight oil and deliver the site for the non-profit, which formally launched the same in a function at their premises, on August 15th!&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="306" data-attachment-id="194411" data-permalink="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/image-4/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?fit=1024%2C474&amp;ssl=1" data-orig-size="1024,474" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?fit=300%2C139&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?fit=660%2C306&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?resize=660%2C306&#038;ssl=1" alt="Representatives of the Vridhi Foundation at their website launch event on August 15, 2021" class="wp-image-194411" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?resize=300%2C139&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2021/08/image.jpeg?resize=768%2C356&amp;ssl=1 768w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a><figcaption>Representatives of the Vridhi Foundation at their website launch event on August 15, 2021</figcaption></figure>
+
+
+
+<p>Since representatives of Luv Kush foster home were out of the country during the hackathon,&nbsp; they couldn’t collaborate to give the content and the photos for the website. Most of the technical groundwork for their website is done, and it will formally be launched once the non-profit provides content for the teams.&nbsp;</p>
+
+
+
+<p>The hackathon would not be possible without the support of our kind sponsors who provided hosting, domain names, WordPress plugins/themes, and post hackathon support guarantees for all the non-profits. A big thanks to all of them! Our sponsors include:</p>
+
+
+
+<ul class="wp-block-list"><li><a href="https://givewp.com/">Give WP</a> &#8211; Who kindly sponsored a premium license for their flagship donation plugin</li><li><a href="https://yoast.com/">Yoast</a> &#8211; Who kindly sponsored a premium license for their SEO plugin</li><li><a href="https://themeisle.com/">Themeisle</a> &#8211; Who provided premium licenses for their theme</li><li><a href="https://wpjobopenings.com/">WP Job Openings</a> &#8211; Who provided a license for their job board plugin</li><li><a href="https://wpgenius.in/">WPGenius</a> &#8211; Who provided a translation plugin, templates, and themes</li><li><a href="https://www.premtiwari.in/">Prem Tiwari</a> &#8211; Who has offered post-hackathon tech support for non-profits</li><li><a href="https://bluehost.in/">Bluehost India</a> &#8211; Who provided hosting and domain names for all three non-profits</li></ul>
+
+
+
+<p>In addition to our sponsors, I wish to thank all stakeholders who helped make our event a grand success — especially our team of passionate volunteers and organizers who battled several personal challenges and a global pandemic to build an ever-lasting online presence for non-profits. Special thanks to the WordPress Foundation for supporting these do_action charity hackathons which empower non-profits across the globe, especially in these tough times.</p>
+
+
+
+<p>As we were wrapping up the event on the final day of the hackathon, I asked our team of organizers and volunteers one question: “Despite all the challenges, would you do this again?” They all answered in one resounding voice: “YES!” 🙂&nbsp;</p>
+
+
+
+<p><em>On behalf of the do_action Karnataka 2021 Organizing team,<br><a href="https://profiles.wordpress.org/yoga1103">Yogesh Londhe</a></em></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>Feeling inspired, already? You can use WordPress for social good, by organing a <a href="https://doaction.org/">do_action charity hackathon</a> in your own city! Check out <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/">our handbook</a> for more information. It just takes five minutes to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">fill out the application form</a>. So why wait? <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">Apply now</a>!</p></blockquote>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/do_action-karnataka-2021-a-report/" rel="bookmark"><time class="entry-date published" datetime="2021-08-27T05:45:43+00:00">August 27, 2021</time><time class="updated" datetime="2021-08-27T06:17:33+00:00">August 27, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/yogesh/">Yogesh Londhe</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/hackathon/" rel="tag">hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/karnataka/" rel="tag">karnataka</a>, <a href="https://wordpressfoundation.org/news/tag/report/" rel="tag">report</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-194408 -->
+
+<article id="post-191803" class="post-191803 post type-post status-publish format-standard hentry category-announcements category-programs tag-55 tag-charity-hackathon tag-do_action tag-events tag-hackathon tag-india tag-nigeria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/announcement-online-do_action-hackathons-in-india-and-nigeria/" rel="bookmark">Announcement: Online do_action hackathons in India and Nigeria</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p class="has-drop-cap">Following the success of <a href="https://wordpressfoundation.org/2020/open-source-workshops-november-2020-report/">online do_action events worldwide in 2020</a>, the WordPress Foundation is doubling down on <a href="https://wordpressfoundation.org/">its mission</a> by supporting more charity hackathons in 2021. Even as COVID-19 continues to wreck havoc around the world, our community organizers in India and Nigeria are working hard to empower local non profits by helping them build a stellar online presence. We are excited to announce <a href="https://doaction.org/event/karnataka-2021/">do_action Karnataka 2021</a> and <a href="https://doaction.org/event/nigeria-2021/">do_action Nigeria 2021</a>!</p>
+
+
+
+<h3 class="wp-block-heading">do_action Karnataka (India) 2021</h3>
+
+
+
+<p>do_action Karnataka will be a week-long online hackathon which is being planned on: 07 – 15 Aug 2021. WordPress enthusiasts in the state of Karnataka, India are coming together to organize this event, and the efforts are led by the <a href="https://www.meetup.com/BengaluruWordPress/">WordPress Bengaluru meetup group</a>. Bengaluru, the capital city of Karnataka, has already seen a <a href="https://doaction.org/event/bengaluru-2019/">successful do_action event in 2019</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="495" data-attachment-id="56768" data-permalink="https://wordpressfoundation.org/news/2019/charity-hackathons-september-2019-report/bengaluru/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?fit=2560%2C1920&amp;ssl=1" data-orig-size="2560,1920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.7&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Moto G (5) Plus&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1561810748&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.28&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="bengaluru" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?fit=660%2C495&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru.jpg?resize=660%2C495&#038;ssl=1" alt="do_action Bengaluru 2019" class="wp-image-56768" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?resize=2048%2C1536&amp;ssl=1 2048w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?w=1320&amp;ssl=1 1320w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/bengaluru-2560.jpg?w=1980&amp;ssl=1 1980w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a><figcaption>A snapshot from do_action Bengaluru 2019</figcaption></figure>
+
+
+
+<p>The hackathon has shortlisted three Non-profits: Luv Kush Foster Home (a foster home that aims to care for animals in need), Peacespark Foundation (which aims to support the education of underprivileged children), and Vridhi Foundation (Women and children welfare). The event has also put forth its call for participants/volunteers &#8211; if you would like to support non-profits by helping them build websites, simply <a href="https://doaction.org/event/karnataka-2021/">fill up the form on the event website</a>. Read the <a href="https://doaction.org/participants-guide/">participant&#8217;s guide</a> for more details on what is expected of you when you sign up. You can also support the event by signing up as a sponsor. Please email the organizers at: <a href="mailto:bengaluru@doaction.org">karnataka@doaction.org</a> if you are interested in sponsoring the event.</p>
+
+
+
+<p>You can find more details about the event in their website: </p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-do-action wp-block-embed-do-action"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="scIzzsXiSc"><a href="https://doaction.org/event/karnataka-2021/">Karnataka 2021</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Karnataka 2021&#8221; &#8212; do_action" src="https://doaction.org/event/karnataka-2021/embed/#?secret=edbrpiBMl1#?secret=scIzzsXiSc" data-secret="scIzzsXiSc" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading">do_action Nigeria 2021</h3>
+
+
+
+<p>Following the spectacular success of <a href="https://doaction.org/event/nigeria-2020/">do_action Nigeria 2020</a>, the vibrant WordPress community of Nigeria is back once again to organize an online do_action charity hackathon from October 25 through October 31, 2021! For the last three years, local communities in Nigeria have organized in-person do_action WordPress Charity Hackathons in several cities, where they had spent an entire day building brand new websites for a selection of local charities and NGOs. This year, for the second annual regional do_action Nigeria event, the team aims to repeat the same in an online format, for a handful of charitable organizations! </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="495" data-attachment-id="56765" data-permalink="https://wordpressfoundation.org/news/2019/charity-hackathons-september-2019-report/lagos-2/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?fit=2560%2C1920&amp;ssl=1" data-orig-size="2560,1920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.7&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;SM-A505F&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1563623905&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.93&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.04&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="lagos" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?fit=660%2C495&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos.jpg?resize=660%2C495&#038;ssl=1" alt="do_action Lagos2019" class="wp-image-56765" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?resize=2048%2C1536&amp;ssl=1 2048w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?w=1320&amp;ssl=1 1320w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/09/lagos-2560.jpg?w=1980&amp;ssl=1 1980w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a><figcaption>Participants are building websites for non-profits at do_action Lagos 2019.</figcaption></figure>
+
+
+
+<p>do_action Nigeria has currently opened up its call for non-profits. If you represent a non-profit based out of Nigeria which does not have an online presence, please submit the application <a href="https://doaction.org/event/nigeria-2021/">on the event website</a>. Applications close on the 15th September 2021. You can also support the event by sponsoring the event, please visit the <a href="https://doaction.org/event/nigeria-2021/">do_action Nigeria website</a> for more details. You can also email the organizers at: <a href="mailto:nigeria@doaction.org">nigeria@doaction.org</a> if you would like to support the event.<br></p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-do-action wp-block-embed-do-action"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="4JifbCl1M5"><a href="https://doaction.org/event/nigeria-2021/">Nigeria 2021</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&#8220;Nigeria 2021&#8221; &#8212; do_action" src="https://doaction.org/event/nigeria-2021/embed/#?secret=OCAYI1yT1z#?secret=4JifbCl1M5" data-secret="4JifbCl1M5" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading">Organize a do_action charity hackathon in your region</h3>
+
+
+
+<p>Are you excited about these upcoming do_action events? Would you like to support your local community by organizing a do_action event for your region? <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">Send in your application</a> right away! You can read more about do_action in the <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/">event handbook</a>. Don’t&nbsp; hesitate to ask any questions you may have in the comments.&nbsp;</p>
+
+
+
+<p>Thank you for all that you do to empower the global community through WordPress!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/announcement-online-do_action-hackathons-in-india-and-nigeria/" rel="bookmark"><time class="entry-date published updated" datetime="2021-07-26T15:32:45+00:00">July 26, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/announcements/" rel="category tag">Announcements</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/2021/" rel="tag">2021</a>, <a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/events/" rel="tag">events</a>, <a href="https://wordpressfoundation.org/news/tag/hackathon/" rel="tag">hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/india/" rel="tag">India</a>, <a href="https://wordpressfoundation.org/news/tag/nigeria/" rel="tag">nigeria</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-191803 -->
+
+<article id="post-184010" class="post-184010 post type-post status-publish format-standard hentry category-announcements category-community category-programs tag-charity-hackathon tag-do_action tag-hackathon tag-online-event">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/announcement-upcoming-live-discussion-on-do_action-charity-hackathons/" rel="bookmark">Announcement: Upcoming live discussion on do_action charity hackathons</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>This live discussion has concluded. You can find a video recording of the live discussion on this post or <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=pCg47iuHgBI" target="_blank">watch it directly on YouTube</a> and <a href="https://wordpress.tv/2021/04/13/tuesday-training-how-to-organize-an-online-do_action-charity-hackathon/">on WordPress.tv</a>. Captions and a full transcript of the video will be made available shortly.</p></blockquote>
+
+
+
+<p class="has-drop-cap">Over the past few months, many community organizers have expressed interest in organizing do_action charity hackathons and asked many questions about the event to Community deputies. In order to address these questions &#8211; some members of the WordPress Community are organizing a live <a href="https://make.wordpress.org/community/tag/tuesdaytrainings/">Tuesday Training</a> discussion on <a href="https://make.wordpress.org/community/2021/04/09/tuesday-training-announcement-how-to-organize-an-online-do_action-charity-hackathon/">How to organize do_action charity hackathons</a>!</p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://profiles.wordpress.org/harishanker" target="_blank">Hari Shanker</a>, <a rel="noreferrer noopener" href="https://profiles.wordpress.org/hlashbrooke" target="_blank">Hugh Lashbrooke</a>, <a href="https://profiles.wordpress.org/nao">Naoko Takano</a>, and <a rel="noreferrer noopener" href="https://profiles.wordpress.org/yoga1103" target="_blank">Yogesh Londhe</a> – who are all experienced do_action hackathon organizers, will participate in this Live discussion on do_action charity hackathons. The event, which will be streamed LIVE on the&nbsp;<a href="https://www.youtube.com/WordCampCentral">WordCamp Central YouTube channel</a> on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210413T0200">Tuesday, April 13, 2021, 02:00 UTC</a>, is open to all! Community members can also participate in the discussion by asking questions in the live chat, which will be answered by the panelists live, during the session!</p>
+
+
+
+<h2 class="wp-block-heading">What are do_action charity hackathons?</h2>
+
+
+
+<p><a href="https://www.google.com/search?q=do_action+handbook&amp;oq=do_action+handbook&amp;aqs=chrome..69i57j69i60l3.2453j0j4&amp;sourceid=chrome&amp;ie=UTF-8">do_action hackathons</a> are community-organized events that are focused on using WordPress to give deserving charitable organizations their own online presence. Each do_action event includes participants from the local WordPress community coming together to plan and build brand new websites for a number of local organizations in one day. Due to the COVID-19 pandemic, <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/organising-an-online-do_action-event/">do_action hackathons have moved online</a>. </p>
+
+
+
+<p>In this session, we talk about do_action events, and their importance in this post-pandemic world, and on how to effectively organize an online do_action hackathon.</p>
+
+
+
+<h2 class="wp-block-heading">Watch the discussion!</h2>
+
+
+
+<p>The live discussion has concluded, but you can catch a recording of the session below.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-wordpress-tv wp-block-embed-wordpress-tv wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="VideoPress Video Player" aria-label='VideoPress Video Player' width='660' height='371' src='https://video.wordpress.com/embed/VEKLpKZW?hd=1&amp;cover=1' frameborder='0' allowfullscreen allow='clipboard-write'></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1674852142'></script>
+</div></figure>
+
+
+
+<p><s><strong>Date and time:</strong>&nbsp;<meta charset="utf-8"><a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210413T0200">Tuesday April 13, 2021, 02:00 UTC</a> (Click to view in your local time)<br><em>You can sign up for notifications on the YouTube live link below!</em></s></p>
+
+
+
+<p><s>In case the timing is off, and if you will not be able to join the live event, fret not! The <a href="https://www.youtube.com/watch?v=pCg47iuHgBI">event recording will be available on YouTube</a>, and will soon be uploaded to <a rel="noreferrer noopener" href="https://wordpress.tv/" target="_blank">WordPress.tv</a> as well!</s> <br>As mentioned above,  while the live discussion has concluded, don&#8217;t forget to check out the recording of the live discussion above.  We are working on adding captions for the video and will share a transcript of the same, shortly.</p>
+
+
+
+<p>We hope that this session was useful. We strongly encourage you to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">organize a do_action charity hackathon</a> to support your local non-profits by giving them a WordPress-powered online presence. Thank you for all that you do to support the global WordPress Community!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/announcement-upcoming-live-discussion-on-do_action-charity-hackathons/" rel="bookmark"><time class="entry-date published" datetime="2021-04-12T15:10:38+00:00">April 12, 2021</time><time class="updated" datetime="2021-04-19T08:02:41+00:00">April 19, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/announcements/" rel="category tag">Announcements</a>, <a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/hackathon/" rel="tag">hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/online-event/" rel="tag">online event</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-184010 -->
+
+<article id="post-182733" class="post-182733 post type-post status-publish format-standard hentry category-community category-updates tag-charity-hackathon tag-do_action tag-hackathon">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/5-tips-for-organizing-a-successful-online-do_action-charity-hackathon/" rel="bookmark">5 tips for organizing a successful online do_action charity hackathon</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p>In 2020, unfazed by the COVID-19 pandemic, <a href="https://wordpressfoundation.org/2020/charity-hackathons-august-2020-report/">community organizers rallied together and worked hard to give a WordPress-powered web presence for charities</a> through <a href="https://doaction.org/">online charity hackathons</a>. Our passionate and resilient community members are pulling out all stops this year to continue the good work. We already have two applications for do_action events in the queue, with more in the pipeline! This post aims to encourage all our zealous organizers with tips on how best to organize successful <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/organising-an-online-do_action-event/">online do_action charity hackathons</a>.</p>
+
+
+
+<ol class="wp-block-list"><li><strong>Recruit a core team and prepare an event plan</strong><br>Enlist a team of 5-10 members to wrangle the event. Much like a WordCamp, organizers need to plan do_action events down to the last detail. Make sure you have a plan for the entire event lifecycle &#8211; including <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/gathering-non-profits/">selecting nonprofits</a>, <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/getting-particpants/">finding volunteers</a>, <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/finding-sponsors/">finding sponsors</a>, task management, and execution. For inspiration, check out how the <a href="https://github.com/doactionjp/do_action_guideline">do_action Japan team came up with a plan for the event beforehand</a>! Having a solid communication strategy and setting deadlines is equally important. Finding answers to questions like: “<em>When do volunteer teams meet?”,  “How often should there be check-ins?”,  “How do we track tasks?”,  “How do we measure progress?” </em>and<em> “ What deadlines do we need to meet?” </em>for instance, will help in devising a strategy.</li><li><strong>Finding non-profits and volunteers </strong><br><a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/gathering-non-profits/">Finding eligible non-profits</a> for your event could be a challenge. When your event publishes the call for non-profits, share it widely on social media. Since this is a charitable event, we have noticed that getting PR from local news media outlets is a lot easier. You might also want to reach out to Non-profit organizations and offer assistance proactively. You can follow the same approach for volunteer recruitment too.</li><li><strong>Fix your collaboration tools and communication strategy<br></strong>Since this will be an online event, you will need the right collaboration tools to make the event successful. <strong>Please note: A doaction.org G Suite/Google Workspace account will be provided to all do_action event organizers in 2021 and beyond! Feel free to use that account for all your needs. Check out </strong><a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/google-workspace-account-for-do_action-events/"><strong>the handbook page for more information</strong></a><strong>.</strong> Here are some tools that you can use for your event:<ul><li>doaction.org website (call for nonprofits &amp; hackathon participants)</li><li>Slack (overall event prep, communication on the event days) &#8211; A free plan will be sufficient.</li><li>Zoom (event organizer &amp; inter-team meetings, opening/closing remarks) &#8211; <a href="https://make.wordpress.org/community/handbook/meetup-organizer/getting-started/special-virtual-events-zoom-request/">WordPress Community zoom accounts</a> can be used. </li><li><a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/google-workspace-account-for-do_action-events/">Google Workspace tools</a> (provided to all 2021 organizers in the <a href="mailto:location@doaction.org">location@doaction.org</a> format) &#8211; Gmail (inquiries &amp; sponsor communication), Google Forms (call for organizers &amp; sponsors, post-event survey), Google Sheets (task &amp; data management), Google Docs (collaborative editing of documents, Google Drive (for storage needs),  and Google Slides (opening/closing remarks presentation)</li><li>WordPress.com P2 &#8211; for task management</li><li>Trello &#8211; for task management.</li><li>Figma (design)</li></ul></li><li><strong>Finding sponsors<br></strong>For online do_action events, organizers need not worry about venue or catering expenses. Hence, sponsorship benefits for these events can be passed along directly to non-profits. Most WordPress companies are passionate about supporting non-profits, and providing product/service licenses is a cost-effective way for them to support the community. Consider reaching out to specific companies as per your needs. Sponsorship benefits that do_action events in 2020 had availed include:<ul><li>Free domain and web hosting for non-profits</li><li>Sponsored premium plugins and themes (Only 100% GPL Compliant themes and plugins are allowed)</li><li>Sponsored website services (backups, caching, security, optimization, etc.)</li></ul></li><li><strong>Find a way to offer post-event support for non-profit websites<br></strong>Make sure that once the event is over, each non-profit is trained on how to use and update the site. Perhaps a few volunteers could provide post-event support for a short while (while ensuring that the right expectations are set on both sides). Offering post-event support as a sponsorship benefit could also be a solution to that problem.</li></ol>
+
+
+
+<p>Does all of this sound exciting? Would you like to support your local community by organizing a do_action event? <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">Send in your application</a> right away! You can read more about do_action in the <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/">event handbook</a>. Thank you for all that you do to support the global community through WordPress.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/5-tips-for-organizing-a-successful-online-do_action-charity-hackathon/" rel="bookmark"><time class="entry-date published updated" datetime="2021-03-25T03:50:25+00:00">March 25, 2021</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/charity-hackathon/" rel="tag">charity hackathon</a>, <a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/hackathon/" rel="tag">hackathon</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-182733 -->
+
+<article id="post-172229" class="post-172229 post type-post status-publish format-standard hentry category-announcements category-community category-programs category-updates tag-do_action tag-intro-to-open-source tag-introduction-to-open-source">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2021/do_action-hackathons-and-open-source-workshops-in-2021/" rel="bookmark">do_action hackathons and open-source workshops in 2021</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p>In 2020, we saw do_action events and open-source workshops move online. Around the world, community members organized 5 do_action hackathons (<a href="https://wordpressfoundation.org/2020/charity-hackathons-august-2020-report/">4 of which were online</a>) and a handful of <a href="https://wordpressfoundation.org/2020/open-source-workshops-november-2020-report/">open-source workshops</a> last year. In moving these events online, community organizers not only brought their WordPress community closer together, but they were also able to make a positive impact on their local or regional community in an exceptionally-difficult year.&nbsp;&nbsp;</p>
+
+
+
+<p>Seeing this impact, we would like to help more organizers host even more of these online charity hackathons (do_action events) and Introduction to Open Source workshops in 2021. This post shares more information for community organizers who would like to organize do_action events in 2021.</p>
+
+
+
+<h3 class="wp-block-heading">do_action charity hackathons</h3>
+
+
+
+<p>Based on feedback from the community members, <a href="https://wordpressfoundation.org/2020/charity-hackathons-august-2020-report/">do_action events so far have been quite impactful</a> in how they bring participants together to help non-profits establish an online presence, something all the more significant in 2021. Here is how we plan to support do_action events in 2021:</p>
+
+
+
+<ul class="wp-block-list"><li><strong>Improving the online do_action event documentation: </strong>The community team is currently working on revamping the <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/organising-an-online-do_action-event/">documentation for online do_action events</a> to include tips on remote collaboration, using collaboration tools, remote project management etc. Additionally, we will be reaching out to past do_action organizers to share recaps and help share task lists to help organizers get used to the online event format.&nbsp;</li><li><strong>Sponsored accounts:</strong> Organizers can reserve and use <a href="https://make.wordpress.org/community/handbook/meetup-organizer/getting-started/special-virtual-events-zoom-request/">Community-sponsored Zoom Pro accounts</a> for their events.&nbsp;</li><li><strong>Countrywide do_action events: </strong>There were <a href="https://wordpressfoundation.org/2020/charity-hackathons-august-2020-report/">a few countrywide do_action</a> events in 2020. More regional/countrywide events are encouraged.&nbsp;</li><li><strong>Linking do_action events with WordCamps and mentoring: </strong>Since WordCamps are also online, organizers can organize do_action events in tandem with their online WordCamps, for more impact. Similarly, new do_action organizers will get mentoring from past organizers/mentors/community deputies.</li><li><strong>Technology changes: </strong>The following changes will be implemented on the doaction.org website in 2021 to support our organizers in a better way:&nbsp;<ul><li>doaction.org to Google Workspace / G Suite (so that organizers can use custom emails &#8211; get access to a branded Google Workspace account) &#8211; <em>Due March 2021</em></li><li>Doaction.org will be modified to support multiple event dates. &#8211; <em>Due June 2021</em></li><li>The do_action application will be moved to doaction.org.- <em>Due June 2021</em></li></ul></li></ul>
+
+
+
+<p>Does all of this sound exciting? If you would like to organize a do_action event in your locality, please <a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/do_action-charity-hackathon/do_action-event-application/">send in your application through this form</a>! Community deputies will get back to you shortly to take it forward.</p>
+
+
+
+<h3 class="wp-block-heading">Introduction to Open-source workshops</h3>
+
+
+
+<p>Introduction to Open Source workshops help spread knowledge and understanding of the open web and open source. They have also been instrumental in onboarding new contributors to WordPress. With the <a href="https://learn.wordpress.org/">Learn WordPress</a> workshops on<a href="https://learn.wordpress.org/workshop/introduction-to-open-source/"> Introduction to Open-source</a>, meetup groups could host a watch party of the recorded workshop or <a href="https://make.wordpress.org/community/2020/12/08/tuesday-trainings-how-to-organize-a-successful-discussion-group/">organize a discussion group</a>. Here’s how community members can organize open-source workshops in 2021.&nbsp;</p>
+
+
+
+<ul class="wp-block-list"><li>Community members can now host <a href="https://learn.wordpress.org/workshop/introduction-to-open-source/">Introduction to Open-source workshop</a> discussion groups in the <a href="https://www.meetup.com/learn-wordpress-discussions/">Learn WordPress meetup group</a>. If you would like to host a discussion group for a global audience, please <a href="https://learn.wordpress.org/discussion-groups/">apply to become a discussion group leader</a>.</li><li><a href="https://learn.wordpress.org/lesson-plan/what-is-open-source/">Lesson plans</a> for the Introduction to Open-source workshops are available! Any meetup group can plan their open-source workshop based on the lesson plans. </li><li>Meetup groups worldwide are also encouraged to<a href="https://make.wordpress.org/community/handbook/virtual-events/organize-learn-wordpress-discussion-groups-for-your-wordpress-meetup/"> organize an Introduction to WordPress watch party + discussion group</a> (based on the Learn WordPress workshop on <a href="https://learn.wordpress.org/workshop/introduction-to-open-source/">Introduction to Open-source</a>) as part of their meetup (it does not need any prior approval). </li></ul>
+
+
+
+<p>Organizers can feature these workshops and discussion groups in the WordPress Foundation blogs by <a href="https://make.wordpress.org/community/contact/">reaching out to the community team</a>. Since open-source workshops are online, there is no cost involved in organizing them, but organizers can always <a href="https://make.wordpress.org/community/handbook/meetup-organizer/getting-started/special-virtual-events-zoom-request/">request paid zoom accounts for their event</a>.&nbsp;</p>
+
+
+
+<p>The WordPress community has the power to uplift and empower people across the world by organizing these events. Our community organizers have already done stellar work in 2020, despite the challenges posed by the COVID-19 pandemic. As we step into 2021, we look forward to supporting and seeing what organizers do with these online events to help their communities!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2021/do_action-hackathons-and-open-source-workshops-in-2021/" rel="bookmark"><time class="entry-date published" datetime="2021-01-29T12:55:28+00:00">January 29, 2021</time><time class="updated" datetime="2024-10-25T05:59:40+00:00">October 25, 2024</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/announcements/" rel="category tag">Announcements</a>, <a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/intro-to-open-source/" rel="tag">intro to open source</a>, <a href="https://wordpressfoundation.org/news/tag/introduction-to-open-source/" rel="tag">introduction to open-source</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-172229 -->
+
+<article id="post-93819" class="post-93819 post type-post status-publish format-standard hentry category-announcements category-community category-programs category-updates tag-do_action tag-report">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2020/charity-hackathons-august-2020-report/" rel="bookmark">Charity Hackathons: August 2020 Report</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p>In September 2019, <a href="https://wordpressfoundation.org/2019/charity-hackathons-in-2018/">we shared</a> about the progress of <a href="https://wordpressfoundation.org/2019/charity-hackathons-september-2019-report/">do_action charity hackathons </a>for the year. We went on to work with 15 local communities to organize charity hackathons in 2019, which is a remarkable improvement over the 12 events from 2018.</p>
+
+
+
+<p>2020 brought in some unexpected challenges for community organizers across the world due to COVID-19. By March 2020, the pandemic had spread out to most parts of the world, and hence many organizers were forced to make the difficult decision to cancel their planned in-person events. Despite these challenges, community organizers worldwide joined hands with a firm resolve to help charities by organizing online do_action events. As a result, we have seen three online do_action events in 2020 so far, with more events in the pipeline.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="509" data-attachment-id="93820" data-permalink="https://wordpressfoundation.org/news/2020/charity-hackathons-august-2020-report/image/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?fit=1024%2C790&amp;ssl=1" data-orig-size="1024,790" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="do_action Japan" data-image-description="" data-image-caption="&lt;p&gt;Screenshot of the do_action Japan 2021 video&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?fit=300%2C231&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?fit=660%2C509&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?resize=660%2C509&#038;ssl=1" alt="" class="wp-image-93820" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?resize=300%2C231&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.jpeg?resize=768%2C593&amp;ssl=1 768w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption><em>Volunteers of do_action Japan doing a virtual wave.</em></figcaption></figure>
+
+
+
+<p></p>
+
+
+
+<p>In pre-COVID-19 times, do_action events were local &#8211; with volunteers and NGOs belonging to the respective cities. However, since online events are location-agnostic, organizers decided to experiment with larger do_action events that elicited participants spanning an entire country! The first of such events &#8211; do_action Japan &#8211; was a success! The event was followed by do_action South Africa in June and do_action India in August. Community organizers have embraced the online event format and are excited about the process.</p>
+
+
+
+<p>As geographical restrictions had eased, community organizers went a step ahead and used the opportunity to help out charities located in far-flung areas. Instead of a single day event, local communities experimented with spreading out the event over multiple days or weeks. Organizers, volunteers, and charities also used tools such as Slack and Zoom to collaborate during the event.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="371" data-attachment-id="93821" data-permalink="https://wordpressfoundation.org/news/2020/charity-hackathons-august-2020-report/image-1/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?fit=1600%2C900&amp;ssl=1" data-orig-size="1600,900" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-1" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?fit=300%2C169&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?fit=660%2C371&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?resize=660%2C371&#038;ssl=1" alt="" class="wp-image-93821" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?w=1600&amp;ssl=1 1600w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image-1.jpeg?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption><em>A screenshot from a do_action India launch event.</em></figcaption></figure>
+
+
+
+<p></p>
+
+
+
+<p>The three events that have already taken place in 2020 saw 359 participants helping out 23 non-profits build their brand new websites. Volunteers also trained these Non-profits on how to use their websites after each event.</p>
+
+
+
+<p>Here are some of the websites built at these do_action events:</p>
+
+
+
+<ul class="wp-block-list"><li><a href="https://minchokubuy.org/">Minchoku Buy</a></li><li><a href="https://tlasa.org/">Toy Library Association South Africa</a></li><li><a href="https://engawaya.org/">Engawa Family</a></li><li><a href="https://sangcollective.org/">SANG Collective</a></li><li><a href="https://note-movies.com/">Note movies</a></li><li><a href="https://outliers.org.za/">Outliers</a></li><li><a href="https://mrida.org/">Mrida Foundation</a></li><li><a href="https://khethiwekids.co.za/">Khethiwe</a></li><li><a href="https://haveaheart.org.za/">Have a Heart Equine sanctuary</a></li><li><a href="https://www.khetee.org/">Khetee</a></li></ul>
+
+
+
+<p>More than strengthening these charities’ web presence, the websites help these charities in furthering their mission by assisting them to attract volunteers, teach courses, receive donations, and help more people. Our community members’ excellent work goes the extra mile in taking forward the mission and vision of these organizations.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="440" data-attachment-id="93822" data-permalink="https://wordpressfoundation.org/news/2020/charity-hackathons-august-2020-report/image-2/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?fit=1600%2C1066&amp;ssl=1" data-orig-size="1600,1066" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?resize=660%2C440&#038;ssl=1" alt="" class="wp-image-93822" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?resize=1536%2C1023&amp;ssl=1 1536w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?w=1600&amp;ssl=1 1600w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2020/08/image.png?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption><em>Volunteers of do_action South Africa are helping non-profits learn how to use the WordPress block editor.</em></figcaption></figure>
+
+
+
+<p></p>
+
+
+
+<p>We live in challenging times, where the actions of a global community have the power to uplift others’ lives. Unfazed by the challenges of COVID-19, our communities have done stellar work to support charities that contribute to the greater good. As we move forward to the rest of 2020, we are excited to see what our communities do for even more non-profit organizations, and how the do_action program will grow and adapt to an online format!</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2020/charity-hackathons-august-2020-report/" rel="bookmark"><time class="entry-date published updated" datetime="2020-08-28T08:33:35+00:00">August 28, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/harishanker/">Hari Shanker</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/announcements/" rel="category tag">Announcements</a>, <a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/report/" rel="tag">report</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-93819 -->
+
+<article id="post-46797" class="post-46797 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-programs category-updates tag-do_action tag-report">
+	
+	<a class="post-thumbnail" href="https://wordpressfoundation.org/news/2019/charity-hackathons-in-2018/" aria-hidden="true">
+		<img width="825" height="510" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?resize=825%2C510&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Charity Hackathons in 2018" decoding="async" loading="lazy" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?resize=825%2C510&amp;ssl=1 825w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?zoom=2&amp;resize=825%2C510&amp;ssl=1 1650w" sizes="auto, (max-width: 825px) 100vw, 825px" data-attachment-id="48288" data-permalink="https://wordpressfoundation.org/news/2019/charity-hackathons-in-2018/img_3204/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?fit=1920%2C1280&amp;ssl=1" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;ITA@STARGEM MEDIA&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG_3204" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2019/03/IMG_3204.jpg?fit=660%2C440&amp;ssl=1" />	</a>
+
+		
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2019/charity-hackathons-in-2018/" rel="bookmark">Charity Hackathons in 2018</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p class="has-drop-cap">A few months ago <a href="https://wordpressfoundation.org/2018/charity-hackathons-2018-mid-year-report/">we reported</a> on the progress of the <a href="https://doaction.org/">do_action charity hackathon event series</a> so far in 2018 — at that stage of the year, we had supported eight local communities to help them run their own do_action events. By the time the year came to a close, we had worked with a further four communities, making twelve total do_action events for 2018.</p>
+
+
+
+<p>As the program grew through the second half of the year, the additional communities that had organised do_action events were <a href="https://doaction.org/event/stuttgart-2018/">Stuttgart</a>, <a href="https://doaction.org/event/beirut-2018/">Beirut</a>, <a href="https://www.sashaendoh.com/do_action_mtl-2018-wordpress-hackathon-for-non-profits-is-a-wrap/">Montreal</a>, and <a href="http://anthonygreat.com/doaction-2018-debrief/">Port Harcourt</a>. Montreal and Beirut were both returning communities who held their do_action event for the second year in a row.</p>
+
+
+
+ <a href="https://wordpressfoundation.org/news/2019/charity-hackathons-in-2018/#more-46797" class="more-link">Continue reading <span class="screen-reader-text">Charity Hackathons in 2018</span></a>	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2019/charity-hackathons-in-2018/" rel="bookmark"><time class="entry-date published" datetime="2019-03-26T17:53:16+00:00">March 26, 2019</time><time class="updated" datetime="2019-03-26T17:59:13+00:00">March 26, 2019</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/hlashbrooke/">Hugh Lashbrooke</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/community/" rel="category tag">Community</a>, <a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a>, <a href="https://wordpressfoundation.org/news/category/updates/" rel="category tag">Updates</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/report/" rel="tag">report</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-46797 -->
+
+<article id="post-36915" class="post-36915 post type-post status-publish format-standard has-post-thumbnail hentry category-programs tag-do_action tag-report">
+	
+	<a class="post-thumbnail" href="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/" aria-hidden="true">
+		<img width="825" height="510" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?resize=825%2C510&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Charity Hackathons: 2018 Mid-year Report" decoding="async" loading="lazy" data-attachment-id="36970" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/bristol/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=1500%2C1000&amp;ssl=1" data-orig-size="1500,1000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D5300&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1519399566&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;18&quot;,&quot;iso&quot;:&quot;1600&quot;,&quot;shutter_speed&quot;:&quot;0.0125&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="bristol" data-image-description="" data-image-caption="&lt;p&gt;Participants at the Bristol do_action event &lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=660%2C440&amp;ssl=1" />	</a>
+
+		
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/" rel="bookmark">Charity Hackathons: 2018 Mid-year Report</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p>At the end of 2017 <a href="https://wordpressfoundation.org/2017/charity-hackathons-in-2017/">we reported</a> on how the recently introduced <a href="https://doaction.org/">do_action charity hackathon event series</a> had been going — by the end of the year, we had worked with four local communities to help them run their own do_action events, which was a great start to the program and one that we were looking to build on for 2018.</p>
+
+
+
+<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="440" data-attachment-id="36970" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/bristol/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=1500%2C1000&amp;ssl=1" data-orig-size="1500,1000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D5300&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1519399566&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;18&quot;,&quot;iso&quot;:&quot;1600&quot;,&quot;shutter_speed&quot;:&quot;0.0125&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="bristol" data-image-description="" data-image-caption="&lt;p&gt;Participants at the Bristol do_action event &lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?resize=660%2C440&#038;ssl=1" alt="" class="wp-image-36970" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?w=1500&amp;ssl=1 1500w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/bristol.jpg?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption>Participants at the Bristol do_action event </figcaption></figure>
+
+
+
+<p>And build on it we did! With word getting out about the events and more people in the WordPress community finding out about them, we have already worked <a href="https://doaction.org/past-events/">seven different communities</a> who ran their own local do_action events — starting with Bristol in February, followed by Pune, Zurich, McAllen, Lagos, Cape Town, and finishing with Harare at the end of July. On top of that, a further three events are scheduled for the rest of the year — Port Harcourt, Stuttgart and Montreal — with another three in pre-planning that are not yet scheduled.</p>
+
+
+
+<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="440" data-attachment-id="36963" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/zurich/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?fit=1500%2C1000&amp;ssl=1" data-orig-size="1500,1000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;Florian Ziegler&quot;,&quot;camera&quot;:&quot;LEICA Q (Typ 116)&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1524916295&quot;,&quot;copyright&quot;:&quot;\u00a9 2018 by Florian Ziegler&quot;,&quot;focal_length&quot;:&quot;28&quot;,&quot;iso&quot;:&quot;640&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="zurich" data-image-description="" data-image-caption="&lt;p&gt;The do_action event in Zurich, Switzerland&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?resize=660%2C440&#038;ssl=1" alt="" class="wp-image-36963" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?w=1500&amp;ssl=1 1500w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/zurich.jpg?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption>The do_action event in Zurich, Switzerland</figcaption></figure>
+
+
+
+<p>At the seven events that have already taken place, there were a total of 220 participants from the local communities, and they built websites for 32 different non-profit organizations in their cities.</p>
+
+
+
+<p>Some of the websites built at these events include:</p>
+
+
+
+<ul class="wp-block-list"><li><a href="https://theparentcentre.org.za/">The Parent Centre</a></li><li><a href="http://www.rgvrelief.com/">RGVRelief</a></li><li><a href="http://glocalroots.ch/">Glocal Roots</a></li><li><a href="http://autism.org.zw/">Autism Zimbabwe</a></li><li><a href="http://bristoldef.org.uk/">Bristol Disability Equality Forum</a></li><li><a href="http://silverribboncommunitypartners.org/">Silver Ribbon Community Partners</a></li><li><a href="https://reelearning.org/">REELearning</a></li><li><a href="https://inkwenkweziyouth.org.za/">Inkwenkwezi Youth</a></li><li><a href="http://www.thirdsectorsolutions.net/">Third Sector Solutions</a></li><li><a href="http://www.hermanaluna.cobaltdigital.marketing/">Hermana Luna</a></li></ul>
+
+
+
+<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="440" data-attachment-id="36965" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/mcallen/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?fit=1600%2C1066&amp;ssl=1" data-orig-size="1600,1066" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mcallen" data-image-description="" data-image-caption="&lt;p&gt;All the participants at the McAllen, TX do_action event&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?resize=660%2C440&#038;ssl=1" alt="" class="wp-image-36965" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?w=1600&amp;ssl=1 1600w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/mcallen.jpeg?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption>All the participants at the McAllen, TX do_action event</figcaption></figure>
+
+
+
+<p>Aside from these fantastic new websites, each organization also received enhanced social media profiles, newsletter integrations and easy to use donation platforms.</p>
+
+
+
+<p>In order to make sure the organizations are able to work with their new websites, each event runs training sessions for the non-profits coaching them on how to use WordPress to manage their content and get the most our of their sites.</p>
+
+
+
+<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="440" data-attachment-id="36966" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/capetown/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?fit=1500%2C1000&amp;ssl=1" data-orig-size="1500,1000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 6D&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1532190399&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;35&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.005&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="capetown" data-image-description="" data-image-caption="&lt;p&gt;Volunteers from do_action Cape Town 2018 working on charity websites&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?resize=660%2C440&#038;ssl=1" alt="" class="wp-image-36966" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?w=1500&amp;ssl=1 1500w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/capetown.jpg?w=1320&amp;ssl=1 1320w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption>Cape Town do_action teams hard at work<br/></figcaption></figure>
+
+
+
+<p>On the surface these events provide an improved online presence for each of the non-profit organizations, but they really do so much more than that. A website is essentially just code on a server, but what these organizations are getting is so much more than that — what they&#8217;re really getting is a platform that allows them to get on with the great work that they do without having to worry about the technical side of things.</p>
+
+
+
+<p>With these new websites working for them, each of the non-profits can receive donations, attract volunteers, help more people, and further their work. It is a great gift that goes beyond a bit of programming and really touches the heart of what the founders of organizations like these set out to do in the first place.</p>
+
+
+
+<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="660" height="439" data-attachment-id="36994" data-permalink="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/lagos/" data-orig-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?fit=1200%2C799&amp;ssl=1" data-orig-size="1200,799" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark III&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1531571611&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;2000&quot;,&quot;shutter_speed&quot;:&quot;0.005&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Lagos" data-image-description="" data-image-caption="&lt;p&gt;Participants at the Lagos do_action event&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?fit=660%2C440&amp;ssl=1" src="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?resize=660%2C439&#038;ssl=1" alt="" class="wp-image-36994" srcset="https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?resize=768%2C511&amp;ssl=1 768w, https://i0.wp.com/wordpressfoundation.org/content/uploads/2018/08/Lagos.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="auto, (max-width: 660px) 100vw, 660px" /><figcaption>Participants at the Lagos event</figcaption></figure>
+
+
+
+<p>As we look ahead to the rest of 2018 and beyond, we&#8217;re excited to see what our communities do for even more non-profit organizations and where the do_action program will grow from here.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://wordpressfoundation.org/news/2018/charity-hackathons-2018-mid-year-report/" rel="bookmark"><time class="entry-date published" datetime="2018-08-13T19:03:50+00:00">August 13, 2018</time><time class="updated" datetime="2018-08-13T19:03:58+00:00">August 13, 2018</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://wordpressfoundation.org/news/author/hlashbrooke/">Hugh Lashbrooke</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://wordpressfoundation.org/news/category/programs/" rel="category tag">Programs</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://wordpressfoundation.org/news/tag/do_action/" rel="tag">do_action</a>, <a href="https://wordpressfoundation.org/news/tag/report/" rel="tag">report</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-36915 -->
+
+		</main><!-- .site-main -->
+	</section><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer">
+		<div class="site-info">
+									<a href="https://wordpress.org/" class="imprint">
+				Proudly powered by WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+		<div class="jetpack-instant-search__widget-area" style="display: none">
+							<div id="jetpack-search-filters-1" class="widget jetpack-filters widget_search">			<div id="jetpack-search-filters-1-wrapper" class="jetpack-instant-search-wrapper">
+		</div></div>					</div>
+		<div class="wp-block-jetpack-cookie-consent alignwide">
+<div class="wp-block-jetpack-cookie-consent alignwide has-base-background-color has-text-color has-background" style="color:var(--wp--preset--color--contrast);padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em" role="dialog" aria-modal="true"><p>Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use.<br>To find out more, including how to control cookies, see here: <a href="https://wordpress.org/about/privacy/cookies/">Cookie Policy</a>.</p>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Accept</a></div>
+<span>365</span></div>
+</div>		<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Write a Comment..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Website</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Post Comment" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<link rel='stylesheet' id='jetpack-responsive-videos-css' href='https://wordpressfoundation.org/content/plugins/jetpack/jetpack_vendor/automattic/jetpack-classic-theme-helper/dist/responsive-videos/responsive-videos.css?minify=false&#038;ver=11ee3dcea6c676a3fed7' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}
+</style>
+<link rel='stylesheet' id='jetpack-block-cookie-consent-css' href='https://wordpressfoundation.org/content/plugins/jetpack/_inc/blocks/cookie-consent/view.css?minify=false&#038;ver=14.1' media='all' />
+<script src="https://wordpressfoundation.org/content/plugins/jetpack/jetpack_vendor/automattic/jetpack-assets/build/i18n-loader.js?minify=true&amp;ver=becd7d9884bc1b331e45" id="wp-jp-i18n-loader-js"></script>
+<script id="wp-jp-i18n-loader-js-after">
+wp.jpI18nLoader.state = {"baseUrl":"https://wordpressfoundation.org/content/languages/","locale":"en_US","domainMap":{"jetpack-admin-ui":"plugins/jetpack","jetpack-assets":"plugins/jetpack","jetpack-backup-pkg":"plugins/jetpack","jetpack-blaze":"plugins/jetpack","jetpack-boost-core":"plugins/jetpack","jetpack-boost-speed-score":"plugins/jetpack","jetpack-classic-theme-helper":"plugins/jetpack","jetpack-compat":"plugins/jetpack","jetpack-config":"plugins/jetpack","jetpack-connection":"plugins/jetpack","jetpack-explat":"plugins/jetpack","jetpack-forms":"plugins/jetpack","jetpack-image-cdn":"plugins/jetpack","jetpack-import":"plugins/jetpack","jetpack-ip":"plugins/jetpack","jetpack-jitm":"plugins/jetpack","jetpack-licensing":"plugins/jetpack","jetpack-masterbar":"plugins/jetpack","jetpack-my-jetpack":"plugins/jetpack","jetpack-password-checker":"plugins/jetpack","jetpack-plugins-installer":"plugins/jetpack","jetpack-post-list":"plugins/jetpack","jetpack-protect-models":"plugins/jetpack","jetpack-protect-status":"plugins/jetpack","jetpack-publicize-pkg":"plugins/jetpack","jetpack-search-pkg":"plugins/jetpack","jetpack-stats":"plugins/jetpack","jetpack-stats-admin":"plugins/jetpack","jetpack-sync":"plugins/jetpack","jetpack-videopress-pkg":"plugins/jetpack","jetpack-waf":"plugins/jetpack","jetpack-wordads":"plugins/jetpack","woocommerce-analytics":"plugins/jetpack"},"domainPaths":{"jetpack-admin-ui":"jetpack_vendor/automattic/jetpack-admin-ui/","jetpack-assets":"jetpack_vendor/automattic/jetpack-assets/","jetpack-backup-pkg":"jetpack_vendor/automattic/jetpack-backup/","jetpack-blaze":"jetpack_vendor/automattic/jetpack-blaze/","jetpack-boost-core":"jetpack_vendor/automattic/jetpack-boost-core/","jetpack-boost-speed-score":"jetpack_vendor/automattic/jetpack-boost-speed-score/","jetpack-classic-theme-helper":"jetpack_vendor/automattic/jetpack-classic-theme-helper/","jetpack-compat":"jetpack_vendor/automattic/jetpack-compat/","jetpack-config":"jetpack_vendor/automattic/jetpack-config/","jetpack-connection":"jetpack_vendor/automattic/jetpack-connection/","jetpack-explat":"jetpack_vendor/automattic/jetpack-explat/","jetpack-forms":"jetpack_vendor/automattic/jetpack-forms/","jetpack-image-cdn":"jetpack_vendor/automattic/jetpack-image-cdn/","jetpack-import":"jetpack_vendor/automattic/jetpack-import/","jetpack-ip":"jetpack_vendor/automattic/jetpack-ip/","jetpack-jitm":"jetpack_vendor/automattic/jetpack-jitm/","jetpack-licensing":"jetpack_vendor/automattic/jetpack-licensing/","jetpack-masterbar":"jetpack_vendor/automattic/jetpack-masterbar/","jetpack-my-jetpack":"jetpack_vendor/automattic/jetpack-my-jetpack/","jetpack-password-checker":"jetpack_vendor/automattic/jetpack-password-checker/","jetpack-plugins-installer":"jetpack_vendor/automattic/jetpack-plugins-installer/","jetpack-post-list":"jetpack_vendor/automattic/jetpack-post-list/","jetpack-protect-models":"jetpack_vendor/automattic/jetpack-protect-models/","jetpack-protect-status":"jetpack_vendor/automattic/jetpack-protect-status/","jetpack-publicize-pkg":"jetpack_vendor/automattic/jetpack-publicize/","jetpack-search-pkg":"jetpack_vendor/automattic/jetpack-search/","jetpack-stats":"jetpack_vendor/automattic/jetpack-stats/","jetpack-stats-admin":"jetpack_vendor/automattic/jetpack-stats-admin/","jetpack-sync":"jetpack_vendor/automattic/jetpack-sync/","jetpack-videopress-pkg":"jetpack_vendor/automattic/jetpack-videopress/","jetpack-waf":"jetpack_vendor/automattic/jetpack-waf/","jetpack-wordads":"jetpack_vendor/automattic/jetpack-wordads/","woocommerce-analytics":"jetpack_vendor/automattic/woocommerce-analytics/"}};
+</script>
+<script src="https://wordpressfoundation.org/content/plugins/gutenberg/build/url/index.min.js?ver=499ac283dc628dfb623e" id="wp-url-js"></script>
+<script id="jetpack-instant-search-js-before">
+var JetpackInstantSearchOptions=JSON.parse(decodeURIComponent("%7B%22overlayOptions%22%3A%7B%22colorTheme%22%3A%22light%22%2C%22enableInfScroll%22%3Atrue%2C%22enableFilteringOpensOverlay%22%3Atrue%2C%22enablePostDate%22%3Atrue%2C%22enableSort%22%3Atrue%2C%22highlightColor%22%3A%22%23FFC%22%2C%22overlayTrigger%22%3A%22submit%22%2C%22resultFormat%22%3A%22expanded%22%2C%22showPoweredBy%22%3Atrue%2C%22defaultSort%22%3A%22relevance%22%2C%22excludedPostTypes%22%3A%5B%5D%7D%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fwordpressfoundation.org%22%2C%22locale%22%3A%22en-US%22%2C%22postsPerPage%22%3A10%2C%22siteId%22%3A11585299%2C%22postTypes%22%3A%7B%22post%22%3A%7B%22singular_name%22%3A%22Post%22%2C%22name%22%3A%22Posts%22%7D%2C%22page%22%3A%7B%22singular_name%22%3A%22Page%22%2C%22name%22%3A%22Pages%22%7D%2C%22attachment%22%3A%7B%22singular_name%22%3A%22Media%22%2C%22name%22%3A%22Media%22%7D%7D%2C%22webpackPublicPath%22%3A%22https%3A%5C%2F%5C%2Fwordpressfoundation.org%5C%2Fcontent%5C%2Fplugins%5C%2Fjetpack%5C%2Fjetpack_vendor%5C%2Fautomattic%5C%2Fjetpack-search%5C%2Fbuild%5C%2Finstant-search%5C%2F%22%2C%22isPhotonEnabled%22%3Atrue%2C%22isFreePlan%22%3Afalse%2C%22apiRoot%22%3A%22https%3A%5C%2F%5C%2Fwordpressfoundation.org%5C%2Fwp-json%5C%2F%22%2C%22apiNonce%22%3A%2222a600ef6a%22%2C%22isPrivateSite%22%3Afalse%2C%22isWpcom%22%3Afalse%2C%22hasOverlayWidgets%22%3Atrue%2C%22widgets%22%3A%5B%7B%22filters%22%3A%5B%7B%22name%22%3A%22Categories%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22category%22%2C%22count%22%3A5%2C%22widget_id%22%3A%22jetpack-search-filters-1%22%2C%22filter_id%22%3A%22taxonomy_0%22%7D%2C%7B%22name%22%3A%22Tags%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22post_tag%22%2C%22count%22%3A5%2C%22widget_id%22%3A%22jetpack-search-filters-1%22%2C%22filter_id%22%3A%22taxonomy_1%22%7D%2C%7B%22name%22%3A%22Year%22%2C%22type%22%3A%22date_histogram%22%2C%22count%22%3A5%2C%22field%22%3A%22post_date%22%2C%22interval%22%3A%22year%22%2C%22widget_id%22%3A%22jetpack-search-filters-1%22%2C%22filter_id%22%3A%22date_histogram_2%22%7D%5D%2C%22widget_id%22%3A%22jetpack-search-filters-1%22%7D%5D%2C%22widgetsOutsideOverlay%22%3A%5B%5D%2C%22hasNonSearchWidgets%22%3Afalse%2C%22preventTrackingCookiesReset%22%3Afalse%7D"));
+</script>
+<script src="https://wordpressfoundation.org/content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.js?minify=false&amp;ver=7699f93e2ca878e728dc" id="jetpack-instant-search-js"></script>
+<script src="//stats.wp.com/w.js?ver=202450" id="jp-tracks-js"></script>
+<script id="jetpack-carousel-js-extra">
+var jetpackSwiperLibraryPath = {"url":"https:\/\/wordpressfoundation.org\/content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/wordpressfoundation.org\/wp\/wp-admin\/admin-ajax.php","nonce":"7a19e36491","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","image_label":"Open image in full-screen.","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/wordpressfoundation.org\/wp\/wp-login.php?redirect_to=https%3A%2F%2Fwordpressfoundation.org%2Fnews%2F2021%2Flooking-back-at-2021%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
+</script>
+<script src="https://wordpressfoundation.org/content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=14.1" id="jetpack-carousel-js"></script>
+<script src="https://stats.wp.com/e-202450.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script id="jetpack-stats-js-after">
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"11585299\",\"post\":\"0\",\"tz\":\"0\",\"srv\":\"wordpressfoundation.org\",\"j\":\"1:14.1\"}") ]);
+_stq.push([ "clickTrackerInit", "11585299", "0" ]);
+</script>
+<script src="https://wordpressfoundation.org/wp/wp-includes/js/wp-embed.min.js?ver=6.8-alpha-59514" id="wp-embed-js" defer data-wp-strategy="defer"></script>
+<script src="https://wordpressfoundation.org/content/plugins/jetpack/jetpack_vendor/automattic/jetpack-classic-theme-helper/dist/responsive-videos/responsive-videos.js?minify=false&amp;ver=11ee3dcea6c676a3fed7" id="jetpack-responsive-videos-js"></script>
+<script id="jetpack-blocks-assets-base-url-js-before">
+var Jetpack_Block_Assets_Base_Url="https://wordpressfoundation.org/content/plugins/jetpack/_inc/blocks/";
+</script>
+<script src="https://wordpressfoundation.org/content/plugins/gutenberg/build/dom-ready/index.min.js?ver=222ad38e3e5e302c8bbf" id="wp-dom-ready-js"></script>
+<script src="https://wordpressfoundation.org/content/plugins/jetpack/_inc/blocks/cookie-consent/view.js?minify=false&amp;ver=14.1" id="jetpack-block-cookie-consent-js"></script>
+
+</body>
+</html>

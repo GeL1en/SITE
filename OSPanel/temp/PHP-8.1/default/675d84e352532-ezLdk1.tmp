@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Documentation &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/documentation/feed/?simply_static_page=4655" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Fri, 04 Jun 2021 12:01:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Documentation &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>Tomorrow is WordPress Translation Day 4</title>
+		<link>https://wordpress.org/news/2019/05/tomorrow-is-wordpress-translation-day-4/</link>
+		
+		<dc:creator><![CDATA[Joost de Valk]]></dc:creator>
+		<pubDate>Fri, 10 May 2019 09:17:48 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[Events]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=6961</guid>
+
+					<description><![CDATA[The fourth edition of WordPress translation day is coming up on Saturday 11 May 2019: tomorrow! Get ready for a 24-hour, global marathon dedicated to localizing the WordPress platform and ecosystem. This event takes place both online and in physical locations across the world, so you can join no matter where you are! The WordPress [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><em>The fourth edition of WordPress translation day is coming up on Saturday 11 May 2019: tomorrow! Get ready for a 24-hour, global marathon dedicated to localizing the WordPress platform and ecosystem.</em> <em>This event takes place both online and in physical locations across the world, so you can join no matter where you are! </em></p>
+
+
+
+<p>The <a href="https://make.wordpress.org/polyglots/">WordPress Polyglots Team</a> has a mission to translate and make available the software’s features into as many languages as possible. As WordPress powers more than 33% of websites, people from across the world use it in their daily life. That means there is a lot that needs translating, and into many different languages. </p>
+
+
+
+<p>On 11 May 2019, from 00:00 UTC until 23:59 UTC, <a href="https://wptranslationday.org/">WordPress Translation Day</a> aims to celebrate the thousands of volunteers who contribute to translation and internalization. The event is also an opportunity for encouraging more people to get involved and help increase the availability of themes and plugins in different languages.</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>&#8220;At the time of the last event in 2017, WordPress was being translated into 178 languages, we have now reached the 200 mark!&#8221;</p><cite>WPtranslationday.org</cite></blockquote></figure>
+
+
+
+<h2 class="wp-block-heading">What happens on WordPress Translation Day?</h2>
+
+
+
+<p>There are a number of <a href="https://wptranslationday.org/the-local-events/">local meetings all over the world</a>, as well as online talks by people from the WordPress community. More than 700 people from around the world took part in past WordPress Translation Days, and everyone welcome to join in this time around!</p>
+
+
+
+<p>Everyone is welcome to join the event to help translate and localize WordPress, no matter their level of experience. A lot is happening on the day, so join in and you will learn how to through online sessions!</p>
+
+
+
+<h3 class="wp-block-heading">What can you expect?</h3>
+
+
+
+<ul class="wp-block-list"><li><strong>Live online training</strong>: Tutorials in different languages focused on translation and <em>localization</em>, or l10n, of WordPress. These are streamed in multiple languages</li><li><strong>Localization sessions</strong>: General instruction and specifics for particular areas and languages. These sessions are streamed in multiple languages.</li><li><strong>Internalization sessions</strong>: Tutorials about optimizing the code to ease localization processes, also called <em>internationalization</em> or i18n. These sessions are streamed in English.</li><li><strong>Local events</strong>: Polyglot contributors will gather around the world for socializing, discussing, and translating together.</li><li><strong>Remote events</strong>: Translation teams that cannot gather physically, will connect remotely. They will be available for training, mentoring, and supporting new contributors. They will also engage in &#8220;translating marathons&#8221;, in which existing teams translate as many strings as they can!</li></ul>
+
+
+
+<p>A number of experienced WordPress translators and internationalization experts are part of the line-up for the livestream, joined by some first time contributors. </p>
+
+
+
+<p>Whether you have or haven&#8217;t contributed to the Polyglots before, you can join in for WordPress Translation Day. Learn more about both local and online events and stay updated through the website and social media. </p>
+
+
+
+<ul class="wp-block-list"><li><a href="https://wptranslationday.org/">WordPress Translation Day website</a></li><li><a href="https://twitter.com/translatewp">WordPress Translation Day Twitter</a></li><li><a href="https://www.facebook.com/WPTranslationDay/">WordPress Translation Day Facebook</a></li></ul>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6961</post-id>	</item>
+		<item>
+		<title>WordPress 4.9 Release Candidate 3</title>
+		<link>https://wordpress.org/news/2017/11/wordpress-4-9-release-candidate-3/</link>
+		
+		<dc:creator><![CDATA[Weston Ruter]]></dc:creator>
+		<pubDate>Tue, 14 Nov 2017 06:53:48 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[Releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=5184</guid>
+
+					<description><![CDATA[The third release candidate for WordPress 4.9 is now available. A release candidate (RC) means we think we’re done, but with millions of users and thousands of plugins and themes, it’s possible we’ve missed something. In fact, we did miss some things in RC1 and RC2. This third release candidate was not originally scheduled, but [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The third release candidate for WordPress 4.9 is now available.</p>
+<p>A release candidate (RC) means we think we’re done, but with millions of users and thousands of plugins and themes, it’s possible we’ve missed something. In fact, we did miss some things in RC1 and RC2. This third release candidate was not originally scheduled, but due a number of defects uncovered through your testing of RC2 (thank you!), we are putting out another 4.9 release candidate.</p>
+<p>We hope to ship WordPress 4.9 on <strong>Tuesday, November 14</strong> (that&#8217;s <em>tomorrow</em>) at 23:00 UTC, but we still need your help to get there. If you haven’t tested 4.9 yet, now is the time! If there are additional defects uncovered through testing between now and the release time, we may delay the 4.9 release to the following day.</p>
+<p>To test WordPress 4.9, you can use the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin or you can <a href="https://wordpress.org/wordpress-4.9-RC3.zip">download the release candidate here</a> (zip).</p>
+<p>We&#8217;ve made <a href="https://core.trac.wordpress.org/log/branches/4.9?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=42178&amp;stop_rev=42133">just over 20 changes</a> since releasing RC2 last week (as we did between RC1 and RC2). For more details about what’s new in version 4.9, check out the <a href="https://wordpress.org/news/2017/10/wordpress-4-9-beta-1/">Beta 1</a>, <a href="https://wordpress.org/news/2017/10/wordpress-4-9-beta-2/">Beta 2</a>, <a href="https://wordpress.org/news/2017/10/wordpress-4-9-beta-3/">Beta 3</a>, <a href="https://wordpress.org/news/2017/10/wordpress-4-9-beta-4/">Beta 4</a>, <a href="https://wordpress.org/news/2017/10/wordpress-4-9-release-candidate/">RC1</a>, and <a href="https://wordpress.org/news/2017/11/wordpress-4-9-release-candidate-2/">RC2</a> blog posts. A few specific areas to test in RC3:</p>
+<ul>
+<li>Switching between the Visual and Text tabs of the editor, and the syncing of the cursor between those two tabs.</li>
+<li>Overriding linting errors in the Customizer&#8217;s Additional CSS editor.</li>
+<li>Adding nav menu items for Custom Links in the Customizer.</li>
+<li>Scheduling customization drafts (stubbed posts/pages) for publishing in the Customizer.</li>
+<li>Autosave revisions for changes in the Customizer.</li>
+<li>About page styling.</li>
+</ul>
+<p><strong>Developers</strong>, please test your plugins and themes against WordPress 4.9 and update your plugin’s <em>Tested up to</em> version in the readme to 4.9. If you find compatibility problems please be sure to post to the support forums so we can figure those out before the final release — we work hard to avoid breaking things. Please see the summative <a href="https://make.wordpress.org/core/2017/11/07/wordpress-4-9-field-guide/">field guide</a> to the 4.9 <a href="https://make.wordpress.org/core/tag/4.9+dev-notes/">developer notes</a> on the <a href="https://make.wordpress.org/core/">core development blog</a>.</p>
+<p>Do you speak a language other than English? <a href="https://translate.wordpress.org/projects/wp/dev">Help us translate WordPress into more than 100 languages!</a></p>
+<p><strong>If you think you’ve found a bug</strong>, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. We’d love to hear from you! If you’re comfortable writing a reproducible bug report, <a href="https://make.wordpress.org/core/reports/">file one on WordPress Trac</a>, where you can also find <a href="https://core.trac.wordpress.org/tickets/major">a list of known bugs</a>.</p>
+<p><em>Didn&#8217;t squash them all <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f41b.png" alt="🐛" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em><br />
+<em>We want to release Tuesday</em><br />
+<em>New features not bugs <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em></p>
+<p>Thanks for your continued help testing out the latest versions of WordPress.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">5184</post-id>	</item>
+		<item>
+		<title>WordPress 4.9 Beta 3</title>
+		<link>https://wordpress.org/news/2017/10/wordpress-4-9-beta-3/</link>
+		
+		<dc:creator><![CDATA[Weston Ruter]]></dc:creator>
+		<pubDate>Thu, 19 Oct 2017 05:18:09 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[Releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=4953</guid>
+
+					<description><![CDATA[WordPress 4.9 Beta 3 is now available! This software is still in development, so we don’t recommend you run it on a production site. Consider setting up a test site just to play with the new version. To test WordPress 4.9, try the WordPress Beta Tester plugin (you’ll want “bleeding edge nightlies”). Or you can download the beta here (zip). [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>WordPress 4.9 Beta 3 is now available!</p>
+<p><strong>This software is still in development,</strong> so we don’t recommend you run it on a production site. Consider setting up a test site just to play with the new version. To test WordPress 4.9, try the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="https://wordpress.org/wordpress-4.9-beta3.zip">download the beta here</a> (zip).</p>
+<p>For more information on what’s new in 4.9, check out the <a href="https://wordpress.org/news/2017/10/wordpress-4-9-beta-1/">Beta 1</a> blog post. Since the Beta 1 release, we’ve made <a href="https://core.trac.wordpress.org/log/trunk/?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=41846&amp;stop_rev=41777&amp;limit=100&amp;sfp_email=&amp;sfph_mail=">70 changes</a> in Beta 2 and <a href="https://core.trac.wordpress.org/log/trunk/?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=41938&amp;stop_rev=41847&amp;limit=100&amp;sfp_email=&amp;sfph_mail=">92 changes</a> in Beta 3. A few of these newest changes to take note of in particular:</p>
+<ul>
+<li>The plugin/theme editors now show files in a scrollable expandable tree list. See <a href="https://core.trac.wordpress.org/ticket/24048">#24048</a>.</li>
+<li>Backwards compatibility has been improved for MediaElement.js, which is upgraded from 2.2 to 4.2. See <a href="https://core.trac.wordpress.org/ticket/42189">#42189</a>.</li>
+<li>When you create post stubs in the Customizer (such as for nav menu items, for the homepage or the posts page), if you then schedule your customized changes or save them as a draft, then these Customizer-created posts will appear in the admin as “Customization Drafts”; these drafts can be edited before your customized changes are published, at which time these posts (or pages) will also be automatically published. See <a href="https://core.trac.wordpress.org/ticket/42220">#42220</a>.</li>
+<li>Theme browsing and installation experience in the Customizer has seen some bugfixes (e.g. <a href="https://core.trac.wordpress.org/ticket/42215">#42215</a> and <a href="https://core.trac.wordpress.org/ticket/42212">#42212</a>), with some known remaining issues outstanding <a href="https://core.trac.wordpress.org/ticket/42052">in Safari</a>.</li>
+<li>There is now a callout on the dashboard to install and activate Gutenberg. See <a href="https://core.trac.wordpress.org/ticket/41316">#41316</a>.</li>
+<li>Menus in the Customizer have seen additional usability improvements. See <a href="https://core.trac.wordpress.org/ticket/36279">#36279</a> and <a href="https://core.trac.wordpress.org/ticket/42114">#42114</a>.</li>
+</ul>
+<p>Do you speak a language other than English? <a href="https://translate.wordpress.org/projects/wp/dev">Help us translate WordPress into more than 100 languages!</a></p>
+<p><strong>If you think you’ve found a bug</strong>, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. We’d love to hear from you! If you’re comfortable writing a reproducible bug report, <a href="https://make.wordpress.org/core/reports/">file one on WordPress Trac</a>, where you can also find <a href="https://core.trac.wordpress.org/tickets/major">a list of known bugs</a>.</p>
+<p><i>Many refinements<br />
+Exist within this release;<br />
+Can you find them all?</i></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">4953</post-id>	</item>
+		<item>
+		<title>Improving your plugin &#8211; Changelogs</title>
+		<link>https://wordpress.org/news/2009/07/improving-your-plugin-changelogs/</link>
+					<comments>https://wordpress.org/news/2009/07/improving-your-plugin-changelogs/#comments</comments>
+		
+		<dc:creator><![CDATA[Peter Westwood]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2009 20:28:34 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/?p=848</guid>
+
+					<description><![CDATA[We&#8217;ve recently made some changes to help improve the communication between plugin authors and plugin users about the changes that are made between versions. We feel that all software should have a changelog that details, at a high level, what changes have been made in each version so that the user can make an informed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;ve <a href="http://westi.wordpress.com/2009/06/20/changelogs-changelogs-changelogs/">recently made some changes</a> to help improve the communication between plugin authors and plugin users about the changes that are made between versions.</p>
+<p>We feel that all software should have a changelog that details, at a high level, what changes have been made in each version so that the user can make an informed decision about when to upgrade and how much testing they should do with their site.</p>
+<p>In order to make this an easy and open communication channel we have added support for a Changelog section in the plugins <code>readme.txt</code> file.  This changelog information is then displayed as a separate tab in the <a href="https://wordpress.org/extend/plugins/">plugin directory</a> and also in the back end of your WordPress blog when you view the details on a new version of a plugin.</p>
+<p>The new section is formatted as follows:</p>
+<pre class="brush: css; title: ; notranslate">
+== Changelog ==
+
+= 1.0 =
+* A change since the previous version.
+* Another change.
+
+= 0.5 =
+* List versions from most recent at top to oldest at bottom.
+</pre>
+<p>We would also like to recommend that you also provide meaningful log messages when you commit changes to the subversion repository for your plugin so that people who want to dig further into your changes can see why things are changing (At the moment is seems a large number of plugin authors leave this field blank which isn&#8217;t very helpful).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/news/2009/07/improving-your-plugin-changelogs/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">848</post-id>	</item>
+		<item>
+		<title>WordPress Backup Week</title>
+		<link>https://wordpress.org/news/2005/07/wordpress-backup-week/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Thu, 21 Jul 2005 21:23:37 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[Events]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2005/07/wordpress-backup-week/</guid>
+
+					<description><![CDATA[July 23-30 is WordPress Backup Week. The WordPress Forum and Codex are working together to remind you to backup your WordPress site and database and eat your veggies. Even if your host does it (or should be doing it) no one was ever hurt by too many backups. It should be done on a regular [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>July 23-30 is WordPress Backup Week.  The WordPress Forum and Codex are working together to remind you to <strong>backup your WordPress site and database</strong> and eat your veggies. Even if your host does it (or should be doing it) no one was ever hurt by too many backups. It should be done on a regular basis and we&#8217;re taking the time now to remind you to back it up (like a pickup truck). To help you out, we&#8217;ve put together articles on <a href="https://codex.wordpress.org/WordPress_Backups">WordPress Backups</a> and <a href="https://codex.wordpress.org/Backing_Up_Your_Database">Backing Up Your Database</a>.  If something happens to your data, we&#8217;re still here with another article on <a href="https://codex.wordpress.org/Restoring_Your_Database_From_Backup">Restoring Your Database From Backup</a>.  Of course if you have any problems, the <a href="https://www.wordpress.org/support/">WordPress Support Forum</a> is there to help.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">166</post-id>	</item>
+		<item>
+		<title>Get In The Loop</title>
+		<link>https://wordpress.org/news/2005/07/the-loop/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Sun, 17 Jul 2005 16:59:34 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2005/07/the-loop/</guid>
+
+					<description><![CDATA[The WordPress Loop is the brains behind your WordPress site. A simple yet sophisticated bit of PHP coding, it generates the content and information displayed on your site, in fact, on each template page on your site. Understanding how the Loop works and how you can customize it to your needs is covered extensively in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://codex.wordpress.org/The_Loop">The WordPress Loop</a> is the brains behind your WordPress site. A simple yet sophisticated bit of PHP coding, it generates the content and information displayed on your site, in fact, on each template page on your site. Understanding how the Loop works and how you can customize it to your needs is covered extensively in the article on <a href="https://codex.wordpress.org/The_Loop_in_Action">The Loop in Action</a>.</p>
+<p>This is just one of the more than 450 articles on the <a href="https://codex.wordpress.org/">WordPress Codex</a>, the online manual for WordPress users, available to help you.</p>
+<p>By the way, this week we&#8217;re moving the Codex to a new and fully redundant hosting situation that will guarantee 100% availability of all documentation regardless of anything happening to wordpress.org.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">165</post-id>	</item>
+		<item>
+		<title>Template Tags</title>
+		<link>https://wordpress.org/news/2005/07/template-tags/</link>
+					<comments>https://wordpress.org/news/2005/07/template-tags/#comments</comments>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Wed, 06 Jul 2005 23:01:44 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2005/07/template-tags/</guid>
+
+					<description><![CDATA[WordPress Template Tags are the backbone of your WordPress site, giving you the power to generate content on your site. Template Tags allow you to change the way the categories and date and time are posted in your post meta data section. They control how categories, Pages, and posts are displayed on your site. Almost [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://codex.wordpress.org/Template_Tags">WordPress Template Tags</a> are the backbone of your WordPress site, giving you the power to generate content on your site. Template Tags allow you to change the way the categories and date and time are posted in your <a href="https://codex.wordpress.org/Post_Meta_Data_Section">post meta data section</a>. They control how categories, <a href="https://codex.wordpress.org/Pages">Pages</a>, and posts are displayed on your site. Almost everything you see generated on your WordPress web page comes from the use of a Template Tag within a <a href="https://codex.wordpress.org/Templates">template file</a>. If you are new to Templates and Template Tags, read <a href="https://codex.wordpress.org/Stepping_Into_Template_Tags">Stepping Into Template Tags</a> to get started understanding the power of WordPress Template Tags.</p>
+<p>This is just an example of the information you will find in the <a href="https://codex.wordpress.org/">WordPress Codex</a> the official online manual for WordPress.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/news/2005/07/template-tags/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">164</post-id>	</item>
+		<item>
+		<title>Weekly Roundup</title>
+		<link>https://wordpress.org/news/2005/07/weekly-roundup/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Fri, 01 Jul 2005 06:01:40 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/?p=163</guid>
+
+					<description><![CDATA[At the last WordPress IRC meetup there was a consensus that this development blog isn&#8217;t used enough for spreading general news and information about WP, and one of the ways we&#8217;ve decided to address that is with weekly roundup posts summarizing some activity and highlighting some of the amazing resources in the Codex. The posts [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>At the last WordPress IRC meetup there was a consensus that this development blog isn&#8217;t used enough for spreading general news and information about WP, and one of the ways we&#8217;ve decided to address that is with weekly roundup posts summarizing some activity and highlighting some of the amazing resources in the <a href="https://codex.wordpress.org/">Codex</a>. The posts will be written by the community itself using the Codex, and posted every Thursday. We&#8217;ve got two bits to kick it off:</p>
+<h4>Upgrading WordPress</h4>
+<p>With this week&#8217;s announcement of a new security release for WordPress, 1.5.1.3, consider upgrading your WordPress site. You will find information and details on upgrading WordPress on the <a href="https://codex.wordpress.org/">WordPress Codex</a> at <a href="https://codex.wordpress.org/Upgrading_WordPress">Upgrading WordPress</a>.</p>
+<p>If you are considering the bigger upgrade from a previous older version, like from WordPress v1.2 to the latest version, we have a step-by-step guide that will take you through the upgrade of your site and into the new WordPress Themes at <a href="https://codex.wordpress.org/Upgrade_1.2_to_1.5">Upgrading 1.2 to the Newest Version</a>.</p>
+<h4>Volunteers Sought for Fundraising and Publicity for WordPress Activities</h4>
+<p>Exciting and fun events are coming up in the near future on the WordPress Forum and Codex and we are seeking volunteers to help with the publicity and promotion of these events and future fundraising campaigns.  If you are interested in participating, visit the <a href="https://codex.wordpress.org/Fundraising_and_Promotions">Fundraising and Promotions</a> page on the WordPress Codex and sign up.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">163</post-id>	</item>
+		<item>
+		<title>WordPress 1.5 Developers&#039; Primer</title>
+		<link>https://wordpress.org/news/2005/02/developers-primer/</link>
+		
+		<dc:creator><![CDATA[Laughinglizard]]></dc:creator>
+		<pubDate>Mon, 28 Feb 2005 07:56:58 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2005/02/wordpress-15-developers-primer/</guid>
+
+					<description><![CDATA[WordPress 1.5 is not just cool and suave on the outside, there are quite a few programming enhancements and added features for coders, hackers, plugin developers and enthusiasts. Some of these are obvious while others are more difficult to track down without digging through the code. This is a highly technical post, so feel free [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>WordPress 1.5 is not just cool and suave on the outside, there are quite a few programming enhancements and added features for coders, hackers, plugin developers and enthusiasts. Some of these are obvious while others are more difficult to track down without digging through the code. This is a highly technical post, so feel free to skip it if that&#8217;s not your bag.</p>
+<p><span id="more-152"></span></p>
+<ul>
+<li><em>Transparent serializing and deserializing of objects and arrays when using add, update, and get_option.</em><br />
+So for example, consider the following code:<br />
+<code><br />
+$this = array(array(), blah, blah, blah);<br />
+update_option('xfnbl_data', $this);<br />
+$newthis = get_option('xfnbl_data');<br />
+</code><br />
+The update_option function will transparently serialize the data. If you save an option as an array, the option is returned as an array.
+</li>
+<li><em>If you update_option an option that doesn&#8217;t exist, it&#8217;ll create it</em>: If the option did not exist when it was updated, it is created transparently. If the option did not exist when it was requested using get_option, the code degrades gracefully and does not error out, returning an empty variable.</li>
+<li><em>Lots of hooks, including these tasty ones</em>
+<ul>
+<li>You can dynamically modify any option returned without changing the option in the DB: There are two new hooks to help with this.<br />
+<code><br />
+add_filter('pre_option_' . $option_name, 'function_name');<br />
+add_filter('all_options', 'function_name');<br />
+</code>
+</li>
+<li><em>You can create and modify any XML-RPC call through the xmlrpc.php interface</em>: Another cool new tool. If you need to add functions to the xmlrpc class (IXR) and then handle them as you like, just do something like the following:<br />
+<code><br />
+add_filter('xmlrpc_methods', 'Add_XBN_Stuff');<br />
+function Add_XBN_stuff($args) {<br />
+		$args['demo.somefunction'] = 'somefunction';<br />
+		return $args;<br />
+	}<br />
+function somefunction($stuff) {<br />
+	do_stuff($stuff)<br />
+}<br />
+</code><br />
+For a better look at a plugin developed with this functionality, look at <a href="http://weblogtoolscollection.com/archives/2005/02/24/share-your-moderation-keys-and-blacklist/">this plugin</a>.
+</li>
+</ul>
+</li>
+<li><em>You can create pages in the admin interface</em>: There are a bunch of functions that allow manipulation of the managment menus and create new pages.<br />
+<code><br />
+add_menu_page('Page Title', 'Menu Title', $access_level, 'PHP_File_to_Display')<br />
+add_submenu_page('Parent_Page', 'Page Title', 'Menu Title', $access_level, 'PHP_File_to_Display', 'function_name')<br />
+add_options_page('Page Title', 'Menu Title', $access_level, 'PHP_File_to_Display','function_name')<br />
+add_management_page('Page Title', 'Menu Title', $access_level, 'PHP_File_to_Display','function_name')<br />
+</code><br />
+For an example see cache-images: <a href="http://svn.wp-plugins.org/cache-images/trunk/">http://svn.wp-plugins.org/cache-images/trunk/</a>:</li>
+<li><em>There&#8217;s a new hook for caching plugins that is called before everything is loaded, though you do have to edit wp-config.php to activate it.</em></li>
+<li><em>A whole bunch of hooks to help plugin developers get more creative</em>: Some of these are new, some have existed through 1.2. There are too many hooks to list here. Just do a search within the wordpress folder for the data item you are dealing with and &#8216;apply_filter&#8217; or &#8216;do_action&#8217;. You are sure to find something that works for you.
+</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">152</post-id>	</item>
+		<item>
+		<title>My Blog Is Terribly Broken</title>
+		<link>https://wordpress.org/news/2004/12/terribly-broken/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Thu, 23 Dec 2004 00:54:58 +0000</pubDate>
+				<category><![CDATA[Documentation]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2004/12/terribly-broken/</guid>
+
+					<description><![CDATA[If you load up your blog and see something like this: Database error: [You have an error in your SQL syntax. Check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,] SELECT DISTINCT ID, category_id, cat_name, category_nicename, category_description, category_parent FROM blog_categories, blog_post2cat, blog_posts WHERE category_id = cat_ID [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>If you load up your blog and see something like this:</p>
+<blockquote><p><code>Database error: [You have an error in your SQL syntax. Check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]<br />
+SELECT DISTINCT ID, category_id, cat_name, category_nicename, category_description, category_parent FROM blog_categories, blog_post2cat, blog_posts WHERE category_id = cat_ID AND post_id = ID AND post_id IN (,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,)<br />
+Warning: Invalid argument supplied for foreach() in /path/to/wordpress/wp-blog-header.php on line 478<br />
+</code></p></blockquote>
+<p>Don&#8217;t worry, nothing happened to your data or WordPress. Your host probably just upgraded PHP to version 4.3.10 and forgot to upgrade the Zend Optimizer. We already <a href="https://wordpress.org/support/3/18678">have a support thread about it</a>. The <a href="http://www.php.net/downloads.php">PHP download</a> page says:</p>
+<blockquote><p>Note: Due to an incompatibility between earlier versions of Zend Optimizer and PHP 4.3.10, it&#8217;s recommended to upgrade to the <a href="http://zend.com/store/products/zend-optimizer.php">latest version</a>.</p></blockquote>
+<p>So contact your host and let them know what&#8217;s happening, and they should be able to fix everything.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">142</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,20 @@
+1.0.1    2014-05-06
+
+ * Add LICENSE file to package for Windows builds.
+
+1.0.0    2012-03-25
+
+ * Pushed this as stable, since no bugs filed with previous beta
+ * PHP 5.4 Compatibility
+
+0.2.0    2008-04-03
+
+ * Some internal changes in headers to comply with PECL standards
+ * Pushed this as beta, since no bugs were filed with the previous alpha
+
+0.1.2    2007-11-05
+
+ * Initial PECL release
+ * Removing old comments
+ * Updating license
+ * Fix while() condition, since always true

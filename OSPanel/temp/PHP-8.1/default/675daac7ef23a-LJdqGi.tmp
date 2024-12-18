@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Testing &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/testing/feed/?simply_static_page=2400" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Fri, 04 Jun 2021 12:00:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Testing &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>WordPress 3.6 Release Candidate 2</title>
+		<link>https://wordpress.org/news/2013/07/wordpress-3-6-release-candidate-2/</link>
+		
+		<dc:creator><![CDATA[Mark Jaquith]]></dc:creator>
+		<pubDate>Wed, 24 Jul 2013 07:25:10 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.6]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2649</guid>
+
+					<description><![CDATA[The second release candidate for WordPress 3.6 is now available for download and testing. We&#8217;re down to only a few remaining issues, and the final release should be available in a matter of days. In RC2, we&#8217;ve tightened up some aspects of revisions, autosave, and the media player, and fixed some bugs that were spotted [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The second release candidate for WordPress 3.6 is now available for download and testing.</p>
+<p>We&#8217;re down to only a few remaining issues, and the final release should be available in a matter of days. In RC2, we&#8217;ve tightened up some aspects of revisions, autosave, and the media player, and fixed some bugs that were spotted in RC1. Please test this release candidate as much as you can, so we can deliver a smooth final release!</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>.</p>
+<p><strong>Developers,</strong> please continue to test your plugins and themes, so that if there is a compatibility issue, we can figure it out before the final release. You can find our <a href="https://core.trac.wordpress.org/report/6">list of known issues here</a>.</p>
+<p>To test WordPress 3.6, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.6-RC2.zip">download the release candidate here (zip)</a>.</p>
+<p><em>Revisions so smooth</em><br />
+<em>We autosave your changes</em><br />
+<em>Data loss begone!</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2649</post-id>	</item>
+		<item>
+		<title>WordPress 3.6 Release Candidate</title>
+		<link>https://wordpress.org/news/2013/07/wordpress-3-6-release-candidate/</link>
+		
+		<dc:creator><![CDATA[Mark Jaquith]]></dc:creator>
+		<pubDate>Sat, 13 Jul 2013 03:23:17 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.6]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2639</guid>
+
+					<description><![CDATA[The first release candidate for WordPress 3.6 is now available. We hope to ship WordPress 3.6 in a couple weeks. But to do that, we really need your help! If you haven&#8217;t tested 3.6 yet, there&#8217;s no time like the present. (But please: not on a live production site, unless you&#8217;re feeling especially adventurous.) Think [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The first release candidate for WordPress 3.6 is now available.</p>
+<p>We hope to ship WordPress 3.6 in a couple weeks. But to do that, we really need your help! If you haven&#8217;t tested 3.6 yet, there&#8217;s no time like the present. (But please: not on a live production site, unless you&#8217;re feeling especially adventurous.)</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>. If any known issues come up, you’ll be able to <a href="https://core.trac.wordpress.org/report/6">find them here</a>. <strong>Developers,</strong> please test your plugins and themes, so that if there is a compatibility issue, we can sort it out before the final release.</p>
+<p>To test WordPress 3.6, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.6-RC1.zip">download the release candidate here (zip)</a>.</p>
+<p>As you may have heard, we backed the Post Format UI feature out of the release. On the other hand, our slick new revisions browser had some extra time to develop. You should see it with 200+ revisions loaded — scrubbing back and forth at lightning speed is a thing of beauty.</p>
+<p><em>Delayed, but still loved</em><br />
+<em>The release will be out soon</em><br />
+<em>Test it, por favor</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2639</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Release Candidate 3</title>
+		<link>https://wordpress.org/news/2012/12/wordpress-3-5-release-candidate-3/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Tue, 04 Dec 2012 08:37:39 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/2012/12/wordpress-3-5-release-candidate-3/</guid>
+
+					<description><![CDATA[The third release candidate for WordPress 3.5 is now available. We&#8217;ve made a number of changes over the last week since RC2 that we can&#8217;t wait to get into your hands. Hope you&#8217;re ready to do some testing! Final UI improvements for the new media manager, based on lots of great feedback. Show more information about [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The third release candidate for WordPress 3.5 is now available. We&#8217;ve made a number of changes over the last week since <a title="WordPress 3.5 Release Candidate 2" href="https://wordpress.org/news/2012/11/wordpress-3-5-release-candidate-2/">RC2</a> that we can&#8217;t wait to get into your hands. Hope you&#8217;re ready to do some testing!</p>
+<ul>
+<li><span style="line-height: 13px">Final UI improvements for the new media manager, based on lots of great feedback.</span></li>
+<li>Show more information about uploading errors when they occur.</li>
+<li>When inserting an image into a post, don&#8217;t forget the alternative text.</li>
+<li>Fixes for the new admin button styles.</li>
+<li>Improvements for mobile devices, Internet Explorer, and right-to-left languages.</li>
+<li>Fix cookies for subdomain installs when multisite is installed in a subdirectory.</li>
+<li>Fix ms-files.php rewriting for very old multisite installs.</li>
+</ul>
+<p>At this point, we only have a <a href="https://core.trac.wordpress.org/report/5">few minor issues</a> left. If all goes well, you will see WordPress 3.5 very soon. If you run into any issues, please post to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>.</p>
+<p>If you&#8217;d like to know what to test, visit the About page (<strong><img data-recalc-dims="1" decoding="async" style="vertical-align: middle" alt="" src="https://i0.wp.com/wordpress.org/wp-content/themes/twentyten/images/wordpress.png?ssl=1" /> → About</strong> in the toolbar) and check out the list of features. This is still development software, so your boss may get mad if you install this on a live site. To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.5-RC3.zip">download the release candidate here (zip)</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2502</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Release Candidate 2</title>
+		<link>https://wordpress.org/news/2012/11/wordpress-3-5-release-candidate-2/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Thu, 29 Nov 2012 19:55:12 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2494</guid>
+
+					<description><![CDATA[The second release candidate for WordPress 3.5 is now available for download and testing. We&#8217;re still working on about a dozen remaining issues, but we hope to deliver WordPress 3.5 to your hands as early as next week. If you&#8217;d like to know what to test, visit the About page ( → About in the toolbar) and check out [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The second release candidate for WordPress 3.5 is now available for download and testing.</p>
+<p>We&#8217;re still working on about a dozen remaining issues, but we hope to deliver WordPress 3.5 to your hands as early as next week. If you&#8217;d like to know what to test, visit the About page (<strong><img data-recalc-dims="1" decoding="async" alt="" src="https://i0.wp.com/wordpress.org/wp-content/themes/twentyten/images/wordpress.png?ssl=1" /> → About</strong> in the toolbar) and check out the list of features! As usual, this is still development software and we suggest you do not install this on a live site unless you are adventurous.</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>.</p>
+<p><strong>Developers,</strong> please continue to test your plugins and themes, so that if there is a compatibility issue, we can figure it out before the final release. You can find our <a href="https://core.trac.wordpress.org/report/6">list of known issues here</a>.</p>
+<p>To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.5-RC2.zip">download the release candidate here (zip)</a>.</p>
+<p><em>&#8212;<br />
+</em><em>We are getting close<br />
+</em><em>Should have asked for haiku help<br />
+</em><em>Please test RC2</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2494</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Release Candidate</title>
+		<link>https://wordpress.org/news/2012/11/wordpress-3-5-release-candidate/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Thu, 22 Nov 2012 13:35:09 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2479</guid>
+
+					<description><![CDATA[The first release candidate for WordPress 3.5 is now available. We hope to ship WordPress 3.5 in two weeks. But to do that, we need your help! If you haven&#8217;t tested 3.5 yet, there&#8217;s no time like the present. (The oft-repeated warning: Please, not on a live site, unless you&#8217;re adventurous.) Think you&#8217;ve found a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The first release candidate for WordPress 3.5 is now available.</p>
+<p>We hope to ship WordPress 3.5 in <em>two weeks</em>. But to do that, we need your help! If you haven&#8217;t tested 3.5 yet, there&#8217;s no time like the present. (The oft-repeated warning: Please, not on a live site, unless you&#8217;re adventurous.)</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>. If any known issues come up, you’ll be able to <a href="https://core.trac.wordpress.org/report/6">find them here</a>. <strong>Developers,</strong> please test your plugins and themes, so that if there is a compatibility issue, we can figure it out before the final release.</p>
+<p>To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.5-RC1.zip">download the release candidate here (zip)</a>.</p>
+<p>If you&#8217;d like to know what to <del>break</del> test, visit the About page (<strong><img data-recalc-dims="1" decoding="async" style="vertical-align: text-top" alt="" src="https://i0.wp.com/wordpress.org/wp-content/themes/twentyten/images/wordpress.png?ssl=1" /> → About</strong> in the toolbar) and check out the list of features! Trust me, you want to try out media.</p>
+<p><em>Release candidate</em><br />
+<em>Three point five in two weeks time</em><br />
+<em>Please test all the things</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2479</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Beta 3</title>
+		<link>https://wordpress.org/news/2012/11/wordpress-3-5-beta-3/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Tue, 13 Nov 2012 04:26:23 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2467</guid>
+
+					<description><![CDATA[The third beta release of WordPress 3.5 is now available for download and testing. Hey, developers! We expect to WordPress 3.5 to be ready in just a few short weeks. Please, please test your plugins and themes against beta 3. Media management has been rewritten, and we&#8217;ve taken great pains to ensure most plugins will work the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The third beta release of WordPress 3.5 is now available for download and testing.</p>
+<p><strong>Hey, developers!</strong> We expect to WordPress 3.5 to be ready in just a few short weeks. <em>Please, please</em> test your plugins and themes against beta 3. Media management has been rewritten, and we&#8217;ve taken great pains to ensure most plugins will work the same as before, but we&#8217;re not perfect. We would like to hear about any incompatibilities we&#8217;ve caused so we can work with you to address them <em>before</em> release, rather than after. I think you&#8217;ll agree it&#8217;s much better that way. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="https://wordpress.org/wordpress-3.5-beta3.zip">download the beta here</a> (zip). For more on 3.5, <a title="WordPress 3.5 Beta 1" href="https://wordpress.org/news/2012/09/wordpress-3-5-beta-1/">check out the extensive Beta 1 blog post</a>, which covers what’s new in version 3.5 and how you can help. We made <a href="https://core.trac.wordpress.org/log/trunk?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=22557&amp;stop_rev=22224&amp;limit=400">more than 300 changes</a> since <a href="https://wordpress.org/news/2012/10/wordpress-3-5-beta-2/">beta 2</a>. <span style="line-height: 13px">At this point, the Add Media dialog is complete, and we&#8217;re now just working on fixing up inserting images into the editor. We&#8217;ve also u</span>pdated to jQuery UI 1.9.1, SimplePie 1.3.1, and TinyMCE 3.5.7.</p>
+<p>The usual warnings apply: We can see the light at the end of the tunnel, but this is software still in development, so we don’t recommend that you run it on a production site. Set up a test site to play with the new version.</p>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="https://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="https://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.5">everything we’ve fixed</a> so far.</p>
+<p><em>Beta three is out</em><br />
+<em>Soon, a release candidate</em><br />
+<em>Three point five is near</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2467</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Beta 2</title>
+		<link>https://wordpress.org/news/2012/10/wordpress-3-5-beta-2/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Sat, 13 Oct 2012 00:02:08 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2458</guid>
+
+					<description><![CDATA[Two weeks after the first beta, WordPress 3.5 Beta 2 is now available for download and testing. This is software still in development, so we don’t recommend that you run it on a production site. Set up a test site to play with the new version. To test WordPress 3.5, try the WordPress Beta Tester plugin (you’ll want “bleeding [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Two weeks after the first beta, WordPress 3.5 Beta 2 is now available for download and testing.</p>
+<p>This is software still in development, so we don’t recommend that you run it on a production site. Set up a test site to play with the new version. To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="https://wordpress.org/wordpress-3.5-beta2.zip">download the beta here</a> (zip).</p>
+<p>For more, <a title="WordPress 3.5 Beta 1" href="https://wordpress.org/news/2012/09/wordpress-3-5-beta-1/"><strong>check out the extensive Beta 1 blog post</strong></a>, which covers what&#8217;s new in version 3.5 and how you can help. What&#8217;s new since beta 1? I&#8217;m glad you asked:</p>
+<ul>
+<li>New workflow for working with image galleries, including drag-and-drop reordering and quick caption editing.</li>
+<li>New image editing API. (<a title="Ticket 6821" href="https://core.trac.wordpress.org/ticket/6821">#6821</a>)</li>
+<li><del>New user interface for setting static front pages for the Reading Settings screen. (<a title="Ticket 16379" href="https://core.trac.wordpress.org/ticket/16379">#16379</a>)</del></li>
+</ul>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="https://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="https://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.5">everything we’ve fixed</a> so far. Happy testing!</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2458</post-id>	</item>
+		<item>
+		<title>WordPress 3.5 Beta 1 (and a bonus!)</title>
+		<link>https://wordpress.org/news/2012/09/wordpress-3-5-beta-1/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Thu, 27 Sep 2012 22:37:49 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.5]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2443</guid>
+
+					<description><![CDATA[I&#8217;m excited to announce the availability of WordPress 3.5 Beta 1. This is software still in development and we really don’t recommend that you run it on a production site — set up a test site just to play with the new version. To test WordPress 3.5, try the WordPress Beta Tester plugin (you’ll want “bleeding edge nightlies”). Or you can download [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;m excited to announce the availability of WordPress 3.5 Beta 1.</p>
+<p>This is software still in development and <strong>we <em>really</em> don’t recommend that you run it on a production site</strong> — set up a test site just to play with the new version. To test WordPress 3.5, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="https://wordpress.org/wordpress-3.5-beta-1.zip">download the beta here</a> (zip).</p>
+<p>In just three short months, we&#8217;ve already made a few hundred changes to improve your WordPress experience. The biggest thing we&#8217;ve been working on is overhauling the media experience from the ground up. We&#8217;ve made it all fair game: How you upload photos, arrange galleries, insert images into posts, and more. It&#8217;s still rough around the edges and some pieces are missing — which means now is the <em>perfect</em> time to test it out, report issues, and help shape our headline feature.</p>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="https://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="https://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.5">everything we&#8217;ve fixed</a> so far.</p>
+<p>Here&#8217;s some more of what&#8217;s new:</p>
+<ul>
+<li><strong>Appearance: </strong>A simplified welcome screen. A new color picker. And the all-HiDPI (retina) dashboard.</li>
+<li><strong>Accessibility:</strong> Keyboard navigation and screen reader support have both been improved.</li>
+<li><strong>Plugins: </strong>You can browse and install plugins you&#8217;ve marked as favorites on WordPress.org, directly from your dashboard.</li>
+<li><strong>Mobile: </strong>It&#8217;ll be easier to link up your WordPress install with <a href="https://wordpress.org/extend/mobile/">our mobile apps</a>, as XML-RPC is now enabled by default.</li>
+<li><strong>Links: </strong>We&#8217;ve hidden the Link Manager for new installs. (Don&#8217;t worry, <a href="https://wordpress.org/extend/plugins/link-manager/">there&#8217;s a plugin for that</a>.)</li>
+</ul>
+<p><strong>Developers: </strong>We love you. We do. And one of the things we strive to do with every release is be compatible with all existing plugins and themes. To make sure we don&#8217;t break anything, we need your help. <strong>Please, please test your plugins and themes against 3.5.</strong> If something isn&#8217;t quite right, please let us know. (Chances are, it wasn&#8217;t intentional.) And despite all of the changes to media, we&#8217;re still aiming to be backwards compatible with plugins that make changes to the existing media library. It&#8217;s a tall task, and it means we need your help.</p>
+<p>Here&#8217;s some more things we think developers will enjoy (and should test their plugins and themes against):</p>
+<ul>
+<li><strong>External libraries updated:</strong> TinyMCE  <del>3.5.6</del> 3.5.7. SimplePie <del>1.3</del> 1.3.1. jQuery <del>1.8.2</del> 1.8.3. jQuery UI <del>1.9 (and it&#8217;s not even released yet)</del> 1.9.2. We&#8217;ve also added Backbone 0.9.2 and Underscore <del>1.3.3</del> 1.4.2, and you can use protocol-relative links when enqueueing scripts and styles. (<a href="https://core.trac.wordpress.org/ticket/16560">#16560</a>)</li>
+<li><strong>WP Query:</strong> You can now ask to receive posts in the order specified by <code>post__in</code>. (<a href="https://core.trac.wordpress.org/ticket/13729">#13729</a>)</li>
+<li><strong>XML-RPC:</strong> New user management, profile editing, and post revision methods. We&#8217;ve also removed AtomPub. (<a href="https://core.trac.wordpress.org/ticket/18428">#18428</a>, <a href="https://core.trac.wordpress.org/ticket/21397">#21397</a>, <a href="https://core.trac.wordpress.org/ticket/21866">#21866</a>)</li>
+<li><strong>Multisite: </strong>switch_to_blog() is now used in more places, is faster, and more reliable. Also: You can now use multisite in a subdirectory, and uploaded files no longer go through ms-files (for new installs). (<a href="https://core.trac.wordpress.org/ticket/21434">#21434</a>, <a href="https://core.trac.wordpress.org/ticket/19796">#19796</a>, <a href="https://core.trac.wordpress.org/ticket/19235">#19235</a>)</li>
+<li><strong>TinyMCE: </strong>We&#8217;ve added an experimental API for &#8220;views&#8221; which you can use to offer previews and interaction of elements from the visual editor. (<a href="https://core.trac.wordpress.org/ticket/21812">#21812</a>)</li>
+<li><strong>Posts API: </strong>Major performance improvements when working with hierarchies of pages and post ancestors. Also, you can now &#8220;turn on&#8221; native custom columns for taxonomies on edit post screens. (<a href="https://core.trac.wordpress.org/ticket/11399">#11399</a>, <a href="https://core.trac.wordpress.org/ticket/21309">#21309</a>, <a href="https://core.trac.wordpress.org/ticket/21240">#21240</a>)</li>
+<li><strong>Comments API:</strong> Search for comments of a particular status, or with a meta query (same as with WP_Query). (<a href="https://core.trac.wordpress.org/ticket/21101">#21101</a>, <a href="https://core.trac.wordpress.org/ticket/21003">#21003</a>)</li>
+<li><strong>oEmbed: </strong>We&#8217;ve added support for a few oEmbed providers, and we now handle SSL links. (<a href="https://core.trac.wordpress.org/ticket/15734">#15734</a>, <a href="https://core.trac.wordpress.org/ticket/21635">#21635</a>, <a href="https://core.trac.wordpress.org/ticket/16996">#16996</a>, <a href="https://core.trac.wordpress.org/ticket/20102">#20102</a>)</li>
+</ul>
+<p>We&#8217;re looking forward to your feedback. If you break it (find a bug), please report it, and if you’re a developer, try to help us fix it. We&#8217;ve already had more than 200 contributors to version 3.5 — come join us!</p>
+<h3>And as promised, a bonus:</h3>
+<p>We&#8217;re planning a December 5 release for WordPress 3.5. But, we have a special offering for you, today. The newest default theme for WordPress, <strong>Twenty</strong><strong> Twelve</strong>, is now <a href="https://wordpress.org/extend/themes/twentytwelve">available for download</a> from the WordPress themes directory. It&#8217;s a gorgeous and fully responsive theme, and it works with WordPress 3.4.2. Take it for a spin!</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2443</post-id>	</item>
+		<item>
+		<title>WordPress 3.4 Release Candidate 3</title>
+		<link>https://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Tue, 12 Jun 2012 00:30:14 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.4]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2326</guid>
+
+					<description><![CDATA[The third release candidate for WordPress 3.4 is now available. Since RC2, we&#8217;ve fixed a few lingering issues with the new live preview feature, as well as with custom headers and backgrounds. There are no remaining issues, and we plan to release 3.4 in the coming days. But if you think you&#8217;ve found a bug, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The third release candidate for WordPress 3.4 is now available. Since RC2, we&#8217;ve fixed a few lingering issues with the new live preview feature, as well as with custom headers and backgrounds.</p>
+<p>There are no remaining issues, and we plan to release 3.4 in the coming days. But if you think you&#8217;ve found a bug, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums, or file a bug report on <a href="https://core.trac.wordpress.org/">WordPress Trac</a>.</p>
+<p>To test WordPress 3.4, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.4-RC3.zip">download the release candidate here</a> (zip). Be sure to visit <strong><img data-recalc-dims="1" decoding="async" style="vertical-align: text-top" src="https://i0.wp.com/wordpress.org/wp-content/themes/twentyten/images/wordpress.png?ssl=1" alt="" /> → About</strong> for an updated list of features and under-the-hood changes. As a reminder: We’ve published some resources on the <a href="http://wpdevel.wordpress.com/2012/06/07/wordpress-3-4-field-guide-for-developers/">development blog</a> to help plugin and theme developers prepare.</p>
+<p><em>The new live preview<br />
+Nearing perfection, and yet?<br />
+Not yet. RC3</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2326</post-id>	</item>
+		<item>
+		<title>WordPress 3.4 Release Candidate 2</title>
+		<link>https://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/</link>
+		
+		<dc:creator><![CDATA[Andrew Nacin]]></dc:creator>
+		<pubDate>Thu, 07 Jun 2012 02:48:58 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[3.4]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2318</guid>
+
+					<description><![CDATA[The second release candidate for WordPress 3.4 is now available. Since RC1, we&#8217;ve made a few dozen final changes. Our goal is to release WordPress 3.4 early next week, so plugin and theme authors, this is likely your last chance to test your plugins and themes to find any compatibility issues before the final release. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The second release candidate for WordPress 3.4 is now available. Since RC1, we&#8217;ve made a <a href="https://core.trac.wordpress.org/log/?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=21018&amp;stop_rev=20949&amp;limit=500">few dozen final changes</a>.</p>
+<p>Our goal is to release WordPress 3.4 early next week, so plugin and theme authors, this is likely <strong>your last chance to test your plugins and themes to find any compatibility issues before the final release</strong>. We&#8217;ve published some resources on the <a href="http://wpdevel.wordpress.com/2012/06/07/wordpress-3-4-field-guide-for-developers/">development blog</a> to help you prepare.</p>
+<p>If you think you’ve found a bug, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/">file one on WordPress Trac</a>. Known issues that crop up will be listed <a href="https://core.trac.wordpress.org/report/6">here</a>, but we&#8217;re hoping for a quiet few days so we can get some great features into your hands next week!</p>
+<p>To test WordPress 3.4, try the <a href="https://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="https://wordpress.org/wordpress-3.4-RC2.zip">download the release candidate here</a> (zip). Be sure to visit <strong><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/wordpress.org/wp-content/themes/twentyten/images/wordpress.png?ssl=1" alt="" style="vertical-align:text-top" /> &rarr; About</strong> for an updated list of features and under-the-hood changes.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2318</post-id>	</item>
+	</channel>
+</rss>

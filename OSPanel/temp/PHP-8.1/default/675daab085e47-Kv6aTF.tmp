@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Store &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/store/feed/?simply_static_page=2386" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Fri, 04 Jun 2021 12:01:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Store &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>Celebrate the WordPress 15th Anniversary on May 27</title>
+		<link>https://wordpress.org/news/2018/04/celebrate-the-wordpress-15th-anniversary-on-may-27/</link>
+		
+		<dc:creator><![CDATA[Andrea Middleton]]></dc:creator>
+		<pubDate>Fri, 20 Apr 2018 21:07:29 +0000</pubDate>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Store]]></category>
+		<category><![CDATA[wp15]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=5753</guid>
+
+					<description><![CDATA[May 27, 2018 is the 15th anniversary of the first WordPress release ﻿— and we can&#8217;t wait to celebrate! Party time! Join WordPress fans all over the world in celebrating the 15th Anniversary of WordPress by throwing your own party! Here&#8217;s how you can join in the fun: Check the WordPress 15th Anniversary website to see [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>May 27, 2018 is the <strong>15th anniversary</strong> of the <a href="https://wordpress.org/news/2003/05/wordpress-now-available/">first WordPress release</a> <a href="https://wordpress.org/news/2003/05/wordpress-now-available/">﻿</a>— and we can&#8217;t wait to celebrate!</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img data-recalc-dims="1" fetchpriority="high" decoding="async" src="https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?resize=342%2C268&#038;ssl=1" alt="" class="wp-image-5841" width="342" height="268" srcset="https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?w=2188&amp;ssl=1 2188w, https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?resize=300%2C236&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?resize=768%2C605&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?resize=1024%2C806&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2018/04/wp15_mark-1.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 342px) 100vw, 342px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Party time!</h2>
+
+
+
+<p>Join WordPress fans all over the world in celebrating the 15th Anniversary of WordPress by throwing your own party! Here&#8217;s how you can join in the fun:</p>
+
+
+
+<ol class="wp-block-list">
+    <li>Check the <a href="https://wp15.wordpress.net/about/">WordPress 15th Anniversary website</a> to see if there&#8217;s a party already planned for your town. If there is, RSVP for the party and invite your friends!<br /></li>
+    <li>If there isn&#8217;t, then pick a place to go where a bunch of people can be merry — a park, a pub, a backyard; any family-friendly venue will do!</li>
+    <li>List your party with <a href="https://www.meetup.com/pro/wordpress/">your local WordPress meetup group</a> (Don&#8217;t have a group? <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/#starting-a-new-meetup-com-group">Start one!</a>)  and then spread the word to other local meetups, tech groups, press, etc and get people to say they’ll come to your party.</li>
+    <li><a href="https://make.wordpress.org/community/handbook/meetup-organizer/event-formats/wordpress-15th-anniversary-celebrations/#request-wordpress-15th-anniversary-swag">Request</a> some special 15th anniversary WordPress swag (no later than April 27, please, so we have time to ship it to you).<br /></li>
+    <li>Have party attendees post photos, videos, and the like with the #WP15 hashtag, and <a href="https://wp15.wordpress.net/live/">check out the social media stream</a> to see how the rest of the world is sharing and celebrating.</li>
+</ol>
+
+
+
+<p>Don&#8217;t miss this chance to participate in a global celebration of WordPress!<br /></p>
+
+
+
+<h2 class="wp-block-heading">Special Swag</h2>
+
+
+
+<p>In honor of the 15th anniversary, we’ve added some <a href="https://mercantile.wordpress.org/product-category/wordpress-15/">special 15th anniversary items</a> in the swag store — you can use the offer code <strong>CELEBRATEWP15</strong> to take 15% off this (and any other WordPress swag you buy), all the way through the end of 2018!</p>
+
+
+
+<p>Keep checking the swag store, because we&#8217;ll be adding more swag over the next few weeks!</p>
+
+
+
+<h2 class="wp-block-heading">Share the fun</h2>
+
+
+
+<p>However you celebrate the WordPress 15th anniversary — with <a href="https://wp15.wordpress.net/about/">a party</a>, with <a href="https://wp15.wordpress.net/swag/">commemorative swag</a>, by <a href="https://wp15.wordpress.net/live/">telling the world</a> what WordPress means to you — remember to use the #WP15 hashtag to share it! And don&#8217;t forget to <a href="https://wp15.wordpress.net/live/">check the stream of WordPress 15th anniversary posts</a>.</p>
+
+
+
+<p>When <a href="https://venturebeat.com/2018/03/05/wordpress-now-powers-30-of-websites/">30% of the internet</a> has a reason to celebrate, you know it&#8217;s going to be great! </p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">5753</post-id>	</item>
+		<item>
+		<title>WordPress 10th Anniversary Tees</title>
+		<link>https://wordpress.org/news/2013/04/wordpress-10th-anniversary-tees/</link>
+		
+		<dc:creator><![CDATA[Jen]]></dc:creator>
+		<pubDate>Tue, 23 Apr 2013 16:40:31 +0000</pubDate>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Store]]></category>
+		<category><![CDATA[swag]]></category>
+		<category><![CDATA[wp10]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2561</guid>
+
+					<description><![CDATA[In honor of the upcoming 10th anniversary celebrations, we&#8217;ve put a special 10th anniversary tshirt in the swag store at cost &#8212; $10 per shirt plus shipping. They&#8217;ll be on sale at this price until the anniversary on May 27, and they&#8217;ll start shipping out the week of April 29. Some people who are planning [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img data-recalc-dims="1" decoding="async" class="alignleft wp-image-2562" style="font-size: 13px;line-height: 19px;margin-right: 10px" alt="WordPress 10th Anniversary logo" src="https://i0.wp.com/wordpress.org/news/files/2013/04/wp10logo.jpg?resize=120%2C119&#038;ssl=1" width="120" height="119" srcset="https://i0.wp.com/wordpress.org/news/files/2013/04/wp10logo.jpg?w=200&amp;ssl=1 200w, https://i0.wp.com/wordpress.org/news/files/2013/04/wp10logo.jpg?resize=150%2C150&amp;ssl=1 150w" sizes="(max-width: 120px) 100vw, 120px" />In honor of the upcoming <a title="Save the Date: May 27" href="https://wordpress.org/news/2013/04/save-the-date-may-27/">10th anniversary celebrations</a>, we&#8217;ve put a special<a href="http://hellomerch.com/collections/wordpress/products/wordpress-10th-anniversary-t-shirt"> 10th anniversary tshirt in the swag store</a> at cost &#8212; $10 per shirt plus shipping. They&#8217;ll be on sale at this price until the anniversary on May 27, and they&#8217;ll start shipping out the week of April 29.</p>
+<p>Some people who are planning parties or who organize meetups are already talking about doing group orders to save on shipping costs, which is a great idea &#8212; just make sure you allow enough shipping time. If you&#8217;re not sure if the tees could make it to you in time on your side of the world, use the contact options at the bottom of the store page to ask about shipping times. If they can&#8217;t reach you in time and you want to have a local printer do some for your group, we&#8217;ll post the vector file on the wp10 site within the next week (and this post will get updated accordingly). </p>
+<p>The shirts are available in black or silvery gray. Why silvery gray? Because of trivia: the traditional gift for 10th anniversaries is tin or aluminum. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><a href="http://hellomerch.com/collections/wordpress/products/wordpress-10th-anniversary-t-shirt"><img data-recalc-dims="1" decoding="async" class="aligncenter size-full wp-image-2563" alt="Silver and Black tshirts with WordPress 10th anniversary logo on them" src="https://i0.wp.com/wordpress.org/news/files/2013/04/wp10shirtgrayblack.jpg?resize=643%2C333&#038;ssl=1" width="643" height="333" srcset="https://i0.wp.com/wordpress.org/news/files/2013/04/wp10shirtgrayblack.jpg?w=643&amp;ssl=1 643w, https://i0.wp.com/wordpress.org/news/files/2013/04/wp10shirtgrayblack.jpg?resize=300%2C155&amp;ssl=1 300w" sizes="(max-width: 643px) 100vw, 643px" /></a></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2561</post-id>	</item>
+		<item>
+		<title>Stay Warm, WordPress Hoodie</title>
+		<link>https://wordpress.org/news/2007/12/wordpress-hoodie/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Sat, 29 Dec 2007 18:39:05 +0000</pubDate>
+				<category><![CDATA[Store]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[schwag]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2007/12/wordpress-hoodie/</guid>
+
+					<description><![CDATA[A least for those of your in the Northern hemisphere, it&#8217;s been a little chilly recently. If you&#8217;re like me you&#8217;re thinking, &#8220;WordPress keeps my servers running hot, couldn&#8217;t it warm me too?&#8221; Yes, it can. You can now buy hip WordPress hoodies in our store so when you&#8217;re not blogging you can loiter around [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>A least for those of your in the Northern hemisphere, it&#8217;s been a little chilly recently. If you&#8217;re like me you&#8217;re thinking, &#8220;WordPress keeps my servers running hot, couldn&#8217;t it warm me too?&#8221;</p>
+<p>Yes, it can.</p>
+<p><a href="http://shop.wordpress.net/"><img decoding="async"  src="//i2.wp.com/shop.wordpress.net/images/sku/WP5495NVY/WP5495NVY-A3.jpg" alt="WordPress Hoodies" /></a></p>
+<p><a href="http://shop.wordpress.net/">You can now buy hip WordPress hoodies in our store</a> so when you&#8217;re not blogging you can loiter around the neighborhood like the people in the picture above. As before, we ship locally and internationally.</p>
+<p>If you find you&#8217;re still in the Open Source Hoodie mood afterward, you can <a href="http://store.mozilla.org/product.php?code=MZ14015&amp;catid=11">check out this cool Firefox one from our friends at Mozilla</a>.</p>
+<p><strong>Hint:</strong> Buy the hoodie a size larger than you normally would, they run small. They&#8217;ll begin processing the orders on January 2<sup>nd</sup>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">223</post-id>	</item>
+		<item>
+		<title>New Shirts; International Shipping</title>
+		<link>https://wordpress.org/news/2007/07/new-shirts/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Sat, 21 Jul 2007 01:06:07 +0000</pubDate>
+				<category><![CDATA[Store]]></category>
+		<guid isPermaLink="false">http://wordpress.org/development/2007/07/new-shirts/</guid>
+
+					<description><![CDATA[One of the biggest complaints when we originally launched our t-shirt store was that folks outside of the United States, which is the majority of our traffic, were unable to order them. Now you can! (And we have a new style available.) At our official shop.wordpress.net you can order the new red t-shirt in either [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>One of the biggest complaints when we originally launched our t-shirt store was that folks outside of the United States, which is the majority of our traffic, were unable to order them. Now you can! (And we have a new style available.)</p>
+<p>At our official <a href="http://shop.wordpress.net/">shop.wordpress.net you can order the new red t-shirt</a> in either manly or girlie styles and they ship almost anywhere in the world. The shirts are high-quality American Apparel, and are screen-printed. Styles are available for a limited time, we&#8217;ll probably to about 2-3 a year, and once they&#8217;re gone the style will never be printed again.</p>
+<p><strong>Update:</strong> <a href="http://www.indigoclothing.com/blog/wordpress-t-shirts-2/">Indigo the t-shirt company has a great post about the launch</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">209</post-id>	</item>
+		<item>
+		<title>Limited T-shirts</title>
+		<link>https://wordpress.org/news/2006/12/limited-t-shirts/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2006 23:49:02 +0000</pubDate>
+				<category><![CDATA[Store]]></category>
+		<category><![CDATA[WordCamp]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/2006/12/limited-t-shirts/</guid>
+
+					<description><![CDATA[At various events throughout 2006, like SxSW and WordCamp we had t-shirts and each time we got a ton of requests for people who weren&#8217;t there to be able to buy them. Well, now you can. We have a limited supply of some of our shirts from this year available to order online. You can&#8217;t [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>At various events throughout 2006, like SxSW and WordCamp we had t-shirts and each time we got a ton of requests for people who weren&#8217;t there to be able to buy them. Well, now you can. We have a limited supply of some of our shirts from this year <a href="http://www.goodstorm.com/stores/wordpress">available to order online</a>.</p>
+<p>You can&#8217;t tell from the pictures, but the black shirts have a larger W logo and make you feel a bit <a href="http://flickr.com/photos/photomatt/110143508/">like Superman</a>. The grey WordCamp shirts have the logo a bit smaller, and are a bit reminiscent of <a href="http://daringfireball.net/">Daring Fireball</a>. Both look good with jeans.</p>
+<p>Part of the idea is once we print a style, we never do it again, so each shirt will be representative of a certain time in WordPress history. Since these are the very first, they make a great gift for yourself or that special blogging geek in you life. <a href="http://www.goodstorm.com/stores/wordpress">Check out the store</a>.</p>
+<p>If you have any pictures of yourself in a WordPress shirt on Flickr, be sure to <a href="http://flickr.com/photos/tags/wordpressshirt/">tag them wordpressshirt</a> to join the fun.</p>
+<p><strong>Update:</strong> We&#8217;re very sorry, but Goodstorm only ships to the US. If you&#8217;d like that to change, <a href="http://www.goodstorm.com/feedback">send Goodstorm some feedback</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191</post-id>	</item>
+	</channel>
+</rss>

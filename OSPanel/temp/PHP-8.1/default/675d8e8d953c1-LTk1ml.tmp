@@ -1,0 +1,2891 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Widget blocks &#8211; Documentation &#8211; WordPress.org</title>
+	<atom:link href="https://wordpress.org/documentation/category/widget-blocks/feed/?simply_static_page=6701" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/documentation</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Jun 2024 19:26:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Widget blocks &#8211; Documentation &#8211; WordPress.org</title>
+	<link>https://wordpress.org/documentation</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">213977105</site>	<item>
+		<title>Archives Block</title>
+		<link>https://wordpress.org/documentation/article/archives-block/</link>
+					<comments>https://wordpress.org/documentation/article/archives-block/#respond</comments>
+		
+		<dc:creator><![CDATA[kriskorn]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 12:59:29 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11285981</guid>
+
+					<description><![CDATA[Go to the List of Blocks Use the Archives block to display a date archive of your posts.&#160; To add the Archives block to a page, click the block inserter (+) icon to open the block inserter pop-up window and choose the Archives block. You can also use the keyboard shortcut /archives to quickly insert [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>Use the <em>Archives </em>block to display a date archive of your posts.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1999" height="1096" src="https://wordpress.org/documentation/files/2023/02/archive-block.png" alt="The archive block in the site editor" class="wp-image-16355646" srcset="https://wordpress.org/documentation/files/2023/02/archive-block.png 1999w, https://wordpress.org/documentation/files/2023/02/archive-block-300x164.png 300w, https://wordpress.org/documentation/files/2023/02/archive-block-1024x561.png 1024w, https://wordpress.org/documentation/files/2023/02/archive-block-768x421.png 768w, https://wordpress.org/documentation/files/2023/02/archive-block-1536x842.png 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /></figure>
+
+
+
+<p>To add the <em>Archives </em>block to a page, click the <strong>block inserter</strong> (+) icon to open the block inserter pop-up window and choose the <em>Archives</em> block.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1424" height="596" src="https://wordpress.org/documentation/files/2023/02/adding-archive-block.gif" alt="A demonstration of adding the archive block" class="wp-image-16355648" /></figure>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/archives</kbd> to quickly insert an <em>Archives</em> block.&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>To view the block toolbar, click on the block, and the toolbar will be displayed.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" src="https://wordpress.org/documentation/files/2023/02/toolbar-1.png" alt="Archive block toolbar" class="wp-image-16355649" width="326" height="89" srcset="https://wordpress.org/documentation/files/2023/02/toolbar-1.png 434w, https://wordpress.org/documentation/files/2023/02/toolbar-1-300x82.png 300w" sizes="(max-width: 326px) 100vw, 326px" /></figure>
+
+
+
+<p>Every block comes with unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The <em>Archives</em> block shows five buttons in the block toolbar:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move arrows</li>
+
+
+
+<li>Change alignment</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<p class="has-large-font-size"><strong>Transform to</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/transform-3.png" alt="" class="wp-image-16355650" width="500" height="345" srcset="https://wordpress.org/documentation/files/2023/02/transform-3.png 666w, https://wordpress.org/documentation/files/2023/02/transform-3-300x207.png 300w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
+
+
+
+<p>Click on the <strong>Transform</strong> button to convert the <em>Archives</em> block into a <em>Group</em>, <em>Columns</em> or <em>Calendar</em> block.</p>
+
+
+
+<p class="has-large-font-size"><strong>Drag icon</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/drag.png" alt="Drag and drop block moving tools on the toolbar" class="wp-image-16355651" width="323" height="92" srcset="https://wordpress.org/documentation/files/2023/02/drag.png 430w, https://wordpress.org/documentation/files/2023/02/drag-300x85.png 300w" sizes="auto, (max-width: 323px) 100vw, 323px" /></figure>
+
+
+
+<p>To drag and drop the block to a new location on the page template, click and hold the rectangle of dots, then drag it to the new location. The blue separator line indicates where the block will be placed. Release the left mouse button when you find the new location to place the block.</p>
+
+
+
+<p class="has-large-font-size"><strong>Move arrows</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/arrows.png" alt="Arrow icons on the toolbar to move the block upwards or downwards" class="wp-image-16355652" width="327" height="90" srcset="https://wordpress.org/documentation/files/2023/02/arrows.png 436w, https://wordpress.org/documentation/files/2023/02/arrows-300x83.png 300w" sizes="auto, (max-width: 327px) 100vw, 327px" /></figure>
+
+
+
+<p>The up and down arrow icons can be used to move the block up and down on the page.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Change block alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/align-1.png" alt="Block alignment options on the toolbar" class="wp-image-16355653" width="539" height="479" srcset="https://wordpress.org/documentation/files/2023/02/align-1.png 718w, https://wordpress.org/documentation/files/2023/02/align-1-300x267.png 300w" sizes="auto, (max-width: 539px) 100vw, 539px" /></figure>
+
+
+
+<p>Use the change alignment tool to align the <em>Archive </em>block. Choose one of the following options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None – </strong>leaves the block the current size.</li>
+
+
+
+<li><strong>Wide width – </strong>increase the width of the block beyond the content size.</li>
+
+
+
+<li><strong>Full width – </strong>extend the block to cover the full width of the screen.</li>
+
+
+
+<li><strong>Align left – </strong>aligns the block left.</li>
+
+
+
+<li><strong>Align center – </strong>aligns the block to the center.</li>
+
+
+
+<li><strong>Align right – </strong>aligns the block right.</li>
+</ul>
+
+
+
+<p>The “Wide width” and “Full width” alignment settings must be enabled by your WordPress theme.&nbsp;</p>
+
+
+
+<p class="has-large-font-size"><strong>Options</strong></p>
+
+
+
+<p>The Options button on a block toolbar gives you more features to customize the block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <strong>Settings</strong> icon next to the <strong>Publish </strong>button.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="606" height="90" src="https://wordpress.org/documentation/files/2023/02/settings-icon.png" alt="Block settings icon on the site editor" class="wp-image-16355639" srcset="https://wordpress.org/documentation/files/2023/02/settings-icon.png 606w, https://wordpress.org/documentation/files/2023/02/settings-icon-300x45.png 300w" sizes="auto, (max-width: 606px) 100vw, 606px" /></figure>
+
+
+
+<p class="has-large-font-size"><strong>Settings</strong></p>
+
+
+
+<p>The settings section provides four possible options:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/archive-settings.png" alt="Archive block settings" class="wp-image-16355655" width="271" height="394" srcset="https://wordpress.org/documentation/files/2023/02/archive-settings.png 542w, https://wordpress.org/documentation/files/2023/02/archive-settings-206x300.png 206w" sizes="auto, (max-width: 271px) 100vw, 271px" /></figure>
+
+
+
+<p><strong>Display as dropdown</strong> – display the archives as a dropdown, rather than the default bulleted list.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/display-dropdown.png" alt="Drop-down display on the archive block" class="wp-image-16355656" width="336" height="170" srcset="https://wordpress.org/documentation/files/2023/02/display-dropdown.png 448w, https://wordpress.org/documentation/files/2023/02/display-dropdown-300x151.png 300w" sizes="auto, (max-width: 336px) 100vw, 336px" /></figure>
+
+
+
+<p><strong>Show label</strong> – displays the archives label on top of the dropdown list. It can only be enabled together with the <em>Display as dropdown </em>option.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/label.png" alt="The archive block with the label shown" class="wp-image-16355657" width="348" height="206" srcset="https://wordpress.org/documentation/files/2023/02/label.png 464w, https://wordpress.org/documentation/files/2023/02/label-300x177.png 300w" sizes="auto, (max-width: 348px) 100vw, 348px" /></figure>
+
+
+
+<p><strong>Show post count</strong> – shows posts count.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/post-count.png" alt="The archive block with the post count displayed" class="wp-image-16355658" width="342" height="191" srcset="https://wordpress.org/documentation/files/2023/02/post-count.png 456w, https://wordpress.org/documentation/files/2023/02/post-count-300x167.png 300w" sizes="auto, (max-width: 342px) 100vw, 342px" /></figure>
+
+
+
+<p><strong>Group by</strong> – sets and groups the posts by year, month, week, and day.</p>
+
+
+
+<p class="has-large-font-size"><strong>Typography</strong></p>
+
+
+
+<p>The <em>Archives</em> block<em> </em>provides typography settings to change the font family, size, appearance, line height, letter case, letter spacing, and decoration.</p>
+
+
+
+<p>For details refer to this support article: <a href="https://wordpress.org/documentation/article/typography-settings-overview/">Typography settings overview</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Dimensions</strong></p>
+
+
+
+<p>The <em>Archive</em> block provides dimension settings options to change padding and margin size.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/dimensions-settings.png" alt="Dimensions settings" class="wp-image-16355643" width="417" height="290" srcset="https://wordpress.org/documentation/files/2023/02/dimensions-settings.png 556w, https://wordpress.org/documentation/files/2023/02/dimensions-settings-300x208.png 300w" sizes="auto, (max-width: 417px) 100vw, 417px" /></figure>
+
+
+
+<p>For details refer to this support article: <a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Dimension settings overview</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Advanced settings</strong></p>
+
+
+
+<p>The advanced tab lets you add a CSS class to your block, allowing you to write custom CSS and style the block as you see fit.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="534" height="284" src="https://wordpress.org/documentation/files/2023/02/css-2.png" alt="The advanced section lets you add a CSS class to your block." class="wp-image-16355659" srcset="https://wordpress.org/documentation/files/2023/02/css-2.png 534w, https://wordpress.org/documentation/files/2023/02/css-2-300x160.png 300w" sizes="auto, (max-width: 534px) 100vw, 534px" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-02-07
+<ul class="wp-block-list">
+<li>Updated screenshots</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-11-21
+<ul class="wp-block-list">
+<li>Removed redundant content</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-08-01
+<ul class="wp-block-list">
+<li>Added screenshots and updated content for 6.0</li>
+
+
+
+<li>Added ALT tags for images</li>
+</ul>
+</li>
+
+
+
+<li>Created 2019-03-07</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/archives-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11285981</post-id>	</item>
+		<item>
+		<title>Calendar Block</title>
+		<link>https://wordpress.org/documentation/article/calendar-block/</link>
+					<comments>https://wordpress.org/documentation/article/calendar-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Birgit Pauli-Haack]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2020 14:08:18 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=12744576</guid>
+
+					<description><![CDATA[Go back to the list of Blocks The Calendar Widget block displays your posts in a calendar format. When you&#160;publish a new post, it is automatically added to the Calendar block. If you click on a date, it will open the archive of posts published on that date. The Calendar Widget block does not let [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>The <em>Calendar Widget block</em> displays your posts in a calendar format. When you&nbsp;publish a new post, it is automatically added to the Calendar block. If you click on a date, it will open the archive of posts published on that date.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.44.31-AM.png" alt="Calendar block" class="wp-image-12744595" width="363" height="184" srcset="https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.44.31-AM.png 670w, https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.44.31-AM-300x152.png 300w" sizes="auto, (max-width: 363px) 100vw, 363px" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">The <em>Calendar Widget block</em> does not let you create a calendar of events. For that, you need an Events calendar plugin.</p>
+
+
+
+<p>By default, it shows the current month and links to the posts published on various days in that month.  </p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.47.19-AM.png" alt="Calendar block - right aigned" class="wp-image-12744729" width="346" height="164" srcset="https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.47.19-AM.png 1005w, https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.47.19-AM-300x142.png 300w, https://wordpress.org/documentation/files/2020/04/Screen-Shot-2020-04-28-at-9.47.19-AM-768x365.png 768w" sizes="auto, (max-width: 346px) 100vw, 346px" /><figcaption class="wp-element-caption"><em>Example: Calendar Block &#8211; right aligned.</em></figcaption></figure>
+
+
+
+<p class="has-medium-font-size">To add a&nbsp;<em><em>Calendar Widget block</em></em>, click on the&nbsp;<strong>Block Inserter</strong>&nbsp;icon. You can also type<kbd>&nbsp;/calendar</kbd>&nbsp;and hit enter in a new&nbsp;<em>paragraph block</em>&nbsp;to add one quickly.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171653175-30c8d445-8470-4768-8a93-20418f7f3c77.png" alt="How to quickly add Calendar block" class="wp-image-15889221" width="348" height="122" srcset="https://wordpress.org/documentation/files/2022/08/171653175-30c8d445-8470-4768-8a93-20418f7f3c77.png 796w, https://wordpress.org/documentation/files/2022/08/171653175-30c8d445-8470-4768-8a93-20418f7f3c77-300x105.png 300w, https://wordpress.org/documentation/files/2022/08/171653175-30c8d445-8470-4768-8a93-20418f7f3c77-768x268.png 768w" sizes="auto, (max-width: 348px) 100vw, 348px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block Toolbar</h2>
+
+
+
+<p>Each block has its own block-specific controls that allow you to manipulate the block right in the editor. The&nbsp;<em>Calendar Widget block</em>&nbsp;has the following options in the Block toolbar.&nbsp; </p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Block moving tools</li>
+
+
+
+<li>Change alignment</li>
+
+
+
+<li>More options. </li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171653176-b74c0159-00b7-430b-a917-72287d8613dd-1-1.png" alt="Block toolbar in the Calendar block" class="wp-image-15889227" width="344" height="224" /></figure>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a Calendar block into Archives, Columns or &#8216;Group&#8217; block. Changing the <em>Calender Widget block</em> into a Group block lets you change the background color around the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-11.34.05-AM.png" alt="Transform option in the Calendar block" class="wp-image-15889274" width="358" height="261" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-11.34.05-AM.png 614w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-11.34.05-AM-300x219.png 300w" sizes="auto, (max-width: 358px) 100vw, 358px" /></figure>
+
+
+
+<p><strong>Block moving tools</strong></p>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the&nbsp;<em><em>Calender Widget block</em> </em>and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-11.17.44-AM-1.png" alt="Block moving tools in the Calendar block" class="wp-image-15889281" width="347" height="94" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p><strong>Change alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171653178-c0498d2b-402e-4dd9-88bb-06f232807160-1.png" alt="Change alignment in the Calendar block" class="wp-image-15889284" width="350" height="325" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Align left</strong> &#8211; Make the block left aligned</li>
+
+
+
+<li><strong>Align center</strong> &#8211; Make the block alignment centered</li>
+
+
+
+<li><strong>Align right </strong>&#8211; Make the&nbsp;block align right</li>
+
+
+
+<li><strong>Wide width</strong> &#8211; Increase the width of the block beyond the content size</li>
+
+
+
+<li><strong>Full width</strong> &#8211; Extend the block to cover the full width of the screen.</li>
+</ul>
+
+
+
+<p>“Wide width” and “Full width” alignment need to be enabled by the Theme of your site.&nbsp;</p>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+
+
+
+<p></p>
+
+
+
+<p><strong>More options</strong></p>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block Settings</h2>
+
+
+
+<p>There are no further settings available for the Calendar Widget block, except for the &#8220;Advanced Settings.&#8221; </p>
+
+
+
+<p><strong>Advanced</strong> <strong>settings</strong></p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/HCaeEAd-xkijY3husAGN8FkRfOokz6h-mLa1vQoT11JIf366WEE4Y3jtoy6CTOJGTpBZELgZPdIewg2ug8pURV5XtFciGwLHJiNwleOvlGte5WnWTug0SYe4p-qBR54_8oR1NwHM" alt="Advanced option in the selected Block" width="344" height="184" /><figcaption class="wp-element-caption">Advanced option in the selected Block</figcaption></figure>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-extra-large-font-size" id="changelog">Changelog </h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2022-11-23
+<ul class="wp-block-list">
+<li>Removed redundant content </li>
+
+
+
+<li>Aligned images for mobile view</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-08-04
+<ul class="wp-block-list">
+<li>Added screenshots for 6.0</li>
+
+
+
+<li>Added ALT tags for the images</li>
+</ul>
+</li>
+
+
+
+<li>Created 2020-04-28 </li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/calendar-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">12744576</post-id>	</item>
+		<item>
+		<title>Categories List Block</title>
+		<link>https://wordpress.org/documentation/article/categories-list-block/</link>
+					<comments>https://wordpress.org/documentation/article/categories-list-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Milana Cap]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 12:52:06 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11286009</guid>
+
+					<description><![CDATA[Go to the List of Blocks The&#160;Categories List block&#160;organizes your previously published posts by category.&#160;This can be handy for readers who want to find more of your posts about certain topics. The&#160;Categories List block&#160;can be added to a page by clicking on the Block Inserter button. You can find the Categories List block listed under [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The&nbsp;<em>Categories List block</em>&nbsp;organizes your previously published posts by category.&nbsp;This can be handy for readers who want to find more of your posts about certain topics.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><a href="https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc-1024x225.png" alt="The Categories List block embedded in the Editor." class="wp-image-15889744" width="512" height="113" srcset="https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc-1024x225.png 1024w, https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc-300x66.png 300w, https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc-768x169.png 768w, https://wordpress.org/documentation/files/2022/08/171645293-1e2bb75a-23a0-4bd3-927f-15f4845548dc.png 1300w" sizes="auto, (max-width: 512px) 100vw, 512px" /></a><figcaption class="wp-element-caption">The Categories List block embedded in the Editor.</figcaption></figure>
+
+
+
+<p>The&nbsp;<em><em>Categories List</em> block</em>&nbsp;can be added to a page by clicking on the <strong>Block Inserter</strong> button. You can find the <em><em>Categories List</em> block</em> listed under the&nbsp;<em>Widgets</em>&nbsp;section. </p>
+
+
+
+<p>Alternatively, you can type <kbd>/categories</kbd> to select the Categories List block and hit enter in a new <em>paragraph block</em> to add one quickly.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a href="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.39.08-AM.png"><img loading="lazy" decoding="async" width="328" height="200" src="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.39.08-AM.png" alt="Add categories with a slash command" class="wp-image-16357083" srcset="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.39.08-AM.png 328w, https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.39.08-AM-300x183.png 300w" sizes="auto, (max-width: 328px) 100vw, 328px" /></a><figcaption class="wp-element-caption">Add Categories list block with a slash command.</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading" id="block-toolbar">Block toolbar</h2>
+
+
+
+<p class="has-white-background-color has-background">Each block has its own block-specific controls that allow you to manipulate the block right in the editor. The&nbsp;<em><em>Categories List</em> block</em>&nbsp;has the following options in the Block toolbar.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.36-PM.png" alt="Block toolbar in the Categories List block" class="wp-image-15889750" width="370" height="101" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.36-PM.png 440w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.36-PM-300x82.png 300w" sizes="auto, (max-width: 370px) 100vw, 370px" /><figcaption class="wp-element-caption">Categories list block toolbar</figcaption></figure>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a&nbsp;<em><em><em>Categories List</em> block</em></em>&nbsp;into a Tag Cloud, Columns, or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.31.17-PM-1.png" alt="Transform tool in the Categories List block" class="wp-image-15889754" width="350" height="248" /><figcaption class="wp-element-caption">Transform tool inside Categories List block toolbar</figcaption></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.44-PM.png" alt="Block moving tools in the Categories List block" class="wp-image-15889755" width="330" height="92" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.44-PM.png 440w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.44-PM-300x83.png 300w" sizes="auto, (max-width: 330px) 100vw, 330px" /><figcaption class="wp-element-caption">Block moving tools inside Categories List block toolbar</figcaption></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the&nbsp;<em><em><em><em>Categories List</em> block</em></em></em>&nbsp;and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Change alignment</strong></p>
+
+
+
+<p>The&nbsp;<em>change alignment</em>&nbsp;tool lets you align the&nbsp;<em><em><em>Categories List</em> block</em></em>&nbsp;within the content. You can choose one of the following alignment options:</p>
+
+
+
+<figure class="wp-block-image alignright size-full is-resized"><a href="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.45.09-PM-1.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.45.09-PM-1.png" alt="Change alignment in the Categories List block" class="wp-image-15889764" width="231" height="314" /></a><figcaption class="wp-element-caption">Change alignment in the <em>Categories List</em> block</figcaption></figure>
+
+
+
+<p><strong>None</strong>: Leaves the block alignment as is.</p>
+
+
+
+<p><strong>Wide width</strong>: Increase the width of the block beyond the content size.</p>
+
+
+
+<p><strong>Full width</strong>: Extend the block to cover the full width of the screen (if supported by your site’s theme).</p>
+
+
+
+<p><strong>Align left</strong>: Align the block to the left of the content.</p>
+
+
+
+<p><strong>Align center</strong>: Align the block to the center of the content.</p>
+
+
+
+<p><strong>Align right</strong>: Align the block to the right of the content.</p>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p><strong>More options</strong></p>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+</div>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading" id="block-settings">Block settings</h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the block toolbar.&nbsp;<em>If you do not see the sidebar, simply click the sidebar icon.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="222" height="56" src="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.41.56-AM.png" alt="Show the Block settings in the Categories List block" class="wp-image-16357084" /></figure>
+
+
+
+<h3 class="wp-block-heading has-extra-large-font-size">Categories List settings</h3>
+
+
+
+<p>The Categories List settings allow you to choose whether to display the categories list as a dropdown, or the default bulleted list. You also have the choice to show/hide the hierarchy, the top-level categories only, and the post counts.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a href="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM.png"><img loading="lazy" decoding="async" width="280" height="396" src="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM.png" alt="Block settings in the sidebar for Categories List block" class="wp-image-16357077" srcset="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM.png 280w, https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM-212x300.png 212w" sizes="auto, (max-width: 280px) 100vw, 280px" /></a><figcaption class="wp-element-caption">Categories List Settings in the sidebar</figcaption></figure>
+
+
+
+<p><strong>Display as dropdown</strong>&nbsp;</p>
+
+
+
+<p>Choose this option to display the categories in a dropdown menu rather than as a list. This is handy if you want to save space or have a lot of categories.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-4.05.10-PM.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-4.05.10-PM.png" alt="Categories displayed as dropdown" class="wp-image-15889799" width="270" height="205" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-4.05.10-PM.png 339w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-4.05.10-PM-300x227.png 300w" sizes="auto, (max-width: 270px) 100vw, 270px" /></a><figcaption class="wp-element-caption">Categories displayed as dropdown</figcaption></figure>
+
+
+
+<p><strong>Show post&nbsp;counts</strong>&nbsp;</p>
+
+
+
+<p>If this option is chosen, the total number of published posts for each category will be displayed next to the category link. You can show post counts in both the list and dropdown display formats.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171647939-ebeb8c27-7976-4c57-a037-cf7e45b633cd-1024x235.png" alt="Categories with post counts shown" class="wp-image-15889808" width="398" height="91" srcset="https://wordpress.org/documentation/files/2022/08/171647939-ebeb8c27-7976-4c57-a037-cf7e45b633cd-1024x235.png 1024w, https://wordpress.org/documentation/files/2022/08/171647939-ebeb8c27-7976-4c57-a037-cf7e45b633cd-300x69.png 300w, https://wordpress.org/documentation/files/2022/08/171647939-ebeb8c27-7976-4c57-a037-cf7e45b633cd-768x176.png 768w, https://wordpress.org/documentation/files/2022/08/171647939-ebeb8c27-7976-4c57-a037-cf7e45b633cd.png 1300w" sizes="auto, (max-width: 398px) 100vw, 398px" /><figcaption class="wp-element-caption">Categories list block with post counts shown</figcaption></figure>
+
+
+
+<p><strong>Show only top-level categories</strong>&nbsp;</p>
+
+
+
+<p>If you have parent and child categories (subcategories within main categories) you can choose to display only the top-level category.</p>
+
+
+
+<p><strong>Show empty categories</strong>&nbsp;</p>
+
+
+
+<p>You have the option to show or hide empty categories in the categories list.</p>
+
+
+
+<p><strong>Show hierarchy</strong>&nbsp;</p>
+
+
+
+<p>If you have parent and child categories (subcategories within main categories) you can choose to display the hierarchy or just leave the list without indicating which subcategories fit inside your main categories. You can show category hierarchies in both the list and dropdown display formats.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><a href="https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820-1024x235.png" alt="Categories with hierarchy shown" class="wp-image-15889803" width="459" height="105" srcset="https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820-1024x235.png 1024w, https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820-300x69.png 300w, https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820-768x176.png 768w, https://wordpress.org/documentation/files/2022/08/171647777-2cce2e2a-a3ac-433e-83bb-436d68b3e820.png 1300w" sizes="auto, (max-width: 459px) 100vw, 459px" /></a><figcaption class="wp-element-caption">Categories list with hierarchy shown</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading has-extra-large-font-size">Typography</h3>
+
+
+
+<p>The Typography settings enable you to customize the font and text appearance of the content within the&nbsp;<em><em>Categories List</em></em>&nbsp;block. The settings have various options, such as font size, font style, font family, and letter spacing.</p>
+
+
+
+<p><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<h3 class="wp-block-heading has-extra-large-font-size">Dimensions</h3>
+
+
+
+<p>The<strong>&nbsp;</strong><em><em><em>Categories List</em></em></em> block provides dimension settings options to add padding and margin.</p>
+
+
+
+<p>For details refer to this support article:&nbsp;<a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Dimension settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading has-extra-large-font-size">Advanced settings</h3>
+
+
+
+<p class="has-white-background-color has-background">The advanced tab lets you add a CSS class to your block, allowing you to write custom CSS and style the block as you see fit.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a href="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.46.34-AM.png"><img loading="lazy" decoding="async" width="280" height="180" src="https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.46.34-AM.png" alt="The advanced section lets you add a CSS class to your block." class="wp-image-16357085" /></a><figcaption class="wp-element-caption">The advanced section lets you add a CSS class to your block.</figcaption></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-05-23
+<ul class="wp-block-list">
+<li>Added typography, dimension settings info</li>
+
+
+
+<li>Added option to show empty categories</li>
+
+
+
+<li>Changed name to Categories List block and updated the screenshots</li>
+
+
+
+<li>Added ALT tags</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-11-25
+<ul class="wp-block-list">
+<li>Removed redundant content</li>
+
+
+
+<li>Aligned imaged for mobile view</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-08-04
+<ul class="wp-block-list">
+<li>Added screenshots and content for 6.0</li>
+
+
+
+<li>Added ALT tags for the images</li>
+</ul>
+</li>
+
+
+
+<li>Created 2019-03-07</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/categories-list-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11286009</post-id>	</item>
+		<item>
+		<title>Custom HTML</title>
+		<link>https://wordpress.org/documentation/article/custom-html/</link>
+					<comments>https://wordpress.org/documentation/article/custom-html/#comments</comments>
+		
+		<dc:creator><![CDATA[Antonio Villegas]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 10:19:35 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11285129</guid>
+
+					<description><![CDATA[Hypertext Markup Language (HTML), is language used to describe the semantic content of web pages. This can be added using the&#160;custom HTML block. This block allows you to insert your code so you can fine-tune your content.&#160; In order to add a&#160;custom HTML block, click on the&#160;Block Inserter&#160;icon. You can also type /html and hit [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Hypertext Markup Language (HTML)</strong>, is language used to describe the semantic content of web pages. This can be added using the&nbsp;<em>custom HTML block</em>. This block allows you to insert your code so you can fine-tune your content.&nbsp;</p>
+
+
+
+<p>In order to add a&nbsp;<em>custom HTML block</em>, click on the&nbsp;<strong>Block Inserter</strong>&nbsp;icon.</p>
+
+
+
+<figure class="wp-block-video"><video autoplay controls loop muted src="https://wordpress.org/documentation/files/2019/03/custom-html.mp4"></video></figure>
+
+
+
+<p>You can also type /html and hit enter in a new paragraph block to add one quickly.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/164263756-13d7432b-f385-4953-bcdb-73e8122ef430.png" alt="" /><figcaption class="wp-element-caption">HTML block add typing</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<p class="has-large-font-size">Editing the Block</p>
+
+
+
+<p>Once you&nbsp;<a href="https://wordpress.org/documentation/article/wordpress-editor/#adding-a-block">add the block</a>, you can add your code and view it right from the block options. You also have all the standard block options.<br></p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://user-images.githubusercontent.com/1508963/164263762-91c8b6d3-985e-4b45-b908-cde86309fc05.png" alt="" width="414" height="86" /></figure>
+
+
+
+<p class="has-medium-font-size">Preview block</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://user-images.githubusercontent.com/1508963/164263768-4e6a6c16-8e7c-4186-af0e-62464c6daf6c.png" alt="Preview option in HTML block" width="359" height="66" /><figcaption class="wp-element-caption">Preview option in HTML block</figcaption></figure>
+
+
+
+<p class="has-medium-font-size">More Options </p>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading has-huge-font-size" id="block-settings-panel">Block Settings Panel</h2>
+
+
+
+<p>While most blocks have specific options in the editor sidebar in addition to the options found in the block toolbar, the HTML block does not have extra options.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://user-images.githubusercontent.com/1508963/164263778-594309aa-4b96-45bb-b6c7-ae650f226594.png" alt="Block settings  for the custom HTML block" width="348" height="201" /><figcaption class="wp-element-caption">Block settings for the custom HTML block</figcaption></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 22-11-26
+<ul class="wp-block-list">
+<li>Removed redudant content </li>
+
+
+
+<li>Aligned images for mobile view</li>
+
+
+
+<li>Added heading</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-04-20
+<ul class="wp-block-list">
+<li>Update screenshots to 5.9</li>
+
+
+
+<li>Add More Options section</li>
+</ul>
+</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/custom-html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11285129</post-id>	</item>
+		<item>
+		<title>Latest Comments block</title>
+		<link>https://wordpress.org/documentation/article/latest-comments-block/</link>
+					<comments>https://wordpress.org/documentation/article/latest-comments-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Sophie - a11n]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 13:00:12 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11286019</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Latest Comments block displays the most recent comments readers have left on your blog, including the users and blog posts. This block is useful to show the recent activities and ongoing discussion on your blog. Additional options for this block include to display the commenter&#8217;s avatar, comment date, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Latest Comments</em> block displays the most recent comments readers have left on your blog, including the users and blog posts. This block is useful to show the recent activities and ongoing discussion on your blog.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1999" height="930" src="https://wordpress.org/documentation/files/2023/04/latest-comment-block.png" alt="The Latest Comments block on the editor" class="wp-image-16356660" srcset="https://wordpress.org/documentation/files/2023/04/latest-comment-block.png 1999w, https://wordpress.org/documentation/files/2023/04/latest-comment-block-300x140.png 300w, https://wordpress.org/documentation/files/2023/04/latest-comment-block-1024x476.png 1024w, https://wordpress.org/documentation/files/2023/04/latest-comment-block-768x357.png 768w, https://wordpress.org/documentation/files/2023/04/latest-comment-block-1536x715.png 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /></figure>
+
+
+
+<p>Additional options for this block include to display the commenter&#8217;s avatar, comment date, and comment excerpt. Read the <strong>Block settings</strong> section to learn more about this.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1430" height="676" src="https://wordpress.org/documentation/files/2023/04/latest-comment.gif" alt="A demonstration of adding and configuring the latest comments block" class="wp-image-16356661" /></figure>
+
+
+
+<p>It can be added to any template, template part, page, and widget area. Click the block inserter icon (<strong>+</strong>) to open the block inserter pop-up window and choose the <em>Latest Comments</em> block.</p>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/latest-comments</kbd> to quickly insert a<em> Latest Comments</em> block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/keyboard-input-latest-comment.png" alt="Adding the Latest Comments block using keyboard input" class="wp-image-16356662" width="474" height="279" srcset="https://wordpress.org/documentation/files/2023/04/keyboard-input-latest-comment.png 632w, https://wordpress.org/documentation/files/2023/04/keyboard-input-latest-comment-300x177.png 300w" sizes="auto, (max-width: 474px) 100vw, 474px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>Every block has unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor.The <em>Latest Comments </em>block shows the following buttons:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/toolbar.png" alt="The Latest Comments block toolbar" class="wp-image-16356663" width="324" height="83" srcset="https://wordpress.org/documentation/files/2023/04/toolbar.png 432w, https://wordpress.org/documentation/files/2023/04/toolbar-300x76.png 300w" sizes="auto, (max-width: 324px) 100vw, 324px" /></figure>
+
+
+
+<p>To view the block toolbar, click on the block, and the toolbar will be displayed.</p>
+
+
+
+<h3 class="wp-block-heading">Transform to</h3>
+
+
+
+<p>When you click the <strong>Transform </strong>button, you can convert the <em>Latest Comments</em> block into another block type using the existing content.You can transform the <em>Latest Comments</em> block into <em>Columns</em> or <em>Group</em> blocks.</p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-01-at-11.12.17-AM.png" alt="Transform tool in the Latest Comments block" class="wp-image-15878507" width="461" height="278" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-01-at-11.12.17-AM.png 614w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-01-at-11.12.17-AM-300x181.png 300w" sizes="auto, (max-width: 461px) 100vw, 461px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Block-moving tools</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-01-at-11.14.47-AM-2.png" alt="Block moving tools in the Latest comments block" class="wp-image-15878513" width="317" height="78" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down the editor. Use the six dots icon to drag and drop the <em>Latest Comments</em> block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<h3 class="wp-block-heading">Change alignment </h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a href="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3.png"><img loading="lazy" decoding="async" width="1332" height="690" src="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3.png" alt="Alignment controls for the latest comments block" class="wp-image-15863328" srcset="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3.png 1332w, https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3-300x155.png 300w, https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3-1024x530.png 1024w, https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-3-768x398.png 768w" sizes="auto, (max-width: 1332px) 100vw, 1332px" /></a></figure>
+
+
+
+<p>Use the <strong>Align </strong>button<strong><em> </em></strong>to change the <em>Latest Comments</em> block’s position inside the block editor. Choose one of the following block alignment options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None </strong>– the default option.</li>
+
+
+
+<li><strong>Wide width</strong> – increase the width of the block beyond the content size.</li>
+
+
+
+<li><strong>Full width</strong> – extend the block to cover the full width of the screen.</li>
+
+
+
+<li><strong>Align left</strong> – make the block left-aligned.</li>
+
+
+
+<li><strong>Align center</strong> – make the block alignment centered.</li>
+
+
+
+<li><strong>Align right </strong>– make the block right-aligned.</li>
+</ul>
+
+
+
+<p>The “Wide width” and “Full width” alignment settings must be enabled by your WordPress theme.</p>
+
+
+
+<h3 class="wp-block-heading">Options </h3>
+
+
+
+<p>The <strong>Options </strong>button on a block toolbar gives you more features to customize the block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <strong>Settings </strong>button next to the <strong>Publish </strong>button.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/block-settings-icon.png" alt="The settings icon on the editor" class="wp-image-16356664" width="485" height="77" srcset="https://wordpress.org/documentation/files/2023/04/block-settings-icon.png 646w, https://wordpress.org/documentation/files/2023/04/block-settings-icon-300x47.png 300w" sizes="auto, (max-width: 485px) 100vw, 485px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Latest comments settings </h3>
+
+
+
+<p>The <em>Latest Comments</em> settings let you to choose whether to display the avatar, the date, and/or the excerpt. They are all on by default. You may also adjust the number of comments to display within the block by using the slider tool or inserting the number in the available field.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/latest-comment-settings.png" alt="The Latest Comments block settings panel" class="wp-image-16356665" width="337" height="504" srcset="https://wordpress.org/documentation/files/2023/04/latest-comment-settings.png 530w, https://wordpress.org/documentation/files/2023/04/latest-comment-settings-200x300.png 200w" sizes="auto, (max-width: 337px) 100vw, 337px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Dimensions</h3>
+
+
+
+<p>The <em>Latest Comments</em> block provides dimension settings options to change padding and margin size.</p>
+
+
+
+<p>Dimensions settings can be accessed by opening the <strong>Styles </strong>section.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/latest-comment-style.png" alt="The styles tab on the Latest Comments block settings panel" class="wp-image-16356666" width="338" height="473" srcset="https://wordpress.org/documentation/files/2023/04/latest-comment-style.png 542w, https://wordpress.org/documentation/files/2023/04/latest-comment-style-215x300.png 215w" sizes="auto, (max-width: 338px) 100vw, 338px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Dimensions Settings Overview</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Advanced</h3>
+
+
+
+<p>The advanced tab lets you add a CSS class to your block, allowing you to write custom CSS and style the block as you see fit.<br></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-6.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-6.png" alt="The advanced section lets you add a CSS class to your block." class="wp-image-15863334" width="498" height="245" srcset="https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-6.png 664w, https://wordpress.org/documentation/files/2019/03/Latest-Comments-HelpHub-SS-6-300x147.png 300w" sizes="auto, (max-width: 498px) 100vw, 498px" /></a></figure>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-medium-font-size" id="changelog">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-04-11
+<ul class="wp-block-list">
+<li>Screenshots for 6.2</li>
+
+
+
+<li>Revised formatting</li>
+
+
+
+<li>Added Dimensions settings support</li>
+</ul>
+</li>
+
+
+
+<li>Updates 2022-11-27
+<ul class="wp-block-list">
+<li>Removed redadunt content </li>
+
+
+
+<li>Aligned images for mobile view </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-11-08
+<ul class="wp-block-list">
+<li>Screenshots for 6.1</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-08-01
+<ul class="wp-block-list">
+<li>Screenshots for 6.0</li>
+
+
+
+<li>Added transform and block moving tools info</li>
+
+
+
+<li>Added ALT tags for the images</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-07-27
+<ul class="wp-block-list">
+<li>Screenshots as per WordPress 5.9</li>
+</ul>
+</li>
+
+
+
+<li>Created 2019-03-07</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/latest-comments-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11286019</post-id>	</item>
+		<item>
+		<title>Latest Posts block</title>
+		<link>https://wordpress.org/documentation/article/latest-posts-block/</link>
+					<comments>https://wordpress.org/documentation/article/latest-posts-block/#comments</comments>
+		
+		<dc:creator><![CDATA[kriskorn]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 13:15:41 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11286058</guid>
+
+					<description><![CDATA[Go back to the list of Blocks The latest posts block&#160;displays your most recent posts, making it easy for your readers to see what’s new on your blog. The&#160;latest posts block&#160;can be added to a page by clicking on the Add Block button. It can be found in&#160;Widgets&#160;section. Alternatively, you can type /latest and click [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>The <em>latest posts block</em>&nbsp;displays your most recent posts, making it easy for your readers to see what’s new on your blog.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264026-bee07046-db86-464c-9dfc-3ed073ff154c.png" alt="Here’s what it looks like when it’s embedded in the Editor. " /><figcaption class="wp-element-caption">Here’s what it looks like when it’s embedded in the Editor. </figcaption></figure>
+
+
+
+<p>The&nbsp;<em>latest posts block</em>&nbsp;can be added to a page by clicking on the Add Block button. It can be found in&nbsp;<em>Widgets</em>&nbsp;section. Alternatively, you can type <em>/latest </em>and click on <em>Latest Posts</em>.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="331" height="185" src="https://wordpress.org/documentation/files/2020/08/latestposts_1.png" alt="" class="wp-image-13299355" srcset="https://wordpress.org/documentation/files/2020/08/latestposts_1.png 331w, https://wordpress.org/documentation/files/2020/08/latestposts_1-300x168.png 300w" sizes="auto, (max-width: 331px) 100vw, 331px" /><figcaption class="wp-element-caption">Latest Posts Slash Command</figcaption></figure>
+
+
+
+<p>You can also choose the Latest Posts<em><strong> </strong></em>from the Add Block button. </p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank"></a><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>Each block has its own block-specific controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264029-66f0e652-4c60-4109-84e7-5c20257006b4.png" alt="The Latest Posts Block toolbar" style="width:370px;height:61px" /><figcaption class="wp-element-caption">The Latest Posts Block toolbar</figcaption></figure>
+
+
+
+<p>The block toolbar for the <em>latest posts block</em> has options for:</p>
+
+
+
+<p><strong>Changing Alignment</strong></p>
+
+
+
+<figure class="wp-block-image alignright size-large is-resized"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264030-ae3a9c29-d767-4a49-9fb7-c27ff80a0d7d.png" alt="Alignment Settings" style="width:-22px;height:-30px" /><figcaption class="wp-element-caption">Alignment Settings</figcaption></figure>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None</strong> &#8211; default</li>
+
+
+
+<li><strong>Wide width</strong>&nbsp;– Increase the width of the Latest Post block beyond the content size</li>
+
+
+
+<li><strong>Full width</strong>&nbsp;– Extend the Latest Post block to cover the full width of the screen</li>
+
+
+
+<li><strong>Align left</strong>&nbsp;– Make the Latest Post block left aligned</li>
+
+
+
+<li><strong>Align center</strong>&nbsp;– Make the Latest Post block alignment centered</li>
+
+
+
+<li><strong>Align right&nbsp;</strong>– Make the Latest Post block align right</li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading">List view (default)</h3>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264031-96f7a429-40c3-44e7-aef3-02c40a43344e.png" alt="List view" /><figcaption class="wp-element-caption">List view</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Grid view</h3>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264033-8eb59636-ec96-4860-a9f0-1b29f2c86887.png" alt="Grid View" /><figcaption class="wp-element-caption">Grid View</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">More options </h3>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings  </h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the block toolbar. <em>If you do not see the sidebar, simply click the &#8216;cog&#8217; icon next to the Publish button.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="556" height="450" src="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.18.52.png" alt="" class="wp-image-16358935" style="width:395px;height:auto" srcset="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.18.52.png 556w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.18.52-300x243.png 300w" sizes="auto, (max-width: 556px) 100vw, 556px" /><figcaption class="wp-element-caption">Block Settings</figcaption></figure>
+
+
+
+<figure class="wp-block-image alignright size-large"><img loading="lazy" decoding="async" width="300" height="1024" src="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.27.37-300x1024.png" alt="" class="wp-image-16358938" style="aspect-ratio:0.32223903177004537" srcset="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.27.37-300x1024.png 300w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.27.37-88x300.png 88w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.27.37.png 562w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption"> Latest Posts settings</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Post content settings</h3>
+
+
+
+<p>You can choose to show full post content or post excerpt with the option to modify the number of words for the excerpt.</p>
+
+
+
+<figure class="wp-block-image alignleft size-full is-resized"><img loading="lazy" decoding="async" width="558" height="546" src="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.37.10.png" alt="" class="wp-image-16358941" style="width:276px;height:271px" srcset="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.37.10.png 558w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.37.10-300x294.png 300w" sizes="auto, (max-width: 558px) 100vw, 558px" /><figcaption class="wp-element-caption">Post content settings</figcaption></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<h3 class="wp-block-heading">Post meta settings</h3>
+
+
+
+<p>Meta settings allow you to show or hide author&#8217;s name and post publish date.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="710" height="350" src="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.17.11.png" alt="" class="wp-image-16358934" style="width:386px;height:auto" srcset="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.17.11.png 710w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.17.11-300x148.png 300w" sizes="auto, (max-width: 710px) 100vw, 710px" /><figcaption class="wp-element-caption">Post meta settings</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Featured image settings</h3>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="562" height="926" src="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.39.59.png" alt="" class="wp-image-16358942" style="width:396px;height:auto" srcset="https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.39.59.png 562w, https://wordpress.org/documentation/files/2023/10/Screenshot-2023-10-04-at-14.39.59-182x300.png 182w" sizes="auto, (max-width: 562px) 100vw, 562px" /><figcaption class="wp-element-caption">Featured image settings</figcaption></figure>
+
+
+
+<p>With Featured image settings you can select resolution, dimensions, alignment and whether you want image to link to the article itself.</p>
+
+
+
+<h3 class="wp-block-heading">Sorting and filtering</h3>
+
+
+
+<p>The Latest Posts Settings allow you to choose how you wish to order the posts, with choices of:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Newest to Oldest (default)</li>
+
+
+
+<li>Oldest to Newest</li>
+
+
+
+<li>Alphabetical A to Z</li>
+
+
+
+<li>Alphabetical Z to A</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264043-c7c00db6-1fd7-4aa6-872b-d58009b2cc18.png" alt="Order by settings" /><figcaption class="wp-element-caption">Order by settings</figcaption></figure>
+
+
+
+<p>You also have the option to choose a specific category or subcategory to display the posts from. You may also specify the number of posts to display (if you have fewer posts than the limit, that number of posts will show), as well as toggle the post date on and off.</p>
+
+
+
+<p>If you select Grid view you&#8217;ll also have an option to choose how many columns you want grid to have.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264044-76fa35c1-eafd-4850-b67d-af03de20ebc3.png" alt="Sorting and filtering settings" style="width:283px;height:472px" /><figcaption class="wp-element-caption">Sorting and filtering settings</figcaption></figure>
+</div>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264046-0e9ae9bb-bb3c-495f-b9b9-87a4f40b69e3.png" alt="List view with all settings enabled" /><figcaption class="wp-element-caption">List view with all settings enabled</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://user-images.githubusercontent.com/1508963/159264048-49120ac7-b2f1-46d3-92ea-869246628275.png" alt="Grid view with all settings enabled" /><figcaption class="wp-element-caption">Grid view with all settings enabled</figcaption></figure>
+
+
+
+<p><strong>Advanced</strong></p>
+
+
+
+<p>The advanced tab lets you add a CSS class to your block, allowing you to write custom CSS and style the block as you see fit.<br></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><a href="https://wordpress.org/documentation/files/2019/03/block-settings-advanced-1.png"><img loading="lazy" decoding="async" width="564" height="262" src="https://wordpress.org/documentation/files/2019/03/block-settings-advanced-1.png" alt="The advanced section lets you add a CSS class to your block." class="wp-image-11285926" style="width:341px;height:159px" srcset="https://wordpress.org/documentation/files/2019/03/block-settings-advanced-1.png 564w, https://wordpress.org/documentation/files/2019/03/block-settings-advanced-1-300x139.png 300w" sizes="auto, (max-width: 564px) 100vw, 564px" /></a><figcaption class="wp-element-caption">The advanced section lets you add a CSS class to your block.</figcaption></figure>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-extra-large-font-size" id="changelog">Changelog </h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2022-07-05
+<ul class="wp-block-list">
+<li>Updated screenshots for 6.0</li>
+
+
+
+<li>Added new settings sections</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2020-12-15
+<ul class="wp-block-list">
+<li>Updated Block Settings. </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2020-08-23<ul><li>WP 5.5 overall updates</li></ul>
+<ul class="wp-block-list">
+<li>Updated images to WP 5.5</li>
+
+
+
+<li>Updates to Alignment, List &amp; Grid View sections</li>
+
+
+
+<li>Added changelog</li>
+
+
+
+<li>Added list of blocks reusable block</li>
+</ul>
+</li>
+
+
+
+<li>Created 2019-03-07</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/latest-posts-block/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11286058</post-id>	</item>
+		<item>
+		<title>Page List block</title>
+		<link>https://wordpress.org/documentation/article/page-list-block/</link>
+					<comments>https://wordpress.org/documentation/article/page-list-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Mon, 12 Dec 2022 16:33:16 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=16282126</guid>
+
+					<description><![CDATA[Go back to the list of Blocks The Page List block allows you to display your website’s published pages in a page, post, and sidebar. To add a Page List block, click the Block Inserter (+) icon and search for Page List. Another way you can add the Page List block is by typing /page [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>The <strong>Page List </strong>block allows you to display your website’s published pages in a page, post, and sidebar.</p>
+
+
+
+<p>To add a <strong>Page List </strong>block, click the <strong>Block Inserter</strong> (+) icon and search for Page List.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1000" height="568" src="https://wordpress.org/documentation/files/2023/08/adding-page-list-block.gif" alt="Adding a Page List Block" class="wp-image-16358407" /></figure>
+
+
+
+<p>Another way you can add the <strong>Page List </strong>block is by typing <em>/page list</em> and hitting enter in a new paragraph block.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/rONRvKkLgGdWkRTU19cfWyhCJDwRitwODnzTqW8520GycCdMorJE1KQJozOTrxzJTwXau4isohlGY4SW_pav8b22Ft5gdQkpc_htyUgyYLANwIEE3uEuYlgb7c9SKZz-m_FQu8GFCeIkZGaUo2Y-SDUqgjngN7MhdUDaKRMEzw2JmdudLo4SBoPrrM3uyQ" alt="Use the slash command to add a page list block" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Detailed instructions for adding blocks are <a href="https://wordpress.org/documentation/article/adding-a-new-block/">in this support article</a>.</p>
+
+
+
+<p>Using this block on your website sidebar makes pages easily accessible to visitors. Each page name on the list links to its respective page.</p>
+
+
+
+<p>Here&#8217;s how the block looks on your website sidebar:</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="681" height="462" src="https://wordpress.org/documentation/files/2022/12/page-list-block-sidebar.png" alt="Page List block in sidebar" class="wp-image-16358408" style="width:681px;height:462px" srcset="https://wordpress.org/documentation/files/2022/12/page-list-block-sidebar.png 681w, https://wordpress.org/documentation/files/2022/12/page-list-block-sidebar-300x204.png 300w" sizes="auto, (max-width: 681px) 100vw, 681px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>Every block has unique toolbar icons, and block-specific user controls that let you customize the block right in the editor. The <strong>Page List </strong>block has the following options on its <strong>Block Toolbar</strong>:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move handles</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<p>Note: Move and Drag option is only available if you have more than 1 block in the editor.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="810" height="460" src="https://wordpress.org/documentation/files/2022/12/block-toolbar.png" alt="Block Toolbar - Page List Block" class="wp-image-16358412" srcset="https://wordpress.org/documentation/files/2022/12/block-toolbar.png 810w, https://wordpress.org/documentation/files/2022/12/block-toolbar-300x170.png 300w, https://wordpress.org/documentation/files/2022/12/block-toolbar-768x436.png 768w" sizes="auto, (max-width: 810px) 100vw, 810px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Transform to</h3>
+
+
+
+<p>The <strong>Transform to</strong> button helps change the <strong>Page List</strong> block into a <strong>Group</strong> or <strong>Columns</strong>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="980" height="462" src="https://wordpress.org/documentation/files/2023/08/block-transform.png" alt="Block transformation tool" class="wp-image-16358413" srcset="https://wordpress.org/documentation/files/2023/08/block-transform.png 980w, https://wordpress.org/documentation/files/2023/08/block-transform-300x141.png 300w, https://wordpress.org/documentation/files/2023/08/block-transform-768x362.png 768w" sizes="auto, (max-width: 980px) 100vw, 980px" /></figure>
+
+
+
+<h3 class="wp-block-heading has-heading-3-font-size">Drag icon</h3>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/gf-4hxXLtsjc2In8IYt8TU4EC3rpjcbtZeioOx47WAH-DYYmb7_HRKldYMN9XD1yQY7Kug_qLH_w-Fe_CCak4isb0nG0gh6mVMVErUhW63eGE1u-qDik6KRmkkUrhVLjtkGiU4yWTGBSA8Z_wXvZDYNrCfexqjXpqNR6eJznQxpW-JblxqB_RWYbSH3ygg" alt="Use the Drag icon to move blocks." /></figure>
+
+
+
+<p></p>
+
+
+
+<p>To drag and drop the block to a new location on the page, select and hold the rectangle of dots, then move it to that location. As you drag the block, the blue separator line shows where it can be dropped. When you find the desired location, release the left mouse button.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1000" height="655" src="https://wordpress.org/documentation/files/2023/08/drag-page-list-block.gif" alt="Drag page list block" class="wp-image-16358414" /></figure>
+
+
+
+<h2 class="wp-block-heading has-heading-3-font-size">Move handles</h2>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/0TXXPairvXtghCgYFjYLSywSTZb4AYhYaf9jm5bE7KEiTFHl6eOte-tgzSTYtPaWPv2WKn2MLiKx7Tglm2sCc-wSPBCjvHPGBUksH2oDY7e0CUIgA1wVESeeiEqT2V5iJGUSTcxOV8ExStQGFw6HoWAiWfmQRiTrsV6E76DzgcLOY5KHkCZLZyub7T7KqA" alt="Use the Move handles to move blocks up and down." /></figure>
+
+
+
+<p>The up and down arrow icons let you move a block up and down on the page.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Here are more details on <a href="https://wordpress.org/documentation/article/moving-blocks/">moving blocks</a> in the editor.</p>
+
+
+
+<h2 class="wp-block-heading has-heading-3-font-size">More options</h2>
+
+
+
+<p>This control give you many other options like copy or duplicate your block, copy/page styles etc.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the <strong>Block Toolbar</strong>. If you do not see the sidebar, simply click the ‘sidebar’ icon next to <strong>Publish</strong> or <strong>Update</strong> button.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="588" height="166" src="https://wordpress.org/documentation/files/2022/12/block-settings.png" alt="Toggle block settings" class="wp-image-16358415" srcset="https://wordpress.org/documentation/files/2022/12/block-settings.png 588w, https://wordpress.org/documentation/files/2022/12/block-settings-300x85.png 300w" sizes="auto, (max-width: 588px) 100vw, 588px" /></figure>
+
+
+
+<p>This block has controls categorised under <strong>Settings</strong> and <strong>Styles</strong> tab.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Settings</h3>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="560" height="894" src="https://wordpress.org/documentation/files/2023/10/page-list-block-settings.png" alt="Page list block settings panel" class="wp-image-16359078" style="width:247px;height:398px" srcset="https://wordpress.org/documentation/files/2023/10/page-list-block-settings.png 560w, https://wordpress.org/documentation/files/2023/10/page-list-block-settings-188x300.png 188w" sizes="auto, (max-width: 560px) 100vw, 560px" /></figure>
+
+
+
+<p><strong>Parent</strong></p>
+
+
+
+<p>If you only want to list the child pages of any specific page, then select that parent page in this option. Start typing the page title and you will get the option to select.</p>
+
+
+
+<p><strong>Additional CSS Class(es)</strong></p>
+
+
+
+<p>This option allows you to specify additional class(es) for the block, which can be used while writing custom CSS targeting particular blocks.</p>
+
+
+
+<h3 class="wp-block-heading">Styles</h3>
+
+
+
+<p>This block has only <strong>Typography</strong> settings under Styles</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="558" height="626" src="https://wordpress.org/documentation/files/2023/08/page-list-block-styles.png" alt="Page list block styles" class="wp-image-16358417" style="width:301px;height:338px" srcset="https://wordpress.org/documentation/files/2023/08/page-list-block-styles.png 558w, https://wordpress.org/documentation/files/2023/08/page-list-block-styles-267x300.png 267w" sizes="auto, (max-width: 558px) 100vw, 558px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">Read more about <strong><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Typography Settings</a></strong></p>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-10-31</li>
+
+
+
+<li>Updated 2023-08-04</li>
+
+
+
+<li>Created 2022-12-12</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/page-list-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16282126</post-id>	</item>
+		<item>
+		<title>RSS block</title>
+		<link>https://wordpress.org/documentation/article/rss-block/</link>
+					<comments>https://wordpress.org/documentation/article/rss-block/#comments</comments>
+		
+		<dc:creator><![CDATA[Birgit Pauli-Haack]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2019 18:58:44 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=12167360</guid>
+
+					<description><![CDATA[Go back to the list of Blocks An RSS feed is a machine-readable version of the content of a blog or a website. With the RSS block, you can display content from any site’s RSS feed on your website. You can choose to display the Title, Author, Date, and Excerpt for each item in the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>An RSS feed is a machine-readable version of the content of a blog or a website.</p>
+
+
+
+<p>With the <em>RSS</em> block, you can display content from any site’s RSS feed on your website.  You can choose to display the Title, Author, Date, and Excerpt for each item in the feed. You can display the items in a list or as a grid in a set number of columns. </p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2022/09/HelpHub-RSS-Block-August-2022.mp4"></video></figure>
+
+
+
+<p class="has-extra-large-font-size">Steps to embed an RSS block</p>
+
+
+
+<ol class="wp-block-list">
+<li>First, you need to know the URL of the RSS feed that you want to embed. Some websites display an orange icon <img loading="lazy" decoding="async" width="512" height="512" class="wp-image-12167833" style="width: 18px" src="https://wordpress.org/documentation/files/2019/11/RSS-feed-icon.png" alt="" srcset="https://wordpress.org/documentation/files/2019/11/RSS-feed-icon.png 512w, https://wordpress.org/documentation/files/2019/11/RSS-feed-icon-300x300.png 300w, https://wordpress.org/documentation/files/2019/11/RSS-feed-icon-150x150.png 150w" sizes="auto, (max-width: 512px) 100vw, 512px" /> with the link of the feed. You can usually find this icon together with social network icons.<br>Our example uses the feed of the <a href="https://wordpress.org/news/">News</a> section on WordPress.org. &nbsp;<a href="https://wordpress.org/news/feed">https://wordpress.org/news/feed</a></li>
+</ol>
+
+
+
+<ol class="wp-block-list" start="2">
+<li>Click the <strong>Block Inserter</strong> (+) icon to add an <em>RSS</em> block to your WordPress page/post. Alternatively, you can type&nbsp;<kbd>/rss</kbd>&nbsp;and hit enter in a new&nbsp;<em>paragraph block</em>&nbsp;to add one quickly.</li>
+</ol>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-1.png" alt="Adding RSS block via the WordPress slash command /rss" class="wp-image-16002203" width="268" height="133" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-1.png 536w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-1-300x149.png 300w" sizes="auto, (max-width: 268px) 100vw, 268px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>Paste the link of the RSS feed into the text box and click on the <strong>Use URL</strong> button</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="430" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-1024x430.png" alt="Enter URL here user interface for the RSS block." class="wp-image-16002207" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-1024x430.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-300x126.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-768x323.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2.png 1352w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>The <em>RSS</em> block now displays the titles of the feed items.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="361" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-3-1024x361.png" alt="Display of the RSS feed." class="wp-image-16002209" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-3-1024x361.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-3-300x106.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-3-768x271.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-3.png 1340w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>If you use an URL that can’t be embedded, the block shows the message <em>“RSS Error: WP HTTP Error: A valid URL was not provided.”</em>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="435" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-6-1024x435.png" alt="Example of a URL that cannot be used in the RSS block." class="wp-image-16002229" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-6-1024x435.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-6-300x127.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-6-768x326.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-6.png 1362w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Use the options in the <strong>Block Toolbar</strong> and the controls in the <strong>Block Settings</strong> panel in your editor&#8217;s sidebar to fine-tune the display. </p>
+
+
+
+<h2 class="wp-block-heading" id="block-toolbar">Block Toolbar</h2>
+
+
+
+<p>Besides the <em>Mover</em> and <em>Drag &amp; Drop</em> handle, the Block Toolbar for the <em>RSS</em> block shows six other buttons:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform To</li>
+
+
+
+<li>Change alignment</li>
+
+
+
+<li>Edit RSS URL</li>
+
+
+
+<li>List view</li>
+
+
+
+<li>Grid view</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-4-1.png" alt="Block toolbar for the RSS block." class="wp-image-16002212" width="343" height="61" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Transform</strong> <strong>to</strong></p>
+
+
+
+<p>You can transform the <em>RSS</em> block into Columns or a Group. Transforming to a group would give you the ability to change the background color around the embed.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-5-1-1024x358.png" alt="Transform options for the RSS block." class="wp-image-16002224" width="365" height="128" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Change alignment</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Align left</strong> &#8211; Make the block left-aligned.</li>
+
+
+
+<li><strong>Align center</strong> &#8211; Make the block alignment centered.</li>
+
+
+
+<li><strong>Align right </strong>&#8211; Make the block right-aligned.</li>
+
+
+
+<li><strong>Wide width</strong> &#8211; Increase the width of the block beyond the content size.</li>
+
+
+
+<li><strong>Full width</strong> &#8211; Extend the block to cover the full width of the screen.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-7.png" alt="Change alignment options for RSS block." class="wp-image-16002242" width="353" height="324" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-7.png 706w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-7-300x275.png 300w" sizes="auto, (max-width: 353px) 100vw, 353px" /></figure>
+
+
+
+<p>The &#8220;Wide width&#8221; and &#8220;Full width&#8221; alignment settings must be enabled by your WordPress theme.&nbsp;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Edit RSS URL</strong></p>
+
+
+
+<p>Via the edit URL, you can change the RSS feed URL in the block. Overwrite the existing URL and click on the <strong>Use URL</strong> button.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-1024x430.png" alt="Edit RSS Feed URL in the block." class="wp-image-16002207" width="361" height="152" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-1024x430.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-300x126.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2-768x323.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-2.png 1352w" sizes="auto, (max-width: 361px) 100vw, 361px" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>List</strong> <strong>view</strong></p>
+
+
+
+<p>The <strong>List view</strong> option displays the feed items in an unordered list. Use the Block settings controls to customize the <strong>List view</strong>.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-8-1024x362.png" alt="List view for the RSS block." class="wp-image-16002253" width="359" height="127" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-8-1024x362.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-8-300x106.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-8-768x271.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-8.png 1330w" sizes="auto, (max-width: 359px) 100vw, 359px" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Grid&nbsp;view</strong></p>
+
+
+
+<p>Display the feed items in a grid. Use the Block settings controls to adjust the number of columns and the other display options.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-9-1024x519.png" alt="Grid view for the RSS block." class="wp-image-16002254" width="371" height="188" srcset="https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-9-1024x519.png 1024w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-9-300x152.png 300w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-9-768x389.png 768w, https://wordpress.org/documentation/files/2022/09/RSS-Feed-HelpHub-SS-9.png 1274w" sizes="auto, (max-width: 371px) 100vw, 371px" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>More options</strong> </p>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading" id="settings">Block Settings</h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the block toolbar.&nbsp;<em>If you do not see the sidebar, simply click the &#8216;cog&#8217; icon.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM.png" alt="Cog icon to display the Block sidebar" class="wp-image-15765217" width="369" height="93" srcset="https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM.png 492w, https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM-300x76.png 300w" sizes="auto, (max-width: 369px) 100vw, 369px" /></figure>
+
+
+
+<figure class="wp-block-image alignright size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/11/197761657-5fa6467c-b73a-41ca-9c38-b79833af866e.png" alt="Block settings for the RSS block." class="wp-image-16209637" width="222" height="253" srcset="https://wordpress.org/documentation/files/2022/11/197761657-5fa6467c-b73a-41ca-9c38-b79833af866e.png 302w, https://wordpress.org/documentation/files/2022/11/197761657-5fa6467c-b73a-41ca-9c38-b79833af866e-263x300.png 263w" sizes="auto, (max-width: 222px) 100vw, 222px" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Settings</strong></p>
+
+
+
+<p><strong>Number of items</strong>: Slider and number box to adjust the number of feed items you’d like to display. To change the number move the dot on the slider or update the number in the box next to it.</p>
+
+
+
+<p><strong>Display author</strong>: Switch on/off the display of the author’s name&nbsp;</p>
+
+
+
+<p><strong>Display date</strong>: Switch on/off the display of the published date of the feed items</p>
+
+
+
+<p><strong>Display excerpt</strong>: Switch on/off the display of an excerpt from the feed items&#8217; content.&nbsp;</p>
+
+
+
+<p><strong>Max number of words in excerpt</strong>: Slider and number box to choose the maximum number of words that can be displayed in the excerpt. The minimum number is 10. This section is not visible if <strong>Display excerpt</strong> is in the OFF position.&nbsp;</p>
+
+
+
+<p><strong>Columns</strong>: Slider and number box to control the number of columns for the grid view. This option is only visible when you select the <strong>Grid view</strong> on the Block Toolbar.</p>
+
+
+
+<p class="has-medium-font-size"><strong>Advanced</strong></p>
+
+
+
+<p>The advanced tab lets you add a CSS class to your block, allowing you to write custom CSS and style the block as you see fit.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img decoding="async" src="https://lh6.googleusercontent.com/HCaeEAd-xkijY3husAGN8FkRfOokz6h-mLa1vQoT11JIf366WEE4Y3jtoy6CTOJGTpBZELgZPdIewg2ug8pURV5XtFciGwLHJiNwleOvlGte5WnWTug0SYe4p-qBR54_8oR1NwHM" alt="Advanced option in the selected Block" width="-274" height="-145" /><figcaption class="wp-element-caption">Advanced option in the selected Block</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading has-extra-large-font-size">Resources</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://en.wikipedia.org/wiki/RSS">Learn more about RSS on Wikipedia</a></li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/wordpress-feeds/">Learn more about WordPress Feeds&nbsp;</a></li>
+</ul>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-medium-font-size" id="changelog">Changelog<strong> </strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2022-11-20
+<ul class="wp-block-list">
+<li>Aligned images for mobile view </li>
+
+
+
+<li>Removed redundant content </li>
+
+
+
+<li>Added heading</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-11-08
+<ul class="wp-block-list">
+<li>Updated &#8220;RSS Settings&#8221; screenshot</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-09-28
+<ul class="wp-block-list">
+<li>Fixed font sizing under &#8220;Block Settings&#8221;</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-09-12 <ul><li>Video walkthrough created</li></ul>
+<ul class="wp-block-list">
+<li>Updated with images from WordPress 6.0</li>
+
+
+
+<li>Added new “Transform to” setting (Column)</li>
+
+
+
+<li>Added “Lock” information under More Options</li>
+
+
+
+<li>Added ALT tags for the images</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-02-08
+<ul class="wp-block-list">
+<li>Update screenshots for 5.9</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2020-08-17
+<ul class="wp-block-list">
+<li>Converted More Options reusable block to regular blocks</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2020-04-28
+<ul class="wp-block-list">
+<li>changed category to &#8220;Widget Blocks&#8221;</li>
+
+
+
+<li>changed dates in Changelog to universal format</li>
+</ul>
+</li>
+
+
+
+<li><span style=", sans-serif">Updated 2020-04-18</span>
+<ul class="wp-block-list">
+<li>Converted reusable block to regular blocks</li>
+
+
+
+<li>Added to &#8220;Core Blocks&#8221; category</li>
+</ul>
+</li>
+
+
+
+<li>Updated: 2019-11-25
+<ul class="wp-block-list">
+<li>change the first sentence and</li>
+
+
+
+<li>aligned images to the right of the text where it adds to readability</li>
+</ul>
+</li>
+
+
+
+<li>Created: 2019-11-23 / WordPress 5.3</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/rss-block/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">12167360</post-id>	</item>
+		<item>
+		<title>Search block</title>
+		<link>https://wordpress.org/documentation/article/search-block/</link>
+					<comments>https://wordpress.org/documentation/article/search-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Chandrika Sista]]></dc:creator>
+		<pubDate>Thu, 03 Dec 2020 17:58:39 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=13740825</guid>
+
+					<description><![CDATA[Go back to the list of Blocks Use the Search block to place a search widget on your page or post. Click Block inserter (+) icon to open the block inserter pop-up window and search for the Search block. You can also use the keyboard shortcut /search to quickly insert a Search block.&#160; Detailed instructions [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>Use the <em>Search block</em> to place a search widget on your page or post.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="502" src="https://wordpress.org/documentation/files/2023/08/search-block-1024x502.jpg" alt="The search block" class="wp-image-16358722" srcset="https://wordpress.org/documentation/files/2023/08/search-block-1024x502.jpg 1024w, https://wordpress.org/documentation/files/2023/08/search-block-300x147.jpg 300w, https://wordpress.org/documentation/files/2023/08/search-block-768x377.jpg 768w, https://wordpress.org/documentation/files/2023/08/search-block-1536x753.jpg 1536w, https://wordpress.org/documentation/files/2023/08/search-block.jpg 1999w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Click <strong>Block inserter </strong>(<strong>+</strong>) icon to open the block inserter pop-up window and search for the <em>Search block</em>.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/Loom-Message-5-August-2023.mp4"></video><figcaption class="wp-element-caption">Demonstration to add a search block</figcaption></figure>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/search</kbd> to quickly insert a <em>Search block</em>.&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">Detailed instructions on adding blocks can be found <a href="https://wordpress.org/support/article/adding-a-new-block/">here</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-toolbar">Block toolbar</h2>
+
+
+
+<p>To view the block toolbar, click on the block, and the toolbar will be displayed.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/toolbar.png" alt="Search block toolbar" class="wp-image-16355603" style="width:503px;height:87px" width="503" height="87" srcset="https://wordpress.org/documentation/files/2023/02/toolbar.png 670w, https://wordpress.org/documentation/files/2023/02/toolbar-300x52.png 300w" sizes="auto, (max-width: 503px) 100vw, 503px" /></figure>
+
+
+
+<p>Every block comes with unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The <em>Search block</em> shows standard eight buttons:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move handles</li>
+
+
+
+<li>Change text alignment</li>
+
+
+
+<li>Toggle search label</li>
+
+
+
+<li>Change button position</li>
+
+
+
+<li>Use button with Icon</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Adding placeholder text</h3>
+
+
+
+<p>When you add a <em>Search block</em>, you have an option to add placeholder text inside the search field. The placeholder text is displayed until the user starts typing in a search term in the search field.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="241" src="https://wordpress.org/documentation/files/2023/02/placeholder-text-3-1024x241.png" alt="Search block placeholder text" class="wp-image-16355607" srcset="https://wordpress.org/documentation/files/2023/02/placeholder-text-3-1024x241.png 1024w, https://wordpress.org/documentation/files/2023/02/placeholder-text-3-300x71.png 300w, https://wordpress.org/documentation/files/2023/02/placeholder-text-3-768x181.png 768w, https://wordpress.org/documentation/files/2023/02/placeholder-text-3.png 1384w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Transform to</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/transform-1.png" alt="Transform to option" class="wp-image-16355608" style="width:516px;height:305px" width="516" height="305" srcset="https://wordpress.org/documentation/files/2023/02/transform-1.png 688w, https://wordpress.org/documentation/files/2023/02/transform-1-300x177.png 300w" sizes="auto, (max-width: 516px) 100vw, 516px" /></figure>
+
+
+
+<p>When you click on the <strong>Transform </strong>button you can convert the <em>Search block</em> into another block type while keeping the existing content.</p>
+
+
+
+<p>Click on the <strong>Transform</strong> button to convert the Search block into a <em>Columns</em> or <em>Group</em> block. <em>Group</em> block gives you the ability to change the background color around the <em>Search block</em>.</p>
+
+
+
+<h3 class="wp-block-heading">Drag icon</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="688" height="116" src="https://wordpress.org/documentation/files/2023/02/drag-icon.png" alt="Drag icon on the search block toolbar" class="wp-image-16355609" srcset="https://wordpress.org/documentation/files/2023/02/drag-icon.png 688w, https://wordpress.org/documentation/files/2023/02/drag-icon-300x51.png 300w" sizes="auto, (max-width: 688px) 100vw, 688px" /></figure>
+
+
+
+<p>To drag and drop the block to a new location on the page template, click and hold the <strong>drag</strong> icon, then drag it to the new location. The blue separator line indicates where the block will be placed. Release the left mouse button when you find the new location to place the block.</p>
+
+
+
+<h3 class="wp-block-heading">Move arrows</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/move-block-arrows.png" alt="Move arrows on the search block toolbar" class="wp-image-16355610" style="width:513px;height:89px" width="513" height="89" srcset="https://wordpress.org/documentation/files/2023/02/move-block-arrows.png 684w, https://wordpress.org/documentation/files/2023/02/move-block-arrows-300x52.png 300w" sizes="auto, (max-width: 513px) 100vw, 513px" /></figure>
+
+
+
+<p>The <strong>up</strong> and <strong>down</strong> arrow icons can be used to shift a block up and down on the page. </p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">Detailed instructions on moving a block within the editor can be found <a href="https://wordpress.org/support/article/moving-blocks/">here</a></p>
+
+
+
+<h3 class="wp-block-heading">Change text alignment</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/alignment.png" alt="Alignment tool on the search block toolbar" class="wp-image-16355611" style="width:515px;height:92px" width="515" height="92" srcset="https://wordpress.org/documentation/files/2023/02/alignment.png 686w, https://wordpress.org/documentation/files/2023/02/alignment-300x53.png 300w" sizes="auto, (max-width: 515px) 100vw, 515px" /></figure>
+
+
+
+<p>Use the change alignment tool to align the <em>Search block</em>. The following is a list of the block align options:</p>
+
+
+
+<ul class="wp-block-list">
+<li>None</li>
+
+
+
+<li><strong>Align left</strong>&nbsp;– Make the block left-aligned.</li>
+
+
+
+<li><strong>Align center</strong>&nbsp;– Make the block alignment centered.</li>
+
+
+
+<li><strong>Align right&nbsp;</strong>– Make the block right aligned.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Toggle search label</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/toggle-search-label.png" alt="Toggle search button on the search block toolbar" class="wp-image-16355612" style="width:516px;height:95px" width="516" height="95" srcset="https://wordpress.org/documentation/files/2023/02/toggle-search-label.png 688w, https://wordpress.org/documentation/files/2023/02/toggle-search-label-300x55.png 300w" sizes="auto, (max-width: 516px) 100vw, 516px" /></figure>
+
+
+
+<p>This button can be used to hide the search field label.</p>
+
+
+
+<h3 class="wp-block-heading">Change button position</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/08/image4-1024x531.jpg" alt="Change button position" class="wp-image-16358731" style="width:573px;height:321px" width="573" height="321" /></figure>
+
+
+
+<p>This button can be used to change the position of the search button. There are three options to choose from:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Button outside</strong> – the default setting.</li>
+
+
+
+<li><strong>Button inside</strong> – the search button is part of the search text field.</li>
+
+
+
+<li><strong>No button</strong> – removes the Search button and only displays the Search text field on the page.</li>
+
+
+
+<li><strong>Button only</strong> &#8211; displays only the Search button and hides the Search input text field</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1338" height="198" src="https://wordpress.org/documentation/files/2023/02/searchblock.png" alt="Search block with button inside setting" class="wp-image-16355614" srcset="https://wordpress.org/documentation/files/2023/02/searchblock.png 1338w, https://wordpress.org/documentation/files/2023/02/searchblock-300x44.png 300w, https://wordpress.org/documentation/files/2023/02/searchblock-1024x152.png 1024w, https://wordpress.org/documentation/files/2023/02/searchblock-768x114.png 768w" sizes="auto, (max-width: 1338px) 100vw, 1338px" /><figcaption class="wp-element-caption">Button inside setting</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1340" height="142" src="https://wordpress.org/documentation/files/2023/02/search-placeholder-1.png" alt="Search block with no button setting" class="wp-image-16355616" srcset="https://wordpress.org/documentation/files/2023/02/search-placeholder-1.png 1340w, https://wordpress.org/documentation/files/2023/02/search-placeholder-1-300x32.png 300w, https://wordpress.org/documentation/files/2023/02/search-placeholder-1-1024x109.png 1024w, https://wordpress.org/documentation/files/2023/02/search-placeholder-1-768x81.png 768w" sizes="auto, (max-width: 1340px) 100vw, 1340px" /><figcaption class="wp-element-caption">No button setting</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="882" height="238" src="https://wordpress.org/documentation/files/2023/08/image5.jpg" alt="Button only setting" class="wp-image-16358734" srcset="https://wordpress.org/documentation/files/2023/08/image5.jpg 882w, https://wordpress.org/documentation/files/2023/08/image5-300x81.jpg 300w, https://wordpress.org/documentation/files/2023/08/image5-768x207.jpg 768w" sizes="auto, (max-width: 882px) 100vw, 882px" /><figcaption class="wp-element-caption">Button only setting</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Use button with icon</h3>
+
+
+
+<p>The search button can be either text or icon.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1348" height="322" src="https://wordpress.org/documentation/files/2023/02/search-button-text.png" alt="Search button with icon" class="wp-image-16355617" srcset="https://wordpress.org/documentation/files/2023/02/search-button-text.png 1348w, https://wordpress.org/documentation/files/2023/02/search-button-text-300x72.png 300w, https://wordpress.org/documentation/files/2023/02/search-button-text-1024x245.png 1024w, https://wordpress.org/documentation/files/2023/02/search-button-text-768x183.png 768w" sizes="auto, (max-width: 1348px) 100vw, 1348px" /><figcaption class="wp-element-caption">Search button with text</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1354" height="320" src="https://wordpress.org/documentation/files/2023/02/search-button-with-icon.png" alt="Search button with icon" class="wp-image-16355618" srcset="https://wordpress.org/documentation/files/2023/02/search-button-with-icon.png 1354w, https://wordpress.org/documentation/files/2023/02/search-button-with-icon-300x71.png 300w, https://wordpress.org/documentation/files/2023/02/search-button-with-icon-1024x242.png 1024w, https://wordpress.org/documentation/files/2023/02/search-button-with-icon-768x182.png 768w" sizes="auto, (max-width: 1354px) 100vw, 1354px" /><figcaption class="wp-element-caption">Search button with icon</figcaption></figure>
+
+
+
+<p>Clicking on the Search button or the Search title in the search block will display three more buttons in the Block Toolbar &#8211; Bold, Italic and More Rich Text controls.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1354" height="342" src="https://wordpress.org/documentation/files/2023/02/text-formatting.png" alt="Text formatting options on the search block toolbar" class="wp-image-16355619" srcset="https://wordpress.org/documentation/files/2023/02/text-formatting.png 1354w, https://wordpress.org/documentation/files/2023/02/text-formatting-300x76.png 300w, https://wordpress.org/documentation/files/2023/02/text-formatting-1024x259.png 1024w, https://wordpress.org/documentation/files/2023/02/text-formatting-768x194.png 768w" sizes="auto, (max-width: 1354px) 100vw, 1354px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Bold</h3>
+
+
+
+<p>You can select the text in the Search title or the Search button and use the <strong>Bold</strong> option or <kbd>Ctrl+B</kbd> / <kbd>Cmd+B</kbd> on your keyboard to bold it, which is usually heavier than the surrounding text.</p>
+
+
+
+<h3 class="wp-block-heading">Italic</h3>
+
+
+
+<p>You can select the text in the Search title or the Search button and use the <strong>Italic</strong> option or <kbd>Ctrl+I</kbd> / <kbd>Cmd+I</kbd> on your keyboard to italicize it, which usually appears slanted to the right.</p>
+
+
+
+<h3 class="wp-block-heading">More rich text options</h3>
+
+
+
+<p>The drop-down menu to the left of the&nbsp;<a href="https://wordpress.org/documentation/article/more-options/">More options menu</a>&nbsp;contains a range of additional rich text editing options such as highlighting, inline code, strikethrough, and more.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-text-editing-overview/">Read about more rich text editing options.</a></p>
+
+
+
+<h3 class="wp-block-heading">More options </h3>
+
+
+
+<p>The Options menu represented by three vertical dots on the far right of the toolbar gives you more features such as the ability to duplicate or remove the block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading" id="block-settings">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <strong>Settings</strong> icon next to the <strong>Publish </strong>button.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image aligncenter size-medium"><img loading="lazy" decoding="async" width="300" height="71" src="https://wordpress.org/documentation/files/2023/08/image6-1-300x71.jpg" alt="How to open the block settings sidebar " class="wp-image-16358736" style="object-fit:cover" srcset="https://wordpress.org/documentation/files/2023/08/image6-1-300x71.jpg 300w, https://wordpress.org/documentation/files/2023/08/image6-1.jpg 747w" sizes="auto, (max-width: 300px) 100vw, 300px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Display settings</h3>
+
+
+
+<p>It’s possible to adjust the <strong>Search</strong><em> </em>block width with the help of the Display Settings:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/display-settings.png" alt="Search block display settings" class="wp-image-16355623" style="width:395px;height:204px" width="395" height="204" srcset="https://wordpress.org/documentation/files/2023/02/display-settings.png 526w, https://wordpress.org/documentation/files/2023/02/display-settings-300x155.png 300w" sizes="auto, (max-width: 395px) 100vw, 395px" /></figure>
+
+
+
+<p>Alternatively, you can drag the block itself with your mouse:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1360" height="322" src="https://wordpress.org/documentation/files/2023/02/button-drag.png" alt="Search block drag tool" class="wp-image-16355624" srcset="https://wordpress.org/documentation/files/2023/02/button-drag.png 1360w, https://wordpress.org/documentation/files/2023/02/button-drag-300x71.png 300w, https://wordpress.org/documentation/files/2023/02/button-drag-1024x242.png 1024w, https://wordpress.org/documentation/files/2023/02/button-drag-768x182.png 768w" sizes="auto, (max-width: 1360px) 100vw, 1360px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Color</h3>
+
+
+
+<p>The <strong>Search</strong><em> </em>block<em> </em>provides Color settings options to change the text and background colors.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/support/article/colors-settings-overview/">Color settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography</h3>
+
+
+
+<p>The <strong>Search</strong><em> </em>block<em> </em>provides typography settings to change the font family, size, appearance, line height, letter case, letter spacing, and decoration.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/support/article/colors-settings-overview/"></a><a href="https://wordpress.org/support/article/typography-settings-overview/">Typography settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Border</h3>
+
+
+
+<p>The <strong>Search</strong><em> </em>block provides border settings options to change border and radius size.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/border.png" alt="Search block border settings" class="wp-image-16355625" style="width:396px;height:221px" width="396" height="221" srcset="https://wordpress.org/documentation/files/2023/02/border.png 528w, https://wordpress.org/documentation/files/2023/02/border-300x167.png 300w" sizes="auto, (max-width: 396px) 100vw, 396px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/documentation/article/border-settings-overview/">Border settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Advanced</h3>
+
+
+
+<p>The Advanced tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles for the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-medium"><img loading="lazy" decoding="async" width="300" height="182" src="https://wordpress.org/documentation/files/2023/08/Screenshot-2023-08-24-at-8.21.24-AM-300x182.png" alt="Advanced tab setting" class="wp-image-16358745" srcset="https://wordpress.org/documentation/files/2023/08/Screenshot-2023-08-24-at-8.21.24-AM-300x182.png 300w, https://wordpress.org/documentation/files/2023/08/Screenshot-2023-08-24-at-8.21.24-AM.png 568w" sizes="auto, (max-width: 300px) 100vw, 300px" /></figure>
+
+
+
+<div class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#e0e0e0">
+<h2 class="wp-block-heading has-extra-large-font-size" id="changelog">Changelog </h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-08-24
+<ul class="wp-block-list">
+<li>Updated screennshots and videos for 6.3</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-06-20
+<ul class="wp-block-list">
+<li>Updated rich text options section</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-02-07
+<ul class="wp-block-list">
+<li>Updated screenshots</li>
+
+
+
+<li>Fixed formatting</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-11-26
+<ul class="wp-block-list">
+<li>Removed redundant content </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-06-16
+<ul class="wp-block-list">
+<li>Updated screenshots, added video for 6.0</li>
+
+
+
+<li>Updated content for 6.0</li>
+
+
+
+<li>Added ALT tags for images</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-06-06
+<ul class="wp-block-list">
+<li>Update settings screenshot for 6.0</li>
+
+
+
+<li>Add &#8220;Use button with icon&#8221; section</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-02-04
+<ul class="wp-block-list">
+<li>Updated screenshots to 5.9</li>
+</ul>
+</li>
+
+
+
+<li>Created 2020-12-03</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/search-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">13740825</post-id>	</item>
+		<item>
+		<title>Shortcode block</title>
+		<link>https://wordpress.org/documentation/article/shortcode-block/</link>
+					<comments>https://wordpress.org/documentation/article/shortcode-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Milana Cap]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2019 12:42:01 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Widget blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=11285951</guid>
+
+					<description><![CDATA[Go back to the list of Blocks A&#160;shortcode&#160;is a WordPress-specific code that lets you do nifty things with very little effort. Shortcodes can embed files or create objects that would normally require lots of complicated, ugly code in just one line.&#160;Shortcode = shortcut. The&#160;shortcode block&#160;can be added to a page by clicking on the Add [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>A&nbsp;shortcode&nbsp;is a WordPress-specific code that lets you do nifty things with very little effort. Shortcodes can embed files or create objects that would normally require lots of complicated, ugly code in just one line.&nbsp;<strong>Shortcode = shortcut</strong>.</p>
+
+
+
+<p>The&nbsp;<em>shortcode block</em>&nbsp;can be added to a page by clicking on the Add Block button. It can be found in&nbsp;<em>Widgets</em>&nbsp;section. Alternatively, you can type /shortcode and press enter.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><a href="https://wordpress.org/documentation/files/2020/09/adding-a-shortcode.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2020/09/adding-a-shortcode.png" alt="Add shortcodes with a slash command.
+" class="wp-image-13370678" width="345" height="133" srcset="https://wordpress.org/documentation/files/2020/09/adding-a-shortcode.png 918w, https://wordpress.org/documentation/files/2020/09/adding-a-shortcode-300x116.png 300w, https://wordpress.org/documentation/files/2020/09/adding-a-shortcode-768x297.png 768w" sizes="auto, (max-width: 345px) 100vw, 345px" /></a><figcaption class="wp-element-caption">Add shortcodes with a slash command.<br></figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<p><br>In this video, you can see how you can use the short block and the different settings to modify how your content will appear.</p>
+
+
+
+<figure class="wp-block-video"><video controls loop muted src="https://wordpress.org/documentation/files/2020/10/how-shortcode-block-works.mp4"></video><figcaption class="wp-element-caption">How the shortcode block works</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="block-toolbar"><br>Block Toolbar</h2>
+
+
+
+<p>Unlike other common blocks, the&nbsp;<em>shortcode block</em>&nbsp;does not include any specific settings in the block toolbar or editor sidebar.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><a href="https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings.png"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings-1024x486.png" alt="Shortcode Block Editor Sidebar" class="wp-image-13370595" width="358" height="169" srcset="https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings-1024x486.png 1024w, https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings-300x142.png 300w, https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings-768x364.png 768w, https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings-1536x729.png 1536w, https://wordpress.org/documentation/files/2020/09/shortcode-with-no-extra-settings.png 1920w" sizes="auto, (max-width: 358px) 100vw, 358px" /></a><figcaption class="wp-element-caption">Shortcode Block Editor Sidebar</figcaption></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Writing Your Shortcode</strong></p>
+
+
+
+<p>You may type your shortcode into the box provided or paste it from the&nbsp;available shortcodes.<br></p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><a href="https://wordpress.org/documentation/files/2020/09/write-shortcode-here-5.5-images.png"><img loading="lazy" decoding="async" width="773" height="421" src="https://wordpress.org/documentation/files/2020/09/write-shortcode-here-5.5-images.png" alt="Image showing where to add the shortcode " class="wp-image-13370594" srcset="https://wordpress.org/documentation/files/2020/09/write-shortcode-here-5.5-images.png 773w, https://wordpress.org/documentation/files/2020/09/write-shortcode-here-5.5-images-300x163.png 300w, https://wordpress.org/documentation/files/2020/09/write-shortcode-here-5.5-images-768x418.png 768w" sizes="auto, (max-width: 773px) 100vw, 773px" /></a><figcaption class="wp-element-caption">The shortcode block interface.</figcaption></figure>
+
+
+
+<p class="has-medium-font-size"><strong>More Options</strong></p>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading" id="block-settings">Block Settings</h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the block toolbar. <em>If you do not see the sidebar, simply click the &#8216;cog&#8217; icon next to the Publish button.</em></p>
+
+
+
+<p>As you can see, the <em>shortcode block</em> doesn&#8217;t include specific settings in the block settings.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2020/09/block-settings-1024x471.png" alt="Block settings for the shortcode block" class="wp-image-13370720" width="349" height="160" srcset="https://wordpress.org/documentation/files/2020/09/block-settings-1024x471.png 1024w, https://wordpress.org/documentation/files/2020/09/block-settings-300x138.png 300w, https://wordpress.org/documentation/files/2020/09/block-settings-768x353.png 768w, https://wordpress.org/documentation/files/2020/09/block-settings-1536x707.png 1536w, https://wordpress.org/documentation/files/2020/09/block-settings.png 1626w" sizes="auto, (max-width: 349px) 100vw, 349px" /></figure>
+
+
+
+<p>You can transform a <em>shortcode block</em> into a group or into a columns, so you can further apply custom settings to the block.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="856" height="265" src="https://wordpress.org/documentation/files/2022/02/shortcode-transform-v5.9.jpg" alt="" class="wp-image-15328792" srcset="https://wordpress.org/documentation/files/2022/02/shortcode-transform-v5.9.jpg 856w, https://wordpress.org/documentation/files/2022/02/shortcode-transform-v5.9-300x93.jpg 300w, https://wordpress.org/documentation/files/2022/02/shortcode-transform-v5.9-768x238.jpg 768w" sizes="auto, (max-width: 856px) 100vw, 856px" /></figure>
+
+
+
+<p class="has-medium-font-size"><strong>Color </strong></p>
+
+
+
+<p>Text and background colors can be set on a per-block basis, allowing you to call attention to important content.</p>
+
+
+
+<p>Via the “Custom Color” link you can further modify the color choice.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<p>Accessibility parameters are built into the new editor to warn you when the text may become illegible for persons with reading impairments.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://user-images.githubusercontent.com/6752710/152538651-2a906364-0488-4f56-a81e-72864e18b490.jpg" alt="Settings for the group block" /></figure>
+
+
+
+<p class="has-large-font-size"><strong>Advanced</strong></p>
+
+
+
+<p>In the advanced panel of the block options, you’ll see options for HTML Anchor and Additional CSS Class.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-22-at-12.07.36-PM.png" alt="Advanced settings for the shortcode" width="282" height="332" /></figure>
+
+
+
+<p>“HTML anchor” allows you to&nbsp;<a href="https://wordpress.org/documentation/article/page-jumps/">make a unique web address</a>&nbsp;for a particular Heading block. Then, you’ll be able to link directly to the Heading block of your page.</p>
+
+
+
+<p>The “Additional CSS class(es)” lets you add CSS class(es) to your block, allowing you to write custom CSS and style the block as you see fit.</p>
+
+
+
+<div class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#e0e0e0">
+<h2 class="wp-block-heading has-large-font-size" id="changelog">Changelog </h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2022-11-27
+<ul class="wp-block-list">
+<li>Added alt text to images </li>
+
+
+
+<li>Removed redundant content </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-02-04
+<ul class="wp-block-list">
+<li>Updated 5.9 screenshot</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2020-09-07
+<ul class="wp-block-list">
+<li>Updated 5.5 screenshot</li>
+
+
+
+<li>Added block settings</li>
+
+
+
+<li>Added changelog</li>
+
+
+
+<li>Added more options </li>
+
+
+
+<li>Added go to list block</li>
+</ul>
+</li>
+
+
+
+<li>Created 2019-03-07</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/shortcode-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11285951</post-id>	</item>
+	</channel>
+</rss>

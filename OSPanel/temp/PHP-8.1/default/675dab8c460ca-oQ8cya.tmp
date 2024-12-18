@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Showcase sites categorized as &#8220;business&#8221; &#124; WordPress.org</title>
+	<atom:link href="https://wordpress.org/showcase/category/business/feed/?simply_static_page=2624" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/showcase</link>
+	<description>The best websites, built with WordPress.</description>
+	<lastBuildDate>Sat, 24 Aug 2024 17:36:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Showcase sites categorized as &#8220;business&#8221; &#124; WordPress.org</title>
+	<link>https://wordpress.org/showcase</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">5368252</site>	<item>
+		<title>Studio Enabloo</title>
+		<link>https://wordpress.org/showcase/studio-enabloo/</link>
+					<comments>https://wordpress.org/showcase/studio-enabloo/#respond</comments>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 02 Aug 2024 17:30:49 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Creative]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Media]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=11254</guid>
+
+					<description><![CDATA[Studio Enabloo is a high-end design and production studio headquartered in Africa. They create redefining digital experiences for brands, with a strong…]]></description>
+										<content:encoded><![CDATA[
+<p>Studio Enabloo is a high-end design and production studio headquartered in Africa. They create redefining digital experiences for brands, with a strong focus on design and video.&nbsp;</p>
+
+
+
+<p>The Enabloo website hosts information about the studio and its portfolio of previous work. It&#8217;s also a way of showing what the studio can do. With a striking black-and-white design, Enabloo&#8217;s website weaves a compelling experience together through multimedia and animated moments. It shows how WordPress can play well with other technical capabilities to create something truly memorable.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/studio-enabloo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11254</post-id>	</item>
+		<item>
+		<title>Digitalists</title>
+		<link>https://wordpress.org/showcase/digitalists/</link>
+					<comments>https://wordpress.org/showcase/digitalists/#respond</comments>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 02 Aug 2024 17:27:12 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Creative]]></category>
+		<category><![CDATA[Agency]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Media]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=11250</guid>
+
+					<description><![CDATA[Digitalists is a digital marketing agency specializing in crafting innovative solutions to help businesses grow online. Their mission is to turn ideas…]]></description>
+										<content:encoded><![CDATA[
+<p>Digitalists is a digital marketing agency specializing in crafting innovative solutions to help businesses grow online. Their mission is to turn ideas into reality, focusing on building engaging and impactful digital experiences.</p>
+
+
+
+<p>The Digitalists website draws visitors in immediately with an engaging experience that catches the eye at first scroll. Its fresh and original design plays with animation and interactive elements that deliver a memorable user experience. Digitalsts tapped into WordPress’s limitless flexibility and customization to show off what they—and the software—are capable of.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/digitalists/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11250</post-id>	</item>
+		<item>
+		<title>be-beau</title>
+		<link>https://wordpress.org/showcase/be-beau/</link>
+					<comments>https://wordpress.org/showcase/be-beau/#respond</comments>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 05 Jul 2024 16:15:42 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Creative]]></category>
+		<category><![CDATA[Agency]]></category>
+		<category><![CDATA[Branding]]></category>
+		<category><![CDATA[Design]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=11151</guid>
+
+					<description><![CDATA[be-beau is a French design agency specializing in brand design, visual identity, and creating thoughtful digital experiences that elevate brand appeal. Their…]]></description>
+										<content:encoded><![CDATA[
+<p>be-beau is a French design agency specializing in brand design, visual identity, and creating thoughtful digital experiences that elevate brand appeal. Their cross-disciplinary expertise provides their clients a full suite of creative and technical services.&nbsp;</p>
+
+
+
+<p>The be-beau website has a clean, modern look that prioritizes an effortless user experience. It takes visitors through the agency’s previous work, services, and guiding principles, using a sophisticated Block theme—and the versatility of modern WordPress—to present it all.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/be-beau/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11151</post-id>	</item>
+		<item>
+		<title>Disney General Entertainment Press</title>
+		<link>https://wordpress.org/showcase/disney-general-entertainment-press/</link>
+					<comments>https://wordpress.org/showcase/disney-general-entertainment-press/#respond</comments>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 05 Jul 2024 16:15:06 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Creative]]></category>
+		<category><![CDATA[Publication]]></category>
+		<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[Movies]]></category>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[Press]]></category>
+		<category><![CDATA[Television]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=11162</guid>
+
+					<description><![CDATA[Disney is an iconic premier brand that is influential in the creative content and entertainment industries. Known worldwide for its films, TV…]]></description>
+										<content:encoded><![CDATA[
+<p>Disney is an iconic premier brand that is influential in the creative content and entertainment industries. Known worldwide for its films, TV shows, music, and full-scale experiences—from theme parks to cruise ships—it has developed a legacy of delighting audiences for over a century.&nbsp;</p>
+
+
+
+<p>The Disney General Entertainment Press (DGE Press) website focuses on Disney’s television brands and is built to communicate what’s happening across its various creative properties. The site is simple and clean, letting visitors find the content they need quickly and browse through press releases and updates just as easily.&nbsp;</p>
+
+
+
+<p>Disney needed a content platform that could unite multiple network sites into a cohesive editorial workflow with integrated asset management. With WordPress, the DGE Press team was able to streamline content updates for 8,000 press members. The result is an 8X improvement in editorial velocity and improved both asset security and embargoed content distribution.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/disney-general-entertainment-press/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">11162</post-id>	</item>
+		<item>
+		<title>For the Record (Spotify)</title>
+		<link>https://wordpress.org/showcase/for-the-record-spotify/</link>
+					<comments>https://wordpress.org/showcase/for-the-record-spotify/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Tue, 02 Jul 2024 18:42:33 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Publication]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9904</guid>
+
+					<description><![CDATA[Spotify is a pioneer in audio streaming, offering over 615 million users worldwide a vast library of music, podcasts, and audiobooks.&#160; For…]]></description>
+										<content:encoded><![CDATA[
+<p>Spotify is a pioneer in audio streaming, offering over 615 million users worldwide a vast library of music, podcasts, and audiobooks.&nbsp;</p>
+
+
+
+<p>For the Record is Spotify’s official online newsroom and hub for sharing updates about the technology, company, and other related information. Leveraging WordPress and its powerful publishing capabilities, the For the Record website delivers content in a playful grid layout, using a mix of various media to intrigue and engage.</p>
+
+
+
+<p>WordPress empowers the Spotify newsroom team to create and publish content quickly and easily. It leans into the flexibility of custom blocks, including beautifully designed playlist embeds that pull readers into a seamless and dynamic visual and sonic experience.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/for-the-record-spotify/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9904</post-id>	</item>
+		<item>
+		<title>Opus One</title>
+		<link>https://wordpress.org/showcase/opus-one/</link>
+					<comments>https://wordpress.org/showcase/opus-one/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Wed, 04 Oct 2023 01:18:22 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Music]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9878</guid>
+
+					<description><![CDATA[Opus One is a full-service events and performance venue located in Switzerland. Able to manage a complete production from development to security…]]></description>
+										<content:encoded><![CDATA[
+<p>Opus One is a full-service events and performance venue located in Switzerland. Able to manage a complete production from development to security to promotion, it’s dedicated to creating the ultimate immersive experience—whether for concerts, comedy shows, or unique cultural exhibitions.&nbsp;</p>
+
+
+
+<p>The Opus One website, built with WordPress, has a vibrant design, splashy imagery, and expressive transitions and animations. It’s an enthusiastic nod to the theatricality and passion the company brings to life every day.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/opus-one/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9878</post-id>	</item>
+		<item>
+		<title>MAG</title>
+		<link>https://wordpress.org/showcase/magnet-wire-technology/</link>
+					<comments>https://wordpress.org/showcase/magnet-wire-technology/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Tue, 03 Oct 2023 19:22:55 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Manufacturing]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9886</guid>
+
+					<description><![CDATA[Magnet Wire Technology (MAG) has been a leading enameled wire machine technology innovator for over 70 years. Based in Austria and recognized…]]></description>
+										<content:encoded><![CDATA[
+<p>Magnet Wire Technology (MAG) has been a leading enameled wire machine technology innovator for over 70 years. Based in Austria and recognized globally, MAG has continuously evolved its machines and approach to technology.&nbsp;</p>
+
+
+
+<p>The MAG website, built with WordPress, dynamically presents the company’s history, commitment to sustainability, and dedication to pushing its technology forward. The site’s lightweight design, with intentional abstract wire-like details, matches MAG’s focus on innovation and building for the future.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/magnet-wire-technology/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9886</post-id>	</item>
+		<item>
+		<title>Lamanna Bakery</title>
+		<link>https://wordpress.org/showcase/lamanna-bakery/</link>
+					<comments>https://wordpress.org/showcase/lamanna-bakery/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Tue, 03 Oct 2023 18:57:10 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Restaurants]]></category>
+		<category><![CDATA[Small business]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9852</guid>
+
+					<description><![CDATA[Lamanna Bakery is a culinary delight nestled in the heart of Toronto, offering customers a delicious mix of gourmet pizza, freshly baked…]]></description>
+										<content:encoded><![CDATA[
+<p>Lamanna Bakery is a culinary delight nestled in the heart of Toronto, offering customers a delicious mix of gourmet pizza, freshly baked goods, and decadent desserts. Home of the famous “Big Slice” pizza, it’s become a beloved spot for food lovers looking for authentic Italian flavors with unique culinary twists.&nbsp;</p>
+
+
+
+<p>Lamanna Bakery’s website is almost as tasty as its menu and certainly as adventurous. With a bold color palette, mouth-watering visuals, ticker tape animation elements, and other intentionally outrageous design choices, the site is a welcome blend of functional layout and contemporary look and feel.</p>
+
+
+
+<p>Who knew a WordPress website could make you feel so hungry?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/lamanna-bakery/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9852</post-id>	</item>
+		<item>
+		<title>Schulhaus Tirol</title>
+		<link>https://wordpress.org/showcase/schulhaus-tirol/</link>
+					<comments>https://wordpress.org/showcase/schulhaus-tirol/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Tue, 03 Oct 2023 11:33:59 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Bars]]></category>
+		<category><![CDATA[Cuisine]]></category>
+		<category><![CDATA[Restaurants]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9880</guid>
+
+					<description><![CDATA[Schulhaus Tirol offers a culinary journey set against the backdrop of Austria’s picturesque alpine region. With a strong connection to the farmers…]]></description>
+										<content:encoded><![CDATA[
+<p>Schulhaus Tirol offers a culinary journey set against the backdrop of Austria’s picturesque alpine region. With a strong connection to the farmers and food producers in the area, meals at Schulhaus Tirol are the very definition of farm-to-table. The establishment extends the Tirolean experience further, with accommodations available to guests for overnight stays.&nbsp;</p>
+
+
+
+<p>The Schulhaus Tirol website blends the spirit of tradition with contemporary web design, emphasizing tantalizing food, landscape, and journalistic photography. Paired with bright colors and a smooth user interface, it’s a captivating example of how WordPress can help digital spaces extend and elevate real-world experiences.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/schulhaus-tirol/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9880</post-id>	</item>
+		<item>
+		<title>Novatlas Group</title>
+		<link>https://wordpress.org/showcase/novatlas/</link>
+					<comments>https://wordpress.org/showcase/novatlas/#respond</comments>
+		
+		<dc:creator><![CDATA[Nick Diego]]></dc:creator>
+		<pubDate>Tue, 03 Oct 2023 11:26:22 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Construction]]></category>
+		<category><![CDATA[Sustainability]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://wordpress.org/showcase/?p=9884</guid>
+
+					<description><![CDATA[The Novatlas Group is a prominent French company with expertise in the construction industry, specifically in 3D acquisition, site monitoring, and topography.…]]></description>
+										<content:encoded><![CDATA[
+<p>The Novatlas Group is a prominent French company with expertise in the construction industry, specifically in 3D acquisition, site monitoring, and topography. Focused on large-scale international projects, it bridges technology, sustainability, and progress to help build a brighter future for all.&nbsp;</p>
+
+
+
+<p>The company’s website expresses its values and ambitions as a source of innovation in the major works industry. The site, powered by WordPress, shares information about Novatlas, how it’s grown, and news about current projects.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/showcase/novatlas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">9884</post-id>	</item>
+	</channel>
+</rss>

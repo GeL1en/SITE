@@ -1,0 +1,25 @@
+﻿[modules]
+
+MySQL-8.0                = bbb7da4c40207c8826242e8f8ea50e9f5bbf89c94e163e56b8b2e9ddd8153518
+PHP-8.3                  = 0d63afd70d42bede84a51d1576a60ce74c58291ac142658804e0fcffcd6f62b1
+PHP-8.2                  = 63dc9279ee449ed44a8be203621482e7ce7b1049105bf8c6dfd09140bbb3c632
+PHP-8.2-FCGI             = a07a8046af0d7bd8885764718e0cfb581bc6161103a9d1ae5ebebd9edc68c351
+MySQL-8.2                = b34ac307af69ef07a14016d57586ae5d4a4525960a125cd51a099af1bfa41826
+PHP-8.1                  = 97b5f3017af79d39719d37c25ed99c1e90535c280cc25d9d69b5e9d49bb0f867
+MySQL-5.6                = f6910bb18c91d0b07f182ae5d77401f8ab8bd15ae9f0f24ed5266eadeb57944f
+PHP-8.0                  = b4e3b54242573f6bf5820f69d301d3627f8c6e4a1b3cdaf8677cd48bfab2bdb7
+PHP-8.3-FCGI             = bd90ee7e62a912b8d2a70b816ff3888ee625bed489e3fd9a8086ac7bc076de07
+PHP-7.4                  = 9d64aa508815220878e5d531732bf82805bfddbf695b51b9943f30f6d60bd70c
+PHP-7.4-FCGI             = 3badfa835085ccf1fb87bb35f9c879cf50915a5a3a96fd4037140048ab643569
+Nginx-1.26               = d586dd74a759b44c9fdb71bfbfdf07d4204a15531f71c10b7ca73541acd8092f
+PHP-8.1-FCGI             = b441980a0ff038d5bdc4d1b44eb56cafea1d7d4b058132a25822408075a50d4e
+MySQL-5.7                = 1b0dac6a419e4b268be1b3bc9678bf494a0d72808435c495b933a8b4586e3932
+PHP-8.0-FCGI             = 6bd1b6921ea037ab628ab1db3fecc3ba0efc010bdb760555b58e030e2c1a2ab7
+
+[projects]
+
+phpmyadmin               = 331f1f8b0c2000dc0f44657ffc4e8459f9e94dafb4aa49e3021137ff920036cc
+full-example.local       = 51cbc6c5b3e786c4ae9a4763d388b75a3d9a2ea314e1ed7bbde8472a19cc04d1
+forum.full-example.local = 84a2d05588a8860c4b4f13bab238ecdb47fe1cc357ab999109a528e0dc7078bc
+example.local            = 47bea27c914d8e171ccebeac3160aaa758230b2caf9e5d3df2bc695406b5fff2
+wordpress                = 718da15834aa5c617e283f347435efff29edc1b2f798c1ca4414beaa20514ca3

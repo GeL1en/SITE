@@ -1,0 +1,4 @@
+root: E:\Server\OSPanel\addons\NVM
+path: E:\Server\OSPanel\addons\NVM\nodejs
+arch: 64
+proxy: none

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Meta &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/meta/feed/?simply_static_page=2263" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Fri, 27 Sep 2024 21:03:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Meta &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>WP Engine Reprieve</title>
+		<link>https://wordpress.org/news/2024/09/wp-engine-reprieve/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Fri, 27 Sep 2024 21:03:26 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17850</guid>
+
+					<description><![CDATA[I&#8217;ve heard from WP Engine customers that they are frustrated that WP Engine hasn&#8217;t been able to make updates, plugin directory, theme directory, and Openverse work on their sites. It saddens me that they&#8217;ve been negatively impacted by Silver Lake&#8216;s commercial decisions. On WP Engine&#8217;s homepage, they promise &#8220;Unmatched performance, automated updates, and bulletproof security [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I&#8217;ve heard from <a href="https://wpengine.com/">WP Engine</a> customers that they are frustrated that WP Engine hasn&#8217;t been able to make updates, plugin directory, theme directory, and Openverse work on their sites. It saddens me that they&#8217;ve been negatively impacted by <a href="https://www.silverlake.com/">Silver Lake</a>&#8216;s commercial decisions.</p>
+
+
+
+<p><a href="https://wpengine.com/">On WP Engine&#8217;s homepage</a>, they promise &#8220;Unmatched performance, automated updates, and bulletproof security ensure your sites thrive.&#8221;</p>
+
+
+
+<p>WP Engine was well aware that we could remove access when they chose to ignore our efforts to resolve our differences and enter into a commercial licensing agreement. <a href="https://usaawards.ceotodaymagazine.com/previous-winner/heather-brunner/">Heather Brunner</a>, <a href="https://www.silverlake.com/people/lee-wittlinger/">Lee Wittlinger</a>, and their Board chose to take this risk. WPE was also aware that they were placing this risk directly on WPE customers. You could assume that WPE has a workaround ready, or they were simply reckless in supporting their customers. Silver Lake and WP Engine put their customers at risk, not me.</p>
+
+
+
+<p>We have lifted the blocks of their servers from accessing ours, until October 1, UTC 00:00. Hopefully this helps them spin up their mirrors of all of WordPress.org&#8217;s resources that they were using for free while not paying, and making legal threats against us.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17850</post-id>	</item>
+		<item>
+		<title>A Brand-New Way to Learn WordPress</title>
+		<link>https://wordpress.org/news/2024/08/a-brand-new-way-to-learn-wordpress/</link>
+		
+		<dc:creator><![CDATA[Lauren Stein]]></dc:creator>
+		<pubDate>Fri, 02 Aug 2024 13:33:19 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17545</guid>
+
+					<description><![CDATA[Learn WordPress has been growing as a hub of educational resources for WordPress since 2020. Now, it’s undergone a transformation in content focus and design with the introduction of Learning Pathways and a reimagined look. The WordPress.org redesign continues Learn WordPress is the latest section of WordPress.org to receive a design refresh, following other sections [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://learn.wordpress.org/">Learn WordPress</a> has been growing as a hub of educational resources for WordPress since 2020. Now, it’s undergone a transformation in content focus and design with the introduction of Learning Pathways and a reimagined look.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="A Brand-New Way to Learn WordPress in a Reimagined Website Experience" width="500" height="281" src="https://www.youtube.com/embed/D7K4GqTQAEE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading">The WordPress.org redesign continues </h3>
+
+
+
+<p>Learn WordPress is the latest section of WordPress.org to receive a design refresh, following other sections like the <a href="https://wordpress.org/showcase/">Showcase</a> and <a href="https://developer.wordpress.org/">Developer Resources</a>. It brings a unified look and feel that’s modern, visual, and inviting.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="919" src="https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1024%2C919&#038;ssl=1" alt="" class="wp-image-17613" srcset="https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1024%2C919&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=300%2C269&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=768%2C690&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=1536%2C1379&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?resize=2048%2C1839&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2024/07/2-learn-1.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Beyond its fresh aesthetic, the new Learn WordPress site prioritizes learners with a revamped user experience consistent with familiar modern learning platforms. It features a new navigation menu, eye-catching thumbnails, and search filters so you can explore and discover content quickly. The clearer and more structured layout helps you easily recognize the resources you need (courses, lessons, Online Workshops) based on your learning preferences. &nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Introducing Learning Pathways</h3>
+
+
+
+<p>This redesign also highlights a new approach to Learn WordPress content, emphasizing what learners engage with the most. The introduction of Learning Pathways lets you grow your WordPress skills progressively. You can start with beginner essentials and then work your way through more advanced concepts at your own speed. This method lets you build a solid understanding as you move through each course. Learning Pathways are geared toward specific learners, like people using WordPress for the first time or those interested in development.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="730" src="https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1024%2C730&#038;ssl=1" alt="" class="wp-image-17591" srcset="https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1024%2C730&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=300%2C214&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=768%2C548&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=1536%2C1095&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?resize=2048%2C1460&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2024/07/1-learn.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Four Learning Pathways are already launched and ready to explore:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://learn.wordpress.org/course/beginner-wordpress-user/">Beginner WordPress User</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/intermediate-wordpress-user/">Intermediate WordPress User</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/beginner-wordpress-developer/">Beginner WordPress Developer&nbsp;</a></li>
+
+
+
+<li><a href="https://learn.wordpress.org/course/intermediate-theme-developer/" data-type="link" data-id="https://learn.wordpress.org/course/intermediate-theme-developer/">Intermediate Theme Developer</a></li>
+</ul>
+
+
+
+<p>You can look forward to more Learning Pathways in the User and Developer tracks soon. Two additional pathways, Designer and Contributor, are also on the roadmap. For more details about Learning Pathways, listen to <a href="https://wordpress.org/news/2024/07/episode-83-learning-pathways/">episode 83 of the WordPress Briefing</a>. </p>
+
+
+
+<p class="has-text-align-left has-off-white-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)"><strong>Get a guided tour of all the exciting Learn WordPress changes</strong> from the Training team’s very own <a href="https://profiles.wordpress.org/psykro/">Jonathan Bossenger</a>, <a href="https://profiles.wordpress.org/west7/">Wes Theron</a> and <a href="https://profiles.wordpress.org/zoonini/">Kathryn Presner</a>. Sign up for one of their upcoming Online Workshops on <a href="https://www.meetup.com/learn-wordpress-online-workshops/events/302434418/"><strong>Tuesday, August 6 at 14:00 UTC</strong> </a>or <strong><a href="https://www.meetup.com/learn-wordpress-online-workshops/events/302387426/" data-type="link" data-id="https://www.meetup.com/learn-wordpress-online-workshops/events/302387426/">Thursday, August 8 at 21:00 UTC</a>.</strong></p>
+
+
+
+<h3 class="wp-block-heading">Education for the future of WordPress</h3>
+
+
+
+<p>What started with the Training team’s effort to understand the needs and expectations of current and future learners became a push to create a dynamic learning experience. This next phase of Learn WordPress is an exciting move toward bringing more people into WordPress, whether new users just getting started or established developers looking to add more skills to their toolbox.</p>
+
+
+
+<p>If you want to propose a change or report an issue, please do so in the <a href="https://github.com/WordPress/Learn">Learn GitHub repository</a>. If you love WordPress and want to contribute to making Learn WordPress an even greater resource, join the <a href="https://wordpress.slack.com/archives/C02RW657Q">#training</a> Slack channel. Want to make an immediate impact? Share <a href="https://learn.wordpress.org/">Learn WordPress</a> with someone you know.</p>
+
+
+
+<h3 class="wp-block-heading">Thank you (and props) to all involved</h3>
+
+
+
+<p>The new Learn WordPress couldn’t have been possible without the effective collaboration of the Training, Design, Marketing, and Meta teams. </p>
+
+
+
+<p class="is-style-wporg-props-medium has-large-font-size"><a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/agiljulio/' class='mention'><span class='mentions-prefix'>@</span>agiljulio</a> <a href='https://profiles.wordpress.org/arunshenoy99/' class='mention'><span class='mentions-prefix'>@</span>arunshenoy99</a> <a href='https://profiles.wordpress.org/bsanevans/' class='mention'><span class='mentions-prefix'>@</span>bsanevans</a> <a href='https://profiles.wordpress.org/burtrw/' class='mention'><span class='mentions-prefix'>@</span>burtrw</a> <a href='https://profiles.wordpress.org/cnormandigital/' class='mention'><span class='mentions-prefix'>@</span>cnormandigital</a> <a href='https://profiles.wordpress.org/devmuhib/' class='mention'><span class='mentions-prefix'>@</span>devmuhib</a> <a href='https://profiles.wordpress.org/digitalchild/' class='mention'><span class='mentions-prefix'>@</span>digitalchild</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/ervanyuffrizal/' class='mention'><span class='mentions-prefix'>@</span>ervanyuffrizal</a> <a href='https://profiles.wordpress.org/faisalahammad/' class='mention'><span class='mentions-prefix'>@</span>faisalahammad</a> <a href='https://profiles.wordpress.org/fcoveram/' class='mention'><span class='mentions-prefix'>@</span>fcoveram</a> <a href='https://profiles.wordpress.org/hellosatya/' class='mention'><span class='mentions-prefix'>@</span>hellosatya</a> <a href='https://profiles.wordpress.org/huzaifaalmesbah/' class='mention'><span class='mentions-prefix'>@</span>huzaifaalmesbah</a> <a href='https://profiles.wordpress.org/indirabiswas27/' class='mention'><span class='mentions-prefix'>@</span>indirabiswas27</a> <a href='https://profiles.wordpress.org/ironnysh/' class='mention'><span class='mentions-prefix'>@</span>ironnysh</a> <a href='https://profiles.wordpress.org/itsmhrahman/' class='mention'><span class='mentions-prefix'>@</span>itsmhrahman</a> <a href='https://profiles.wordpress.org/jinalparekh/' class='mention'><span class='mentions-prefix'>@</span>jinalparekh</a> <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a> <a href='https://profiles.wordpress.org/joen/' class='mention'><span class='mentions-prefix'>@</span>joen</a> <a href='https://profiles.wordpress.org/jominney/' class='mention'><span class='mentions-prefix'>@</span>jominney</a> <a href='https://profiles.wordpress.org/keithnoseworthy/' class='mention'><span class='mentions-prefix'>@</span>keithnoseworthy</a> <a href='https://profiles.wordpress.org/kel-dc/' class='mention'><span class='mentions-prefix'>@</span>kel-dc</a> <a href='https://profiles.wordpress.org/lada7042/' class='mention'><span class='mentions-prefix'>@</span>lada7042</a> <a href='https://profiles.wordpress.org/laurahartwigdesign/' class='mention'><span class='mentions-prefix'>@</span>laurahartwigdesign</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/markoserb/' class='mention'><span class='mentions-prefix'>@</span>markoserb</a> <a href='https://profiles.wordpress.org/mustakim5/' class='mention'><span class='mentions-prefix'>@</span>mustakim5</a> <a href='https://profiles.wordpress.org/nazmul111/' class='mention'><span class='mentions-prefix'>@</span>nazmul111</a> <a href='https://profiles.wordpress.org/ndiego/' class='mention'><span class='mentions-prefix'>@</span>ndiego</a> <a href='https://profiles.wordpress.org/nilovelez/' class='mention'><span class='mentions-prefix'>@</span>nilovelez</a> <a href='https://profiles.wordpress.org/noruzzaman/' class='mention'><span class='mentions-prefix'>@</span>noruzzaman</a> <a href='https://profiles.wordpress.org/orangeambition/' class='mention'><span class='mentions-prefix'>@</span>orangeambition</a> <a href='https://profiles.wordpress.org/piyopiyofox/' class='mention'><span class='mentions-prefix'>@</span>piyopiyofox</a> <a href='https://profiles.wordpress.org/psykro/' class='mention'><span class='mentions-prefix'>@</span>psykro</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/rfluethi/' class='mention'><span class='mentions-prefix'>@</span>rfluethi</a> <a href='https://profiles.wordpress.org/rjfrizz/' class='mention'><span class='mentions-prefix'>@</span>rjfrizz</a> <a href='https://profiles.wordpress.org/rmartinezduque/' class='mention'><span class='mentions-prefix'>@</span>rmartinezduque</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/sakibsnaz/' class='mention'><span class='mentions-prefix'>@</span>sakibsnaz</a> <a href='https://profiles.wordpress.org/sfougnier/' class='mention'><span class='mentions-prefix'>@</span>sfougnier</a> <a href='https://profiles.wordpress.org/shsajalchowdhury/' class='mention'><span class='mentions-prefix'>@</span>shsajalchowdhury</a> <a href='https://profiles.wordpress.org/sierratr/' class='mention'><span class='mentions-prefix'>@</span>sierratr</a> <a href='https://profiles.wordpress.org/sumitsingh/' class='mention'><span class='mentions-prefix'>@</span>sumitsingh</a> <a href='https://profiles.wordpress.org/teuila_mau/' class='mention'><span class='mentions-prefix'>@</span>teuila_mau</a> <a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a> <a href='https://profiles.wordpress.org/webtechpooja/' class='mention'><span class='mentions-prefix'>@</span>webtechpooja</a>  @west7 <a href='https://profiles.wordpress.org/zoonini/' class='mention'><span class='mentions-prefix'>@</span>zoonini</a></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17545</post-id>	</item>
+		<item>
+		<title>A New WordPress Showcase</title>
+		<link>https://wordpress.org/news/2023/10/a-new-wordpress-showcase/</link>
+		
+		<dc:creator><![CDATA[Nicholas Garofalo]]></dc:creator>
+		<pubDate>Wed, 18 Oct 2023 17:34:19 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16173</guid>
+
+					<description><![CDATA[The journey to update WordPress.org continues with the launch of a new Showcase design. The Showcase is a natural starting point for visitors arriving on WordPress.org, and it both inspires creativity and demonstrates what’s possible with WordPress. From unique personal blogs and portfolios to enterprises and celebrity fan sites, the Showcase celebrates WordPress’s flexibility, popularity, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The <a href="https://wordpress.org/news/category/meta/">journey to update WordPress.org</a> continues with the launch of a new <a href="https://wordpress.org/showcase/">Showcase</a> design. The Showcase is a natural starting point for visitors arriving on WordPress.org, and it both inspires creativity and demonstrates what’s possible with WordPress. From unique personal blogs and portfolios to enterprises and celebrity fan sites, the Showcase celebrates WordPress’s flexibility, popularity, and the freedom to own one’s content.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-1 is-style-rectangular wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="954" data-id="16187" src="https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1024%2C954&#038;ssl=1" alt="Screenshots from the new Showcase design" class="wp-image-16187" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1024%2C954&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=300%2C280&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=768%2C716&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=1536%2C1432&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?resize=2048%2C1909&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/2-showcase-site-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="954" data-id="16184" src="https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1024%2C954&#038;ssl=1" alt="A grid of new design elements" class="wp-image-16184" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1024%2C954&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=300%2C280&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=768%2C716&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=1536%2C1432&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?resize=2048%2C1909&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/3-showcase-starry-theme-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-id="16185" src="https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1024%2C576&#038;ssl=1" alt="A collage of Showcased websites" class="wp-image-16185" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?resize=2048%2C1152&amp;ssl=1 2048w, https://i0.wp.com/wordpress.org/news/files/2023/10/4-showcase-websites-curaction-1.png?w=3000&amp;ssl=1 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p>This new design provides much-needed improvements to the aesthetics and user experience. It emphasizes bold visuals and a more dynamic browsing experience through tags and categories. Individual site pages now include desktop and mobile screenshots, while the site introduces an improved layout on mobile devices.&nbsp;</p>
+
+
+
+<p>This redesign also brings new <a href="https://wordpress.org/blocks/">block-based functionality</a> and several components that will be used elsewhere on WordPress.org. All of this was made possible through collaboration between Design, Marketing, and Meta teams. Thank you to everyone.</p>
+
+
+
+<p class="is-style-wporg-props-medium"><a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/alexstine/' class='mention'><span class='mentions-prefix'>@</span>alexstine</a> <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a> <a href='https://profiles.wordpress.org/bengreeley/' class='mention'><span class='mentions-prefix'>@</span>bengreeley</a> <a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a> <a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/eidolonnight/' class='mention'><span class='mentions-prefix'>@</span>eidolonnight</a> <a href='https://profiles.wordpress.org/fcoveram/' class='mention'><span class='mentions-prefix'>@</span>fcoveram</a> <a href='https://profiles.wordpress.org/joen/' class='mention'><span class='mentions-prefix'>@</span>joen</a> <a href='https://profiles.wordpress.org/jonoaldersonwp/' class='mention'><span class='mentions-prefix'>@</span>jonoaldersonwp</a> <a href='https://profiles.wordpress.org/jpantani/' class='mention'><span class='mentions-prefix'>@</span>jpantani</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/matt/' class='mention'><span class='mentions-prefix'>@</span>matt</a> <a href='https://profiles.wordpress.org/markoserb/' class='mention'><span class='mentions-prefix'>@</span>markoserb</a> <a href='https://profiles.wordpress.org/ndiego/' class='mention'><span class='mentions-prefix'>@</span>ndiego</a> <a href='https://profiles.wordpress.org/pablohoneyhoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoneyhoney</a> <a href='https://profiles.wordpress.org/paulkevan/' class='mention'><span class='mentions-prefix'>@</span>paulkevan</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/sereedmedia/' class='mention'><span class='mentions-prefix'>@</span>sereedmedia</a> <a href='https://profiles.wordpress.org/_dorsvenabili/' class='mention'><span class='mentions-prefix'>@</span>_dorsvenabili</a></p>
+
+
+
+<p>If you would like to propose a change or report an issue, please do so in the <a href="https://github.com/WordPress/wporg-showcase-2022">wporg-showcase-2022</a>&nbsp; GitHub repository. Also, make sure to join the <a href="https://wordpress.slack.com/archives/C04U953K77A">#website-redesign</a> Slack channel if you are interested in additional updates coming to WordPress.org and want to contribute.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16173</post-id>	</item>
+		<item>
+		<title>A New WordPress.org Homepage and Download Page</title>
+		<link>https://wordpress.org/news/2022/08/a-new-wordpress-org-homepage-and-download-page/</link>
+		
+		<dc:creator><![CDATA[Nicholas Garofalo]]></dc:creator>
+		<pubDate>Mon, 15 Aug 2022 15:34:51 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=13321</guid>
+
+					<description><![CDATA[The WordPress experience has significantly evolved in the past few years. In order to highlight the power of WordPress on WordPress.org, the last few weeks have seen a homepage and download page redesign kickoff and shared mockups. Today, these new designs are going live! Like the News pages before them, these refreshed pages are inspired [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The WordPress experience has significantly evolved in the past few years. In order to highlight the power of WordPress on WordPress.org, the last few weeks have seen a homepage and download page <a href="https://make.wordpress.org/design/2022/07/08/project-kickoff-wordpress-org-homepage-and-download-page-redesign/">redesign kickoff</a> and <a href="https://make.wordpress.org/design/2022/07/27/project-update-wordpress-org-homepage-and-download-page-mockups/">shared mockups</a>. Today, these new designs are going live! Like <a href="https://wordpress.org/news/2022/02/a-new-wordpress-news/">the News pages before them</a>, these refreshed pages are inspired by the jazzy look &amp; feel WordPress is known for.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="599" src="https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1024%2C599&#038;ssl=1" alt="" class="wp-image-13327" srcset="https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1024%2C599&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=300%2C175&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=768%2C449&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?resize=1536%2C898&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/08/Featured-Image.png?w=1710&amp;ssl=1 1710w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The <a href="https://wordpress.org/">new homepage</a> brings more attention to the benefits and experience of using WordPress, while also highlighting the community and resources to get started. </p>
+
+
+
+<p>The <a href="https://wordpress.org/download/">new download page</a> greets visitors with a new layout that makes getting started with WordPress even easier by presenting both the download and hosting options right at the top.</p>
+
+
+
+<p>This redesign was made possible through great collaboration between Design, Marketing, and Meta teams. Thank you to everyone involved throughout this update:</p>
+
+
+
+<p class="is-style-wporg-props-long"><a href='https://profiles.wordpress.org/abuzon/' class='mention'><span class='mentions-prefix'>@</span>abuzon</a> <a href='https://profiles.wordpress.org/adamwood/' class='mention'><span class='mentions-prefix'>@</span>adamwood</a> <a href='https://profiles.wordpress.org/adeebmalik/' class='mention'><span class='mentions-prefix'>@</span>adeebmalik</a> <a href='https://profiles.wordpress.org/alexandreb3/' class='mention'><span class='mentions-prefix'>@</span>alexandreb3</a> <a href='https://profiles.wordpress.org/alipawp/' class='mention'><span class='mentions-prefix'>@</span>alipawp</a> <a href='https://profiles.wordpress.org/angelasjin/' class='mention'><span class='mentions-prefix'>@</span>angelasjin</a> <a href='https://profiles.wordpress.org/aniash_29/' class='mention'><span class='mentions-prefix'>@</span>aniash_29</a> <a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a> <a href='https://profiles.wordpress.org/beafialho/' class='mention'><span class='mentions-prefix'>@</span>beafialho</a> <a href='https://profiles.wordpress.org/bjmcsherry/' class='mention'><span class='mentions-prefix'>@</span>bjmcsherry</a> <a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a> <a href='https://profiles.wordpress.org/colinchadwick/' class='mention'><span class='mentions-prefix'>@</span>colinchadwick</a> <a href='https://profiles.wordpress.org/crevilaro/' class='mention'><span class='mentions-prefix'>@</span>crevilaro</a> <a href='https://profiles.wordpress.org/critterverse/' class='mention'><span class='mentions-prefix'>@</span>critterverse</a> <a href='https://profiles.wordpress.org/dansoschin/' class='mention'><span class='mentions-prefix'>@</span>dansoschin</a> <a href='https://profiles.wordpress.org/dd32/' class='mention'><span class='mentions-prefix'>@</span>dd32</a> <a href='https://profiles.wordpress.org/dufresnesteven/' class='mention'><span class='mentions-prefix'>@</span>dufresnesteven</a> <a href='https://profiles.wordpress.org/eboxnet/' class='mention'><span class='mentions-prefix'>@</span>eboxnet</a> <a href='https://profiles.wordpress.org/eidolonnight/' class='mention'><span class='mentions-prefix'>@</span>eidolonnight</a> <a href='https://profiles.wordpress.org/elmastudio/' class='mention'><span class='mentions-prefix'>@</span>elmastudio</a> <a href='https://profiles.wordpress.org/fernandot/' class='mention'><span class='mentions-prefix'>@</span>fernandot</a> <a href='https://profiles.wordpress.org/geoffgraham/' class='mention'><span class='mentions-prefix'>@</span>geoffgraham</a> <a href='https://profiles.wordpress.org/iandunn/' class='mention'><span class='mentions-prefix'>@</span>iandunn</a> <a href='https://profiles.wordpress.org/javiarce/' class='mention'><span class='mentions-prefix'>@</span>javiarce</a> <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a> <a href='https://profiles.wordpress.org/jpantani/' class='mention'><span class='mentions-prefix'>@</span>jpantani</a> <a href='https://profiles.wordpress.org/kellychoffman/' class='mention'><span class='mentions-prefix'>@</span>kellychoffman</a> <a href='https://profiles.wordpress.org/laurlittle/' class='mention'><span class='mentions-prefix'>@</span>laurlittle</a> <a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a> <a href='https://profiles.wordpress.org/matt/' class='mention'><span class='mentions-prefix'>@</span>matt</a> <a href='https://profiles.wordpress.org/maurodf/' class='mention'><span class='mentions-prefix'>@</span>maurodf</a> <a href='https://profiles.wordpress.org/melchoyce/' class='mention'><span class='mentions-prefix'>@</span>melchoyce</a> <a href='https://profiles.wordpress.org/mikachan/' class='mention'><span class='mentions-prefix'>@</span>mikachan</a> <a href='https://profiles.wordpress.org/nikhilgandal/' class='mention'><span class='mentions-prefix'>@</span>nikhilgandal</a> <a href='https://profiles.wordpress.org/pablohoneyhoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoneyhoney</a> <a href='https://profiles.wordpress.org/peakzebra/' class='mention'><span class='mentions-prefix'>@</span>peakzebra</a> <a href='https://profiles.wordpress.org/poliuk/' class='mention'><span class='mentions-prefix'>@</span>poliuk</a> <a href='https://profiles.wordpress.org/priethor/' class='mention'><span class='mentions-prefix'>@</span>priethor</a> <a href='https://profiles.wordpress.org/psmits1567/' class='mention'><span class='mentions-prefix'>@</span>psmits1567</a> <a href='https://profiles.wordpress.org/renyot/' class='mention'><span class='mentions-prefix'>@</span>renyot</a> <a href='https://profiles.wordpress.org/rmartinezduque/' class='mention'><span class='mentions-prefix'>@</span>rmartinezduque</a> <a href='https://profiles.wordpress.org/ryelle/' class='mention'><span class='mentions-prefix'>@</span>ryelle</a> <a href='https://profiles.wordpress.org/santanainniss/' class='mention'><span class='mentions-prefix'>@</span>santanainniss</a> <a href='https://profiles.wordpress.org/sereedmedia/' class='mention'><span class='mentions-prefix'>@</span>sereedmedia</a> <a href='https://profiles.wordpress.org/sippis/' class='mention'><span class='mentions-prefix'>@</span>sippis</a> <a href='https://profiles.wordpress.org/tellyworth/' class='mention'><span class='mentions-prefix'>@</span>tellyworth</a> <a href='https://profiles.wordpress.org/tobifjellner/' class='mention'><span class='mentions-prefix'>@</span>tobifjellner</a> <a href='https://profiles.wordpress.org/webdados/' class='mention'><span class='mentions-prefix'>@</span>webdados</a> <a href='https://profiles.wordpress.org/willmot/' class='mention'><span class='mentions-prefix'>@</span>willmot</a></p>
+
+
+
+<p>Your comments, including some <a href="https://make.wordpress.org/meta/2016/12/12/new-homepage-redesign/">feedback from the 2016 redesign</a>, were taken into consideration with this work. Expect more updates to come as efforts to jazz up WordPress.org continue.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">13321</post-id>	</item>
+		<item>
+		<title>A New WordPress News</title>
+		<link>https://wordpress.org/news/2022/02/a-new-wordpress-news/</link>
+		
+		<dc:creator><![CDATA[Kelly Hoffman]]></dc:creator>
+		<pubDate>Wed, 16 Feb 2022 17:56:05 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=12244</guid>
+
+					<description><![CDATA[In June 2021, @beafialho in collaboration with @pablohoney floated the idea of giving WordPress News a new look. Today, those ideas become a reality—we&#8217;re excited to share that redesign of WordPress News is live! The new design leans on the aesthetics of jazz, intrinsically connected to WordPress and which ultimately translates its uniqueness, historic significance [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image alignfull size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12279" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_responsive_sizes-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>In June 2021, <a href='https://profiles.wordpress.org/beafialho/' class='mention'><span class='mentions-prefix'>@</span>beafialho</a> in collaboration with <a href='https://profiles.wordpress.org/pablohoney/' class='mention'><span class='mentions-prefix'>@</span>pablohoney</a> <a href="https://make.wordpress.org/design/2021/06/03/redesign-of-wordpress-org-news/">floated the idea</a> of giving WordPress News a new look. Today, those ideas become a reality—we&#8217;re excited to share that redesign of <a href="https://wordpress.org/news/">WordPress News</a> is live!</p>
+
+
+
+<p>The new design leans on the aesthetics of jazz, intrinsically connected to WordPress and which ultimately translates its uniqueness, historic significance and future potential. Among other improvements, the new design leaves more space for content and includes new typefaces for better readability. It also uses a color palette intended to reflect the evolving Gutenberg language.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12260" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_postpages-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12262" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_communitypodcast-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The revamp of the WordPress News page includes the header and footer of the page. We also shipped those two global elements to all pages of WordPress.org. However, there’s more work to do within the header to improve the information architecture. This new design is just the first, small step to modernize and improve the site iteratively. Any further discussion on future redesigns will occur in the <a href="http://wordpress.slack.com">#design channel on Slack</a>.</p>
+
+
+
+<figure class="wp-block-image alignfull size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="2560" height="1605" src="https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=2560%2C1605&#038;ssl=1" alt="" class="wp-image-12263" srcset="https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?w=2560&amp;ssl=1 2560w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=1024%2C642&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=768%2C482&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=1536%2C963&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2022/02/news_mobile_menu-scaled.jpg?resize=2048%2C1284&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Take a look around and subscribe to WordPress News if you haven’t already. If you see something in the design that doesn’t look right, please submit an issue on <a href="https://github.com/WordPress/wporg-news-2021/">GitHub</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">12244</post-id>	</item>
+		<item>
+		<title>WordPress at 18</title>
+		<link>https://wordpress.org/news/2021/05/wordpress-at-18/</link>
+		
+		<dc:creator><![CDATA[Josepha]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 06:00:00 +0000</pubDate>
+				<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=10380</guid>
+
+					<description><![CDATA[Today marks the 18th anniversary of WordPress&#8217; launch, a day that I fondly refer to as WordPress&#8217; birthday, which means WordPress is 6,575 days old. To celebrate another turn around the sun, the community has had parties, we have shared data, and we have told our story. Since our last birthday we developed our 40th [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Today marks the 18th anniversary of WordPress&#8217; launch, a day that I fondly refer to as WordPress&#8217; birthday, which means WordPress is 6,575 days old. To celebrate another turn around the sun, the <a href="https://wordpress.org/news/2008/05/birthday-party/">community</a> has had <a href="https://wp15.wordpress.net/">parties</a>, we have <a href="https://wordpress.org/news/2010/05/lucky-seven/">shared data</a>, and we have <a href="https://wordpress.org/news/2013/05/ten-good-years/">told our story</a>.</p>
+
+
+
+<p>Since our last birthday we developed our 40th release and now also support over 40% of the web. So it seems fitting that this year&#8217;s celebration should be a list of 40 milestones that have helped us get there.</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-wordpress-org wp-block-embed-wordpress-org"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="JOMHk48zl1"><a href="https://wordpress.org/40-percent-of-web/">WordPress and the Journey to 40% of the Web</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="&#8220;WordPress and the Journey to 40% of the Web&#8221; &#8212; WordPress.org" src="https://wordpress.org/40-percent-of-web/embed/#?secret=HJJvwFcEmx#?secret=JOMHk48zl1" data-secret="JOMHk48zl1" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Grab a slice of cake or festive beverage and give it a scroll!</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10380</post-id>	</item>
+		<item>
+		<title>Improvements to WordPress.org</title>
+		<link>https://wordpress.org/news/2015/04/improvements-to-wordpress-org/</link>
+		
+		<dc:creator><![CDATA[Samuel Sidler]]></dc:creator>
+		<pubDate>Sat, 04 Apr 2015 20:19:38 +0000</pubDate>
+				<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=3494</guid>
+
+					<description><![CDATA[If you visit WordPress.org regularly you might have noticed some changes around the place. If you don’t, now’s the time to check them out! We’ve been working hard to improve the site to make it more useful to everyone, both developers and users, and we hope you like what we’ve done. New Theme and Plugin Directories [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>If you visit WordPress.org regularly you might have noticed some changes around the place. If you don’t, now’s the time to check them out! We’ve been working hard to improve the site to make it more useful to everyone, both developers and users, and we hope you like what we’ve done.</p>
+<h2>New Theme and Plugin Directories</h2>
+<p>Since WordPress 3.8, you’ve been enjoying improved theme management in your WordPress admin, and in WordPress 4.0 plugin management was refined. We’ve brought these experiences from your admin and re-created them right here on WordPress.org.</p>
+<h3>Theme Directory</h3>
+<p>The <a href="https://wordpress.org/themes/">Theme Directory</a> has a better browsing experience, with handy tabs where you can view featured, popular, and the latest themes. As with the theme experience in your admin, you can use the feature filter to browse for just the right theme for your WordPress website.</p>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-large wp-image-3572" src="https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory.png?resize=692%2C519&#038;ssl=1" alt="theme-directory" width="692" height="519" srcset="https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory.png?w=1318&amp;ssl=1 1318w" sizes="auto, (max-width: 692px) 100vw, 692px" /></p>
+<p>Click on a theme to get more information about it, including shiny screenshots, ratings, and statistics.</p>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-large wp-image-3573" src="https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory-individual.png?resize=692%2C519&#038;ssl=1" alt="theme-directory-individual" width="692" height="519" srcset="https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory-individual.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory-individual.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2015/04/theme-directory-individual.png?w=1318&amp;ssl=1 1318w" sizes="auto, (max-width: 692px) 100vw, 692px" /></p>
+<p>Konstantin Obenland <a href="https://make.wordpress.org/meta/2015/03/10/new-theme-directory/">posted a good overview</a> of everything involved with the theme directory overhaul and followed up with <a href="https://make.wordpress.org/meta/2015/03/31/theme-directory-stats/">a post on improved statistics</a>.</p>
+<h3>Plugin Directory</h3>
+<p>The <a href="https://wordpress.org/plugins/">Plugin Directory</a> has a brand new theme that mirrors the experience in your WordPress admin, with a more visual experience, and better search and statistics.</p>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-large wp-image-3594" src="https://i0.wp.com/wordpress.org/news/files/2015/04/plugin-directory.png?resize=692%2C519&#038;ssl=1" alt="plugin-directory" width="692" height="519" srcset="https://i0.wp.com/wordpress.org/news/files/2015/04/plugin-directory.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2015/04/plugin-directory.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2015/04/plugin-directory.png?w=1318&amp;ssl=1 1318w" sizes="auto, (max-width: 692px) 100vw, 692px" /></p>
+<p>As well as a facelift, there are some great new features for you to play around with:</p>
+<ul>
+<li>Favorites – when you’re logged in to you WordPress.org account, this page gives you direct access to the plugins that you have favorited.</li>
+<li>Beta Testing – try out plugins where developers are experimenting with new features for WordPress.</li>
+<li>Search by plugin author – you can search for a plugin author using their username.</li>
+<li>Better statistics – listings now display the number of active installs so you can see how many people are actually using a plugin.</li>
+</ul>
+<p>An <a href="https://make.wordpress.org/meta/2015/03/04/new-plugin-directory-theme/">overview of the new theme</a> was posted by Scott Reilly.</p>
+<h2>Better Statistics</h2>
+<p>We’ve made huge improvements to <a href="https://wordpress.org/about/stats/">our statistics</a>. This gives us more useful information about the WordPress versions people are using, their PHP version, and their MySQL version.</p>
+<p>Already these new statistics have provided us with useful insights into WordPress usage.</p>
+<ul>
+<li>More than 43% of all sites are running the latest version of WordPress. Previously, we thought only 10% of sites were up-to-date. By excluding sites that are no longer online we were able to improve these statistics.</li>
+<li>We were able to clear up the data around WordPress 3.0, bringing it more in line with expectations. This anomaly was a by-product of spammers.</li>
+<li>Only 15.9% of sites are using PHP 5.2, which is better than we thought.</li>
+</ul>
+<p>Over the coming months we’ll be able to use these statistics to bring you new tools and improvements, and to make more informed decisions across the board. Read <a href="https://make.wordpress.org/meta/2015/03/01/major-update-to-our-version-stats-for-php-mysql-and-wordpress/">Andrew Nacin&#8217;s post about these changes</a> for more background.</p>
+<h2>Thanks!</h2>
+<p>Thanks to everyone who contributed to the theme directory redesign, the plugin directory refresh, and improved statistics: <a href="https://profiles.wordpress.org/deconf/">Alin Marcu</a>, <a href="https://profiles.wordpress.org/colorful-tones/">Damon Cook</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/mj12982/">Jan Cavan Boulas</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/BrashRebel/">Kyle Maurer</a>, <a href="https://profiles.wordpress.org/matveb/">Matías Ventura</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce</a>, <a href="https://profiles.wordpress.org/nataliemac/">Natalie MacLees</a>, <a href="https://profiles.wordpress.org/pauldewouters/">Paul de Wouters</a>, <a href="https://profiles.wordpress.org/samuelsidler/">Samuel Sidler</a>, <a href="https://profiles.wordpress.org/Otto42/">Samuel Wood (Otto)</a>, <a href="https://profiles.wordpress.org/coffee2code/">Scott Reilly</a>, <a href="https://profiles.wordpress.org/siobhan/">Siobhan McKeown</a>.</p>
+<p>If you want to help out or follow along with future WordPress.org projects, check out <a href="https://make.wordpress.org/">Make WordPress</a> and our <a href="https://make.wordpress.org/meta/">meta development blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3494</post-id>	</item>
+		<item>
+		<title>Ten Good Years</title>
+		<link>https://wordpress.org/news/2013/05/ten-good-years/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Fri, 31 May 2013 17:54:35 +0000</pubDate>
+				<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2606</guid>
+
+					<description><![CDATA[It&#8217;s been ten years since we started this thing, and what a long way we&#8217;ve come. From a discussion between myself and Mike Little about forking our favorite blogging software, to powering 18% of the web. It&#8217;s been a crazy, exciting, journey, and one that won&#8217;t stop any time soon. At ten years, it&#8217;s fun [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignright" alt="" align="right" src="https://wpdotorg.files.wordpress.com/2013/05/wp10.jpg?resize=316%2C164" width="316" height="164" />It&#8217;s been ten years since we started this thing, and what a long way we&#8217;ve come. From a discussion between myself and <a href="http://mikelittle.org/">Mike Little</a> about <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/">forking our favorite blogging software</a>, to powering 18% of the web. It&#8217;s been a crazy, exciting, journey, and one that won&#8217;t stop any time soon.</p>
+<p>At ten years, it&#8217;s fun to reflect on our beginnings. We launched WordPress on 27th May 2003, but that wasn&#8217;t inception. Go back far enough, and you can <a href="http://zengun.org/weblog/archives/2001/06/post1958/">read a post by Michel Valdrighi</a> who, frustrated by the self-hosted blogging platforms available, decided to write his own software; &#8220;b2, a PHP+MySQL alternative to Blogger and GreyMatter.&#8221; b2 was easy to install, easy to configure, and easy for developers to extend. Of all the blogging platforms out there, <a href="http://cafelog.com">b2</a> was the right one for me: I could write my content and get it on the web quickly and painlessly.</p>
+<p>Sometimes, however, life gets in the way. In 2002, Michel stopped maintaining b2. Over time, security flaws became apparent and updates were needed and, while the b2 community could write patches and fixes, no one was driving the software forward. We were lucky that Michel decided to release b2 under the GPL; the software may have been abandoned, but we weren&#8217;t without options. A fork was always a possibility. That was where it stood in January 2003, when <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/">I posted about forking b2</a> and <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/#comment-445">Mike responded</a>. The rest, as they say, is history.</p>
+<p>From the very beginning to the present day, I&#8217;ve been impressed by the thought, care, and dedication that WordPress&#8217; developers have demonstrated. Each one has brought his or her unique perspective, each individual has strengthened the whole. It would be impossible to thank each of them here individually, but their achievements speak for themselves. In WordPress 1.2 the new Plugin API made it easy for developers to extend WordPress. In the same release <code>gettext()</code> internationalization opened WordPress up to every language (hat tip: <a href="http://ryan.boren.me/">Ryan Boren</a> for spending hours wrapping strings with gettext). In WordPress 1.5 our Theme system made it possible for WordPress users to quickly change their site&#8217;s design: there was huge resistance to the theme system from the wider community at the time, but can you imagine WordPress without it? Versions 2.7, 2.8, and 2.9 saw improvements that let users install and update their plugins and themes with one click. WordPress has seen a redesign by <a href="http://v2.happycog.com/create/wordpress/?p=design/wordpress/">happycog</a> (2.3) and gone under extensive user testing and redesign (<a href="http://www.slideshare.net/edanzico/riding-the-crazyhorse-future-generation-wordpress-presentation">Crazyhorse</a>, Liz Danzico and Jen Mylo, WordPress 2.5). In WordPress 3.0 we merged WordPress MU with WordPress &#8212; a huge job but 100% worth it. And in WordPress 3.5 we revamped the media uploader to make it easier for people to get their images, video, and media online.</p>
+<p>In sticking to our commitment to user experience, we&#8217;ve done a few things that have made us unpopular. The <a href="http://tech.gaeatimes.com/index.php/archive/wordpress-wysiwyg-editor-is-a-disaster/">WYSIWYG editor</a> was hated by many, especially those who felt that if you have a blog you should know HTML. Some developers hated that we stuck with our code, refusing to rewrite, but it&#8217;s always been the users that matter: better a developer lose sleep than a site break for a user. Our code isn&#8217;t always beautiful, after all, when WordPress was created most of us were still learning PHP, but we try to make a flawless experience for users.</p>
+<p>It&#8217;s not all about developers. WordPress&#8217; strength lies in the diversity of its community. From the start, we wanted a low barrier to entry and we came up with our &#8220;famous 5 minute install&#8221;. This brought on board users from varied technical background: people who didn&#8217;t write code wanted to help make WordPress better. If you couldn&#8217;t write code, it didn&#8217;t matter: you could answer a question in the support forums, write documentation, translate WordPress, or build your friends and family a WordPress website. There is <a href="https://make.wordpress.org/">space in the community</a> for anyone with a passion for WordPress.</p>
+<p>It&#8217;s been wonderful to see all of the people who have used WordPress to build their home on the internet. Early on <a href="https://wordpress.org/news/2004/04/switchers/">we got excited</a> by <a href="https://wordpress.org/news/2004/04/more-switchers/">switchers</a>. From a community of tinkerers we grew, as writers such as <a href="http://ma.tt/2004/05/om-malik/">Om Malik</a>, <a href="http://dougal.gunters.org/blog/2004/05/15/mark-pilgrim-switches/">Mark Pilgrim</a>, and <a href="http://ma.tt/2004/07/mollycom-switches/">Molly Holzschlag</a> made the switch to WordPress. Our commitment to effortless publishing quickly paid off and has continued to do so: <strong>the WordPress 1.2 release saw 822 downloads per day, our latest release, WordPress 3.5, has seen 145,692 per day.</strong></p>
+<p>I&#8217;m continually amazed by what people have built with WordPress. I&#8217;ve seen <a href="http://justintimberlake.com/main/">musicians</a> and <a href="http://ma.tt/2013/01/neil-leifer-on-wordpress/">photographers</a>, magazines such as <a href="http://life.time.com/">Life</a>, <a href="http://boingboing.net/">BoingBoing</a>, and the <a href="http://observer.com/">New York Observer</a>, <a href="http://www.compliance.gov/">government websites</a>, a <a href="http://josephscott.org/archives/2011/05/pressfs-a-wordpress-filesystem/">filesystem</a>, <a href="http://www.ymcanyc.org/association/pages/y-mvp"> mobile applications</a>, and even <a href="http://www.viper007bond.com/2010/06/12/so-apparently-wordpress-can-guide-missiles/">seen WordPress guide missiles</a>.</p>
+<p>As the web evolves, WordPress evolves. Factors outside of our control will always influence WordPress&#8217; development: today it&#8217;s mobile devices and retina display, tomorrow it could be Google Glass or technology not yet conceived. A lot can happen in ten years! As technology changes and advances, WordPress has to change with it while remaining true to its core values: making publishing online easy for everyone. How we rise to these challenges will be what defines WordPress over the coming ten years.</p>
+<p><strong>To celebrate ten years of WordPress, we&#8217;re working on a book about our history.</strong> We&#8217;re carrying out interviews with people who have involved with the community from the very beginning, those who are still around, and those who have left. It&#8217;s a huge project, but we wanted to have something to share with you on the 10th anniversary. To learn about the very early days of WordPress, just after Mike and I forked b2 <a href="https://wordpress.org/about/history/">you can download Chapter 3 right here</a>. We&#8217;ll be releasing the rest of the book serially, so watch out as the story of the last ten years emerges.</p>
+<p>In the meantime, <a href="http://ma.tt/2013/05/dear-wordpress/"> I penned my own letter to WordPress</a> and other community members have been sharing their thoughts:</p>
+<ul>
+<li><a href="http://zed1.com/journalized/archives/2013/01/25/wordpress-a-10-year-journey/">Mike Little on our Ten Year Journey</a>.</li>
+<li>Core contributor Helen Hou-Sandi <a href="http://helen.wordpress.com/2013/05/27/happy-10th-wordpress-and-thanks-from-my-little-family/">wishes WordPress happy birthday</a>.</li>
+<li>Peter Westwood on <a href="http://blog.ftwr.co.uk/archives/2013/05/27/a-decade-gone-more-to-come/">a decade gone</a>.</li>
+<li>Support rep Mika Epstein <a href="http://ipstenu.org/2013/you-me-and-wp/">on her WordPress journey</a>.</li>
+<li>Dougal Campbell <a href="http://dougal.gunters.org/blog/2013/05/27/instagram-my-wife-suzecampbell-and-i-celebrating-the-wordpress-10th-anniversary-with-bbq-in-our-wordpress-shirts-wp10/">celebrating with his wife, Suze</a>.</li>
+<li>Otto on <a href="http://ottodestruct.com/blog/2013/how-wp-affected-me/">how WordPress affected him</a>.</li>
+</ul>
+<p>You can see how WordPress&#8217; 10th Anniversary was celebrated all over the world <a href="http://wp10.wordpress.net/">by visiting the wp10 website</a>, according to Meetup we had 4,999 celebrators.</p>
+<p>To finish, I just want to say thank you to everyone: to the developers who write the code, to the designers who make WordPress sing, to the worldwide community translating WordPress into so many languages, to volunteers who answer support questions, to those who make WordPress accessible, to the systems team and the plugin and theme reviewers, to documentation writers, event organisers, evangelists, detractors, supporters and friends. Thanks to the jazzers whose music inspired us and whose names are at the heart of WordPress. Thanks to everyone who uses WordPress to power their blog or website, and to everyone who will in the future. Thanks to WordPress and its community that I&#8217;m proud to be part of.</p>
+<p>Thank you. I can&#8217;t wait to see what the next ten years bring.</p>
+<p><em>Final thanks to <a href="http://siobhanmckeown.com/">Siobhan McKeown</a> for help with this post.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2606</post-id>	</item>
+		<item>
+		<title>Plugin Directory Refreshed</title>
+		<link>https://wordpress.org/news/2012/05/plugins-refreshed/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Sat, 19 May 2012 18:56:27 +0000</pubDate>
+				<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2291</guid>
+
+					<description><![CDATA[Been hanging out with a few WordPress.org hackers &#8212; Scott, Nacin, and Otto &#8212; the last few days in a BBQ-fueled haze of hacking to make plugin directory better. There are over 19,000 plugins listed and they&#8217;re really the heart and soul of WordPress for many people, so they deserve a little tender loving care. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Been hanging out with a few WordPress.org hackers &#8212; Scott, Nacin, and Otto &#8212; the last few days in a BBQ-fueled haze of hacking to make plugin directory better. There are over <a href="https://wordpress.org/extend/plugins/">19,000 plugins listed</a> and they&#8217;re really the heart and soul of WordPress for many people, so they deserve a little tender loving care. Here&#8217;s a quick before and after snapshot you can zoom in on to see a visual overview of some of the changes:</p>
+<p><a href="https://wpdotorg.files.wordpress.com/2012/05/contact-form-7.png"><img decoding="async" src="//i0.wp.com/wpdotorg.files.wordpress.com/2012/05/contact-form-7.png?resize=690,350" alt="" /></a></p>
+<p>Our first focus was around improving the discussion and support around plugins.</p>
+<p>You&#8217;ll now notice that threads about a plugin are pulled directly into a &#8220;support&#8221; tab on the plugin page &#8212; each plugin has its own forum. We&#8217;ve made authors much more prominent and with bigger Gravatars and better placement, so you can get a sense of who made the plugin you&#8217;re using. And finally to show how active and well-supported a plugin is, you can see  &#8220;16 of 75 support threads in the last two weeks have been resolved.&#8221; Finally, if you&#8217;re logged in you get access to the new &#8220;favorites&#8221; feature that lets you mark the plugins you use the most so you can share them on your profile page and find them quickly later. We soft-launched favorites a few days ago and there have already been 2,000 saved!</p>
+<p>If you&#8217;re a plugin author, we&#8217;ve started with a short threshold (2 weeks) for the resolved stats so it&#8217;s easy to catch up and stay on top of it. (It&#8217;ll eventually go to two months.) You also now have the ability to set stickies on your plugin forum to put FAQs or important information at the top, and of course any person you put as a committer on the plugin will have moderation access. People on the forum tag will see your custom header and links to the other resources attached to your plugin.</p>
+<p>We&#8217;ve tightened up the styling a bit on the forums and plugin pages, though still some cleanups to do there. Some older improvements you might have missed, but are still useful for users and developers alike:</p>
+<ul>
+<li>&#8220;Plugin headers&#8221; or those cool graphics you see at the top of plugin pages have really taken off, there are over 1,600 active now.</li>
+<li>You can now subscribe to get an email whenever a commit is made to a plugin repository even if it isn&#8217;t yours. There is no better way to follow the development of your favorite plugins. There&#8217;s nothing like the smell of fresh changesets in the morning.</li>
+<li>Behind the scenes, we&#8217;ve dramatically ramped up proactive scanning of the entire repository to help authors fix security and other problems they might not even know about yet. The quality level of the repo has gone way, way up.</li>
+</ul>
+<p>All of this will continue to evolve as we get feedback and see usage, but we&#8217;re happy to have been able to make some key improvements in just a few days while hanging out in Memphis. (This is why WordCamps usually have BBQ &#8212; it imparts magical coding powers.)</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2291</post-id>	</item>
+		<item>
+		<title>State of the Word</title>
+		<link>https://wordpress.org/news/2011/08/state-of-the-word/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Fri, 19 Aug 2011 15:32:04 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Meta]]></category>
+		<guid isPermaLink="false">http://wordpress.org/news/?p=2019</guid>
+
+					<description><![CDATA[This has been an exciting year for WordPress. We&#8217;ve grown to power 14.7% of the top million websites in the world, up from 8.5%, and the latest data show 22 out of every 100 new active domains in the US are running WordPress. We also conducted our first ever user and developer survey, which got [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This has been an exciting year for WordPress. We&#8217;ve grown to power <strong>14.7% of the top million websites in the world</strong>, up from 8.5%, and the latest data show <strong>22 out of every 100 new active domains in the US are running WordPress</strong>.</p>
+<p>We also conducted our first ever user and developer survey, which got over 18,000 responses from all over the world:</p>
+<p><img decoding="async" src="https://michaelpick.files.wordpress.com/2011/08/sotw2011-final-046-0012.jpg?w=690" alt="" /></p>
+<p>We found a few interesting tidbits from the survey responses already, including that <strong>6,800 self-employed respondents were responsible for over 170,000 sites personally</strong>, and charged a median hourly rate of $50. In tough economic times, it&#8217;s heartening to see Open Source creating so many jobs. (If each site took only 3 hours to make, that&#8217;s $29.5M of work at the average hourly rate.)</p>
+<p>I talk about this data, and much more, in my State of the Word address which you <a href="http://wordpress.tv/2011/08/14/matt-mullenweg-state-of-the-word-2011/">can watch here</a>:</p>
+<p><iframe title="VideoPress Video Player" aria-label='VideoPress Video Player' width='500' height='281' src='https://video.wordpress.com/embed/9ujY295r?hd=1&amp;cover=1' frameborder='0' allowfullscreen allow='clipboard-write'></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1674852142'></script></p>
+<p>We know there&#8217;s more good stuff hidden in there and we&#8217;re open sourcing and releasing the raw information behind it. If you&#8217;re a researcher and would like to dig into the anonymized survey data yourself, <a href="https://s.w.org/resources/survey/wp2011-survey.tar.gz">you can grab it here</a>. (Careful, it&#8217;s a 9MB CSV.)</p>
+<p>There has never been a better time to be part of the WordPress community, and I want to thank each and every one of you for making it such a wonderful place to be. Now it&#8217;s time to get back to work, there&#8217;s still 85.3% of the web that needs help. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2019</post-id>	</item>
+	</channel>
+</rss>

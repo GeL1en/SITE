@@ -1,0 +1,2770 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Appearance &#8211; Documentation &#8211; WordPress.org</title>
+	<atom:link href="https://wordpress.org/documentation/category/appearance/feed/?simply_static_page=6643" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/documentation</link>
+	<description></description>
+	<lastBuildDate>Sat, 14 Sep 2024 13:50:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Appearance &#8211; Documentation &#8211; WordPress.org</title>
+	<link>https://wordpress.org/documentation</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">213977105</site>	<item>
+		<title>Additional guide to using the Site Editor</title>
+		<link>https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor/</link>
+					<comments>https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor/#comments</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Tue, 24 May 2022 01:00:00 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15654964</guid>
+
+					<description><![CDATA[How to update what your homepage displays Your homepage can show a list of your latest blog posts or a static page with custom content. Which setting you use depends on the templates that are included in your theme. To view the list of templates, go to the Administration Screen &#62; Appearance &#62; Editor &#62; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading" id="how-to-update-what-your-homepage-displays">How to update what your homepage displays</h2>
+
+
+
+<p>Your homepage can show a list of your latest blog posts or a static page with custom content. Which setting you use depends on the templates that are included in your theme. To view the list of templates, go to the Administration Screen &gt; Appearance &gt; Editor &gt; Templates. </p>
+
+
+
+<ul class="wp-block-list">
+<li>If your theme does not have a Home or Front page template, select the Add New button and create a new Front Page.</li>
+
+
+
+<li>If your theme has a Front Page template, click on the link with the template name to open the editor.</li>
+
+
+
+<li>If your theme has a Home template, you can edit the template or set what you want to appear in the Administration Screen &gt; Settings &gt; Reading.</li>
+</ul>
+
+
+
+<p>To learn how to select a static page for your homepage, please see the support article&nbsp;<a href="https://wordpress.org/documentation/article/creating-a-static-front-page/">Creating a Static Front Page</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="how-to-customize-your-homepage">How to customize your homepage</h2>
+
+
+
+<p><strong>Latest Blog Posts</strong></p>
+
+
+
+<p>To customize your blog, go to Administration Screen &gt; Appearance &gt; Editor. The editor will open to your homepage, and you can start editing.</p>
+
+
+
+<p>Block themes display lists of blog posts with the Query Loop block and the Post Template block.<br>The <a href="https://wordpress.org/documentation/article/query-loop-block/" data-type="URL" data-id="https://wordpress.org/documentation/article/query-loop-block/">support article for the Query Loop Block</a> explains how to configure the block.<br><br>When you add a block inside the post template block, it is repeated for every post in the list. The Post Title and Post Featured Image, Post Author, Post Date, Post Category, and Post tags are examples of blocks that you can use to customize your blog.</p>
+
+
+
+<p id="static-page"><strong>Static page</strong></p>
+
+
+
+<p>If you have selected a static page for your home page, and you want it to have a different design than other pages, you need to assign it a different template. </p>
+
+
+
+<p>Follow these steps to assign an existing template:</p>
+
+
+
+<ol class="wp-block-list">
+<li>From your wp-admin dashboard, head to Pages &gt; All Pages.</li>
+
+
+
+<li>From the list of pages, select the option to edit page you have set as your home page.</li>
+
+
+
+<li>Once in the editor, open the settings sidebar. </li>
+
+
+
+<li>Under &#8220;Template&#8221;, you can then select whatever Template you want your home page to use.</li>
+
+
+
+<li>When you&#8217;re done, select &#8220;Update&#8221; to save the changes.</li>
+</ol>
+
+
+
+<p>Follow these steps to create a new template:</p>
+
+
+
+<ol class="wp-block-list">
+<li>From your wp-admin dashboard, head to Pages &gt; All Pages.</li>
+
+
+
+<li>From the list of pages, select the option to edit page you have set as your home page.</li>
+
+
+
+<li>Once in the editor, open the settings sidebar. </li>
+
+
+
+<li>Under &#8220;Template&#8221;, select New.</li>
+
+
+
+<li>This will open the Site Editor to add blocks for create your template for your static homepage.</li>
+
+
+
+<li>When you&#8217;re done, select &#8220;Update&#8221; to save the changes.</li>
+</ol>
+
+
+
+<p>Please note that if you add a Front Page template in the Site Editor, it will&nbsp;always be used as the front page regardless of what setting you choose under Admin &gt; Settings &gt; Reading. You will need to either customize that template to your liking or remove it to then adjust the homepage settings again.</p>
+
+
+
+<h2 class="wp-block-heading" id="how-to-update-your-site-icon">How to update your site icon</h2>
+
+
+
+<p>Block themes include the ability to use the Site Logo block which has built within it an option to set your Site Logo as your Site Icon. For context, the Site Logo simply displays whatever logo you set for your site whereas your Site Icon is also known as a favicon and it is used to help identify your website. To learn more about setting your Site Icon or favicon, please see the support article <a href="https://wordpress.org/documentation/article/creating-a-favicon/">Creating a Favicon</a>.</p>
+
+
+
+<p>Follow the steps below to use the same image for the Site Logo and Site Icon:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Head to Appearance &gt; Editor. This will open up your homepage. </li>
+
+
+
+<li>Either find your Site Logo block added by your theme or add it to yourself wherever you&#8217;d like. Detailed instructions for adding blocks <a href="https://wordpress.org/documentation/article/adding-a-new-block/">can be found here</a>. </li>
+
+
+
+<li>From there, you&#8217;ll see the option to upload or select an image to use from your Media Library. </li>
+
+
+
+<li>After choosing an image and while still selecting the Site Logo block, open the block settings sidebar (uses the cog icon). </li>
+
+
+
+<li>Under the settings for the Site Logo block, toggle on the option to &#8220;Use as site icon&#8221;. </li>
+
+
+
+<li>Save your changes.</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="914" src="https://wordpress.org/documentation/files/2022/01/site_icon-1024x914.png" alt="Image showing the options to set a site logo as a site icon in the settings sidebar. " class="wp-image-15222275" style="width:500px" srcset="https://wordpress.org/documentation/files/2022/01/site_icon-1024x914.png 1024w, https://wordpress.org/documentation/files/2022/01/site_icon-300x268.png 300w, https://wordpress.org/documentation/files/2022/01/site_icon-768x686.png 768w, https://wordpress.org/documentation/files/2022/01/site_icon.png 1306w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">How to customize your site design at a global level</h2>
+
+
+
+<p>Since WordPress 5.9, you can set the colors, typography, layout, spacing, and more, for the entire site via Styles. You can also edit the default appearance of blocks to streamline the look and feel of your site.</p>
+
+
+
+<p>Fore more details, refer <a href="https://wordpress.org/documentation/article/styles-overview/">Styles Overview</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15654964</post-id>	</item>
+		<item>
+		<title>Assign custom fields</title>
+		<link>https://wordpress.org/documentation/article/assign-custom-fields/</link>
+					<comments>https://wordpress.org/documentation/article/assign-custom-fields/#comments</comments>
+		
+		<dc:creator><![CDATA[Akira Tachibana]]></dc:creator>
+		<pubDate>Sat, 27 Oct 2018 12:50:11 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=10821629</guid>
+
+					<description><![CDATA[WordPress has the ability to allow post authors to assign custom fields to a post. This arbitrary extra information is known as metadata. This metadata can include bits of information such as: Mood: Happy Currently Reading: Cinderella Listening To: Rock Around the Clock Weather: Hot and humid With some extra coding, it is possible to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress has the ability to allow post authors to assign custom fields to a post. This arbitrary extra information is known as <strong>metadata</strong>. This <strong>metadata</strong> can include bits of information such as:</p>
+
+
+
+<ul class="wp-block-list"><li><strong>Mood:</strong> Happy</li><li><strong>Currently Reading:</strong> Cinderella</li><li><strong>Listening To:</strong> Rock Around the Clock</li><li><strong>Weather:</strong> Hot and humid</li></ul>
+
+
+
+<p>With some extra coding, it is possible to achieve more complex actions, such as using the <strong>metadata</strong> to store an expiration date for a post.</p>
+
+
+
+<p>Metadata is handled with <strong>key/value</strong> pairs. The <strong>key</strong> is the name of the metadata element. The <strong>value</strong> is the information that will appear in the metadata list on each individual post that the information is associated with.</p>
+
+
+
+<p><strong>Keys</strong> can be used more than once per post. For example, if you were reading two different books (perhaps a technical book at work and a fiction at home), you could create a &#8220;reading&#8221; key and use it twice on the same post, once for each book.</p>
+
+
+
+<p>Here is an example of what this information might look like on your post:</p>
+
+
+
+<pre class="wp-block-preformatted"><strong>Currently Reading</strong>: <em>Calvin and Hobbes</em><br /><strong>Today's Mood</strong>: <em>Jolly and Happy</em></pre>
+
+
+
+<h2 class="wp-block-heading">Usage</h2>
+
+
+
+<p>Based upon our example above, let&#8217;s add two custom fields, one called &#8220;Currently Reading&#8221; and the other &#8220;Today&#8217;s Mood&#8221;. Please follow the below steps to add this information to a post using Custom Fields.</p>
+
+
+
+<ol class="wp-block-list"><li>Custom Fields options on the Post &amp; Page edit screens are hidden by default if they have not been used before. Using the Block Editor, click the three dots button at the top of the right sidebar and visit <strong>Options</strong> to enable it. (If you are using the Classic editor, check the <a href="https://wordpress.org/documentation/article/administration-screens/#screen-options">screen options</a>).</li><li>After you have written your post, scroll down to the area titled <strong>Custom Fields</strong>. </li><li>To create a new <strong>Custom Field</strong> called &#8220;Currently Reading&#8221;, enter the text &#8220;Currently Reading&#8221; (without the quotes) in the text entry field titled <strong>Name</strong>.</li><li>The newly created <strong>Key</strong> (&#8220;Currently Reading&#8221;) should now be assigned a <strong>Value</strong>, which in our case is the name of the book currently being read, &#8220;Calvin and Hobbes&#8221;. Type &#8220;Calvin and Hobbes&#8221; in the <em>Value</em> field, again without the quotes.</li><li>Click <strong>Add Custom Field</strong> button to save this custom information for that post.</li></ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="658" height="294" src="https://wordpress.org/documentation/files/2018/10/custom_field_example.jpg" alt="" class="wp-image-10821652" srcset="https://wordpress.org/documentation/files/2018/10/custom_field_example.jpg 658w, https://wordpress.org/documentation/files/2018/10/custom_field_example-300x134.jpg 300w" sizes="(max-width: 658px) 100vw, 658px" /><figcaption>Custom Fields</figcaption></figure>
+
+
+
+<p>To add your &#8220;Today&#8217;s Mood&#8221;, repeat the process and add &#8220;Today&#8217;s Mood&#8221; to the <strong>key</strong> and a description of your mood in the <strong>value</strong> text boxes and click <strong>Add Custom Field </strong>to save this information with the post.</p>
+
+
+
+<p>On your next post, you can add a new book and mood to your metadata. In the <strong>Custom Fields</strong> section, the <strong>Key</strong> will now feature a pull-down list with the previously entered Custom Fields. Choose &#8220;Currently Reading&#8221; and then enter the new book you are reading in the <strong>value</strong>. Click <strong>Add Custom Field</strong> and then repeat the process to add &#8220;Today&#8217;s Mood&#8221;.</p>
+
+
+
+<p>You only need to create a new &#8220;KEY&#8221; <strong>once</strong>, after which you can assign a value to that key for every post, if you so desire. You can also assign more than one <em>Value</em> to a key, for a post. This will come in handy for people who read more than one book at a time.</p>
+
+
+
+<h2 class="wp-block-heading">Displaying Custom Fields</h2>
+
+
+
+<p>To display the Custom Fields for each post, you have to use a template tag that customizes your theme. For more details about it, please refer to:</p>
+
+
+
+<ul class="wp-block-list"><li><a href="https://developer.wordpress.org/reference/functions/the_meta/">the_meta() </a>&#8211; Template tag that automatically lists all Custom Fields of a post</li><li><a href="https://developer.wordpress.org/reference/functions/get_post_custom/">get_post_custom()</a> and <a href="https://developer.wordpress.org/reference/functions/get_post_meta/">get_post_meta()</a> &#8211; Retrieves one or all metadata of a post.</li><li><a href="https://developer.wordpress.org/reference/functions/get_post_custom_values/">get_post_custom_values()</a> &#8211; Retrieves values for a custom post field.</li><li><a href="https://developer.wordpress.org/themes/basics/template-tags/">Template Tags</a> &#8211; WordPress Theme Developers Handbook page on Template Tags</li></ul>
+
+
+
+<p>You may install a plugin that manages custom fields by searching &#8220;<a href="https://wordpress.org/plugins/search/custom+fields/">custom fields</a>&#8221; in the plugins directory.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/assign-custom-fields/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10821629</post-id>	</item>
+		<item>
+		<title>Block themes</title>
+		<link>https://wordpress.org/documentation/article/block-themes/</link>
+					<comments>https://wordpress.org/documentation/article/block-themes/#comments</comments>
+		
+		<dc:creator><![CDATA[Carolina Nymark]]></dc:creator>
+		<pubDate>Wed, 05 Jan 2022 22:49:50 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15113575</guid>
+
+					<description><![CDATA[As of WordPress 5.9, block themes are now a part of the WordPress ecosystem as a new type of theme built with and for blocks. What is a block theme? A block theme is a theme that uses blocks for all parts of a site, including navigation menus, header, content, and site footer. These themes [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As of WordPress 5.9, block themes are now a part of the WordPress ecosystem as a new type of theme built with and for blocks. </p>
+
+
+
+<h2 class="wp-block-heading" id="what-is-a-block-theme">What is a block theme?</h2>
+
+
+
+<p>A block theme is a theme that uses blocks for all parts of a site, including navigation menus, header, content, and site footer. These themes are built for the newest features coming to WordPress that allow you to edit and customize all parts of your site. This allows you to switch up key parts of your theme without ever needing to change themes. </p>
+
+
+
+<p>With a block theme, you can place and edit blocks outside your content using the <a href="https://wordpress.org/documentation/article/template-editor/" data-type="URL" data-id="https://wordpress.org/documentation/article/template-editor/">Template Editor</a> or <a href="https://wordpress.org/documentation/article/site-editor/" data-type="URL" data-id="https://wordpress.org/documentation/article/site-editor/">Site Editor</a>. You can use blocks in templates provided by a theme or plugin. For example, an archive page or a 404 page. You can also create custom templates.</p>
+
+
+
+<p>For general information about themes, see the support article <a href="https://wordpress.org/documentation/article/using-themes/#what-is-a-theme" data-type="URL" data-id="https://wordpress.org/documentation/article/using-themes/#what-is-a-theme">What is a theme?</a></p>
+
+
+
+<p><strong>How do this impact widgets and widget areas?</strong></p>
+
+
+
+<p>Instead of widgets, a block theme relies on blocks. This means that you can place blocks anywhere you might have previously wanted widgets to appear.</p>
+
+
+
+<p><strong>How does this impact the Customizer?</strong></p>
+
+
+
+<p>The <a href="https://wordpress.org/documentation/article/appearance-customize-screen/">Customizer</a> is not available in block themes unless you are using a plugin or theme that requires it to be activated. This is because you can make the same changes you might make with the Customizer with blocks. For example, there are now blocks for the site title, tagline, and site logo. You can also select colors for your website in the <a href="https://wordpress.org/documentation/article/styles-overview/" data-type="helphub_article" data-id="15127782">Styles</a> setting by going to <strong>Administration Screen</strong> &gt; <strong>Appearance</strong> &gt; <strong>Editor (beta). </strong></p>
+
+
+
+<h2 class="wp-block-heading" id="how-to-find-block-themes">How to find block themes</h2>
+
+
+
+<p>You can find block themes in the <a href="https://wordpress.org/themes/tags/full-site-editing/" data-type="URL" data-id="https://wordpress.org/themes/tags/full-site-editing/">WordPress theme directory</a> by selecting <strong>Block Themes</strong> in the toolbar. This automatically takes you to a filtered view of all themes with Full Site Editing functionality.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-14-at-9.17.12-PM-1-1024x159.png" alt="Visual of the theme directory with an emphasis on the block themes tab. " class="wp-image-15827009" /><figcaption class="wp-element-caption">Themes Directory &#8211; Block Themes</figcaption></figure>
+
+
+
+<p>For general information about how to get new themes, see the support article <a href="https://wordpress.org/documentation/article/using-themes/#get-new-themes" data-type="URL" data-id="https://wordpress.org/documentation/article/using-themes/#get-new-themes">Get new themes</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="what-options-are-available-with-block-themes-styles-templates-template-parts">What options are available with block themes?</h2>
+
+
+
+<p>After activating a block theme, more tools and features will be available to you including the following:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/site-editor/" data-type="URL" data-id="https://wordpress.org/documentation/article/site-editor/" target="_blank">Site Editor</a>: an editor that allows you to edit all parts of your site, navigate between templates, and more.</li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/styles-overview/" data-type="URL" data-id="https://wordpress.org/documentation/article/styles-overview/" target="_blank">Styles</a>: a feature that allows you to customize your site, including individual blocks, as much as you’d like with different colors, typography, layouts, and more. </li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/template-editor/" target="_blank">Templates</a>: edit, create, and manage templates that a page or post uses.</li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/template-part-block/" target="_blank">Template parts</a>: a way to organize and display groups of blocks as part of a block template mainly for site structure, like Headers and Footers.</li>
+
+
+
+<li>Theme blocks including the <a href="https://wordpress.org/documentation/article/navigation-block/" data-type="URL" data-id="https://wordpress.org/documentation/article/navigation-block/">Navigation Block</a>, <a href="https://wordpress.org/documentation/article/query-loop-block/">Query Loop block</a>, and more. </li>
+</ul>
+
+
+
+<p>Using these options you can create the desired look and feel of your site without switching themes as often. </p>
+
+
+
+<h2 class="wp-block-heading" id="when-should-i-use-a-block-theme">When should I use a block theme?</h2>
+
+
+
+<p>Block themes were introduced in WordPress since the 5.9 release. If you like exploring new things, enjoy building content with the <a href="https://wordpress.org/documentation/article/wordpress-editor/" data-type="helphub_article" data-id="11284616">block editor</a> and like to have full control over all parts of your site, block themes are a great solution for you. </p>
+
+
+
+<p>If you&#8217;re comfortable doing so, it might help to <a href="https://wordpress.org/documentation/article/test-driving-wordpress/">set up a test site</a> to try out a block theme first to see if it will work for you. </p>
+
+
+
+<h2 class="wp-block-heading" id="how-are-block-themes-different-from-classic-themes">How are block themes different from classic themes?</h2>
+
+
+
+<p>Block themes are built for the newer functionality in WordPress and allow you to use blocks to edit all parts of your site, including easier ways to quickly customize everything from your background colors to font sizes for all Heading blocks etc. Comparatively, classic themes are built with PHP templates, functions.php and more that include features like Widgets, a dedicated Menus section, the Customizer, and more. Classic themes do not work with the <a href="https://wordpress.org/documentation/article/site-editor/">Site Editor</a>. </p>
+
+
+
+<h2 class="wp-block-heading" id="resource-links">Resource Links</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Learn WordPress course on <a href="https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/">Simple Site Design with Full Site Editing</a></li>
+
+
+
+<li>Build <a href="https://developer.wordpress.org/themes/block-themes/">a block theme</a></li>
+</ul>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Update 2023-04-24
+<ul class="wp-block-list">
+<li>Add link to building a block theme</li>
+</ul>
+</li>
+
+
+
+<li>Update 2022-07-14
+<ul class="wp-block-list">
+<li>Add section on how to find block themes</li>
+</ul>
+</li>
+
+
+
+<li>Created 2022-01-05</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/block-themes/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15113575</post-id>	</item>
+		<item>
+		<title>Comparing Patterns, Template Parts, and Synced Patterns (Reusable Blocks)</title>
+		<link>https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/</link>
+					<comments>https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/#comments</comments>
+		
+		<dc:creator><![CDATA[annezazu]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2022 18:43:32 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15289733</guid>
+
+					<description><![CDATA[Overview With more types of reusable content you can create with WordPress, this article seeks to clarify when it makes sense to use certain types in different situations to help guide you to make the best decisions possible. At a high level, this will focus on Template Part blocks, Block Patterns, and Synced Patterns (Reusable Blocks). [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading" id="overview">Overview</h2>
+
+
+
+<p>With more types of reusable content you can create with WordPress, this article seeks to clarify when it makes sense to use certain types in different situations to help guide you to make the best decisions possible. At a high level, this will focus on Template Part blocks, Block Patterns, and Synced Patterns (Reusable Blocks).</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">WordPress 6.3 renamed Reusable Blocks to Patterns. A synced pattern will behave in exactly the same way as a reusable block.</p>
+
+
+
+<h3 class="wp-block-heading">Template Part</h3>
+
+
+
+<p>The Template Part block is an advanced block that can be used with a block theme or a theme that supports <a href="https://wordpress.org/themes/tags/template-editing/">template editing</a>. They often come with your theme and are used to organize and display your site structure. For more information, you can learn more in the <a href="https://wordpress.org/documentation/article/template-part-block/">Template Part block support article</a>.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Synced pattern (Reusable block)</h3>
+
+
+
+<p>Synced pattern is a kind of block pattern that enabled Synced option, and it will behave in exactly the same way as a reusable block. Editing the synced pattern will update it anywhere it is used. After creating a synced pattern, you can &#8216;Detach&#8217; it to a regular block, and edit the block without affecting your already saved synced pattern. For more information, you can learn more in the <a href="https://wordpress.org/documentation/article/reusable-blocks/">Synced Pattern article</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Block Patterns</h3>
+
+
+
+<p>Block Patterns are a collection of predefined blocks that you can insert into posts and pages and then customize with your own content. For more information, you can learn more in the <a href="https://wordpress.org/documentation/article/block-pattern/">Block Pattern support article</a>.</p>
+
+
+
+<p>Here’s a table comparing these different options to each other:&nbsp;</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td></td><td><strong>Template Part</strong></td><td><strong>Synced Patterns </strong><br><strong>(Reusable Block)</strong></td><td><strong>Patterns</strong></td></tr><tr><td>Type</td><td>Site Structure</td><td>User Content</td><td>User Content</td></tr><tr><td>Syncing Ability</td><td>Synced</td><td>Synced</td><td>Un-synced</td></tr><tr><td>Example</td><td>Footer</td><td>Business hours</td><td>Call to action</td></tr></tbody></table></figure>
+
+
+
+<p>Site structure means it should not be a part of your content, like a post or page. Syncing ability touches on whether if you update it in one spot, it updates everywhere the same block is used.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading" id="guidelines">Guidelines</h2>
+
+
+
+<p>Based on the above, this means it’s best to use template parts and Synced pattern for things you want to have in sync with each other whereas patterns are best for content that you expect to change across your site. </p>
+
+
+
+<p>In general, template parts should not be added to a Synced pattern or a regular pattern since this is meant to represent site structure rather than content. A template part can include a Synced pattern though or be built using patterns! You can also use block patterns to build templates and template parts, but you should not use a template part inside a pattern.</p>
+
+
+
+<h2 class="wp-block-heading" id="situationals">Situationals</h2>
+
+
+
+<h3 class="wp-block-heading" id="repeated-content-across-your-site">Repeated content across your site</h3>
+
+
+
+<p>This could be everything from how to get in touch to your business hours to your social media accounts. To avoid having to add the same content to a paragraph block every time you want to place it at the end of your post, you can make it a Synced pattern. </p>
+
+
+
+<h3 class="wp-block-heading" id="repeated-structure-across-your-site">Repeated structure across your site</h3>
+
+
+
+<p>For anything that’s more about site structure that’s repeated across your site, like a Header or Footer, it’s best to use a template part. These carry semantic meaning within block themes so it’s important to make the distinction.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading" id="repeated-design-or-layout">Repeated design or layout</h3>
+
+
+
+<p>When it’s less about content and more about wanting to repeat a design or layout, patterns are best to use. This is because the content doesn’t need to be synced and, instead, what you want repeated is how something visually looks. </p>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-08-08
+<ul class="wp-block-list">
+<li>WP 6.3 introduced custom patterns, and Reusable Block was renamed to Synced Pattern.</li>
+</ul>
+</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15289733</post-id>	</item>
+		<item>
+		<title>Create a Favicon</title>
+		<link>https://wordpress.org/documentation/article/create-a-favicon/</link>
+					<comments>https://wordpress.org/documentation/article/create-a-favicon/#comments</comments>
+		
+		<dc:creator><![CDATA[Carolina Nymark]]></dc:creator>
+		<pubDate>Sun, 04 Nov 2018 09:50:08 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=10846004</guid>
+
+					<description><![CDATA[A favicon (short for &#8220;favorite icon&#8221;) is an icon associated with a particular website or web page. It is generally intended to be used when you bookmark a web page. Web browsers use them in the URL bar, on tabs, and elsewhere to help identify a website visually. Favicons are also used as application icons [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>A <em>favicon</em> (short for &#8220;favorite icon&#8221;) is an icon associated with a particular website or web page. It is generally intended to be used when you bookmark a web page. Web browsers use them in the URL bar, on tabs, and elsewhere to help identify a website visually. Favicons are also used as application icons on mobile devices.</p>
+
+
+
+<p>A favicon is typically a graphic 16 x 16 pixels square, and is saved as <code>favicon.ico</code> in the root directory of your server. You can use a favicon with any WordPress site on a web server that allows access to the root directories.</p>
+
+
+
+<h2 class="wp-block-heading">WordPress Version 4.3 or later</h2>
+
+
+
+<p>WordPress <a href="/support/article/wordpress-version/version-4-3/">Version 4.3</a> implemented a Site Icon feature that enables favicons on your web site.</p>
+
+
+
+<p>When you use the Site Icon feature, you don&#8217;t need to prepare the <code>favicon.ico</code> file by yourself, or modify your template file. All you have to do is navigate to the Customize screen and specify a square image that has a height and width of at least 512 px.</p>
+
+
+
+<p>Later paragraphs in this article contain instructions for manually setting up your own favicon. However, it is highly recommended that you use the Site Icon feature (a feature that is built-in to WordPress) instead.</p>
+
+
+
+<p>Follow the steps below to use Site Icon to set up a favicon for your site.</p>
+
+
+
+<ol class="wp-block-list"><li>Prepare the image file. (It must be square, having a height and width of at least 512 px.)</li><li>Navigate to <a href="/support/article/administration-screens/">Administration Screen</a> &gt; Appearance &gt; Customize</li><li>Click <strong>Site Identity</strong></li><li>Click <strong>Select Image</strong> (located under the<strong> Site Icon</strong> subheading).</li><li>Click on the <strong>Upload Files</strong> tab, then click <strong>Select Files</strong> to upload the image file that you prepared in the previous step.</li></ol>
+
+
+
+<figure class="wp-block-image"><a href="https://wordpress.org/documentation/files/2018/11/customizer-siteicon.jpg"><img decoding="async" width="298" height="281" src="https://wordpress.org/documentation/files/2018/11/customizer-siteicon.jpg" alt="customizer-siteicon" class="wp-image-10846015" /></a></figure>
+
+
+
+<h2 class="wp-block-heading">Creating a Favicon</h2>
+
+
+
+<p>A favicon can be created by using any graphics/image editing software that allows the saving of <code>.ico</code> files. There are also online services that will allow you to create a favicon for free.</p>
+
+
+
+<p>The image should be clear and visually appealing. Ideally it should be designed to match your site&#8217;s brand image and/or content.</p>
+
+
+
+<p>To prepare the image to be saved as <em>favicon.ico</em>:</p>
+
+
+
+<ol class="wp-block-list"><li>Make the image square by cropping or adding space around it.</li><li>Resize the image to 16 x 16 pixels.</li><li>Save the file as <code>favicon.ico</code>.</li></ol>
+
+
+
+<p>If you&#8217;re using an online service to create your favicon (such as <a href="http://www.faviconer.com" target="_blank" rel="noreferrer noopener">Faviconer.com</a> or <a href="http://tools.dynamicdrive.com/favicon" target="_blank" rel="noopener noreferrer">Dynamic Drive</a>) follow the instructions provided by the site, and then download the favicon.ico image to your computer.</p>
+
+
+
+<h2 class="wp-block-heading">Installing a Favicon in WordPress</h2>
+
+
+
+<p>If your theme or your WordPress version does not support the Site Icon option described above, you can use this method to manually add a Favicon.</p>
+
+
+
+<p>If there is already an old <code>favicon.ico</code> file in your current theme&#8217;s main folder, delete it using an&nbsp;<a href="/support/article/ftp-clients/">FTP Client</a>.</p>
+
+
+
+<ol class="wp-block-list"><li>Use an FTP Client to upload the new <code>favicon.ico</code> file into your current theme&#8217;s main folder.</li><li>Upload another copy of your <code>favicon.ico</code> file to the main directory of your site (ex. <code>http://example.com/favicon.ico</code>). This will display the favicon in your subscribers&#8217; feed readers.</li></ol>
+
+
+
+<p>In order for your favicon to show up in some older browsers, you will need to edit your page header. (Remember, the best way to edit your theme&#8217;s files is via a <a href="/support/article/using-themes/">Child Theme</a>. As you follow along with the following instructions, it is <strong>highly recommended</strong> that you create and modify the copy of header.php that is located in your child theme.)</p>
+
+
+
+<ol class="wp-block-list"><li>Go to your WordPress <a href="/support/article/administration-screens/">Administration Screen</a>.</li><li>Click on <em>Appearance</em>.</li><li>Click on <em>Theme Editor</em>.</li><li>Select the file called <a href="https://codex.wordpress.org/Designing_Headers">Header</a> or <a href="https://codex.wordpress.org/Designing_Headers">header.php</a> to edit the file.</li><li>Search for the line of code that begins with <code>&lt;link rel="shortcut icon"</code> and ends with <code>/favicon.ico" /&gt;</code>. Overwrite it, if it exists, or add the following code below the HTML tag:</li></ol>
+
+
+
+<pre class="wp-block-code"><code>&lt;link rel="shortcut icon" href="&lt;?php echo get_stylesheet_directory_uri(); ?&gt;/favicon.ico" /&gt;</code></pre>
+
+
+
+<p>Save the changes.</p>
+
+
+
+<h2 class="wp-block-heading">How to create a favicon with a transparent background</h2>
+
+
+
+<p>Before implementing this method, please make sure that your source image already has a transparent background, which means it should be a GIF or a PNG. The rest of the steps are as mentioned above. The one difference in the code is that, instead of using a favicon.ico file, use favicon.png or favicon.gif instead.</p>
+
+
+
+<p>Search for the line of code that begins with <code>&lt;link rel="shortcut icon"</code> and ends with <code>/favicon.ico" /&gt;</code>. Overwrite it, if it exists, or add the following code below the  HTML tag:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;link rel="shortcut icon" href="&lt;?php echo get_stylesheet_directory_uri(); ?&gt;/favicon.png" /&gt;</code></pre>
+
+
+
+<p>To see your new favicon, <a href="https://codex.wordpress.org/I_Make_Changes_and_Nothing_Happens">clear your browser&#8217;s cache</a>. You may need to restart your browser in order to see the new favicon.</p>
+
+
+
+<h2 class="wp-block-heading">Advantages of using .ico over .png or .gif</h2>
+
+
+
+<ol class="wp-block-list"><li>Compatibility &#8211; As of this writing, <a href="https://caniuse.com/#feat=link-icon-png" target="_blank" rel="noreferrer noopener">most modern browsers</a>&#8211;except for iOS Safari and Opera Mini&#8211;support the .ico format.</li><li>Avoid 404 server errors &#8211; Virtually all modern browsers will request a favicon.ico, so it&#8217;s best to always have a favicon.ico file, to avoid a &#8220;404 not found&#8221; error.</li><li>An .ico file can hold more than one icon, so there is no need to include multiple files for 16&#215;16 and 48&#215;48 icons.</li></ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/create-a-favicon/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10846004</post-id>	</item>
+		<item>
+		<title>Introduction to Plugins</title>
+		<link>https://wordpress.org/documentation/article/introduction-to-plugins/</link>
+					<comments>https://wordpress.org/documentation/article/introduction-to-plugins/#respond</comments>
+		
+		<dc:creator><![CDATA[akhrayaprolu]]></dc:creator>
+		<pubDate>Sun, 18 Nov 2018 03:28:38 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=10840565</guid>
+
+					<description><![CDATA[Introduction Plugins are ways to extend and add to the functionality that already exists in WordPress. The core of WordPress is designed to be lean and lightweight, to maximize flexibility and minimize code bloat. Plugins offer custom functions and features so that each user can tailor their site to their specific needs. For instructions and [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Introduction</h2>
+
+
+
+<p><em>Plugins are ways to extend and add to the functionality that already exists in WordPress</em>.</p>
+
+
+
+<p>The core of WordPress is designed to be lean and lightweight, to maximize flexibility and minimize code bloat. Plugins offer custom functions and features so that each user can tailor their site to their specific needs.</p>
+
+
+
+<p>For instructions and information on downloading, installing, upgrading, troubleshooting, and managing your WordPress Plugins, see <a href="https://codex.wordpress.org/Managing_Plugins">Managing Plugins</a>. If you want to develop your own plugin, there is a comprehensive list of resources in <a href="https://codex.wordpress.org/Plugin_Resources">Plugin Resources</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Plugin Repositories</h2>
+
+
+
+<p>WordPress Plugins are available from several sources. The most popular and official source for WordPress Plugins is the WordPress.org repo.</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://wordpress.org/plugins/">Official WordPress Plugins Repository</a></li>
+</ul>
+
+
+
+<p>Just to note, not all WordPress Plugins make it into the above repository. Search the web for &#8220;WordPress Plugin&#8221; and the keywords for the type of functionality you are seeking. There is bound to be a solution out there for you.</p>
+
+
+
+<h2 class="wp-block-heading">Default Plugins</h2>
+
+
+
+<p>The following two plugins are included with WordPress core:&nbsp;<a href="https://codex.wordpress.org/Akismet">Akismet</a> checks your comments against the Akismet web service to see if they look like spam or not. You can review the spam it catches under &#8220;Manage&#8221; and it automatically deletes old spam after 15 days.</p>
+
+
+
+<p>See all of the features in Akismet here: <a href="https://wordpress.org/plugins/akismet/">https://wordpress.org/plugins/akismet/</a></p>
+
+
+
+<p><strong>Hello Dolly</strong>          This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong. Hello, Dolly. This is, by the way, the world&#8217;s first official WordPress Plugin. When enabled you will randomly see a lyric from &#8220;Hello, Dolly&#8221; in the upper right of your <a href="https://codex.wordpress.org/Administration_Screens">Administration Screens</a> on every page.     </p>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-07-05 
+<ul class="wp-block-list">
+<li>Removed developer jargon and old links to Codex</li>
+</ul>
+</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/introduction-to-plugins/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10840565</post-id>	</item>
+		<item>
+		<title>Layout Settings overview</title>
+		<link>https://wordpress.org/documentation/article/layout-settings-overview/</link>
+					<comments>https://wordpress.org/documentation/article/layout-settings-overview/#comments</comments>
+		
+		<dc:creator><![CDATA[thelmachido a11n]]></dc:creator>
+		<pubDate>Wed, 02 Nov 2022 07:22:09 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=16085090</guid>
+
+					<description><![CDATA[The layout settings in&#160;blocks allow you to change the justification and orientation of the nested child blocks inside their parent blocks. These settings can be found in the parent blocks within which the child blocks are nested. The layout settings are available when you use the&#160;block editor. If you are new to the block editor,&#160;this [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The layout settings in&nbsp;<a href="https://wordpress.org/documentation/article/blocks/">blocks</a> allow you to change the justification and orientation of the nested child blocks inside their parent blocks. These settings can be found in the parent blocks within which the child blocks are nested.</p>
+
+
+
+<p>The layout settings are available when you use the&nbsp;<a href="https://wordpress.org/documentation/article/wordpress-editor/">block editor</a>. If you are new to the block editor,&nbsp;<a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/working-with-blocks/" target="_blank">this guide</a>&nbsp;will show you how to work with blocks. You can read more about the new block editor features and improvements&nbsp;<a rel="noreferrer noopener" href="https://make.wordpress.org/core/2022/09/26/core-editor-improvement-catalyst-for-creativity/" target="_blank">in this article.</a></p>
+
+
+
+<h2 class="wp-block-heading">How to access layout settings</h2>
+
+
+
+<p>To access the layout settings (in the parent block), click on any of the child blocks. The first icon in the block toolbar of the child block will select the parent block. In the block settings sidebar in the parent block, you will find the <strong>Layout</strong> section as shown below. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/10/layout-settings-1.gif" alt="Layout Settings for blocks" class="wp-image-16088280" width="608" height="200" /></figure>
+
+
+
+<h2 class="wp-block-heading">Navigating through nested blocks</h2>
+
+
+
+<p>The <strong>List View</strong> tool can be used to navigate between layers of content and nested blocks. This will make it easy to access the parent and child block. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2021/07/Screen-Shot-2021-07-08-at-4.43.32-PM-1.png" alt="Top toolbar of the editor" width="466" height="57" /></figure>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<p>To open <strong>List View</strong>, select the List View icon from the Top Toolbar of the <a href="https://wordpress.org/documentation/article/wordpress-editor/" data-type="helphub_article" data-id="11284616">block editor</a> as shown above. It will remain open as you navigate through your content and stay open until you close it by either selecting the “x” or by selecting the List View icon again.</p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/list-view/" target="_blank">Learn more about the List View</a>. </p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://wordpress.org/documentation/files/2021/12/Screen-Shot-2021-12-21-at-3.32.17-PM-1024x926.png" alt="The list view of blocks" /></figure>
+</div>
+</div>
+
+
+
+<h2 class="wp-block-heading">Type of settings </h2>
+
+
+
+<p>Each supported block comes with different layout settings. If you make customizations to these settings and want to revert back to the original settings quickly, you can do so by selecting the three-dot menu icon and clicking <strong>Reset All</strong> as <a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/working-with-blocks/#reset-controls" target="_blank">shown in this article</a>. This resets the settings and removes all of your changes. </p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading">Justification </h3>
+
+
+
+<p>You can set the justification of the child blocks inside the parent block. You can justify the child blocks to the <strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong>. </p>
+
+
+
+<p>Some blocks like <a href="https://wordpress.org/documentation/article/buttons-block/" data-type="helphub_article" data-id="13757096">buttons block</a> will have the option to add <strong>Space between items</strong> which lets you add equal space between them. Space between items is applicable only for horizontal orientation. Eg: The&nbsp;<em>buttons block</em>&nbsp;is centered with equal spacing between the buttons if you have more than 1 button within the&nbsp;<em>buttons block</em>. <em>If the child blocks are set to be vertically aligned, you will not be able to put space between them.</em> </p>
+
+
+
+<p>The justification settings can be found on the parent block&#8217;s toolbar and sidebar settings.   </p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/10/justification-2.gif" alt="Layout settings for justifying blocks" class="wp-image-16088414" width="668" height="242" /></figure>
+
+
+
+<h3 class="wp-block-heading">Orientation </h3>
+
+
+
+<p>When you first add multiple blocks to a parent&nbsp;block, the child blocks will be displayed horizontally (i.e. next to each other.) </p>
+
+
+
+<p>Another option is to display the child blocks vertically (i.e., stacked in the parent block). </p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/10/orientation-1.gif" alt="Orientation for layout Parent Block Settings" class="wp-image-16088369" width="591" height="233" /></figure>
+
+
+
+<h3 class="wp-block-heading">Allow to wrap to multiple lines </h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/10/wrap.png" alt="Allow to wrap blocks to multiple lines. " class="wp-image-16088481" width="420" height="275" srcset="https://wordpress.org/documentation/files/2022/10/wrap.png 560w, https://wordpress.org/documentation/files/2022/10/wrap-300x196.png 300w" sizes="auto, (max-width: 420px) 100vw, 420px" /></figure>
+
+
+
+<p>By turning on the&nbsp;<strong>Allow to wrap to multiple lines</strong>&nbsp;setting, the child blocks will move to the next line when there isn’t enough space on smaller screen sizes <em>(mobile device)</em>. With this setting off, all the child blocks will stay on the same line no matter the screen size.</p>
+
+
+
+<h3 class="wp-block-heading">Customizing layout width</h3>
+
+
+
+<p>Some blocks such as the <a href="https://wordpress.org/documentation/article/query-loop-block/" data-type="helphub_article" data-id="14633622">Query Loop</a> block that has nested inner blocks like <a href="https://wordpress.org/documentation/article/post-template-block/" data-type="helphub_article" data-id="16228384">Post Template</a> block and <a href="https://wordpress.org/documentation/article/group-block/" data-type="helphub_article" data-id="13426347">Group block</a> will have the following layout option that lets you choose the layout width for the nested blocks. </p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-2.58.53-PM.png" alt="Toggle off the option- Inner blocks use content width" class="wp-image-16229136" width="264" height="90" srcset="https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-2.58.53-PM.png 528w, https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-2.58.53-PM-300x102.png 300w" sizes="auto, (max-width: 264px) 100vw, 264px" /></figure>
+
+
+
+<p>Toggle off <strong>Inner blocks use content width</strong> so that the nested inner blocks fill the width of the parent container.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-3.04.05-PM.png" alt="Toggle on the option- Inner blocks use content width" class="wp-image-16229143" width="275" height="282" srcset="https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-3.04.05-PM.png 550w, https://wordpress.org/documentation/files/2022/11/Screenshot-2022-11-23-at-3.04.05-PM-293x300.png 293w" sizes="auto, (max-width: 275px) 100vw, 275px" /></figure>
+
+
+
+<p>Toggle on <strong><strong>Inner blocks use content width</strong> </strong>so that the nested inner blocks use content width with options for full and wide widths. You can set the value for full width by typing in a value in the <strong>Content</strong> textbox. You can also set the value for wide width by typing in a value in the <strong>Wide</strong> textbox. You can also set the unit in PX, %, EM, REM, VW, or VH for the <strong>Content</strong> width and <strong>Wide</strong> width. You can also change the <strong>Justification</strong> for the nested elements to left, center or right aligned within the parent container.</p>
+
+
+
+<h2 class="wp-block-heading">Blocks that include layout settings</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Buttons</li>
+
+
+
+<li>Column</li>
+
+
+
+<li>Columns</li>
+
+
+
+<li>Comments Pagination</li>
+
+
+
+<li>Gallery</li>
+
+
+
+<li>Group</li>
+
+
+
+<li>Navigation</li>
+
+
+
+<li>Post Content</li>
+
+
+
+<li>Post Template</li>
+
+
+
+<li>Query</li>
+
+
+
+<li>Query Pagination</li>
+
+
+
+<li>Social Links</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Demonstration </h2>
+
+
+
+<p>To see these specific container-related options in play here’s an example with the navigation block where you can quickly switch between different configurations as you find which best fits with the&nbsp;header&nbsp;of your choosing.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://make.wordpress.org/core/files/2022/09/layout-with-menu.mov"></video></figure>
+
+
+
+<p>You can read more about the new Block Editor features and improvements <a rel="noreferrer noopener" href="https://make.wordpress.org/core/2022/09/26/core-editor-improvement-catalyst-for-creativity/" target="_blank">in this article.</a></p>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="has-medium-font-size wp-block-heading" id="changelog">Changelog<strong> </strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-11-01</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/layout-settings-overview/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16085090</post-id>	</item>
+		<item>
+		<title>Manage Plugins</title>
+		<link>https://wordpress.org/documentation/article/manage-plugins/</link>
+					<comments>https://wordpress.org/documentation/article/manage-plugins/#comments</comments>
+		
+		<dc:creator><![CDATA[Jesse Owens]]></dc:creator>
+		<pubDate>Wed, 24 Oct 2018 23:14:50 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=10813406</guid>
+
+					<description><![CDATA[What are plugins? WordPress Plugins are PHP scripts that extend the functionality of WordPress. They enhance the features of WordPress or add entirely new features to your site. Plugins are often developed by volunteers and are usually free to the public. Plugins are available via the WordPress Plugin Directory. Although plugins you find here are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading" id="what-are-plugins-1">What are plugins?</h2>
+
+
+
+<p><a href="https://wordpress.org/plugins/">WordPress Plugins</a> are PHP scripts that extend the functionality of WordPress. They enhance the features of WordPress or add entirely new features to your site. Plugins are often developed by volunteers and are usually free to the public.</p>
+
+
+
+<p>Plugins are available via the <a href="https://wordpress.org/plugins/">WordPress Plugin Directory</a>. Although plugins you find here are thoroughly tested and considered safe to use, they are of varying quality and are often works in progress.</p>
+
+
+
+<h3 class="wp-block-heading" id="how-do-they-relate-to-wordpress-core-1"><strong>How do they relate to WordPress core?</strong></h3>
+
+
+
+<p>The WordPress content management system software, or WordPress core, provides the primary functionality for publishing content and managing users. Each WordPress plugin is an additional piece of software that can be easily installed to extend the functionality of WordPress core.</p>
+
+
+
+<p>This allows you to customize your WordPress site with your desired functionality. Since so much functionality is provided through plugins, WordPress core is full-featured and customizable, without having to include everything for everyone.</p>
+
+
+
+<h3 class="wp-block-heading" id="what-are-some-examples-1"><strong>What are some examples?</strong></h3>
+
+
+
+<p>Some of the more popular plugins in the <a href="https://wordpress.org/plugins/">WordPress Plugin Directory</a> fall into these categories:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Spam control</li>
+
+
+
+<li>SEO</li>
+
+
+
+<li>Data import and export</li>
+
+
+
+<li>E-commerce</li>
+
+
+
+<li>Security</li>
+
+
+
+<li>Caching</li>
+</ul>
+
+
+
+<p>This is just a small sample. There are thousands of plugins available in the directory, so there’s a good chance you’ll find some that are useful to you.</p>
+
+
+
+<h2 class="wp-block-heading" id="finding-and-installing-plugins-1">Finding and Installing Plugins</h2>
+
+
+
+<h3 class="wp-block-heading" id="finding-plugins-1"><strong>Finding Plugins</strong></h3>
+
+
+
+<p>You can browse and search for plugins in the <a href="https://wordpress.org/plugins/">WordPress Plugin Directory</a>. Each plugin listed there is available for download as a zip file you can upload to your WordPress site.</p>
+
+
+
+<p>An alternative way to find and install plugins is from within the WordPress admin screens. Navigate to <strong>Plugins &gt; Add New</strong>, and you can browse and search for plugins from within your dashboard.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/TfnDziq6tE1BaXQgJygVht4KMRdRIdOQOWRMJnA3XCYfLbgq02cY3OvdMOBZ8FUCl38zaSJsJrz7la39dKcLRS3jDLLXqHsCpoXPyFw__iRIsOQnjngM_jFtN59B7i5b64VKyUYU" alt="" /></figure>
+
+
+
+<p>Each plugin listed there has an “Install Now” button so you can easily add it to your site.</p>
+
+
+
+<h3 class="wp-block-heading" id="plugin-compatibility-1"><strong>Plugin Compatibility</strong></h3>
+
+
+
+<p>If a plugin hasn’t been updated since the most recent update to WordPress core, it may be incompatible, or its compatibility may be unknown. You can view compatibility information about plugins from the Add Plugins page, or from the Installed Plugins list.</p>
+
+
+
+<h4 class="wp-block-heading" id="compatibility-of-new-plugins-1">Compatibility of New Plugins</h4>
+
+
+
+<p>To learn about the compatibility of a plugin before you install it, navigate to <strong>Plugins &gt; Add New.</strong> Each plugin description on this page includes a note that reads “Compatible with your version of WordPress” or “Untested with your version of WordPress.” You can click the “More Details” link to see information about this plugin’s compatibility.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/owermNk0T0VyD2wCRRL1rc78jdyVdhBPzi4wN8ClBpgzGV5hgXY5QrPlF1p3BLjwtOYtXwx9embtqtSpiVVWEWiJ5X9HB-Xui0Xoz0LizzbKaq-jDkMsLvU83c7U3vzXRu4TZe-Y" alt="" /></figure>
+
+
+
+<h4 class="wp-block-heading" id="compatibility-of-installed-plugins-1">Compatibility of Installed Plugins</h4>
+
+
+
+<p>To learn about the compatibility of plugins you’ve already installed, click the “Plugins” link in the left nav of your site’s dashboard. Each item on this list should contain a “View details” link. Click this to see information about this plugin’s compatibility with different versions of WordPress.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/V7JA70pa9sLqvYh8D3qzwr1gAmZ8FRpg9iz7-woT1XRwebuxDrm6Z-Jk9gKH6Smka6UMYZaner-oG59oOHIDQuJH-xvTIR2fwUo9-UDQM8nAgbJS3mT1KBN9sBL8TdRglC77tb4L" alt="" /></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/HHshZ7_axuHWO7l2vxvk1GK8yAG3zVreoqSDGe5MLXBaj0uY5-OJO7mMbnhedX-JCrUubtSnlOJKTAVgxJcuthDopz0WWBnKs2kV4RD0su7CmNngw17plMzM6N4ha_tmU_3cvf4b" alt="" /></figure>
+
+
+
+<h2 class="wp-block-heading" id="installing-plugins-1">Installing Plugins</h2>
+
+
+
+<p>There are 3 ways to install WordPress plugins.</p>
+
+
+
+<p><strong>Automatic Plugin Installation.</strong> Any plugin available in the WordPress Plugins Directory can be installed via the built-in plugin installer.</p>
+
+
+
+<p><strong>Upload via WordPress Admin.</strong> You can easily add a new plugin by uploading a zip archive of the plugin from your local computer.</p>
+
+
+
+<p><strong>Manual Plugin Installation.</strong> In some cases, you may need to manually upload a plugin directly using an SFTP client.</p>
+
+
+
+<h3 class="wp-block-heading" id="automatic-plugin-installation-1"><strong>Automatic Plugin Installation</strong></h3>
+
+
+
+<p>This is the simplest method of installing a plugin. To add a plugin using the built-in plugin installer:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Navigate to <strong>Plugins &gt; Add New</strong>.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/N6h3Lw8CjauJIr12OKGvZByhvkIa_L2W1XFWEIfwQIVY9lFb_WeX0cvKCqOkjdhk1GEja8QxWU32r7R7gnMtx3M1Qi2qkBNno2nQBX85jaT5JiMRGMLhVvSagaxOEm_Taelp6Swc" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="2">
+<li>Use the search form in the top-right to search by keyword, author, or tag.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/dlBCMHSZfkcc1jI-9_HyJDz_dNyUc2ehSv5hlVVyCxzqDE853VZDBGqLgpIXNzl37aaujgV4ENdI92FN7RUS3DJs38BMf0UrfjMOFbhEWE4iP7AM1N-u2n1UB-HI7Ax4fwiMzX8k" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>On the search results that appear, click a plugin’s title or the link ‘More Details’ to read more about it, including installation notes, plugin documentation, or other useful information.</li>
+
+
+
+<li>Click the <strong>Install Now</strong> button to install the plugin.</li>
+
+
+
+<li>Once the plugin installation is complete, click <strong>Activate</strong> to activate the plugin.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/mK7jYDK79rwZW-r75EaBNg_iYHcSS-2xviCvwqhWXTV7UfXpByNHOVpTeGlQMpgLMOMCxqmaagUcQvsPx2mtMeGIvdpvNqiz0OvQJc5wnSB0HjuTVfFAfPnRllJCi389CS1mQm7s" alt="" /></figure>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="upload-via-wordpress-admin"><strong>Upload via WordPress Admin</strong></h3>
+
+
+
+<p>If you have a copy of the plugin as a zip file, you can manually upload it and install it through the Plugins admin screen.</p>
+
+
+
+<ol class="wp-block-list">
+<li>Navigate to <strong>Plugins &gt; Add New</strong>.</li>
+
+
+
+<li>Click the <strong>Upload Plugin</strong> button at the top of the screen.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/oEFfpPUbKnnK02uPQXjjSPHNPgw_7MA1DHv-s6rCRHyK6EAFT55UHhox9lFNptrnpdJeVhEG1sk2WV63AtL1gPQBlNKLC_N_YwGAJbALaO8uKdTthhdFCAZC4X9HkrbtO66G6G67" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>Select the zip file from your local filesystem.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/7lvDycsExPEQ48TzelZ-vkazpVPo-XhopRJliCSuYSc_zD3TTKL44dYXiXAvBZKUoTge9S-qHMpWj-CIAzh3s4N-mFT-mxTBxk1FlH8M2Hy3LthDkXrvURm1tVewLlmXfjWHlsZl" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="4">
+<li>Click the <strong>Install Now</strong> button.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/6-ihDrMuaLwpTV7qzNlKNZruxkDv2zy5YSsJs2pKlJE9SSkfdEJTfl6K78qPZlR_LVsCDrUllo908NAIGHBbPjRldkKPgTP6YZn419-RzmgIC6tc-C3bqcEUDCH8571tCKxEM066" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="5">
+<li>When the installation is complete, you’ll see “Plugin installed successfully.” Click the <strong>Activate Plugin</strong> button.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/8itCEZxi266PVdKqStrJouGg5bZ-JD3d41AZNZfh0obq_CaqopfACyGFa_O6HTkSQODZ7LEru7l7BnVHUYUC3_eB1d-QcEw7xpIxNlrROziKj8MSYSTKWRPoNhLpG1vuAJbkaDXc" alt="" /></figure>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="manual-plugin-installation-1"><strong>Manual Plugin Installation</strong></h3>
+
+
+
+<p>In rare cases, you may need to install a plugin by manually transferring the files onto the server. This is recommended only when absolutely necessary, for example when your server is not configured to allow automatic installations.</p>
+
+
+
+<p>This procedure requires you to be familiar with the process of transferring files using an SFTP client. It is recommended for advanced users and developers.</p>
+
+
+
+<p>Here are the detailed instructions to manually install a WordPress plugin by transferring the files onto the webserver.&nbsp;</p>
+
+
+
+<ol class="wp-block-list">
+<li>Download the plugin zip file from the&nbsp;<a href="https://wordpress.org/plugins/">WordPress Plugin Directory</a>&nbsp;and unzip it locally. For example, in the case of Gutenberg plugin, download as gutenberg.X.Y.Z.zip (X.Y.Z is version) and unzip it to get the gutenberg/ folder.</li>
+
+
+
+<li>Transfer the extracted folder to the wp-content/plugins directory of your WordPress site via SFTP or remote file manager.</li>
+
+
+
+<li>From the Plugins menu in the Administration Screen, click Activate for the transferred plugin.</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading" id="plugin-favorites-1">Plugin Favorites</h2>
+
+
+
+<p>You can add a plugin to your list of favorites, and you can view and easily install another WordPress.org user’s favorite plugins.</p>
+
+
+
+<h3 class="wp-block-heading" id="favorite-a-plugin-1"><strong>Favorite a Plugin</strong></h3>
+
+
+
+<ol class="wp-block-list">
+<li>Log in to the <a href="https://wordpress.org/plugins">WordPress Plugins Directory</a> using your WordPress.org ID.</li>
+
+
+
+<li>Find the plugin you want to like and go to the plugin’s page.</li>
+
+
+
+<li>Click the heart icon next to the Download button.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/j-hmt1AYvgVFLBc1oS3DINde-qNSk5sUEM7vfZWHyiAhTRkM-Glv8-1dWOE-VCygbQlxPS-yRbk6fC5ozVVgeW6XOsXPz1wT-lfOgv9uX8x07rxRjP0UQ4fG77nYmRFJ27zkkM1q" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="4">
+<li>Once you have favorited a plugin, it will show up in your WordPress.org public profile. If you have published a review of the plugin, your rating of the plugin will also appear here.</li>
+</ol>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="view-a-user-s-favorite-plugins-1"><strong>View a User’s Favorite Plugins</strong></h3>
+
+
+
+<p>To see a WordPress.org user’s favorite plugins (including your own):</p>
+
+
+
+<ol class="wp-block-list">
+<li>Browse to the Add Plugins admin screen (<strong>Plugins &gt; Add New</strong>).</li>
+
+
+
+<li>Click the Favorites tab.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/kCAfGscrnL9MXtj8065hNrtLhRj0WCgwRbFzp-i3UFmFw4eFuz71QQ5oIZN601Xxp6cXmhBnmajwC9pWgv4ffDSR6GlCaJYbG_by0b9QWN15yBpOUVd7YT9V0LLF6HWGD-0BbeO3" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>Type the user’s name in the “Your WordPress.org username” field.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/xfNUER6Xu_bx6h9CcUaFDKOgBr3Y4Ps08iWKqH_dq4CPIA2nTmWf1jfWZXdb83ihdHt2hebRUIVQA1a3xVRB5de7N28pZqxoK1t_fl3pbxPvV7FTBB2VbrEMehqfNeh1-EuerFkj" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="4">
+<li>Click Get Favorites.</li>
+
+
+
+<li>Each of the plugins listed here has an ‘Install Now’ button that you can use to add the plugin to your site.</li>
+</ol>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading" id="updating-plugins">Updating Plugins</h2>
+
+
+
+<p>Plugin developers update their plugins occasionally by adding new features, improving code quality, and keeping them secure. To ensure that these changes are applied on your site immediately, you should keep your WordPress plugins up to date. This helps to improve your site’s WordPress security and performance.</p>
+
+
+
+<h3 class="wp-block-heading" id="manual-plugin-update-from-the-dashboard"><strong>Manual Plugin Update From The Dashboard</strong></h3>
+
+
+
+<p>Your WordPress Dashboard automatically notifies you when a plugin needs to be updated — you can view this notification under the <strong>Dashboard-&gt;Updates</strong> tab.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/o4FLf5okx7WcQ_N4zJgRhXPwOBVccRagnjiaZ1s3cWLS-nGuCWb_puEv9VVhwVo07wbNwCWUKB2wvaO2JThVBlR0jLyb8hcf2Q-muNx0Fs2JZxDtXwRDilduAk2bkgZF77VaVE54" alt="" /></figure>
+
+
+
+<ol class="wp-block-list">
+<li>Scroll down to the Plugins section.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/yye1dedACG13LHldc9p4Khhuey8a4nEh2etcP4nU9r5E4zKsR-9IHgT5V8TeRvzk4WXUhmzZTaAi4zqAc9LeN3MSXDdmhC2OkbQzawWpoJWZHqyvx3Kl2VRVD2HR8JTcjrf5iG_p" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="2">
+<li>Select the checkbox for the plugins you want to update and then click&nbsp; ‘Update Plugins’ button.</li>
+</ol>
+
+
+
+<p><strong>NOTE:</strong> Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.</p>
+
+
+
+<h3 class="wp-block-heading" id="manual-plugin-update-from-the-plugins-page"><strong>Manual Plugin Update From The Plugins Page</strong></h3>
+
+
+
+<p>You can find the plugins that need to be updated on your site’s Plugins page.&nbsp;</p>
+
+
+
+<p>To find any plugins installed on your site that need to be updated:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Click the “Plugins” link in the left nav of your site’s dashboard.</li>
+
+
+
+<li>Look down the list of installed plugins for any that include a line reading “There is a new version…”</li>
+
+
+
+<li>Click the “View version…” link in that note to view details about the plugin’s update.</li>
+
+
+
+<li>Click the “update now” link to update the plugin.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/Y97qPI3h0vtdDbU5zTKb3Xl2Bj6BWFHA2W8D_5nY9XhcBpn3YXmDKotJ81f3a-DVgF3EhLteD51n0wJ9WjEQQ6iarVNO3BuDftIO0Ls6A7A-iY5-IxaQrWl90G9bMr1op4mrttgN" alt="" /></figure>
+
+
+
+<p><strong>NOTE:</strong> Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.</p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="enable-automatic-plugin-update"><strong>Enable Automatic Plugin Update</strong></h3>
+
+
+
+<p><p id="wordpress-introduced-automatic-updates-for-wordpress-plugins-in-wordpress-5-5-this-allows-you-to-enable-automatic-updates-for-individual-wordpress-plugins-directly-from-the-plugins-page-in-the-wordpress-dashboard">WordPress introduced automatic updates for WordPress plugins in WordPress 5.5. This allows you to enable automatic updates for individual WordPress plugins directly from the Plugins Page in the WordPress dashboard.</p></p>
+
+
+
+<ol class="wp-block-list">
+<li>Go to <strong>Plugins -&gt; Installed Plugins</strong> page inside WordPres Admin area. Here you’ll see the list of all your installed plugins.&nbsp; Each plugin in the list has a link ‘Enable auto-updates’ in the right-most column (under Automatic Updates).</li>
+
+
+
+<li>Select the checkbox for the plugins you want to enable auto-update and click the link&nbsp; ‘Enable auto-updates’ for the selected plugin. This will enable automatic updates for the selected plugin.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/XloqyuZdklW2PwWOI4qo36yjGop98qQzeoV7Q_NMkBYKRSzacafSdlwMP9PU7Vuz5_QgX0ThgC7Nan97BxPQxGkOM1j0yRn6ZBw5gETS77E11AwL5BBY5vz5Ngro62HlbsCds-bA" alt="" /></figure>
+
+
+
+<h3 class="wp-block-heading" id="disable-automatic-plugin-update">&nbsp;<strong>Disable Automatic Plugin Update</strong></h3>
+
+
+
+<p>&nbsp;&nbsp;To stop your plugins from updating automatically, do the following:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Go to <strong>Plugins -&gt; Installed Plugins</strong> page inside WordPres Admin area. Here you’ll see the list of all your installed plugins.&nbsp;&nbsp;</li>
+
+
+
+<li>Each plugin in the list that has auto-update enabled will have a link ‘Disable auto-updates’ in the right-most column (under Automatic Updates).</li>
+
+
+
+<li>Select the checkbox for the plugin you want to disable auto-update and click the link&nbsp; Disable auto-updates’ for the selected plugin. This will disable automatic updates for the selected plugin.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/kW-4WcotlH1Whz04jiRZlR9p2irGLCdeY_Hf_v1n_xU8e1SxVj5X7BIpexJMz7T--8wJjZdKAV482NgcXPV4kGWDHINLiSTb45hS_F8aZy0Aih_X7OZZgzINodWJvS77q_4qh4Ru" alt="" /></figure>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="bulk-update-wordpress-plugins"><strong>Bulk Update WordPress Plugins</strong></h3>
+
+
+
+<p>If you have several plugins on your website that need an update, then you can bulk update those plugins.&nbsp; It is always recommended to do a quick review of all the plugins before updating.</p>
+
+
+
+<ol class="wp-block-list">
+<li>Go to the Plugins page and click on the ‘Update Available’ link. This will show you the list of all plugins that have updates available.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/3ZN09QFOMEW8Dj40yisLlb1XIKCQ_ZTr5Jyt1RexZvmP9_ba-eWMDabDrd_pDElO7ckUdWTAQAevoNpFNt6tuKPsetAeiRqkxRe0eEHssELJLhYnPm3Nkoft2tfLeLQNL6UZ0ruf" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="2">
+<li>Click the checkbox to select all the plugins you want to update.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/jy5yzLCBfNI144JvI738Tb-upE6ufOMXDSTtF-u8NHLs1wtHZyi1i33rGP_HvnxQ6wmUKfBHNlKu5Y1IHvDPdEXlUv3XOmi6GLXPRLaRlfc7qOR1KTHcbgRDpW5tTDPU93wP1yv_" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>From the ‘Bulk Actions’ drop down, select ‘Update’ and click ‘Apply’.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/39mmjXugezEqiX2arF4YNfS2UPaBk-VxnYbBfKJbWJgVEnULJ92g_VHAfz4vPLPI-kKPrC_qXbenGJSjhWJjHvtp4f_JDfnilQaEdEQiSFDzLm7lYYHS3JyMUNVM38cYN99ucwPq" alt="" /></figure>
+
+
+
+<p>If all goes well with the updates, you will see a message saying that the updates were completed successfully.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/jIxxjCDn4GKILGXJgt9ePWWz-wTl5fJ8q-DYUV54ffRyPJ6op1e3jZjfHfOowyygq_gPSfGT9ABetCti48k2WfRQDBCaB7boZrrms52LGx872zUvh-kY0D_kLcidALhYYobG0iUO" alt="" /></figure>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading" id="uninstalling-plugins-1">Uninstalling Plugins</h2>
+
+
+
+<p>Plugins have a safe and easy-to-use uninstaller. If that is not available, you can also manually uninstall the plugins.</p>
+
+
+
+<h3 class="wp-block-heading" id="automatic-uninstallation-1"><strong>Automatic Uninstallation</strong></h3>
+
+
+
+<p>The safe and easy way to uninstall a plugin is via the WordPress admin screen.</p>
+
+
+
+<ol class="wp-block-list">
+<li>Navigate to your <strong>Plugins</strong> admin screen and locate the plugin to be uninstalled.</li>
+
+
+
+<li>Select the checkbox next to the plugin name and click the “Deactivate” link.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/shq7p8Uyrdg9CyS32p49iNlIfoxi1K0QsC84N1bDsTAzXIh7d-tH1cqdDEgLP0sO8AmEZSQzC5zwa7FvmKT7HI_e2_w8FjMiKtIxMGl0jEmRQRUSMH0mK_TiGFb-U2H_FdBxDlSu" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="3">
+<li>Once the plugin is successfully deactivated, click the plugin’s “Delete” link.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/i0ZnXpyY-z7f3ZGxeBTIbvcccqI5W25LQGRR1oz2h7_eGt9MJTqCHPPIzukRB84xK9yXtHiQrKaGyzbLfGGjK3QJo8mWHjQt_rodE3a2F8tkmbXQum-85EW2VJQLYTIbOYcjt94L" alt="" /></figure>
+
+
+
+<h3 class="wp-block-heading"><strong>Manual Uninstallation</strong></h3>
+
+
+
+<p>In rare cases, you may need to uninstall a plugin by manually deleting the files from the server. This is recommended only when absolutely necessary, for example when your server is not configured to allow automatic uninstallation.</p>
+
+
+
+<ol class="wp-block-list">
+<li>From the Plugins menu in the Administratio Screen, click Deactivate for your plugin.</li>
+
+
+
+<li>Access to your WordPress site via remote file manager.</li>
+
+
+
+<li>Go to wp-content/plugins directory.</li>
+
+
+
+<li>Remove your plugin folder.</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">Reinstalling Plugins</h2>
+
+
+
+<p>To reinstall the plugin, refer to the documentation above, remove it once, and then install it.</p>
+
+
+
+<h2 class="wp-block-heading" id="troubleshooting-1">Troubleshooting</h2>
+
+
+
+<p>Occasionally, a WordPress Plugin may not work as expected. This section provides helpful resources and steps you can take for troubleshooting plugin issues.</p>
+
+
+
+<h3 class="wp-block-heading" id="resources-to-help-diagnose-the-issue"><strong>Resources To Help Diagnose The Issue</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li>Review the plugin’s documentation to confirm that you’ve followed the instructions. You can find this information in the Plugins page under the name of each Plugin &gt; View details.</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/9PexHXAW-p8kPeYZShF236ZGkP6DnZNhgX0XOsf0yAHBb-pPrRILJnXpA8cjYA6PVbwLAaBvU6_DyKorF_f-UdvOnyxrZZa3XYIHHIlRV8Xte6nfT1RHgTybB-in78nAZWtySR3b" alt="" /></figure>
+
+
+
+<p>NOTE: If you have access to the plugin files, you can also find this information in the Plugin’s folder inside readme.txt.</p>
+
+
+
+<ul class="wp-block-list">
+<li>Search the <a href="https://wordpress.org/support/forums/">WordPress Support Forums</a> for the name of the Plugin and keywords associated with the problem you are experiencing or the specific error message that is displayed.</li>
+
+
+
+<li>Search the <a href="https://wordpress.org/plugins/">WordPress Plugins Directory</a> for the name of the Plugin. On the Plugins page, select the Support tab to read about issues reported in the Support Forums for that plugin.</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/TZg3Z5oy6h5jC0juH0IWvmBbZce9bmt7WL24ZF_IFjI24597Cu5gTt1tEmEzo1Ji6fE642dFbMlLF0_4m_COYR6kmykGz3LPV2wTDu6nqDMJZQNJGHA8R3cnS5-bUEs21h0cKy8s" alt="" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>Go to the website of the plugin author and check their blog and Plugin page for known issues or advice.</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/qEXukXptueedg1_sPPjMr4fKet0VvRR11ug5RAUbw0ypIs5m_jsUrcRAEN1pPBCxJsriHUMYav8-Fd8WQ5vxp_mXpzPN9AH221W6Jc3wDk19LHvKBnjQHAcMrjfrsO7oBjxnNiuK" alt="" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>Search the web with the name of the Plugin and keywords associated with the problem you are experiencing or the specific error message that is displayed.</li>
+
+
+
+<li>Post a question in the <a href="https://wordpress.org/support/forums/">WordPress Support Forums</a> with the name of the Plugin and keywords associated with the problem you are experiencing or the specific error message that is displayed. Make sure to include the problem in the title of the question. For advice on how to improve your chances of getting help, see <a href="https://wordpress.org/documentation/article/finding-wordpress-help/">Finding WordPress Help</a>.</li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading" id="possible-resolutions-1"><strong>Possible Resolutions</strong></h3>
+
+
+
+<h4 class="wp-block-heading" id="make-sure-that-the-plugin-is-activated-after-it-is-installed"><strong>Make sure that the plugin is activated after it is installed.</strong>&nbsp;</h4>
+
+
+
+<ol class="wp-block-list">
+<li>Go to the <strong>Plugins</strong> &gt; <strong>Installed Plugins</strong> from the WordPress admin screen.</li>
+
+
+
+<li>Find the Plugin and click ‘Activate’.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/CUpGZg3TQS4wxrO0HvJT2LTJH0nMZkgEE5gk8l2qpnM_9gTboz7Xg9yfsWA_xLFYDhhyJx-77R4_scZA2_iLIM61m-lgwXPO-bvQe3G5JVFqjLdzF_UYG5yc8lRmBiCI7o68eH9z" alt="" /></figure>
+
+
+
+<h4 class="wp-block-heading" id="if-you-know-which-plugin-is-causing-the-issue"><strong>If you know which plugin is causing the issue:&nbsp;</strong></h4>
+
+
+
+<ol class="wp-block-list">
+<li>Deactivate that plugin and activate it again to see if this helps.</li>
+</ol>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh3.googleusercontent.com/YvqgmALVb4W0gLP0mUSF0yzffdb8odzPmxZK1FAUgcJh3K_obQpHFWFL2A6qIpx3HUrqHGiMdV6OWgpf5ib9Z4taflYqDSL7-QtuzWzMudPpBe76J4ssXNdhbgXutTc3uIm83_ea" alt="" /></figure>
+
+
+
+<ol class="wp-block-list" start="2">
+<li>In some cases, the plugin may be buggy or incompatible. Deactivate the plugin. Search for other similar plugins, install and activate it and see it this revolves the issue.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading" id="if-you-don-t-know-which-plugin-is-causing-the-issue"><strong>If you don&#8217;t know which plugin is causing the issue:&nbsp;</strong></h4>
+
+
+
+<p>Sometimes problems may be caused by a conflict with different WordPress plugins. There are a few different ways you can tell which plugin is causing the issue.</p>
+
+
+
+<ul class="wp-block-list">
+<li>You installed a single plugin and experienced issues with your site soon after that.</li>
+
+
+
+<li>You updated a single plugin and experienced issues with your site soon after that.</li>
+
+
+
+<li>There’s an error message telling you exactly which plugin file is causing the issue.&nbsp;</li>
+
+
+
+<li>Try deactivating plugins one at a time until you find the one that’s causing the issue.&nbsp;</li>
+
+
+
+<li>Once you find the plugin that is causing the issue, you can either deactivate and activate it again to see if this helps. Or you can find other similar plugins from the <a href="https://wordpress.org/plugins/">WordPress Plugins Directory</a>, install and activate it and see if this resolves the issue.&nbsp;</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading" id="plugin-management-1">Plugin Management</h2>
+
+
+
+<p>Plugins are managed from the Plugins admin screen of your WordPress site.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh5.googleusercontent.com/WgkAR2VYH-J9UuWIL5qIpwLjBIEnxSGVjE5Njfss-2UOc0KGhMMWiRgFbyZjuVi8KG1ZvjUt5JaGUZD3ZSDJKTvsabKaVG7JNAVw-8QHMHHqplQUwsSGURdFTvxQgH2IhQ_mtZ4s" alt="" /></figure>
+
+
+
+<p>Here you will find a list of all installed plugins, whether they are active or inactive. From this screen, you can activate, deactivate and delete plugins.&nbsp;</p>
+
+
+
+<p>Plugins listed in bold are currently active.</p>
+
+
+
+<p>Each plugin on the list also contains links to further information about the plugin.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading" id="must-use-plugins-1"><strong>Must-Use Plugins</strong></h3>
+
+
+
+<p>Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled.&nbsp;</p>
+
+
+
+<p>Must-use plugins do not show in the default list of plugins on the Plugins page and cannot be disabled except by removing the plugin file from the must-use directory, which is found in wp-content/mu-plugins by default.</p>
+
+
+
+<p>For more details, please refer <a href="https://wordpress.org/documentation/article/must-use-plugins/">Must Use Plugins</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="developing-plugins-2">Developing Plugins</h2>
+
+
+
+<p>The WordPress community relies on plugin developers to maintain a healthy and growing collection of plugins. A large part of what makes WordPress valuable is the extensive and freely available plugins.&nbsp;</p>
+
+
+
+<p>You can help WordPress users by creating your own plugins for distribution through the WordPress plugin directory.</p>
+
+
+
+<p>You can get started with the WordPress plugin development using the resources in the <a href="https://developer.wordpress.org/plugins/">WordPress Plugin Developer Handbook</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/manage-plugins/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10813406</post-id>	</item>
+		<item>
+		<title>Position Settings overview</title>
+		<link>https://wordpress.org/documentation/article/position-settings-overview/</link>
+					<comments>https://wordpress.org/documentation/article/position-settings-overview/#comments</comments>
+		
+		<dc:creator><![CDATA[annezazu]]></dc:creator>
+		<pubDate>Mon, 27 Mar 2023 17:04:53 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/documentation/?post_type=helphub_article&#038;p=16355963</guid>
+
+					<description><![CDATA[The position settings in blocks allow you to set how an element is positioned in your site. These settings can only be found in a few blocks when they are placed at the root of site. The position settings are available when you use the block editor. If you are new to the block editor, this guide will show [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The position settings in <a href="https://wordpress.org/documentation/article/blocks/">blocks</a> allow you to set how an element is positioned in your site. These settings can only be found in a few blocks when they are placed at the root of site. </p>
+
+
+
+<p>The position settings are available when you use the <a href="https://wordpress.org/documentation/article/wordpress-editor/">block editor</a>. If you are new to the block editor, <a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/working-with-blocks/" target="_blank">this guide</a> will show you how to work with blocks. </p>
+
+
+
+<h2 class="wp-block-heading">How to access position settings</h2>
+
+
+
+<p>To access the position settings, either add a Group, Row, or Stack block to the root of your content, meaning not placed within another block. In the block settings sidebar of the block you added, you will find the<strong> Position</strong> section as shown below. </p>
+
+
+
+<h2 class="wp-block-heading">Type of settings</h2>
+
+
+
+<figure class="wp-block-image alignright size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/03/Sticky-positioning-horizontal-view-1-361x1024.png" alt="" class="wp-image-16356035" width="271" height="768" srcset="https://wordpress.org/documentation/files/2023/03/Sticky-positioning-horizontal-view-1-361x1024.png 361w, https://wordpress.org/documentation/files/2023/03/Sticky-positioning-horizontal-view-1-106x300.png 106w, https://wordpress.org/documentation/files/2023/03/Sticky-positioning-horizontal-view-1.png 492w" sizes="auto, (max-width: 271px) 100vw, 271px" /></figure>
+
+
+
+<p>Each supported block comes with two different position settings. Automatically, blocks will use the &#8220;Default&#8221; option. You can switch between these two options as you&#8217;d like. If you do not see these settings, it&#8217;s because the block either doesn&#8217;t support the positioning option or, if it&#8217;s one of the blocks listed under blocks that include these settings, the block is not placed in the root of your site, meaning not placed within another block. </p>
+
+
+
+<h3 class="wp-block-heading">Default</h3>
+
+
+
+<p>This is the option chosen automatically. It allows a block to be positioned as it usually is in relation to other blocks. </p>
+
+
+
+<h3 class="wp-block-heading">Sticky</h3>
+
+
+
+<p>This option allows you to keep top-level blocks fixed to the top of a page as visitors scroll. This matches the CSS property of the same name. </p>
+
+
+
+<h2 class="wp-block-heading">Blocks that include position settings</h2>
+
+
+
+<p>As a reminder, this setting will only show for the following blocks when that block is placed at the root of your site, meaning not placed within another block.</p>
+
+
+
+<ul class="wp-block-list">
+<li>Group</li>
+
+
+
+<li>Row</li>
+
+
+
+<li>Stack</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Demonstration </h2>
+
+
+
+<p><strong>Making a Header Template Part sticky</strong></p>
+
+
+
+<p>A common use case for the sticky positioning option is having a header that sticks to the top of the page as a visitor scrolls. To accomplish this, follow these steps:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Open <a href="https://wordpress.org/documentation/article/list-view/">List View</a> </strong>and select the Header Template Part block. Ensure this Header Template Part block is not placed within another block. </li>
+
+
+
+<li>Select the three dot menu either in List View or the block toolbar and choose the option to <strong>Group</strong>. This will wrap the Header Template Part block in a Group block. </li>
+
+
+
+<li>Select the Group block that was just created and <strong>open the Block Settings sidebar</strong>.</li>
+
+
+
+<li>Add a background color to the Group block under the Styles tab in the Block Settings. This ensures that when a visitor is scrolling, the items in the Header Template part aren&#8217;t interfering with the rest of the blocks on the page. </li>
+
+
+
+<li>Scroll down to the Position settings and choose <strong>Sticky</strong>. </li>
+</ol>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/03/Sticky-positioning-for-a-header-template-part.mp4"></video></figure>
+
+
+
+<div class="wp-block-group changelog has-very-dark-gray-color has-very-light-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-medium-font-size" id="changelog">Changelog<strong> </strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2023-03-27</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/position-settings-overview/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16355963</post-id>	</item>
+		<item>
+		<title>Site Editor</title>
+		<link>https://wordpress.org/documentation/article/site-editor/</link>
+					<comments>https://wordpress.org/documentation/article/site-editor/#comments</comments>
+		
+		<dc:creator><![CDATA[annezazu]]></dc:creator>
+		<pubDate>Wed, 05 Jan 2022 22:48:23 +0000</pubDate>
+				<category><![CDATA[Appearance]]></category>
+		<category><![CDATA[Customization]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15201243</guid>
+
+					<description><![CDATA[The Site editor allows you to design the entire site including the header, footer, and everything in between, with blocks. It gives you greater control over how your site looks.&#160; The Site Editor is only available when you install and activate a Block theme on your site. How to access the Site editor To work [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The Site editor allows you to design the entire site including the header, footer, and everything in between, with <a href="https://wordpress.org/documentation/article/blocks/" data-type="helphub_article" data-id="11284652">blocks</a>. It gives you greater control over how your site looks.&nbsp; </p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">The Site Editor is <strong>only</strong> available when you install and activate a <a href="https://wordpress.org/documentation/article/block-themes/">Block theme</a> on your site.</p>
+
+
+
+<h2 class="wp-block-heading" id="how-to-access-this-feature">How to access the Site editor</h2>
+
+
+
+<p>To work with the Site editor, you need to use a<strong> </strong><a href="https://wordpress.org/documentation/article/block-themes/">block theme</a> on your site. A block theme is a theme that uses <a href="https://wordpress.org/documentation/article/blocks/" data-type="helphub_article" data-id="11284652">blocks</a> for all parts of a site, including navigation menus, header, content, and site footer.&nbsp; </p>
+
+
+
+<p>All <a href="https://wordpress.org/documentation/article/blocks/">blocks</a> that are available in the <a href="https://wordpress.org/documentation/article/wordpress-editor/">WordPress Block editor</a> can be used in the Site editor. A set of blocks called <a href="https://wordpress.org/documentation/article/blocks/#theme-blocks">Theme blocks</a> are specifically built for the Site editor.</p>
+
+
+
+<p>To find block themes, from the WordPress dashboard, go to <strong>Appearance</strong> &gt;  <strong>Themes</strong> and click <strong>Add New</strong>. In the <strong>Add Themes</strong> page, select <strong>Block Themes</strong> to find the growing list of <a href="https://wordpress.org/documentation/article/block-themes/" data-type="helphub_article" data-id="15113575">Block themes</a> in the <a href="https://wordpress.org/themes/tags/full-site-editing/">WordPress theme directory</a>. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="517" src="https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-1024x517.png" alt="Appearance &gt; Themes showing block theme options" class="wp-image-16356158" srcset="https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-1024x517.png 1024w, https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-300x151.png 300w, https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-768x387.png 768w, https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-1536x775.png 1536w, https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes-2048x1033.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">How to find a block theme</figcaption></figure>
+
+
+
+<p>Once you install and activate a Block theme on your site, go to <strong>Appearance</strong> &gt; <strong>Editor </strong>to open the Site Editor.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="324" height="218" src="https://wordpress.org/documentation/files/2022/01/Screen-Shot-2023-03-27-at-6.23.05-PM.png" alt="Appearance section of the admin interface showing the Themes and Editor entry points after activating a block theme. " class="wp-image-16356140" srcset="https://wordpress.org/documentation/files/2022/01/Screen-Shot-2023-03-27-at-6.23.05-PM.png 324w, https://wordpress.org/documentation/files/2022/01/Screen-Shot-2023-03-27-at-6.23.05-PM-300x202.png 300w" sizes="auto, (max-width: 324px) 100vw, 324px" /><figcaption class="wp-element-caption">Appearance menu after activating a block theme</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="how-to-access-this-feature">Things to do in the Site Editor</h2>
+
+
+
+<p>Once you enter the Site Editor, you will see five menu items.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="684" height="910" src="https://wordpress.org/documentation/files/2023/08/Site-Editor-sections-6-3.png" alt="Main menu screen in the Site Editor." class="wp-image-16358427" style="width:308px;height:410px" srcset="https://wordpress.org/documentation/files/2023/08/Site-Editor-sections-6-3.png 684w, https://wordpress.org/documentation/files/2023/08/Site-Editor-sections-6-3-225x300.png 225w" sizes="auto, (max-width: 684px) 100vw, 684px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://wordpress.org/documentation/article/site-editor-navigation">Navigation</a>: Allows you to browse your menus and make basic changes.</li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/styles-overview/" data-type="helphub_article" data-id="15127782">Styles</a>: Provides a direct access to edit your site&#8217;s style variations.</li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/site-editor-pages">Pages</a>: You can now edit the content of your pages inside the Site Editor itself.</li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/template-editor/" data-type="helphub_article" data-id="14632189">Templates</a>: Review the different default layouts for the different sections on your site, as well as custom pages (search results, 404, etc).</li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/site-editor-patterns">Patterns</a>: Your Synced patterns and template parts can be managed here.</li>
+</ul>
+
+
+
+<p>You will also see an icon of a magnifying glass. Click on it to access the <a href="https://wordpress.org/support/article/site-editor-command-palette">Command Palette.</a> </p>
+
+
+
+<p>Below is an overview of the different sections in the Site Editor.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-overview.mp4"></video></figure>
+
+
+
+<h2 class="wp-block-heading" id="how-to-use-the-site-editor">The Site Editor workspace</h2>
+
+
+
+<p>The Site editor loads the home page of your site (based on what you have set in the <a href="https://wordpress.org/documentation/article/settings-reading-screen/#reading-settings">Reading Settings</a>) to start editing. </p>
+
+
+
+<p>The top menu in the Site editor includes the following options:</p>
+
+
+
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" decoding="async" width="2242" height="270" src="https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar.png" alt="Site editor toolbar with numbers indicating various options to explore. " class="wp-image-16358425" srcset="https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar.png 2242w, https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar-300x36.png 300w, https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar-1024x123.png 1024w, https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar-768x92.png 768w, https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar-1536x185.png 1536w, https://wordpress.org/documentation/files/2023/08/Site-Editor-Toolbar-2048x247.png 2048w" sizes="auto, (max-width: 2242px) 100vw, 2242px" /></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ol class="wp-block-list">
+<li>The site icon (or the W icon, if no site icon is set for the site): Return to the dashboard or switch to the other section of the Site Editor: <a href="https://wordpress.org/documentation/article/site-editor-navigation">Navigation</a>, <a href="https://wordpress.org/documentation/article/styles-overview/" data-type="helphub_article" data-id="15127782">Styles</a>, <a href="https://wordpress.org/documentation/article/https://wordpress.org/documentation/article/site-editor-pages">Pages</a>, <a href="https://wordpress.org/documentation/article/template-editor/">Templates</a>, or <a href="https://wordpress.org/documentation/article/site-editor-patterns">Patterns</a>. If you choose to return to the dashboard, it will prompt you to save the changes or leave the Site editor without saving the changes.</li>
+</ol>
+
+
+
+<ol start="2" class="wp-block-list">
+<li>The&nbsp;<strong>+</strong>&nbsp;Block inserter button: Add a new <a href="https://wordpress.org/documentation/article/blocks/">block</a>, <a href="https://wordpress.org/documentation/article/block-pattern/">block pattern</a>, Media, or synced pattern (if the site has synched patterns) to the Site editor.</li>
+</ol>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="662" height="1024" src="https://wordpress.org/documentation/files/2023/08/6-3-inserter-662x1024.png" alt="Block Inserter Panel" class="wp-image-16358422" style="object-fit:cover;width:314px;height:486px" srcset="https://wordpress.org/documentation/files/2023/08/6-3-inserter-662x1024.png 662w, https://wordpress.org/documentation/files/2023/08/6-3-inserter-194x300.png 194w, https://wordpress.org/documentation/files/2023/08/6-3-inserter.png 706w" sizes="auto, (max-width: 662px) 100vw, 662px" /><figcaption class="wp-element-caption">Block inserter panel</figcaption></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ol start="3" class="wp-block-list">
+<li>Tools: Switch between editing a block and selecting a block. Choose the <strong>Select</strong> tool (or press the <code>Escape</code> key on your keyboard) to select individual blocks. Once a block is selected, press the <code>Enter</code> key on your keyboard to return to editing.</li>
+</ol>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="568" height="488" src="https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-2.52.04-PM.png" alt="Edit/select buttons in the WordPress block editor workspace" class="wp-image-15641001" style="width:284px;height:244px" srcset="https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-2.52.04-PM.png 568w, https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-2.52.04-PM-300x258.png 300w" sizes="auto, (max-width: 568px) 100vw, 568px" /><figcaption class="wp-element-caption">Edit/Select buttons</figcaption></figure>
+
+
+
+<ol start="4" class="wp-block-list">
+<li>Undo<strong>:&nbsp;</strong>Undo the most recent action taken.</li>
+
+
+
+<li>Redo<strong>:&nbsp;</strong>Redo an action you reversed using the <strong>Undo</strong> button.</li>
+
+
+
+<li><a href="https://wordpress.org/documentation/article/list-view/" data-type="helphub_article" data-id="14641368">List View</a>: See a list of all of the blocks that are on the page and easily navigate between the blocks on your page. This is useful for seeing the page’s structure and editing, moving, and removing blocks. </li>
+
+
+
+<li><a href="https://wordpress.org/support/article/site-editor-command-palette">Command Palette</a>: Click here to access all your site&#8217;s content, templates, and patterns quickly, as well as invoking other actions (settings, new page, etc).<br></li>
+</ol>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/command-palette-1.mp4"></video></figure>
+
+
+
+<ol start="8" class="wp-block-list">
+<li>Save<strong>:&nbsp;</strong>Save the changes you made in the Site editor.
+<ul class="wp-block-list">
+<li>When you click the&nbsp;<strong>Save&nbsp;</strong>button, you will get a list of all the <a href="https://wordpress.org/documentation/article/reusable-blocks/" data-type="helphub_article" data-id="13363440">synced patterns</a>, <a href="https://wordpress.org/documentation/article/site-editor-navigation">navigation menus</a>, <a href="https://wordpress.org/documentation/article/template-editor/" data-type="helphub_article" data-id="14632189">templates</a> and <a href="https://wordpress.org/documentation/article/template-part-block/" data-type="helphub_article" data-id="15124095">template parts</a> where you have made changes. </li>
+
+
+
+<li>You can choose to save all or just some of them. </li>
+
+
+
+<li>Note that some changes (like changes to the Header and Footer templates) will apply to all pages of your site that use those templates, and not just the page you were working on.</li>
+</ul>
+</li>
+</ol>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-save-changes.mp4"></video></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ol start="9" class="wp-block-list">
+<li>Settings: Show or hide the Template and Block Settings sidebar menu.</li>
+</ol>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-reset-customizations.mp4"></video></figure>
+
+
+
+<ol start="10" class="wp-block-list">
+<li><a href="https://wordpress.org/documentation/article/styles-overview/">Styles</a><strong>:&nbsp;</strong>Browse style variations available for the theme you have, set the typography, color palettes, and layout for the entire site, or customize the appearance of specific blocks for the whole site.</li>
+
+
+
+<li><span style="color: initial;, sans-serif">More Options</span><strong style="color: initial;, sans-serif">:</strong><span style="color: initial;, sans-serif">&nbsp;Click the three vertical dots icon to open additional settings and tools.</span></li>
+</ol>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="432" height="1024" src="https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options-432x1024.png" alt="Site editor with an arrow pointing to the three dot menu where extra settings can be found. " class="wp-image-16358426" style="width:301px;height:714px" srcset="https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options-432x1024.png 432w, https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options-127x300.png 127w, https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options.png 630w" sizes="auto, (max-width: 432px) 100vw, 432px" /></figure>
+
+
+
+<p><strong>View top toolbar</strong>: Display or hide the top toolbar in the editor. When you enable this option, block toolbars are pinned to the top of the WordPress block editor (right under the top toolbar) instead of appearing directly above the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="219" src="https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-9.58.33-PM-1024x219.png" alt="Top toolbar enabled" class="wp-image-15641492" style="width:446px;height:95px" srcset="https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-9.58.33-PM-1024x219.png 1024w, https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-9.58.33-PM-300x64.png 300w, https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-9.58.33-PM-768x164.png 768w, https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-9.58.33-PM.png 1066w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Top toolbar enabled</figcaption></figure>
+
+
+
+<p><strong>Spotlight mode</strong>: All blocks are greyed out except for the one you’re working on so that you can focus on a single block at a time.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" src="https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-10.01.48-PM-1-1024x722.png" alt="Spotlight mode" class="wp-image-15641498" style="width:443px;height:312px" /><figcaption class="wp-element-caption">Spotlight mode</figcaption></figure>
+
+
+
+<p><strong>Distraction Free</strong>: When this options is activated, all non-essential parts of the UI will be hidden to provide a more immersive editing experience.</p>
+
+
+
+<p><strong>Editor</strong>: By default, you will be in the <strong>Visual editor</strong>. Switch to the <strong>Code editor</strong> to view the entire page in HTML code editor.</p>
+
+
+
+<p><strong>Plugins</strong>: Here, you can switch between <strong>Settings</strong> and <strong>Styles</strong> in the Site editor Sidebar.</p>
+
+
+
+<p><strong>Tools</strong>: Here, you can download your theme with the updated templates and styles (<strong>Export</strong>), learn&nbsp;<a href="https://wordpress.org/documentation/article/block-editor-keyboard-shortcuts/">keyboard shortcuts</a>, visit the Site Editor welcome guide, copy all blocks, or view additional support articles.</p>
+
+
+
+<p><strong>Preferences</strong>: Use the <a href="https://wordpress.org/documentation/article/preferences-overview/">Preferences</a> menu to customize the editing experience and change how you interact with blocks.</p>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">How to use the Site Editor</h2>
+
+
+
+<h3 class="wp-block-heading">To edit the site&#8217;s styles</h3>
+
+
+
+<p>You can use the Site Editor to customize the styles for the entire website and for the blocks. Styles settings are available regardless of what template or template part you are editing.&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li>Go to <strong>Appearance</strong> &gt; <strong>Editor</strong>. </li>
+
+
+
+<li>Click the Styles menu item or on the icon next to the block settings sidebar. </li>
+</ul>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="689" height="1024" data-id="16358449" src="https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu-689x1024.png" alt="" class="wp-image-16358449" srcset="https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu-689x1024.png 689w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu-202x300.png 202w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu-768x1141.png 768w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu.png 844w" sizes="auto, (max-width: 689px) 100vw, 689px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="693" height="1024" data-id="16358448" src="https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon-693x1024.png" alt="" class="wp-image-16358448" srcset="https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon-693x1024.png 693w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon-203x300.png 203w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon-768x1136.png 768w, https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon.png 844w" sizes="auto, (max-width: 693px) 100vw, 693px" /></figure>
+</figure>
+
+
+
+<p>In the <strong>Styles</strong> section, you can browse the style variations available for the theme you have, change the color palettes and typography, and layout across the entire site and also change the appearance of blocks which are also applicable across the whole site. </p>
+
+
+
+<p>To review your <strong>style revisions or reset the changes</strong> you made completely, click the three-dot menu icon in the right corner and select either option.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-styles-overview-revisions-reset-1.mp4"></video></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about Styles in this support article: <a href="https://wordpress.org/documentation/article/styles-overview/">Styles overview</a>.</p>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">To customize the site&#8217;s layout</h3>
+
+
+
+<p>You can use the Site Editor to build the structure and layout of your entire site, using blocks. Eg: areas like headers, footers, and the&nbsp;structural appearance&nbsp;of your site&#8217;s posts and pages.</p>
+
+
+
+<p>All <a href="https://wordpress.org/documentation/article/blocks/" data-type="helphub_article" data-id="11284652">blocks</a> that are available in the <a href="https://wordpress.org/documentation/article/wordpress-editor/" data-type="helphub_article" data-id="11284616">WordPress Block Editor</a> can be used in the Site Editor. A set of blocks called <a href="https://wordpress.org/documentation/article/blocks/#theme-blocks">Theme blocks</a> are specifically built for the Site Editor. </p>
+
+
+
+<p>Examples: the <a href="https://wordpress.org/documentation/article/query-loop-block/" data-type="helphub_article" data-id="14633622">Query Loop Block</a> allows you to customize the look and feel of your post layout, the <a href="https://wordpress.org/documentation/article/navigation-block/" data-type="helphub_article" data-id="15191692">Navigation Block</a> lets you customize the site&#8217;s navigation menu, the <a href="https://wordpress.org/documentation/article/site-title-block/" data-type="helphub_article" data-id="15525633">Site Title Block</a> helps to customize the Site Title and more. </p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Check out the full list of <a href="https://wordpress.org/documentation/article/blocks/#theme-blocks">Theme blocks</a>.</p>
+
+
+
+<h4 class="wp-block-heading">Example &#8211; How to Customize Twenty Twenty-Three using the Site Editor</h4>
+
+
+
+<p><a href="https://wordpress.org/documentation/article/twenty-twenty-three/">Twenty Twenty-Three</a>&nbsp;supports full site editing and can be customized by Site Editor. As an usage example, let&#8217;s remove the gap at the top of the home page of Twenty Twenty-Three. To do this, remove the padding at the bottom of the header template part and the padding at the top of the content area.</p>
+
+
+
+<figure class="wp-block-image alignleft size-medium has-custom-border"><img loading="lazy" decoding="async" width="300" height="190" src="https://wordpress.org/documentation/files/2023/08/before-editing-2023-300x190.jpg" alt="Before" class="wp-image-16358656" style="border-width:1px" srcset="https://wordpress.org/documentation/files/2023/08/before-editing-2023-300x190.jpg 300w, https://wordpress.org/documentation/files/2023/08/before-editing-2023-1024x649.jpg 1024w, https://wordpress.org/documentation/files/2023/08/before-editing-2023-768x487.jpg 768w, https://wordpress.org/documentation/files/2023/08/before-editing-2023-1536x974.jpg 1536w, https://wordpress.org/documentation/files/2023/08/before-editing-2023.jpg 1732w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption">Before</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-medium has-custom-border"><img loading="lazy" decoding="async" width="300" height="191" src="https://wordpress.org/documentation/files/2023/08/after-editing-2023-300x191.jpg" alt="After" class="wp-image-16358657" style="border-width:1px" srcset="https://wordpress.org/documentation/files/2023/08/after-editing-2023-300x191.jpg 300w, https://wordpress.org/documentation/files/2023/08/after-editing-2023-1024x651.jpg 1024w, https://wordpress.org/documentation/files/2023/08/after-editing-2023-768x488.jpg 768w, https://wordpress.org/documentation/files/2023/08/after-editing-2023-1536x977.jpg 1536w, https://wordpress.org/documentation/files/2023/08/after-editing-2023.jpg 1736w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption">After</figcaption></figure>
+
+
+
+<p>First, remove bottom padding of Header Template Parts.</p>
+
+
+
+<ol class="wp-block-list">
+<li>From Administration Screen, Select <strong>Appearance</strong> &gt; <strong>Editor</strong></li>
+
+
+
+<li>Select <strong>Patterns</strong> &gt; <strong>Template Parts</strong> &gt; <strong>Header</strong> &gt; <strong>Header</strong>, and click Pencil icon to edit it.</li>
+
+
+
+<li>Select the <strong>Group</strong> &gt; <strong>Row</strong> block. Use the bottom block navigation.</li>
+
+
+
+<li>From Block Settings, Click Styles.</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="653" src="https://wordpress.org/documentation/files/2023/08/header-styles-2023-1024x653.jpg" alt="Styles of Header Template Parts" class="wp-image-16358658" srcset="https://wordpress.org/documentation/files/2023/08/header-styles-2023-1024x653.jpg 1024w, https://wordpress.org/documentation/files/2023/08/header-styles-2023-300x191.jpg 300w, https://wordpress.org/documentation/files/2023/08/header-styles-2023-768x490.jpg 768w, https://wordpress.org/documentation/files/2023/08/header-styles-2023-1536x980.jpg 1536w, https://wordpress.org/documentation/files/2023/08/header-styles-2023.jpg 1730w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Styles of Header Template Parts</figcaption></figure>
+
+
+
+<ol start="5" class="wp-block-list">
+<li>Scroll down to the Padding &gt; Bottom. Current value is 2.</li>
+
+
+
+<li>Set it to 0.</li>
+
+
+
+<li>Save the template parts.</li>
+</ol>
+
+
+
+<p>Next, remove top padding of content area.</p>
+
+
+
+<ol start="8" class="wp-block-list">
+<li>Back to the Site Editor.</li>
+
+
+
+<li>Select Templates &gt; Home, and click Pencil icon to edit it.</li>
+
+
+
+<li>Select the top Group block. Use the bottom block navigation.</li>
+
+
+
+<li>From Block Settings, Click Styles.</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="734" src="https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023-1024x734.jpg" alt="Home Template Styles" class="wp-image-16358659" srcset="https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023-1024x734.jpg 1024w, https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023-300x215.jpg 300w, https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023-768x550.jpg 768w, https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023-1536x1101.jpg 1536w, https://wordpress.org/documentation/files/2023/08/home-templates-styles-2023.jpg 1736w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Home Template Styles</figcaption></figure>
+
+
+
+<ol start="12" class="wp-block-list">
+<li>Scroll down to the Padding &gt; Top. Current value is 3.</li>
+
+
+
+<li>Set it to 0.</li>
+
+
+
+<li>Save the template.</li>
+</ol>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" id="access-the-template-editor-via-the-site-editor">To browse the templates and template parts </h3>
+
+
+
+<p>From the Site editor, you can easily browse the <a href="https://wordpress.org/documentation/article/template-editor/" data-type="helphub_article" data-id="14632189">templates</a> and <a href="https://wordpress.org/documentation/article/template-part-block/" data-type="helphub_article" data-id="15124095">templates parts</a> available for your site.</p>
+
+
+
+<ul class="wp-block-list">
+<li>Go to <strong>Appearance</strong> &gt; <strong>Editor</strong> to open the Site editor. This will bring you to a view where you can choose to browse your templates or template parts. </li>
+
+
+
+<li>Click on  <strong>Templates</strong> to preview the list of templates available for your site.</li>
+
+
+
+<li>Click on <strong>Patterns</strong> to preview the list of template parts.</li>
+</ul>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2022/01/site-editor-template-overview-6.6.mp4"></video></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">To manage the site&#8217;s templates</h3>
+
+
+
+<p>WordPress uses <a href="https://wordpress.org/documentation/article/template-editor/">templates</a> to create the layout and structure for specific page types on your site. The Site Editor displays the template choices that you can add to your site and lets you create custom templates using the <a href="https://wordpress.org/documentation/article/template-editor/" data-type="helphub_article" data-id="14632189">Template Editor</a>.</p>
+
+
+
+<p>From the <strong>Appearance</strong> &gt; <strong>Editor</strong>, you will be shown a view that includes a sidebar with your list of Templates and Patterns that includes the list of template parts.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2022/01/site-editor-templates-6.6.mp4"></video></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about Templates in this support article: <a href="https://wordpress.org/documentation/article/template-editor/">Template Editor</a>.</p>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">To manage the template parts</h3>
+
+
+
+<p>A Template part is a block for managing the repeating global areas of the site such as a Header, Footer, Sidebar, etc. They are primarily meant to define the site structure and can be reused. You can also create custom Template Parts that can be reused through the templates.</p>
+
+
+
+<p>From the <strong>Appearance</strong> &gt; <strong>Editor</strong>, click the <strong>Patterns</strong> option. From All templates parts, you can access to them.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2022/01/site-editor-template-parts-6.6.mp4"></video></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about Template Parts in this support article: <a href="https://wordpress.org/documentation/article/template-part-block/">Template Part</a>.</p>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">To manage pages</h3>
+
+
+
+<p>Since version 6.3, it is possible to manage, edit and create pages via the Site Editor, under the &#8220;Pages&#8221; section.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2022/01/site-editor-pages-6.6.mp4"></video></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about managing pages via the Site Editor in this support article: <a href="https://wordpress.org/documentation/article/site-editor-pages">Site Editor Pages</a></p>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">How to return to the Dashboard</h2>
+
+
+
+<p>To go back to your dashboard, click the WordPress icon (or Site icon if you have set one)  to open the Site Editor left navigation.  Select <strong>&lt; </strong>to take you back to your WordPress dashboard. You will be prompted to save the changes you have made in the Site Editor before leaving.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="728" src="https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073608-1024x728.png" alt="How to exit the Site Editor by clicking on the WordPress or Site Icon on the top left part of the screen." class="wp-image-16358437" srcset="https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073608-1024x728.png 1024w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073608-300x213.png 300w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073608-768x546.png 768w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073608.png 1268w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">How to export templates and styles</h2>
+
+
+
+<p>You can export your theme with the changes you made in the Site Editor including the templates, template parts, and style settings, similar to the&nbsp;<a href="https://wordpress.org/documentation/article/tools-export-screen/">Tools &gt; Export option</a>.</p>
+
+
+
+<ul class="wp-block-list">
+<li>Open the Site Editor by going to <strong>Appearance</strong> &gt; <strong>Editor</strong>.</li>
+
+
+
+<li>Select the three vertical dots icon next to your <strong>Styles</strong> settings option.</li>
+
+
+
+<li>Under <strong>Tools</strong>, select <strong>Export</strong>. This will begin the export process and you will receive a downloaded zip file of your theme with the templates and template parts included.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="752" src="https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719-1024x752.png" alt="How to find the &quot;Export&quot; option under the three-dot &quot;More Options&quot; menu on the top right part of the screen." class="wp-image-16358438" srcset="https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719-1024x752.png 1024w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719-300x220.png 300w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719-768x564.png 768w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719-1536x1128.png 1536w, https://wordpress.org/documentation/files/2023/08/Screen-Shot-on-2023-08-05-at-073719.png 1740w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Useful tools when using the Site Editor</h2>
+
+
+
+<p>The following tools are helpful when using the Site Editor.</p>
+
+
+
+<h3 class="wp-block-heading">The Command Palette</h3>
+
+
+
+<p>The Command Palette offers you a quick way to navigate the <strong>content</strong> of your site and to invoke different <strong>actions</strong> such as creating new posts/pages, toggling preferences, and accessing your styles and custom CSS settings.</p>
+
+
+
+<p>You can open the Command Palette in the Site View in the sidebar by clicking on the <strong>search icon</strong> and. In Edit View, the Command Palette is in the <strong>top Title Bar</strong>. You can also use the <strong>keyboard shortcut</strong> <code>Cmd+k</code> on Mac or <code>Ctrl+k</code> on Windows</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/command-palette-1.mp4"></video></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about the Command Palette in this support article: <a href="https://wordpress.org/support/article/site-editor-command-palette">Site Editor Command Palette</a>.</p>
+
+
+
+<h3 class="wp-block-heading">List View</h3>
+
+
+
+<p>List View helps you navigate complex block layouts and nested block structures. You can select exactly which block you need, and get a quick overview of the block layout on the page you are working on. You can easily select multiple blocks and edit, move or group them.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-list-view.mp4"></video></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about List View in this support article: &nbsp;<a href="https://wordpress.org/documentation/article/list-view/">List View</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Block Patterns</h3>
+
+
+
+<p>Block Patterns are a collection of predefined blocks that you can insert into posts and pages. You can then customize them further. WordPress comes with a set of standard Block Patterns. You can also find Block Patterns bundled with the <a href="https://wordpress.org/documentation/article/block-themes/" data-type="helphub_article" data-id="15113575">block themes</a>.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Learn more about Block Patterns in this support article: <a href="https://wordpress.org/documentation/article/block-pattern/">Block Pattern.</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Copy and paste styles</h3>
+
+
+
+<p>With WordPress 6.2, a new option was added to allow you to copy and paste block styles, making it easy to reuse designs you’ve created. You can find this from the three dot menu in any block and it&#8217;s meant to be used to copy and paste between the same type of block:</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-copy-paste-styles.mp4"></video></figure>
+
+
+
+<h3 class="wp-block-heading">Apply style changes globally</h3>
+
+
+
+<p>If you&#8217;re more comfortable with more advanced options when creating a design or customizing individual blocks, as of WordPress 6.2, you can take changes made to an individual block and apply it to <strong>all blocks of the same type</strong>. For example, you could apply a single design for an individual block to all blocks in your site with a new option under the <strong>Advanced</strong> section of block settings. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="593" src="https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-1024x593.png" alt="How to apply the current's block style to all styles of that same type across your site by clicking on Block Settings &gt; Advanced &gt; Apply Globally" class="wp-image-16358441" srcset="https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-1024x593.png 1024w, https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-300x174.png 300w, https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-768x445.png 768w, https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-1536x889.png 1536w, https://wordpress.org/documentation/files/2023/08/site-editor-apply-styles-globally-2048x1186.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Resize the preview of the Site Editor</h3>
+
+
+
+<p>When you&#8217;re in the Site Editor, you might want to change the preview of the template or template part you&#8217;re viewing. You can do this by selecting the handles of the dark gray sidebar and moving it to your liking. </p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/08/site-editor-resize-pattern-preview.mov"></video></figure>
+
+
+
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" id="resource-links">Resource Links</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor" data-type="URL" data-id="https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor">Additional guide to using Site Editor</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/" target="_blank">Simple Site Design with Full Site Editing</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://learn.wordpress.org/workshop/intro-to-the-site-editor-and-template-editor/" target="_blank">Intro into the Site Editor and Template Editor</a> </li>
+</ul>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size" id="changelog">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2024-09-14
+<ul class="wp-block-list">
+<li>Updated template and template parts management section with Grid View </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-08-13
+<ul class="wp-block-list">
+<li>Added example of Site Editor usage.</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-08-08
+<ul class="wp-block-list">
+<li>Replaced &#8220;Reusable Blocks&#8221; with &#8220;Patterns&#8221;</li>
+
+
+
+<li>Updated wording &amp; screenshots to match the new interface.</li>
+
+
+
+<li>Added a reference to the Command Palette &amp; Site Editor Pages.</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-03-27
+<ul class="wp-block-list">
+<li>Updated content and screenshots for 6.2 </li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-10-17
+<ul class="wp-block-list">
+<li>Updated content and screenshots/video for 6.1</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2022-05-17
+<ul class="wp-block-list">
+<li>Reworking the content &amp; updating videos/screenshots for 6.0</li>
+</ul>
+</li>
+
+
+
+<li>Created 2022-01-05</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/site-editor/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15201243</post-id>	</item>
+	</channel>
+</rss>

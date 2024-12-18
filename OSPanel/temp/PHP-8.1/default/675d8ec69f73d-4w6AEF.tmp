@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Theme blocks &#8211; Documentation &#8211; WordPress.org</title>
+	<atom:link href="https://wordpress.org/documentation/category/theme-blocks/feed/?simply_static_page=6734" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/documentation</link>
+	<description></description>
+	<lastBuildDate>Thu, 06 Jun 2024 13:47:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Theme blocks &#8211; Documentation &#8211; WordPress.org</title>
+	<link>https://wordpress.org/documentation</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">213977105</site>	<item>
+		<title>Archive Title Block</title>
+		<link>https://wordpress.org/documentation/article/archive-title-block/</link>
+					<comments>https://wordpress.org/documentation/article/archive-title-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Thu, 10 Mar 2022 22:36:53 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15447523</guid>
+
+					<description><![CDATA[Use the Archive Title block to display the name of the Category, Tag, or custom Taxonomy, on the archive pages. Note: This block works only in the archive pages and will not be visible on other pages of the website. This block should be used only in the Site Editor to edit the archive page [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the list of Blocks</a></p>
+
+
+
+<p>Use the<em> Archive Title block</em> to display the name of the Category, Tag, or custom Taxonomy, on the archive pages.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="1999" height="933" src="https://wordpress.org/documentation/files/2023/02/archive-title-block.png" alt="The archive title block on the site editor" class="wp-image-16355630" srcset="https://wordpress.org/documentation/files/2023/02/archive-title-block.png 1999w, https://wordpress.org/documentation/files/2023/02/archive-title-block-300x140.png 300w, https://wordpress.org/documentation/files/2023/02/archive-title-block-1024x478.png 1024w, https://wordpress.org/documentation/files/2023/02/archive-title-block-768x358.png 768w, https://wordpress.org/documentation/files/2023/02/archive-title-block-1536x717.png 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /></figure>
+
+
+
+<div class="callout callout-info" style="background: #e5f5fa;border-left: 5px solid #00a0d2;padding: 1.5em 3em 1.6em 3.7em;margin-bottom: 1.5em"><p><em><strong>Note:</strong> </em>This block works only in the archive pages and will not be visible on other pages of the website<em>.</em> This block should be used only in the <a href="https://wordpress.org/documentation/article/site-editor/">Site Editor</a> to edit the archive page templates. </p></div>
+
+
+
+<p>To add an <em>Archive Title block</em>, click the <strong>Block Inserter</strong> icon when editing the archive page template. Search for the <em>Archive Title<strong> </strong>block</em>. Click on it to add the block to your page template.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1424" height="596" src="https://wordpress.org/documentation/files/2023/02/adding-an-archive-title.gif" alt="Adding an archive title block" class="wp-image-16355629" /></figure>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/archive-title</kbd> to quickly insert an <em>Archive Title block</em>.&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>To view the block toolbar, click on the block, and the toolbar will be displayed.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" src="https://wordpress.org/documentation/files/2023/02/block-toolbar.png" alt="Archive title block toolbar" class="wp-image-16355631" style="width:437px;height:86px" width="437" height="86" srcset="https://wordpress.org/documentation/files/2023/02/block-toolbar.png 582w, https://wordpress.org/documentation/files/2023/02/block-toolbar-300x59.png 300w" sizes="(max-width: 437px) 100vw, 437px" /></figure>
+
+
+
+<p>Every block comes with unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The <em>Archive Title block</em> shows seven buttons in the block toolbar:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move arrows</li>
+
+
+
+<li>Change alignment</li>
+
+
+
+<li>Change heading level</li>
+
+
+
+<li>Change text alignment</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<p class="has-large-font-size"><strong>Transform to</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/transform-2.png" alt="Transform options for the archive title block" class="wp-image-16355632" style="width:480px;height:284px" width="480" height="284" srcset="https://wordpress.org/documentation/files/2023/02/transform-2.png 640w, https://wordpress.org/documentation/files/2023/02/transform-2-300x177.png 300w" sizes="auto, (max-width: 480px) 100vw, 480px" /></figure>
+
+
+
+<p>Click on the <strong>Transform</strong> button to convert the <em>Archive Title bloc</em>k into a <em>Group</em> block or <em>Columns</em> block.</p>
+
+
+
+<p class="has-large-font-size"><strong>Drag icon</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/drag-and-drop-tools.png" alt="Drag and drop tool on the toolbar" class="wp-image-16355633" style="width:437px;height:84px" width="437" height="84" srcset="https://wordpress.org/documentation/files/2023/02/drag-and-drop-tools.png 582w, https://wordpress.org/documentation/files/2023/02/drag-and-drop-tools-300x58.png 300w" sizes="auto, (max-width: 437px) 100vw, 437px" /></figure>
+
+
+
+<p>To drag and drop the block to a new location on the page template, click and hold the rectangle of dots, then drag it to the new location. The blue separator line indicates where the block will be placed. Release the left mouse button when you find the new location to place the block.</p>
+
+
+
+<p class="has-large-font-size"><strong>Move arrows</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/block-moving-tools.png" alt="Block moving tools on the block toolbar" class="wp-image-16355634" style="width:432px;height:81px" width="432" height="81" srcset="https://wordpress.org/documentation/files/2023/02/block-moving-tools.png 576w, https://wordpress.org/documentation/files/2023/02/block-moving-tools-300x56.png 300w" sizes="auto, (max-width: 432px) 100vw, 432px" /></figure>
+
+
+
+<p>The up and down arrow icons can be used to move the block up and down on the page.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Change alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/block-align.png" alt="Block alignment tools" class="wp-image-16355635" style="width:548px;height:326px" width="548" height="326" srcset="https://wordpress.org/documentation/files/2023/02/block-align.png 730w, https://wordpress.org/documentation/files/2023/02/block-align-300x178.png 300w" sizes="auto, (max-width: 548px) 100vw, 548px" /></figure>
+
+
+
+<p>Use the change alignment tool to align the <em>Archive Title block</em>. Choose one of the following options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None – </strong>Leaves the block the current size.</li>
+
+
+
+<li><strong>Wide width – </strong>Increase the width of the block beyond the content size.</li>
+
+
+
+<li><strong>Full width – </strong>Extend the block to cover the full width of the screen.</li>
+</ul>
+
+
+
+<p class="has-large-font-size"><strong>Change heading level</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/heading-settings.png" alt="" class="wp-image-16355636" style="width:438px;height:86px" width="438" height="86" srcset="https://wordpress.org/documentation/files/2023/02/heading-settings.png 584w, https://wordpress.org/documentation/files/2023/02/heading-settings-300x59.png 300w" sizes="auto, (max-width: 438px) 100vw, 438px" /></figure>
+
+
+
+<p>You can choose the heading level for the archive title from H1-H6.</p>
+
+
+
+<p class="has-large-font-size"><strong>Change text alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/block-alignment.png" alt="Text alignment tools" class="wp-image-16355637" style="width:534px;height:288px" width="534" height="288" srcset="https://wordpress.org/documentation/files/2023/02/block-alignment.png 712w, https://wordpress.org/documentation/files/2023/02/block-alignment-300x162.png 300w" sizes="auto, (max-width: 534px) 100vw, 534px" /></figure>
+
+
+
+<p>Click the <strong>Change alignment</strong> button in the block toolbar to display the alignment drop-down. You can align the block text to the left, make it center-aligned or align it to the right.</p>
+
+
+
+<p class="has-large-font-size"><strong>Options</strong></p>
+
+
+
+<p>The <strong>Options</strong> button on a block toolbar gives you more features to customize the block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <strong>Settings </strong>icon next to the <strong>Publish </strong>button.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/settings-icon.png" alt="Block settings button icon" class="wp-image-16355639" style="width:455px;height:68px" width="455" height="68" srcset="https://wordpress.org/documentation/files/2023/02/settings-icon.png 606w, https://wordpress.org/documentation/files/2023/02/settings-icon-300x45.png 300w" sizes="auto, (max-width: 455px) 100vw, 455px" /></figure>
+
+
+
+<p>Here are the options for the <em>Archive Title</em> <em>block</em>:</p>
+
+
+
+<p class="has-large-font-size"><strong>Settings</strong></p>
+
+
+
+<p>It’s possible to toggle between an option to either show the archive type in the title or not.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/block-settings.png" alt="Show archive tipe toggle setting" class="wp-image-16355640" style="width:534px;height:150px" width="534" height="150" srcset="https://wordpress.org/documentation/files/2023/02/block-settings.png 534w, https://wordpress.org/documentation/files/2023/02/block-settings-300x84.png 300w" sizes="auto, (max-width: 534px) 100vw, 534px" /></figure>
+
+
+
+<p>An example with this setting enabled:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1344" height="246" src="https://wordpress.org/documentation/files/2023/02/archive-type-enabled.png" alt="Archive title with the type enabled" class="wp-image-16355641" srcset="https://wordpress.org/documentation/files/2023/02/archive-type-enabled.png 1344w, https://wordpress.org/documentation/files/2023/02/archive-type-enabled-300x55.png 300w, https://wordpress.org/documentation/files/2023/02/archive-type-enabled-1024x187.png 1024w, https://wordpress.org/documentation/files/2023/02/archive-type-enabled-768x141.png 768w" sizes="auto, (max-width: 1344px) 100vw, 1344px" /></figure>
+
+
+
+<p>An example with this setting disabled:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1344" height="240" src="https://wordpress.org/documentation/files/2023/02/archive-type-disabled.png" alt="Archive title with the type disabled" class="wp-image-16355642" srcset="https://wordpress.org/documentation/files/2023/02/archive-type-disabled.png 1344w, https://wordpress.org/documentation/files/2023/02/archive-type-disabled-300x54.png 300w, https://wordpress.org/documentation/files/2023/02/archive-type-disabled-1024x183.png 1024w, https://wordpress.org/documentation/files/2023/02/archive-type-disabled-768x137.png 768w" sizes="auto, (max-width: 1344px) 100vw, 1344px" /></figure>
+
+
+
+<p class="has-large-font-size"><strong>Color</strong> </p>
+
+
+
+<p>The <em>Archive Title block </em>provides color settings options to change the text and background colors.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh4.googleusercontent.com/vGd1bPidVEXdbHGSIQXoK_PJsIlt2uxxSNBruY4CYExWqpxY19xNxdJR1gWrU8DI0u8TUnckQaBp-MDl4431435PIQWztwspNaJJiDouBJ5K9bfsXUVWWfBNgOVfZV0r45EG1vA6" alt="Color Settings in the Archive Title Block" style="width:367px;height:210px" width="367" height="210" /><figcaption class="wp-element-caption">Color Settings in the Archive Title Block</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Typography </strong></p>
+
+
+
+<p>The <em>Archive Title block </em>provides typography settings to change the font family, size, appearance, line height, letter case, letter spacing, and decoration.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/colors-settings-overview/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Dimensions</strong></p>
+
+
+
+<p>The <em>Archive Title block</em> provides dimensions settings options to change padding and margin size.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/dimensions-settings.png" alt="Archive title dimension settings" class="wp-image-16355643" style="width:417px;height:290px" width="417" height="290" srcset="https://wordpress.org/documentation/files/2023/02/dimensions-settings.png 556w, https://wordpress.org/documentation/files/2023/02/dimensions-settings-300x208.png 300w" sizes="auto, (max-width: 417px) 100vw, 417px" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/dimension-controls-overview/"></a><a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Learn more about dimension controls.</a></p>
+
+
+
+<p class="has-large-font-size"><strong>Advanced settings</strong></p>
+
+
+
+<p>The Advanced tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/02/css-classes.png" alt="Archive title block custom CSS option" class="wp-image-16355644" style="width:401px;height:213px" width="401" height="213" srcset="https://wordpress.org/documentation/files/2023/02/css-classes.png 534w, https://wordpress.org/documentation/files/2023/02/css-classes-300x160.png 300w" sizes="auto, (max-width: 401px) 100vw, 401px" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-heading-6-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-02-07
+<ul class="wp-block-list">
+<li>Updated screenshots</li>
+
+
+
+<li>Fixed some formatting</li>
+</ul>
+</li>
+
+
+
+<li>Created 2022-03-10</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/archive-title-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15447523</post-id>	</item>
+		<item>
+		<title>Avatar Block</title>
+		<link>https://wordpress.org/documentation/article/avatar-block/</link>
+					<comments>https://wordpress.org/documentation/article/avatar-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Leonardus Nugraha]]></dc:creator>
+		<pubDate>Tue, 27 Jun 2023 13:34:53 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/documentation/?post_type=helphub_article&#038;p=16357507</guid>
+
+					<description><![CDATA[Go to the List of Blocks Use the Avatar block to display the user&#8217;s profile picture on any post, page, or template. Although the block can be added anywhere, the most common use is in the single post template to display the author. Another use case is in the Query Loop block to include the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>Use the <em>Avatar</em> block to display the user&#8217;s profile picture on any post, page, or template. Although the block can be added anywhere, the most common use is in the single post template to display the author. Another use case is in the <em>Query Loop </em>block<strong> </strong>to include the post author&#8217;s avatar in the query.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="773" height="184" src="https://wordpress.org/documentation/files/2023/05/image-22.png" alt="Adding the avatar block to the post meta" class="wp-image-16356899" srcset="https://wordpress.org/documentation/files/2023/05/image-22.png 773w, https://wordpress.org/documentation/files/2023/05/image-22-300x71.png 300w, https://wordpress.org/documentation/files/2023/05/image-22-768x183.png 768w" sizes="auto, (max-width: 773px) 100vw, 773px" /></figure>
+
+
+
+<p>To add the <em>Avatar </em>block, click the<strong>&nbsp;Add block</strong>&nbsp;button to open the block inserter pop-up window and choose the&nbsp;<em>Avatar </em>block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="365" height="307" src="https://wordpress.org/documentation/files/2023/05/image-23.png" alt="Using the block inserter to add the avatar block" class="wp-image-16356900" srcset="https://wordpress.org/documentation/files/2023/05/image-23.png 365w, https://wordpress.org/documentation/files/2023/05/image-23-300x252.png 300w" sizes="auto, (max-width: 365px) 100vw, 365px" /></figure>
+
+
+
+<p>If you want to add one in the <em>Query Loop</em> block, be sure to add it inside the <em>Post Template</em> block.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="724" height="622" src="https://wordpress.org/documentation/files/2023/05/image-24.png" alt="Adding an avatar block in a query loop block" class="wp-image-16356901" srcset="https://wordpress.org/documentation/files/2023/05/image-24.png 724w, https://wordpress.org/documentation/files/2023/05/image-24-300x258.png 300w" sizes="auto, (max-width: 724px) 100vw, 724px" /></figure>
+
+
+
+<p>You can also use the keyboard shortcut&nbsp;<kbd>/avatar</kbd>&nbsp;to quickly insert an <em>Avatar</em>&nbsp;block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>Every block comes with unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor. To view the block toolbar, click on the <em>Avatar </em>block, and the toolbar will be displayed.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="309" height="66" src="https://wordpress.org/documentation/files/2023/05/image-29.png" alt="The block toolbar for the avatar block" class="wp-image-16356906" srcset="https://wordpress.org/documentation/files/2023/05/image-29.png 309w, https://wordpress.org/documentation/files/2023/05/image-29-300x64.png 300w" sizes="auto, (max-width: 309px) 100vw, 309px" /></figure>
+
+
+
+<p>There are six buttons on the <em>Avatar</em> block toolbar:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move arrows</li>
+
+
+
+<li>Align</li>
+
+
+
+<li>Duotone filter</li>
+
+
+
+<li>Options</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Transform to</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="396" height="237" src="https://wordpress.org/documentation/files/2023/05/image-30.png" alt="The transform options for the avatar block" class="wp-image-16356907" srcset="https://wordpress.org/documentation/files/2023/05/image-30.png 396w, https://wordpress.org/documentation/files/2023/05/image-30-300x180.png 300w" sizes="auto, (max-width: 396px) 100vw, 396px" /></figure>
+
+
+
+<p>Click on the “Transform” button to convert the&nbsp;<em>Avatar </em>block into a “Group” or “Columns” block.</p>
+
+
+
+<h3 class="wp-block-heading">Drag icon</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="312" height="69" src="https://wordpress.org/documentation/files/2023/05/image-31.png" alt="The drag icon on the avatar block toolbar" class="wp-image-16356908" srcset="https://wordpress.org/documentation/files/2023/05/image-31.png 312w, https://wordpress.org/documentation/files/2023/05/image-31-300x66.png 300w" sizes="auto, (max-width: 312px) 100vw, 312px" /></figure>
+
+
+
+<p>To drag and drop the block to a new location on the page template, click and hold the rectangle of dots, then drag it to the new location. The blue separator line indicates where the block will be placed. Release the left mouse button when you find the new location to place the block.</p>
+
+
+
+<h3 class="wp-block-heading">Move arrows</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="309" height="69" src="https://wordpress.org/documentation/files/2023/05/image-33.png" alt="The move arrows on the avatar block toolbar" class="wp-image-16356910" srcset="https://wordpress.org/documentation/files/2023/05/image-33.png 309w, https://wordpress.org/documentation/files/2023/05/image-33-300x67.png 300w" sizes="auto, (max-width: 309px) 100vw, 309px" /></figure>
+
+
+
+<p>The up and down arrow icons can be used to move the block up and down on the page.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor</a></p>
+
+
+
+<h3 class="wp-block-heading">Align</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="508" height="299" src="https://wordpress.org/documentation/files/2023/05/image-36.png" alt="The align options for the avatar block toolbar" class="wp-image-16356913" srcset="https://wordpress.org/documentation/files/2023/05/image-36.png 508w, https://wordpress.org/documentation/files/2023/05/image-36-300x177.png 300w" sizes="auto, (max-width: 508px) 100vw, 508px" /></figure>
+
+
+
+<p>Use the change alignment tool to align the&nbsp;<em>Avatar </em>block. The following is a list of the block align options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None</strong></li>
+
+
+
+<li><strong>Align left</strong>&nbsp;– make the block left-aligned.</li>
+
+
+
+<li><strong>Align center</strong>&nbsp;– make the block alignment centered.</li>
+
+
+
+<li><strong>Align right&nbsp;</strong>– make the block right aligned.</li>
+</ul>
+
+
+
+<p>Note that the align option is only available if the <em>Avatar</em> block is inside a container block.</p>
+
+
+
+<h3 class="wp-block-heading">Duotone filter</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="311" height="67" src="https://wordpress.org/documentation/files/2023/05/image-34.png" alt="The duotone filter on the avatar block toolbar" class="wp-image-16356911" srcset="https://wordpress.org/documentation/files/2023/05/image-34.png 311w, https://wordpress.org/documentation/files/2023/05/image-34-300x65.png 300w" sizes="auto, (max-width: 311px) 100vw, 311px" /></figure>
+
+
+
+<p>The duotone filter lets you create a two-tone color effect without losing your original image.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image-35.png" alt="Using the duotone filter for the avatar block" class="wp-image-16356912" width="403" height="456" srcset="https://wordpress.org/documentation/files/2023/05/image-35.png 632w, https://wordpress.org/documentation/files/2023/05/image-35-265x300.png 265w" sizes="auto, (max-width: 403px) 100vw, 403px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Options</h3>
+
+
+
+<p>The Options button on a block toolbar gives you more features to customize a specific button.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the&nbsp;<strong>Settings&nbsp;</strong>button next to the&nbsp;<strong>Publish&nbsp;</strong>button.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/03/settings.png" alt="The settings button at the top right corner of editor" class="wp-image-16355810" width="460" height="77" srcset="https://wordpress.org/documentation/files/2023/03/settings.png 613w, https://wordpress.org/documentation/files/2023/03/settings-300x50.png 300w" sizes="auto, (max-width: 460px) 100vw, 460px" /></figure>
+
+
+
+<p>The block settings panel consists of two tabs – <strong>Settings </strong>and <strong>Styles</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="415" height="244" src="https://wordpress.org/documentation/files/2023/05/image-37.png" alt="The avatar block settings panel" class="wp-image-16356914" srcset="https://wordpress.org/documentation/files/2023/05/image-37.png 415w, https://wordpress.org/documentation/files/2023/05/image-37-300x176.png 300w" sizes="auto, (max-width: 415px) 100vw, 415px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Settings</h3>
+
+
+
+<p>You can adjust various settings and add additional CSS classes for the <em>Avatar</em> block. The panel is divided into <strong>Settings </strong>and <strong>Advanced</strong> sections.</p>
+
+
+
+<p><strong>Settings</strong></p>
+
+
+
+<p>Here are the options available in the <strong>Settings</strong> section:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="343" height="400" src="https://wordpress.org/documentation/files/2023/05/image-38.png" alt="The avatar block setting options" class="wp-image-16356915" srcset="https://wordpress.org/documentation/files/2023/05/image-38.png 343w, https://wordpress.org/documentation/files/2023/05/image-38-257x300.png 257w" sizes="auto, (max-width: 343px) 100vw, 343px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Image size</strong> – lets you adjust the avatar image size in pixels. There are two ways to do this: the first is by using the slider to fine-tune the size, and the other is by using the pixel field to specify the image size in pixels.</li>
+
+
+
+<li><strong>Link to user profile </strong>– enable this toggle option if you want to link the avatar image to the user profile page.</li>
+
+
+
+<li><strong>Open in new tab</strong> – enable this toggle option if you want to open the user profile page in a new tab. This option is only available if you enable the <strong>Link to user profile</strong> option.</li>
+
+
+
+<li><strong>User</strong> – select a specific user to be displayed on the <em>Avatar</em> block. If left empty, the block will use the post or page author.</li>
+</ul>
+
+
+
+<p><strong>Advanced</strong></p>
+
+
+
+<p>In the <strong>Advanced</strong> section, you will see a field to add additional CSS classes to customize the appearance of the <em>Avatar</em> block. There&#8217;s also the <strong>Apply globally</strong> button if you want to apply the selected block&#8217;s settings to all <em>Avatar </em>blocks on your website.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="339" height="352" src="https://wordpress.org/documentation/files/2023/05/image-39.png" alt="The advanced section on the avatar block's settings panel" class="wp-image-16356916" srcset="https://wordpress.org/documentation/files/2023/05/image-39.png 339w, https://wordpress.org/documentation/files/2023/05/image-39-289x300.png 289w" sizes="auto, (max-width: 339px) 100vw, 339px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Styles</h3>
+
+
+
+<p>The <em>Avatar</em> block has two styles settings – <strong>dimensions</strong> and <strong>border</strong>.</p>
+
+
+
+<p><strong>Dimensions</strong></p>
+
+
+
+<p>The&nbsp;<em>Avatar </em>block provides dimension settings options to change padding and margin size.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Learn more about dimension controls.</a></p>
+
+
+
+<p><strong>Border</strong></p>
+
+
+
+<p>Border settings provide options to control the width and radius on each side of the button.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Learn more about border settings.</a></p>
+
+
+
+<h2 class="wp-block-heading has-extra-large-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2023-06-27</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/avatar-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16357507</post-id>	</item>
+		<item>
+		<title>Categories Block</title>
+		<link>https://wordpress.org/documentation/article/categories-block/</link>
+					<comments>https://wordpress.org/documentation/article/categories-block/#comments</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Mon, 21 Mar 2022 16:16:09 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15480378</guid>
+
+					<description><![CDATA[Go to the List of Blocks Use the Categories block to display the posts&#8217; categories. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.&#160; To add a Categories block, click the Block Inserter icon when editing the page template. Search for the Categories block. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>Use the Categories block to display the posts&#8217; categories. This block is primarily nested inside a<a href="https://wordpress.org/documentation/article/query-loop-block/"> query loop</a> block and helps to customize the appearance of the query loop.&nbsp;</p>
+
+
+
+<p>To add a Categories block, click the <strong>Block Inserter</strong> icon when editing the page template. Search for the Categories<strong> block</strong>. Click on it to add the block to your page template.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://wordpress.org/documentation/files/2023/06/adding-category-block.mp4"></video><figcaption class="wp-element-caption">Video showing how to add Categories block</figcaption></figure>
+
+
+
+<p>You can also type /categories and hit enter in a new paragraph block to add the Categories block quickly.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="437" src="https://wordpress.org/documentation/files/2023/06/categories-block-1024x437.png" alt="" class="wp-image-16357371" srcset="https://wordpress.org/documentation/files/2023/06/categories-block-1024x437.png 1024w, https://wordpress.org/documentation/files/2023/06/categories-block-300x128.png 300w, https://wordpress.org/documentation/files/2023/06/categories-block-768x328.png 768w, https://wordpress.org/documentation/files/2023/06/categories-block.png 1218w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">How to add Categories block quickly</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>To view the block toolbar, click on the block and the toolbar will be displayed.</p>
+
+
+
+<p>Every block comes with unique toolbar icons. These block-specific controls allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The Categories block shows five buttons in the block toolbar:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move arrows</li>
+
+
+
+<li>Change text alignment</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh3.googleusercontent.com/3WV4UeF9OMEU_NKd_leRXDGqPy9ulVgkCcN1XIRa8KbA4Bz1_xnc_mEBFs5CmlHrwLwTgnnUz3BhRKfMS-sxJsq4LPZOI6AAmHNWCA2z_PlG17ouwxT56p9k3xELCYUvjSfku6bj" alt="Post Categories block toolbar" style="width:328px;height:86px" width="328" height="86" /><figcaption class="wp-element-caption">Categories block toolbar</figcaption></figure>
+
+
+
+<p><strong>Transform to:</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/HRiiDD2-NxeqwS1AwcQRZT2BzNxUZwyf5hYEVzr2-e0NrdzkDAEoo9Rz2VwT-cFOU_tIjqHt36WcXBJEza-4tiJAORuJdvbnJwObinmqDFhNwiAFN4jVYGo9tRpISzmQKII0Hr--" alt="Transform options in Post Categories block" style="width:313px;height:195px" width="313" height="195" /><figcaption class="wp-element-caption">Transform options in Categories block</figcaption></figure>
+
+
+
+<p>Click on the “Transform” button to convert the Categories block into a “Group” block or “Columns” block.&nbsp;</p>
+
+
+
+<p><strong>Drag icon:</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/LOeUP5AIHfAVcf3TJ48liWDB9P3l3HFu-rcuhFCvMx45GbaO5ffRRdFG_Q8Dx1go4uUH9dvwgAtOJCBcB7IfOp0dJ7SiutLyWu3cg2Fzzjhbq92NEHVuXtIvsEdBYSkp-sW91FtU" alt="Drag icon in the Post Categories block" style="width:298px;height:78px" width="298" height="78" /><figcaption class="wp-element-caption">Drag icon in the Categories block</figcaption></figure>
+
+
+
+<p>To drag and drop the block to a new location on the page template, click and hold the rectangle of dots, then drag to the new location. The blue separator line indicates where the block will be placed. Release the left mouse button when you find the new location to place the block.</p>
+
+
+
+<p><strong>Move arrows:</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/lgn3n_EG2vlBv_qwEck8d1VwrvP6k2N3bDpvfzgUk4-4FnefAFae6zUyhQAvN10qZ5vR7RZb4KtNAEDuYYUv5DM_qWuvCZFMx9NckyfXqocD7pInnEEfWasN83XTTDPms1qKwc2w" alt="Move arrows in the Post Categories block" style="width:324px;height:85px" width="324" height="85" /><figcaption class="wp-element-caption">Move arrows in the Categories block</figcaption></figure>
+
+
+
+<p>The up and down arrow icons can be used to move the block up and down on the page.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p><strong>Change text alignment</strong>:</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh4.googleusercontent.com/JsIE08dBZF7XXtboBBffzuApeuJsY5W-Gk-_8kDve2NY0FQupCXlYCzWh_3_OYNk_eFMoZPa73Rd8QFDJ36ZKbhZLiGMPuoWEyCWUbO076kaWEumQG2TlQvIOm80Q4hEUTg46SAR" alt="Change text alignment in Post Categories block" style="width:209px;height:244px" width="209" height="244" /><figcaption class="wp-element-caption">Change text alignment in Categories block</figcaption></figure>
+
+
+
+<p>Click the “Change alignment” button in the Block toolbar to display the alignment drop-down. You can align the block text to the left, make it center-aligned or align it to the right.</p>
+
+
+
+<h3 class="wp-block-heading">More options</h3>
+
+
+
+<p>These controls give you the option to copy, duplicate, and edit your block as HTML.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>In addition to the block toolbar, every block has specific options in the editor sidebar.</p>
+
+
+
+<p><em>If you do not see the sidebar, click the icon next to the Publish button.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="510" height="1024" src="https://wordpress.org/documentation/files/2023/06/categories-sidebar-block-510x1024.png" alt="" class="wp-image-16357379" srcset="https://wordpress.org/documentation/files/2023/06/categories-sidebar-block-510x1024.png 510w, https://wordpress.org/documentation/files/2023/06/categories-sidebar-block-149x300.png 149w, https://wordpress.org/documentation/files/2023/06/categories-sidebar-block.png 564w" sizes="auto, (max-width: 510px) 100vw, 510px" /><figcaption class="wp-element-caption">How to turn on the Block Settings sidebar</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh4.googleusercontent.com/wHmRVAi6nYepDTXi8d1FIZv-CxZMbcVegcGukQTMZ4QLt8LbfDWPyT79kqzjy7VdR0j4wSmnCLzl_BvHmriddozeT8XT9z0uEJHJ96eJI2c2NHjJch3JNXNE440LO6wJpUhucqaT" alt="Post Categories Block Settings" style="width:274px;height:373px" width="274" height="373" /><figcaption class="wp-element-caption">Categories Block Settings</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Color </h3>
+
+
+
+<p>You can customize the text color, background color, and link color for the Categories block.<em> The color options available will vary based on the theme.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/0xbjED8Xcq2uvW_MRx-f4xFAtrHhsqBtNzsUhfGZ3fnIcrN0zUOSRjpbt_jN3ftq3C2ZVN5mbywFe2x-EvbteDa4M7X7u3Kn2kpzjSXHKv01I0mZA1fQXB5JlBv25rDJMYvq2xO2" alt="Color settings in the Post Categories block" style="width:352px;height:217px" width="352" height="217" /><figcaption class="wp-element-caption">Color settings in the Categories block</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography </h3>
+
+
+
+<p>On this tab, you can adjust properties such as the Font size, Font family, Appearance, Line height, Letter spacing, Decoration and Letter case.</p>
+
+
+
+<p>To access all the typography options click on the + button in the right corner of the Typography tab.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="566" height="946" src="https://wordpress.org/documentation/files/2023/06/typography-settings-categories-block-sidebar.png" alt="" class="wp-image-16357383" srcset="https://wordpress.org/documentation/files/2023/06/typography-settings-categories-block-sidebar.png 566w, https://wordpress.org/documentation/files/2023/06/typography-settings-categories-block-sidebar-179x300.png 179w" sizes="auto, (max-width: 566px) 100vw, 566px" /><figcaption class="wp-element-caption">Typography settings in the Categories block</figcaption></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p><strong>Advanced settings:&nbsp;</strong></p>
+
+
+
+<p>The “Advanced” tab lets you enter character(s) that can be used to separate the category terms. The default setting is a comma.</p>
+
+
+
+<p>You can also add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/H-xgyZI4MHCRcqoMzljOc0HYoPI1dSar7N_ZoHE9yzqRWz7OPBs4Q3Wh-Dz_4a8L2HKTSrSOnB5fbwHW66ronVjRuY75DtqwU7fbhzTmhi0RYXqA06e18hDVq4gNGORyAasp11mC" alt="Advanced setting in Post Categories block" style="width:278px;height:256px" width="278" height="256" /><figcaption class="wp-element-caption">Advanced setting in Post Categories block</figcaption></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated on 2023-06-27
+<ul class="wp-block-list">
+<li>Renamed &#8216;Post Categories Block&#8217; with &#8216;Categories Block&#8217;</li>
+
+
+
+<li>Updated screenshots/video to 6.2.2</li>
+</ul>
+</li>
+
+
+
+<li>Created 2022-03-21 </li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/categories-block/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15480378</post-id>	</item>
+		<item>
+		<title>Comment  Author Name Block</title>
+		<link>https://wordpress.org/documentation/article/comment-author-name-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-author-name-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Mon, 25 Jul 2022 18:21:41 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15857479</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Comment Author Name block displays the username of the comment’s author. This block is nested inside a Comment Query Loop block and lets you customize the appearance of the comment author’s name. You can only insert the&#160;Comment Author Name Block&#160;inside a Comment Template block within the Comment Query [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Comment Author Name</em> <em>block </em>displays the username of the comment’s author. This block is nested inside a Comment Query Loop block and lets you customize the appearance of the comment author’s name.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/W8ws192vzbEnnYp3b-a5Qjb_DINGddfsc94hNrn_cSQgg7ubKhyfYjIc7M7prfMCQQEfbyuJur4tp9e2MxvJOTm2xt6FSDv0uZFItvTdRxysApBXPxWDJXaBeMbOi6Drg1nKhm7hT9JgF19zF48" alt="Comment Author Name block" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">You can only insert the&nbsp;<em>Comment Author Name Block</em>&nbsp;inside a Comment Template block within the Comment Query Loop block.&nbsp;</p>
+
+
+
+<p>Click the (+) icon inside the Comment Template block to open the block inserter pop-up window and search for the Comment Author Name block.</p>
+
+
+
+<p>You can also use the keyboard shortcut&nbsp;<code>/comment-name</code>&nbsp;to quickly insert a Comment Author Name block inside a Comment Template block.</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" decoding="async" src="https://lh3.googleusercontent.com/txIEMgkjtNGGtNT8pcvQQkbFz7ACLrCjI3zTiqqqKpRJ9wE1Y5uwhzgKzYaIgMOQfGsaCdPxtx007DSXm9F8aURyhiRfZIfebiAaV6ZTrjKtR__2b_MeuOubugAGXIAdu5JMuA2lgYXvHDfq8aI" alt="How to add Comment Author Name block" width="381" height="262" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh3.googleusercontent.com/dMjhJ8D2B-2julWzaOqeDqCgmYaR8jav8Yb2cyTa6yAx0KGkja3iD9zvPZ-Ff06tjtmoFG2-4w6cJA7U6q9-pFps12jgXV43aGG4ivof7fOhcryd1loBwsU_vNPGDEYHISf6HV5fuo5wGEBnbe8" alt="Block toolbar in the Comment Author Name block" /></figure>
+
+
+
+<p>The block toolbar contains the tools to customize each block. The Comment Author Name block’s toolbar is relatively simple with the following tools:</p>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a&nbsp;<em>Comment Author Name block</em>&nbsp;into a Columns, or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.47.01-AM.png" alt="Transform option in the Comment Author Name block" class="wp-image-15882084" width="311" height="188" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.47.01-AM.png 622w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.47.01-AM-300x181.png 300w" sizes="auto, (max-width: 311px) 100vw, 311px" /></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/fm8G-w9xccp22_0x8Ym-3XDKiEqU0jd6se8rgFZNypLVfp7LYcxehYMkWTmxwwKlgat9GtVx1VHQ3Ll2TCfRrH8d2DR4QJ_ou8Gii4zYyXk7qkFtz-tOUSjQZmL4Y5IU1ijthHpOxEtLJ5_XCRw" alt="Block moving tools in the Comment Author Name block" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down the editor. Use the six dots icon to drag and drop the Comment Author Name block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p><strong>Change text alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/TD-UWoEdHs5VRfudIVbGmPBNLp4F3HMlnrEV60jv7-ageUP-5DswDkytbrg4zf8GNEjn5Ihx3W3DFY8LzGVmKp1FDEtvRcSD6z62xen-pDSbRCI1MEeLAlj3ePFJtrjMIvzI_aMum940g6pV7fA" alt="Change text alignment in the Comment Author Name block" width="345" height="245" /></figure>
+
+
+
+<p>Text alignment options lets you choose to align the author&#8217;s name left, center, or right.</p>
+
+
+
+<h3 class="wp-block-heading">More options</h3>
+
+
+
+<p class="has-text-align-center"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/7WxWgQX4pfMgue1zKxMcmZKGpeHTX2PWGu5DRd8NiVvWNk4Qwy2te7obhZdljSgxWKsrlAOOlGhKoRsp-vcJbLlGPYAN50XT1BjSPjZKKbbBUgLgHSWbsFqc43_LAoMMc9ts0Sw_VlAJmDV3W0E" width="316" height="77">&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the cog icon next to the Publish button.</p>
+
+
+
+<p>Here are the options for the Comment Author Name block:</p>
+
+
+
+<h3 class="wp-block-heading">Link</h3>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/nz0HQqzW4zhJg3vfJEBFjWz5-BwGwvwioBZUVvcMJ-ZnDaYnNYeR_nZJlQ12ksTUFFS0BNY2BI3-OIrROicsiXn0HX4RW-M0Yo_DJnBIjWL2Bgy_jIc-UTeWfJzN0qC9Dy-XXRQ6ujAOOdStYCY" alt="Link settings in the Comment Author Name block" width="413" height="197" /></figure>
+
+
+
+<p>In the Link Settings section, you can enable the <em><code>Link to authors URL</code></em> option to link the author’s name to their profile page. When you enable it, the <code><em>Open in new tab</em> </code>option will appear. Enable it if you want the author’s profile page opened in a new tab.</p>
+
+
+
+<h3 class="wp-block-heading">Color</h3>
+
+
+
+<p>Text and background colors can be set on a per-block basis, allowing you to call attention to important content. Pick a color from the suggestions, or add a custom color using the color picker or by adding a color code.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/8KmbAzG8QVIcXTTUGOGm_KbkVI_e24d1hbxmisRMsJLidVTK2EaW6SuNlveiWCPoYm44Ecw9406c2bk65UnTcAQjgzJnQ0_i-fmyfBEhQjaOcaFU0rVaNpY43Um-z6-p8y6e9mexwMFWnEhC2JI" alt="Color settings in the Comment Author Name block" width="361" height="255" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography </h3>
+
+
+
+<p>Typography settings allow you to change a block’s font size, appearance, line height, letter casing, and spacing.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/xNgrQbhA-UkUAbjB3jMjuyY3kBvkfyYuh4tR3CxwA7kD8CEY2bHgJweOAdx9SuBUoRb9Mf5pZFcGuXh9cQAd_qyk8omLRRnrMTVD2jXXklDenTBKIZOqGI1_OcyzKsXK9Q_Qv9Ah3V_-aPeKFKU" alt="Typography settings in the Comment Author Name block" width="373" height="279" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading">Dimension</h3>
+
+
+
+<p>Dimension controls are used to control how groups of blocks are placed alongside one another, by changing the values for padding, margin, and other dimensions</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/bxPWpN_Ggpw5mh8K_7tVo2Bc5ProeTVNe7Hi7xtfcIkT6URCaPoByttAR0IBrO-J92RwCQkUNUXWyiV-iaUSmiePLgIwWs2eMJzOjHd4A14lz7igBgg9RJcXsrVSAnYgMHUvNMsRgsXPfNG-bpQ" alt="Dimension settings in the Comment Author Name block" width="376" height="257" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Learn more about dimension controls.</a></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Advanced </strong></p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/HCaeEAd-xkijY3husAGN8FkRfOokz6h-mLa1vQoT11JIf366WEE4Y3jtoy6CTOJGTpBZELgZPdIewg2ug8pURV5XtFciGwLHJiNwleOvlGte5WnWTug0SYe4p-qBR54_8oR1NwHM" alt="Advanced option in the selected Block" width="361" height="193" /><figcaption class="wp-element-caption">Advanced option in the selected Block</figcaption></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-07-25</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-author-name-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15857479</post-id>	</item>
+		<item>
+		<title>Comment Content Block</title>
+		<link>https://wordpress.org/documentation/article/comment-content-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-content-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Tue, 02 Aug 2022 17:42:48 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15881953</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Comment Content block displays the content of a comment. This block is located inside a Comment Query Loop block and lets you customize the appearance of the comment’s content. You can only insert the Comment Content block inside a Comment Template block within the Comment Query Loop block.&#160; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Comment Content</em> block<em> </em>displays the content of a comment. This block is located inside a Comment Query Loop block and lets you customize the appearance of the comment’s content.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/gRVTZXXPLxClT3RVGZigJ6WWC46zNET1ksAOcXUBnT0Z3DC4lkedLbmczFHnIR6IF560dQ9BstdJBwGfHon-aYAMx_pAgs-vi-Qsxp7v_85zM6NaGo1kIOkGyjSbwsisfTXJQP1kUp2avO6TQ9XXMQ" alt="Comment Content block
+" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">You can only insert the <em>Comment Content </em>block<strong><em> </em></strong>inside a Comment Template block within the Comment Query Loop block.&nbsp;</p>
+
+
+
+<p>Click the (+) icon inside the comment template block to open the block inserter pop-up window and search for the <em>Comment Content</em> block.</p>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/comment-content</kbd> to quickly insert a <em>Comment Content</em> block inside a Comment Template block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh4.googleusercontent.com/LUnzsLp8MFXxxkEfIQOHs_Cojx4HDVjYYOLxqALmBMsm1voVAi4iOuebWxXsfiDyqPafeljB7LXlU2JiMkuy-992rwa189SV2WD3ZcYGUqNBXCcij1OG6KTAO7KZecxdxWbuzhWT9rE-bgn1pb_axQ" alt="How to quickly add a comment content block" style="width:383px;height:360px" width="383" height="360" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>The block toolbar contains the tools to customize each block. The <em>Comment Content</em> block’s toolbar consists of the following tools:</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/l72u01JXFOM9V9tjSKIZknNfKFWVy4cL_bOv1sEo0JnZStNYfQtTc3E9qbEMBniDB8DuvoO9jx4hnN6fpKe0A6sQeQXlApL1H-8iiZsbrlP_RpNyB3PiQQlbf3wiHh4CfZ4LXLX2xjTrrFvvyNbt1w" alt="Block toolbar in the Comment Content block" /></figure>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a <em>Comment Content block</em> into a Columns, or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.18.42-AM.png" alt="Transform option in the Comment Content block" class="wp-image-15882004" style="width:310px;height:190px" width="310" height="190" srcset="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.18.42-AM.png 620w, https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.18.42-AM-300x184.png 300w" sizes="auto, (max-width: 310px) 100vw, 310px" /></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/QiaaQsKqM6rPaHKRuBHFEAzS6QiqyBpytzh0KMCM6j9a7CKKTu_4lKBkDYKIuEdXExIhCWUy6p-sZegC5ARXyeV2IUtT7hshKaUo4vfrWkp1kDmZptodY_MYsQL33wStuxX2xgDhgeaZwrfeibtXxQ" alt="Block moving tools in the Comment Content block" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the <em>Comment Content </em>block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p><strong>Change text alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh3.googleusercontent.com/rVoBlzCsyBk4lvQTSuCuvW91Hww3va24sU3JFcyCKyc34_p5hAoBM7o_e8Bhu34c1ieNjx47qmLXQxNa4jZAFGnF3aQD8obmU1v-Uw-OzYADh8Lb0_NmtpmPgaXK3QG89Z4h3kRBSOo4WcWndr4xcw" alt="Change text alignment in the Comment Content block" /></figure>
+
+
+
+<p>Text alignment options let you align the content of a comment towards the left, center, or right.</p>
+
+
+
+<h3 class="wp-block-heading">More options</h3>
+
+
+
+<p class="has-text-align-center"><img loading="lazy" decoding="async" src="https://lh5.googleusercontent.com/dHwOyTZ-Dm3GhxUDu4yugKgKkvW-LJEXxO3_NFxB1BJ1No84KlzwUtuM5Q3Dvf9OuVswDXiixyzG0ee-LEpdjWl5J6yQP147jg-1qEYShvA_l3eKhArLlRpl4ysu5A7weWlX3y6MFMt3NduFF3k00A" width="249" height="88">&nbsp;</p>
+
+
+
+<p>The <a href="https://wordpress.org/documentation/article/more-options">More Options menu</a> represented by <strong>three vertical dots on the far right of the toolbar</strong> gives you more features such as the ability to duplicate, remove, or edit your block as HTML.&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>Every block has specific options in the editor sidebar in addition to the options found in the block toolbar.&nbsp;<em>If you do not see the sidebar, simply click the &#8216;cog&#8217; icon.</em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM.png" alt="Cog icon to display the Block sidebar" class="wp-image-15765217" style="width:369px;height:93px" width="369" height="93" srcset="https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM.png 492w, https://wordpress.org/documentation/files/2022/06/Screen-Shot-2022-06-23-at-9.39.34-AM-300x76.png 300w" sizes="auto, (max-width: 369px) 100vw, 369px" /></figure>
+
+
+
+<p>Here are the options for the <em>Comment Content</em> block:</p>
+
+
+
+<h3 class="wp-block-heading">Color</h3>
+
+
+
+<p>The <em>comment content block</em> lets you customize the text, and background colors.</p>
+
+
+
+<p>Click on any of the options to change the color. Choose from the default color or click the upper rectangle area to pick a custom color using the color picker.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/8QJvjFgL80IpjB46tPG3W09VtsgAuAOO1oPC5SRIpZebTkAQGOq4_nTQvfjSp8kvFcGk2Uyd_fdjaD0ifDg8g_u6Hi0reTAy-HByp220VMinw6vaj7uHcs-6ayv_zEtNI4rXLWnu6Cbl-uUd0lnhtg" alt="Color settings in the Comment Content block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography</h3>
+
+
+
+<p>Typography settings allow you to change a block’s font size, appearance, line height, letter casing, and spacing.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/IVdARymD8GeNv8AWii9jC3eNLr9O89rN6qcB6OOc7e98FhaZHGoO3SXrVEFdufLXB8p4AGddCSJNu4QA-FJRcb_jISplkAZAnW7USORNQbtOQ2naXEBqqzO0n_8XM0_r8GIxQqWp7qGS9polVkzFig" alt="Typography settings in the Comment Content block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<h3 class="wp-block-heading">Dimensions</h3>
+
+
+
+<p>Dimension controls are used to control how groups of blocks are placed alongside one another, by changing the values for padding, margin, and other dimensions</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.30.47-AM-1.png" alt="Dimension settings in the Comment Content block" class="wp-image-15882035" style="width:396px;height:180px" width="396" height="180" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/typography-settings-overview/"></a><a href="https://wordpress.org/documentation/article/dimension-controls-overview/">Learn more about dimension controls.</a></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Advanced</strong> </p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/WO7ILUEBf3iROKyBmtFpkPhnI9ZXyGV4pVzBWYoQ8-0JzJb-lE3-kITUoTupym9Dq6u53grUknX186VfaDB_WetsU88hEVujsyyMCwFNXmeDjIzFuCdogQZkNv_STu4yp_sjnPtzqTYJXXIVTSuo0g" alt="Advanced settings in the Comment Content block" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-08-02</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-content-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15881953</post-id>	</item>
+		<item>
+		<title>Comment Date Block</title>
+		<link>https://wordpress.org/documentation/article/comment-date-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-date-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Mon, 25 Jul 2022 17:15:51 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15857170</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Comment Date Block displays the date on which a comment was posted. This block is located inside a Comment Query Loop block and allows users to edit the appearance of the comment date.&#160; You can only insert the Comment Date Block inside a Comment Template block within the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Comment Date</em> <em>Block</em> displays the date on which a comment was posted. This block is located inside a Comment Query Loop block and allows users to edit the appearance of the comment date.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" decoding="async" src="https://lh4.googleusercontent.com/P1T4j6VrNLnePmR12_r8K3QKMppdmoku7XDCvC4X5PzeeRDZpq5KbyFnaf2w1sYOKA9NKG2FBm79OhZ6ie4vGrCXRAiP7mqiHwmIdLGi6hByIrFPP8HZ-9M74RTjilIlYT3eV9Gw9qrfT606T_Fr4Q" alt="Comment Date inside the Comment Template block within the Comment " style="width:567px;height:444px" width="567" height="444" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">You can only insert the <em>Comment Date Block</em> inside a Comment Template block within the Comment Query Loop block.&nbsp;</p>
+
+
+
+<p>Click the (+) icon inside the Comment Template block to open the block inserter pop-up window and search for the Comment Date Block. </p>
+
+
+
+<p>You can also use the keyboard shortcut <code>/comment-date</code> to quickly insert a Comment Date block inside a Comment Template block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/kasTjALjXSxbLHp0F1sMvnlIBzN64PbppKm2afgTV8ZyW_GEXWchvCmxAYJj05pwx33gwm07ExpI0eyoIyj5ey4etH2MZNl0hDJ9ZREtgxNbHHVpSJJFbrPzKVxBGDzDtCppvQRxQ-hZbIlqxdDPDQ" alt="How to add a Comment Date block" style="width:365px;height:337px" width="365" height="337" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/b2nvjTIuBGivg3wBQVZM2aNxJkPETPtjyzL27OYTbdeb8uvnrozpgUaQSllkCNeuOOKw0fh4FXsWFWsPu0TlyIL91hm-iIeKTwIDVQUWMx_Z67ZvG0XiwgkrQTEAkdDkejcbYEtpnTW27qhG75vgpQ" alt="Block toolbar in the Comment Date block" /></figure>
+
+
+
+<p>The block toolbar contains the tools to customize each block. The Comment Date Block’s toolbar consists of the following tools:</p>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a&nbsp;<em>Comment Date block</em>&nbsp;into a Columns, or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-02-at-10.50.22-AM-1.png" alt="Transform option in the Comment Date block" class="wp-image-15882095" style="width:313px;height:187px" width="313" height="187" /></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/BMUqC-W5K9GJvX8HaqNeEogwmfCjPx_BNIE1gU-JxFZ2muYyYP9ZVsJD2FYMtqsflOV7MuZHlrHeg_ZWw5U_RSPuqF3fKQyRXgf7i0GO8u0aaDECNm1VSClDc7SmXIjwHPXOVfTMtphXa8o3VJpuxA" alt="Moe tools in the Comment Date block" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the <em>Comment Date Block</em> and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p><strong>More options</strong></p>
+
+
+
+<p>The <a href="https://wordpress.org/documentation/article/more-options">More Options menu</a> represented by <strong>three vertical dots on the far right of the toolbar</strong> gives you more features such as the ability to duplicate, remove, or edit your block as HTML.&nbsp;</p>
+
+
+
+<p class="has-text-align-center"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/3ZRruou9uwU_69EM8ikcNkCMP4HQ7fT_CHDyGi8l5XazSv7iLJNSaQWDUL01XCN-lHB3dWO9UAyvkj2VD93pQWD7OVk-YPnccKf0ZJTfQdZzmwUnUGf0ovVasghk3SsiyLms23wvNckgypR9Z9DQyQ" width="188" height="67">&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the cog icon next to the Publish button.</p>
+
+
+
+<p>Here are the options for the <em>Comment Date Block</em>:</p>
+
+
+
+<h3 class="wp-block-heading">Settings</h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/gaunkTZ656nCecmi8YPqCKSq439XJluhKVfB-NYsumTL4LJwqQhfh3-ZimLe_Cjyn2TxDSF11Npiy1ARejTYqhZuvOIsBOZESSYp4M0yxntzO23jC4xZbQWqkwQVTd_rbUft7gWgkr59kWDoEvHGSg" alt="Block settings in the Comment Date block" /></figure>
+
+
+
+<p>In the Settings tab, you can select the Date format. By turning on the <em>Default format</em><strong><em> </em></strong>option, you can choose to use the default date format. When this setting is turned off, you can select the preferred date format from the drop-down list or enter a custom date or time <a href="https://wordpress.org/documentation/article/formatting-date-and-time/">format</a>.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-25-at-9.47.41-AM-2-524x1024.png" alt="Changing the Default date format in the Comment Date block" class="wp-image-15857269" style="width:262px;height:512px" width="262" height="512" /></figure>
+
+
+
+<p>You can also turn on/off the  &#8216;<em>Link to comment&#8217;</em> switch. Turning on this button will link the date field to the specific comment.</p>
+
+
+
+<h3 class="wp-block-heading">Color </h3>
+
+
+
+<p>The <em>Comment Date Block</em> lets you customize the text, background, and link color. Click on any of the options to change the color. Choose from the default color or click the upper rectangle area to pick a custom color using the color picker.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-25-at-9.55.47-AM-1-1024x530.png" alt="Color settings in the Comment Date block" class="wp-image-15857281" style="width:363px;height:188px" width="363" height="188" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography </h3>
+
+
+
+<p>To access all the typography options click on the 3-dot button in the right corner of the Typography tab. You also have the option to Reset all the typography changes you made by clicking on the Reset all option in the dropdown.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-25-at-10.04.20-AM.png" alt="Reset all typography settings" class="wp-image-15857314" style="width:284px;height:367px" width="284" height="367" srcset="https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-25-at-10.04.20-AM.png 568w, https://wordpress.org/documentation/files/2022/07/Screen-Shot-2022-07-25-at-10.04.20-AM-232x300.png 232w" sizes="auto, (max-width: 284px) 100vw, 284px" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p><strong>Advanced</strong></p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/HCaeEAd-xkijY3husAGN8FkRfOokz6h-mLa1vQoT11JIf366WEE4Y3jtoy6CTOJGTpBZELgZPdIewg2ug8pURV5XtFciGwLHJiNwleOvlGte5WnWTug0SYe4p-qBR54_8oR1NwHM" alt="Advanced option in the selected Block" style="width:283px;height:151px" width="283" height="151" /><figcaption class="wp-element-caption">Advanced option in the selected Block</figcaption></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-07-25</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-date-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15857170</post-id>	</item>
+		<item>
+		<title>Comment Edit Link block</title>
+		<link>https://wordpress.org/documentation/article/comment-edit-link-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-edit-link-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Wed, 17 Aug 2022 20:28:46 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15925767</guid>
+
+					<description><![CDATA[Go back to the list of Blocks The Comment Edit Link block displays a link to edit the comment in the WordPress Dashboard. This block is located inside a Comment Query Loop block and lets you customize the appearance of the Edit link. The Edit link is only visible to users who have permission to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go back to the list of <strong>Blocks</strong></a></p>
+
+
+
+<p>The <em>Comment Edit Link</em> block<em> </em>displays a link to edit the comment in the WordPress Dashboard. This block is located inside a Comment Query Loop block and lets you customize the appearance of the <em>Edit</em> link. The Edit link is only visible to users who have permission to edit the comments. </p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/Etn_Cdnm_ZqltESNqnhwzEgs2ciR4963Z2Z_mGsAMJ3gBIgHziRpaFGz50hp1YND2012SWa2esensjMgu8WbmHfi-DQUo1h7zEjIFmV9ueOirM_xYaXZU-wS1rbILCyaD4KNky87uTo42U7hxhYlAvM" alt="Comment Edit Link Block" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">You can only insert the <em>Comment Edit Link </em>block inside a Comment Template block within the Comment Query Loop block.&nbsp;</p>
+
+
+
+<p>Click the (+) icon inside the comment template block to open the block inserter pop-up window and search for the <em>Comment Edit Link</em> block.</p>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/comment-edit-link </kbd>to quickly insert a <em>Comment Edit Link </em>block inside a Comment Template block.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/9i0Qm7O0PH2pmIspNc1-riYInA2dIYY2FXUX-g3lzahToaO58fkcbg4Q-7RTvYJrd_GpEDuRYW4aaHr-8oThNBRYPiQa4RU0JjPPJVbpvHtuZjMFiEJEi949XcJ-lvsjW3Jr6IknbY7Ayew6bkmq8H4" alt="How to quickly add Comment Edit Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/JiTw2U4ihM-oYWUCzSmRGAnXORmMeJrJPOoAQigl-AIyKRAXZgZFq7WbW9IcdFn7-8BaYo4aQ_7poTIhBT6vuThuHbkJjKZU_MivwTdp70roKQeaHYfGmkf1sn7mXn_tHhm-90YKyPbJsd0qSWj_Xes" alt="Block toolbar in the Comment Edit Link Block" /></figure>
+
+
+
+<p>The block toolbar contains the tools to customize each block. The <em>Comment Edit Link</em> block’s toolbar consists of the following tools:</p>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a <em>Comment Edit Link</em> block into a Columns block, or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/_S0k29y0Jml0J0lbegtBGx1O592x8hz4zviRDnip27li6j3ZwLfPZSFPPUmevdME8FPA4iHnsr9M1VOYRJltB1TKvPyNhXJR0dOQntUkB7HHroYTKllUV_XL3BbSs2xXS5ejfnkm3jafqGXph7AtTI4" alt="Transform tool in the Comment Edit Link Block" /></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/2INT3sQI5ucaBnGfcka60CaNHv_9E_XB83tSE8QOgI0rNpuh1evCA_o5f9Ys2_zWso4O8mxH7bxoHOxZ68wbq3QIO1XE1AXKlcqrhGIRbsfTNUvGWHAem8APjeTSg5OrKD5Xum7qETw7o4-zTY-lrdM" alt="Block moving tool in the Comment Edit Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the <em>Comment Edit Link</em> block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p><strong>Change text alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/vU6R-1ERLgGvB6ge4VWxviFFxUTNz5z2STAVfNU4WreWxLTg1Shvoqwr8t8NkBcv-ksDTgNJLOoHpYV9SDpzN2bEPGY9RKm23gC6v1JNJh7uhW43YnOpna3PWo1bIpcgeliG8nTIJfZCJwKz6bH0Jqw" alt="Change test alignment in the Comment Edit Link Block" /></figure>
+
+
+
+<p>Text alignment options let you align the Edit button towards the left, center, or right.</p>
+
+
+
+<p><strong>More options</strong></p>
+
+
+
+<p>The <a href="https://wordpress.org/documentation/article/more-options">More Options menu</a> represented by <strong>three vertical dots on the far right of the toolbar</strong> gives you more features such as the ability to duplicate, remove, or edit your block as HTML.&nbsp;</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the cog icon next to the Publish button.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/sSMTBA3_o6Epdt04MxDbEhH6GGCry5XMczTjrk2d9c6_SS1YTfC6koOgjIrrRCWI4iFMVHeJcfFOo5FZNAECdYqu-WEQBLwr2Fmv8XM9eWQx1p9YokxXhpaZ-M_PLqvut4NIRiUBemVmyvbkn1S9wWk" alt="The cog icon in the Comment Edit Link Block to show the Block settings" /></figure>
+
+
+
+<p>Here are the options for the <em>Comment Edit Link</em> block:</p>
+
+
+
+<h3 class="wp-block-heading">Link </h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/GB8DUreZ0U2QeMREMvH5Ie35YD8p-Pbfiscm1WsSum-lNd2do0PSS8tqgtgrt3bx1tgl9QOUwtsVMQ9TRC6UfHLf4Gqi1dOwnlSjnRoPpTwQ9mvDVsYphVxhlODyYk29rZ8Gd-jYzqwmPI7y8Mifi_c" alt="Link settings in the Comment Edit Link Block" /></figure>
+
+
+
+<p>In the Link Settings section, you can enable the <em>open in new tab</em> option, and if enabled, will open the link editing page in a new tab.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Color </h3>
+
+
+
+<p>The Comment Edit Link block lets you customize the background and link color.&nbsp;</p>
+
+
+
+<p>Click on any of the options to change the color. Choose from the default color or click the upper rectangle area to pick a custom color using the color picker.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/GtRXsjbMRTO6BdBGAYKtqsbJgLkAbODDg_H3eb4gYti7xUADJo-5QNE2eyMuZEH3tOtv8haERkT7C-r0HKFtOQ2IuoOjq2QMuk-lNozU6CT5z-NaVqRFD_FdDhIqxd3mTKSoQF7fcfVU5dF4fa5Mo5o" alt="Color settings in the Comment Edit Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank"></a><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography </h3>
+
+
+
+<p>Typography settings allow you to change a block’s font size, appearance, line height, letter casing, and spacing.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/4CtOEYvzro1vUIM76cwJ4HrVVbso67QPopgXC1pmfcWy3FLOI8jOHufiY_0QHzOvBFh_0CTSe7MRmXwdYo9Jwrr6l5uonKsbLVIlFHVq6_VI3golex0N7vIzUrnW1pXCWVM9CsAdzaC3gfSF2h5Udcw" alt="Typography settings in the Comment Edit Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank"></a><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p><strong>Advanced settings</strong></p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/Jr-mF6xUU5zInmiQUD9AbqdU21aZK5xSbxLbw72MlqkHhYZxs8MR54v_ihX9q6mWDXBC1uBEybi7CvOUWI0DdmLDqfNE0vaMVQVpeyGdrk1rf-knIf7i3G4hb2Ov_X7TWQ70rksIoncXm6y5dFL4vE8" alt="Advance settings in the Comment Edit Link Block" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-08-17</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-edit-link-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15925767</post-id>	</item>
+		<item>
+		<title>Comment Reply Link block</title>
+		<link>https://wordpress.org/documentation/article/comment-reply-link-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-reply-link-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Wed, 17 Aug 2022 19:47:27 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15925630</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Comment Reply Link block displays a link to reply to a comment. This block is located inside a Comment Query Loop block and lets you customize the appearance of the Reply link. You can only insert the Comment Reply Link block inside a Comment Template block within the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Comment Reply Link</em> block<em> </em>displays a link to reply to a comment. This block is located inside a Comment Query Loop block and lets you customize the appearance of the <em>Reply</em> link.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh4.googleusercontent.com/2qkG0uLJ3t45aQx2_6X3nDsuc0_hawJhKH96SuSz8DuHBT46XOM38iwR2a0qShWjk24fqsBaXYkQoZf6hCQEqhPzLl6cWT79rdQMCx4VWg7sAETiqxGkKutyslXenkCTQ6h7-5VK3b_jiEsetjlvc-k" alt="Comment Reply Link Block" /></figure>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">You can only insert the <em>Comment Reply Link block inside</em> a Comment Template block within the Comment Query Loop block.&nbsp;</p>
+
+
+
+<p>Click the (+) icon inside the comment template block to open the block inserter pop-up window and search for the <em>Comment Reply Link</em> block.</p>
+
+
+
+<p>You can also use the keyboard shortcut <kbd>/comment-reply-link</kbd> to quickly insert a <em>Comment Reply Link </em>block inside a Comment Template block.</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/qzz5T7BXN33y4o_aYdisYXEd4dWwuxtglkR7wKQXlcFJ7wWVK_ZZBp6bb5Hn0TjlKBOjpn61hkOO3z_FOtfF3aPwUw6iYZ4D7kCYQJMwGcjDp3FMUY0kpZQJuBKeurt14ZOR_u4Zrh8h3NsK3yQ7Xbs" alt="How to quickly add a Comment Reply Link Block" style="width:369px;height:357px" width="369" height="357" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/">Detailed instructions on adding blocks</a></p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/BeMk7rRjEPCTc3NOEAnYbvKdpjvvffn6gTek7ZbpRM635PB5NDUyjLsmZeoie22r1lMtJByLe6xcvi7CYuKnArc7uSDlNRHlWYFIelkrfyg9CAFRShjSpfOMbOBgJkJcOHHjypQXgxjhDQl9X04KqwE" alt="Block toolbar in the Comment Reply Link Block" /></figure>
+
+
+
+<p>The block toolbar contains the tools to customize each block. The <em>Comment Reply Link</em> block’s toolbar consists of the following tools:</p>
+
+
+
+<p><strong>Transform to</strong></p>
+
+
+
+<p>You can transform a <em>Comment Reply Link</em> block into a Columns block or a Group block.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/J6mKf2Rrh-lzXBkV8DugIRjlWWeOrphkvOy7-E6teMYfuml_ulzHypOTIIk2clxvuxrhpPNZsJrlOtgHNL8-f2ajSmXgnIqV5uV0OIfiaK2x-BUPLCkOI4548Qd0hJD-y3ldvP-qB7xZp1ZSQHcDvjw" alt="Transform option in the Comment Reply Link Block" /></figure>
+
+
+
+<p><strong>Block-moving tools</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/zerLYnIAfvt1oLwK43IfX77l45_Y0WcXwviqoIpkrdrKz3qDnbnUCJLpKWdW24JVoj4WK7DGtCJRPcZHjnXVKtUbPR67DZX_Sy54a8h7m0x7CXCPFyAA046qBYnftJnDhHjOtHGxMkq6WfZLLEKpNgU" alt="Block moving tools in the Comment Reply Link Block" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the <em>Comment Reply Link</em> block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p><strong>Change text alignment</strong></p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh3.googleusercontent.com/h618HMcHPRguRHMmeq6XgU7F2_UyUVOe1W6LtV1ddQBpuMKvB2XkIAZrlzmIx0-n0vdn1Kmmkhe4r0IpGwjAd-_3Ryti4mFdo54SiswmOIfTratt8kHceJuBp8XWwWHGvS3ZHA3hdoMRfyAQl8e3bUU" alt="Change text alignment in the Comment Reply Link Block" /></figure>
+
+
+
+<p>Text alignment options let you align the Reply button towards the left, center, or right.</p>
+
+
+
+<p><strong>More options</strong></p>
+
+
+
+<p class="has-text-align-center"><img loading="lazy" decoding="async" width="286" height="70" src="https://lh3.googleusercontent.com/sL3Gq4hftCL805JJlLvDjLvxZgzvCgI2h9utgz6l9KI3d8QA3LwBFX39cNYqRodnpAnUHnUTZw8v1CtP4oAdoD-I4wQSTpEOnzAff485usY4wV4EWog6XvyZz7kXet8dePFOESCiUW38aYuiqyxwnoI"></p>
+
+
+
+<p>The <a href="https://wordpress.org/documentation/article/more-options">More Options menu</a> represented by <strong>three vertical dots on the far right of the toolbar</strong> gives you more features such as the ability to duplicate, remove, or edit your block as HTML. </p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the cog icon next to the Publish button.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/HtGEIdSPLZrFI2qjZV4mkowTN7imirz2GTj-4qTYPQqJQNGOnxXmvNZVLP82ttInuHgdbWoaexr8q7C6qyksXpl26pNYh34vXwF92YwMp2jOSKVSKMpsAbkggYwgCPEOc-2kkaA0mzXRaK-lad0x2sY" alt="The cog icon next to the Publish button to show the Block settings" /></figure>
+
+
+
+<p>Here are the options for the <em>Comment Reply Link</em> block:</p>
+
+
+
+<h3 class="wp-block-heading">Color </h3>
+
+
+
+<p>The Comment Reply Link block lets you customize the background and link color.&nbsp;</p>
+
+
+
+<p>Click on any of the options to change the color. Choose from the default color or click the upper rectangle area to pick a custom color using the color picker.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh3.googleusercontent.com/IbApTu0gzDVNuFFjCFqijp_NVC1-OOfh8-sQTrxhnDV3RxXMdeWu-zqao0CXJSQj5ZWaRA-1ajwcWP-ipKbx-GKQE7rfTt-F0jsjYojMenFEruc2FXNbcF-Wm_acdFqQ2xca2rWSokleO6B8JKNlyGM" alt="Colors settings in the Comment Reply Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/colors-settings-overview/">See this guide for more information about changing colors.</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography </h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/MGFlPOoJjFHQGcNOEDZ9MEQniYI_J4dry5fWVy8n-srhzNBZdea-6c_c6FNeX7__g74Wt03EkPrOUiY6qwbXi5uB_xuRYDugclKXg_6D0PM1UbRYiDPUiqKfL2zoKV_Mnx3__RIfF1N4NIWwiuQfrpY" alt="Typography settings in the Comment Reply Link Block" /></figure>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/more-options/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Advanced</strong> </p>
+
+
+
+<p>The “Advanced” tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh5.googleusercontent.com/ckfgZkm-prUVZ3SdtlBW01dfdZMpLZZ8B7hucydlrZju74zVp_Clb4JbhqeQ8VejiSQenIWcnLrFVFdWOUiiHDVAsYhqcXXJ14TWCOINunxjsirnRCFBZXbujhkOxg0isgsYxI33uaX6dFl6BRmmGmo" alt="Advanced settings in the Comment Reply Link Block" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Created 2022-08-17</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-reply-link-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15925630</post-id>	</item>
+		<item>
+		<title>Comment Template block</title>
+		<link>https://wordpress.org/documentation/article/comment-template-block/</link>
+					<comments>https://wordpress.org/documentation/article/comment-template-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Fri, 19 Aug 2022 15:46:41 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/support/?post_type=helphub_article&#038;p=15930049</guid>
+
+					<description><![CDATA[Go to the List of Blocks The Comment Template block is a part of the Comments block. It contains block elements to display comments, such as the comment author, avatar, and comment content. How to use the Comment Template Block When you add a Comments block, the Comment Template block is included by default. Also, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/documentation/article/blocks/">Go to the List of Blocks</a></p>
+
+
+
+<p>The <em>Comment Template </em>block is a part of the <em>Comments </em>block. It contains block elements to display comments, such as the comment author, avatar, and comment content.</p>
+
+
+
+<h2 class="wp-block-heading">How to use the Comment Template Block</h2>
+
+
+
+<p>When you add a Comments block, the <em>Comment Template</em> block is included by default. Also, you can only insert a <em>Comment Template</em> block inside a Comments block. Since the <em>Comment Template</em> is a part of the Comments block, the content will change on the front-end depending on the query.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/lTEIwsk3Kl0fo5UgsiAQCEAGCYKFcEfHeLy3Iwp0kvti6KmwzgrbN2yl_NQaPo2l1JKn3MAK14vqmtmWsa1N0f4T6_dq-s6Zeoelm1hdPxwgN--ih6QW11fgMOl4Ndv6uvu2gh2_TJfRQIoSbYvDWg8" alt="Comment Template block" /></figure>
+
+
+
+<p>To add a <em>Comment Template</em> block, click the block inserter icon (<strong>+</strong>) inside the Comments block to open the block inserter pop-up window and search for the <em>Comment Template</em> block.</p>
+
+
+
+<p>You can also use the keyboard shortcut<kbd> /comment-template</kbd> to insert a<em> Comment Template</em> block quickly.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f4fa">Check the detailed instructions on how to add a block <a href="https://wordpress.org/support/article/adding-a-new-block/">here</a>.</p>
+
+
+
+<p>When the <em>Comments </em>block is added in the post editor, the <em>Comment Template </em>block will display the actual comments on the post and use a &#8220;No results found&#8221; placeholder when there&#8217;s no comment on the post yet.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="678" height="190" src="https://wordpress.org/documentation/files/2023/04/image-4.png" alt="No results found placeholder" class="wp-image-16356669" srcset="https://wordpress.org/documentation/files/2023/04/image-4.png 678w, https://wordpress.org/documentation/files/2023/04/image-4-300x84.png 300w" sizes="auto, (max-width: 678px) 100vw, 678px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>To view the block toolbar, click on the block, and the toolbar will be displayed.</p>
+
+
+
+<p>Every block has unique toolbar icons and blocks specific user controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The <em>Comment Template </em>block shows the following buttons:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/04/image-2.png" alt="Comment Template block toolbar" class="wp-image-16356622" width="401" height="79" srcset="https://wordpress.org/documentation/files/2023/04/image-2.png 534w, https://wordpress.org/documentation/files/2023/04/image-2-300x59.png 300w" sizes="auto, (max-width: 401px) 100vw, 401px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>Select Comments block</li>
+
+
+
+<li>Transform to</li>
+
+
+
+<li>Drag icon</li>
+
+
+
+<li>Move arrows</li>
+
+
+
+<li>Align</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Select Comments block</h3>
+
+
+
+<figure class="wp-block-image aligncenter is-resized"><img loading="lazy" decoding="async" src="https://lh6.googleusercontent.com/umhCYzt--ADX979nT2LxlCAWPeH6yAwE6-4L9E4KKg8a_F1msm8C30bk1RAKtmukHGW9jA8i8Ec-LZvsucPkF6hGIlCbTdGwI1-dtCY2ANE97AnN0k_Ksf9TTPl3H4zbjijNNQkOkqDErKPyCamFROs" alt="Select Comments Query loop block in the Comment Template block" width="333" height="64" /></figure>
+
+
+
+<p>This button will select the Comments block, as it’s the parent block of the <em>Comment Template</em> block.</p>
+
+
+
+<h3 class="wp-block-heading">Transform to</h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/Ry6U7hQF-dK7ymftQ7EBK44tm_DAOQNYinwPZBBzOAI9KDZhwz_y9tsS15NbeRVUjgu7FHqiO5M212Y4_w8pTGR1yoE9mUOw6_l2OsxDgX5kCRLvUgRikXVS4zqK_vQejCL0AHRh5xTUd7fMEZ-efJU" alt="Transform tool in the Comment Template block" /></figure>
+
+
+
+<p>When you click the Transform button, you can convert the <em>Comment Template</em> block into another block type using the existing content.</p>
+
+
+
+<h3 class="wp-block-heading">Block-moving tools</h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/V4_YnsO5F7wlEIOSc33Vu0Tz-Ajn5EMwSEw3y7tXkAP1sP5RHGvDMrpPVsGH84GU93pPb1iq9G5W6jCOZ74dZyfrYJtvoW4Nhjs6ejqJM3Y3E9ml8oFL5DPN14TDBIN9A6hyKu-LPPzuy1l5sKE3WBU" alt="Block moving tools in the Comment Template block" /></figure>
+
+
+
+<p>Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the <em>Comment Template</em> block and reposition it anywhere on the Comments block. Alternatively, click on the up and down arrows to move the block up or down the editor.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f4fa"><a rel="noreferrer noopener" href="https://wordpress.org/documentation/article/moving-blocks/" target="_blank">Get more information about moving a block within the editor.</a></p>
+
+
+
+<h3 class="wp-block-heading">Change alignment</h3>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh6.googleusercontent.com/bNvmJvjbNQmN5jA-RKKIN2DqFdER-pjIL9vV50-WOboCc_6Aii8BA_0tUxJFmXxjMPAGGbirQCjgNTql8TS-h28zudQJttBHObNN25mmdyrdQtnFun6dnH_PNXCJY_6a04a1DOx2wMKx08sTB12nIKY" alt="Change alignment in the Comment Template block" /></figure>
+
+
+
+<p>The <em>change alignment </em>tool is used for the <em>Comment Template</em> block’s position inside the Comments Query Loop block. Choose one of the following block alignment options:</p>
+
+
+
+<ul class="wp-block-list">
+<li>None</li>
+
+
+
+<li>Align left</li>
+
+
+
+<li>Align center</li>
+
+
+
+<li>Align right</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Options</h3>
+
+
+
+<p>The <strong>Options </strong>button on a block toolbar gives you more features to customize the block.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f4fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <strong>Settings </strong>button next to the <strong>Publish </strong>button.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="611" height="83" src="https://wordpress.org/documentation/files/2023/04/image-3.png" alt="" class="wp-image-16356623" srcset="https://wordpress.org/documentation/files/2023/04/image-3.png 611w, https://wordpress.org/documentation/files/2023/04/image-3-300x41.png 300w" sizes="auto, (max-width: 611px) 100vw, 611px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Typography</h3>
+
+
+
+<p>Typography settings allow you to change a block’s font size, appearance, line height, letter casing, and spacing.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f4fa"><a href="https://wordpress.org/documentation/article/adding-a-new-block/"></a><a href="https://wordpress.org/documentation/article/typography-settings-overview/">Get more details about changing typography settings.</a></p>
+
+
+
+<h3 class="wp-block-heading">Dimensions</h3>
+
+
+
+<p>The <em>Comment Template</em> block provides dimension settings options to change padding and margin size.</p>
+
+
+
+<p class="has-text-align-left has-background" style="background-color:#e5f4fa"><a href="https://wordpress.org/documentation/article/dimension-controls-overview/" data-type="URL" data-id="https://wordpress.org/documentation/article/dimension-controls-overview/">For details, refer to this support article: Dimensions Settings Overview.</a></p>
+
+
+
+<h3 class="wp-block-heading">Advanced<strong> </strong></h3>
+
+
+
+<p>The <em>Comment Template </em>block only has Advanced settings in the block settings panel. The “Advanced” settings tab lets you add CSS class(es) to your block. This will allow you to write custom CSS and styles to the block.</p>
+
+
+
+<figure class="wp-block-image aligncenter"><img decoding="async" src="https://lh4.googleusercontent.com/gs2hOarzNyh6o14MPEE5X8prsS03ZhIhXTcO8XcvNm67zbqYLCrnUkKj3OymVjS42z9V6W5YsDnngWVKhWictE_d0C6H8fNWSiMro2--JBbBWWubXQ7Gd8vUmDaWfErS4I4ILoHOb6yzJLMmJjWWVE0" alt="Block settings in the Comment Template block" /></figure>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-04-11
+<ul class="wp-block-list">
+<li>Added &#8220;no results found&#8221; placeholder</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-04-05
+<ul class="wp-block-list">
+<li>Updated images for 6.2</li>
+
+
+
+<li>Added dimensions support</li>
+</ul>
+</li>
+
+
+
+<li>Created 2022-08-19</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comment-template-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15930049</post-id>	</item>
+		<item>
+		<title>Comments block</title>
+		<link>https://wordpress.org/documentation/article/comments-block/</link>
+					<comments>https://wordpress.org/documentation/article/comments-block/#respond</comments>
+		
+		<dc:creator><![CDATA[Femy Praseeth]]></dc:creator>
+		<pubDate>Tue, 14 Feb 2023 15:18:55 +0000</pubDate>
+				<category><![CDATA[Customization]]></category>
+		<category><![CDATA[Theme blocks]]></category>
+		<guid isPermaLink="false">https://wordpress.org/documentation/?post_type=helphub_article&#038;p=16355697</guid>
+
+					<description><![CDATA[Go to the list of Blocks The Comments block is an advanced block that displays post comments with various visual configurations. It contains multiple blocks to show comments, such as Comments Title, Comment Template, Comment Pagination, and Post Comments Form. With the Comments block, adding a comment section to your posts becomes effortless. To add [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-right has-small-font-size"><a href="https://wordpress.org/support/article/blocks/">Go to the list of Blocks</a></p>
+
+
+
+<p>The <em>Comments</em> block is an advanced block that displays post comments with various visual configurations. It contains multiple blocks to show comments, such as <a href="https://wordpress.org/support/article/comments-title-block/">Comments Title</a>, <a href="https://wordpress.org/support/article/comment-template-block/">Comment Template</a>, <a href="https://wordpress.org/documentation/article/comment-pagination-block/">Comment Pagination</a>, and <a href="https://wordpress.org/support/article/post-comments-form-block/">Post Comments Form</a>. With the Comments block, adding a comment section to your posts becomes effortless.</p>
+
+
+
+<p>To add the <em>Comments</em> block, open the block inserter by clicking the (<strong>+</strong>) icon on the upper left corner of the editor. After that, look for Comments using the search bar and click it to insert the block into the editor.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1426" height="634" src="https://wordpress.org/documentation/files/2023/05/comments.gif" alt="A demonstration on how to add and use Comments block" class="wp-image-16356829" /></figure>
+
+
+
+<p>Alternatively, you can type <kbd>/comments </kbd>on the editor to insert the <em>Comments</em> block manually.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">Detailed instructions on adding blocks can be found <a href="https://wordpress.org/support/article/adding-a-new-block/">here</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Block toolbar</h2>
+
+
+
+<p>Most blocks have their own block-specific controls that allow you to manipulate the block right in the editor.</p>
+
+
+
+<p>The <em>Comments Block</em> shows the following buttons:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Transform to</li>
+
+
+
+<li>Moving handles</li>
+
+
+
+<li>Change alignment</li>
+
+
+
+<li>More options</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading has-heading-3-font-size">Transform to</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image-6.png" alt="The transform button on the Comments block toolbar" class="wp-image-16356837" width="421" height="104" srcset="https://wordpress.org/documentation/files/2023/05/image-6.png 421w, https://wordpress.org/documentation/files/2023/05/image-6-300x74.png 300w" sizes="auto, (max-width: 421px) 100vw, 421px" /></figure>
+
+
+
+<p>The Transform to button lets you change the <em>Comments</em> block into a Columns or a Group block. </p>
+
+
+
+<h3 class="wp-block-heading has-heading-3-font-size">Moving handles</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="460" height="126" src="https://wordpress.org/documentation/files/2023/05/image6.png" alt="The block moving tools on the Comments block toolbar" class="wp-image-16356838" srcset="https://wordpress.org/documentation/files/2023/05/image6.png 460w, https://wordpress.org/documentation/files/2023/05/image6-300x82.png 300w" sizes="auto, (max-width: 460px) 100vw, 460px" /></figure>
+
+
+
+<p>The dotted icons can be used to drag and drop a block to the place of your choosing. The up and down arrow icons can be used to shift a block up and down in your document.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/moving-blocks/">Get more information about moving a block within the editor.</a></p>
+
+
+
+<h3 class="wp-block-heading has-heading-3-font-size">Change alignment</h3>
+
+
+
+<p>You can modify the alignment of the <em>Comments</em> block using this tool. Click on the icon and select one of the following alignment options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>None</strong></li>
+
+
+
+<li><strong>Wide width</strong> – Increase the width of the block beyond the content size.</li>
+
+
+
+<li><strong>Full width</strong> – Extend the block to cover the full width of the screen.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image1.png" alt="The change alignment options on the Comments block toolbar" class="wp-image-16356839" width="669" height="326" srcset="https://wordpress.org/documentation/files/2023/05/image1.png 892w, https://wordpress.org/documentation/files/2023/05/image1-300x146.png 300w, https://wordpress.org/documentation/files/2023/05/image1-768x374.png 768w" sizes="auto, (max-width: 669px) 100vw, 669px" /></figure>
+
+
+
+<p>When you transform the <em>Comments</em> block into a Columns block, the toolbar will show an additional tool called Change vertical alignment with three options:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Align top</strong> – makes the block top-aligned.</li>
+
+
+
+<li><strong>Align middle</strong> – lets you align the block to the center.</li>
+
+
+
+<li><strong>Align bottom</strong> – makes the block right-aligned.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image3.png" alt="The vertical alignment options on the Comments block toolbar" class="wp-image-16356840" width="656" height="350" srcset="https://wordpress.org/documentation/files/2023/05/image3.png 874w, https://wordpress.org/documentation/files/2023/05/image3-300x160.png 300w, https://wordpress.org/documentation/files/2023/05/image3-768x409.png 768w" sizes="auto, (max-width: 656px) 100vw, 656px" /></figure>
+
+
+
+<h2 class="wp-block-heading has-heading-3-font-size">Options</h2>
+
+
+
+<p>The <strong>Options </strong>button on a block toolbar gives you more features to customize the block. </p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa"><a href="https://wordpress.org/documentation/article/more-options/">Read about these and other settings.</a></p>
+
+
+
+<h2 class="wp-block-heading">Block settings</h2>
+
+
+
+<p>The block settings panel contains customization options specific to the block. To open it, select the block and click the <em>Settings</em><strong> </strong>button next to the <em>Publish</em><strong> </strong>button.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image7.png" alt="The block settings icon" class="wp-image-16356841" width="485" height="77" srcset="https://wordpress.org/documentation/files/2023/05/image7.png 646w, https://wordpress.org/documentation/files/2023/05/image7-300x47.png 300w" sizes="auto, (max-width: 485px) 100vw, 485px" /></figure>
+
+
+
+<p>It’s possible to change the <em>Color</em>, <em>Typography,</em> and <em>Dimensions</em> settings. To access them, open the <em>Styles </em>section:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image4-464x1024.png" alt="The styles tab" class="wp-image-16356842" width="348" height="768" srcset="https://wordpress.org/documentation/files/2023/05/image4-464x1024.png 464w, https://wordpress.org/documentation/files/2023/05/image4-136x300.png 136w, https://wordpress.org/documentation/files/2023/05/image4.png 536w" sizes="auto, (max-width: 348px) 100vw, 348px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Color</h3>
+
+
+
+<p>The <em>Comments</em> block provides color settings options to change the text and background colors.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/support/article/colors-settings-overview/">Color settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Typography</h3>
+
+
+
+<p>The <em>Comments</em> block provides typography settings to change the font family, appearance, line height, letter spacing, decoration, letter case, and font size.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/support/article/typography-settings-overview/">Typography settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Dimensions</h3>
+
+
+
+<p>The <em>Comments</em> block provides dimension settings options to add padding and margin.</p>
+
+
+
+<p class="has-background" style="background-color:#e5f5fa">For details, refer to this support article: <a href="https://wordpress.org/support/article/dimension-controls-overview/">Dimension settings overview</a></p>
+
+
+
+<h3 class="wp-block-heading">Advanced</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://wordpress.org/documentation/files/2023/05/image2.png" alt="The advanced settings on the block settings panel" class="wp-image-16356843" width="398" height="498" srcset="https://wordpress.org/documentation/files/2023/05/image2.png 530w, https://wordpress.org/documentation/files/2023/05/image2-239x300.png 239w" sizes="auto, (max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p><strong>Additional CSS Class(es)</strong></p>
+
+
+
+<p>The <em>Comments</em> block provides advanced settings for adding CSS class(es), allowing you to style the block using custom CSS code.</p>
+
+
+
+<p><strong>HTML Element</strong></p>
+
+
+
+<p>Use this feature to select an HTML element in the <em>Comments</em> block.</p>
+
+
+
+<div id="changelog" class="wp-block-group changelog has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#dce5ec">
+<h2 class="wp-block-heading has-medium-font-size">Changelog</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Updated 2023-05-09
+<ul class="wp-block-list">
+<li>Updated for WordPress 6.2 update</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-03-07
+<ul class="wp-block-list">
+<li>Fixed the link to Comment Pagination block page</li>
+</ul>
+</li>
+
+
+
+<li>Updated 2023-01-10
+<ul class="wp-block-list">
+<li>Added dimension settings </li>
+</ul>
+</li>
+
+
+
+<li>Created 2023-01-04</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.org/documentation/article/comments-block/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16355697</post-id>	</item>
+	</channel>
+</rss>

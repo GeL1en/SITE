@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Security &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/security/feed/?simply_static_page=2379" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Wed, 16 Oct 2024 03:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Security &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>Secure Custom Fields</title>
+		<link>https://wordpress.org/news/2024/10/secure-custom-fields/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Sat, 12 Oct 2024 18:26:55 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17956</guid>
+
+					<description><![CDATA[On behalf of the WordPress security team, I am announcing that we are invoking point 18 of the plugin directory guidelines and are forking Advanced Custom Fields (ACF) into a new plugin, Secure Custom Fields. SCF has been updated to remove commercial upsells and fix a security problem. On October 3rd, the ACF team announced [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>On behalf of the <a href="https://wordpress.org/about/security/">WordPress security team</a>,  I am announcing that we are invoking <a href="https://github.com/wordpress/wporg-plugin-guidelines/blob/trunk/guideline-18.md">point 18 of the plugin directory guidelines</a> and are forking Advanced Custom Fields (ACF) into a new plugin, Secure Custom Fields. SCF has been updated to remove commercial upsells and fix a security problem.</p>
+
+
+
+<p>On October 3<sup>rd</sup>, the ACF team announced ACF plugin updates will come directly from their website. Sites that followed the ACF team&#8217;s instructions on “How to update ACF” will continue to get updates directly from WP Engine. On October 1<sup>st</sup>, 2024, WP Engine also deployed its own solution for updates and installations for plugins and themes across their customers’ sites in place of <a href="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress.org</a>’s update service.</p>
+
+
+
+<p>Sites that continue to use&nbsp;<a target="_blank" href="https://wordpress.org/" rel="noreferrer noopener">WordPress.org</a>’s update service and have not chosen to switch to ACF updates from WP Engine can click to update to switch to Secure Custom Fields. Where sites have chosen to have plugin auto-updates from&nbsp;<a target="_blank" href="https://wordpress.org/" rel="noreferrer noopener">WordPress.org</a>&nbsp;enabled, this update process will auto-switch them from Advanced Custom Fields to Secure Custom Fields.</p>
+
+
+
+<p>This update is as minimal as possible to fix the security issue. Going forward, Secure Custom Fields is now a non-commercial plugin, and if any developers want to get involved in maintaining and improving it, please get in touch.</p>
+
+
+
+<p>Similar situations have happened before, but not at this scale. This is a rare and unusual situation brought on by WP Engine&#8217;s legal attacks, we do not anticipate this happening for other plugins.</p>
+
+
+
+<p>WP Engine has <a href="https://www.advancedcustomfields.com/blog/installing-and-upgrading-to-the-latest-version-of-acf/">posted instructions for how to use their version of Advanced Custom Fields that uses their own update server</a>, so you have that option, though the WordPress Security Team does not recommend it until they fix the security issues. You can uninstall Advanced Custom Fields and <a href="https://wordpress.org/plugins/advanced-custom-fields/">activate Secure Custom Fields from the plugin directory</a> and be just fine.</p>
+
+
+
+<p>There is separate, but not directly related news that <a href="https://www.wpgraphql.com/2024/10/07/wpgraphql-becomes-a-canonical-plugin-my-move-to-automattic">Jason Bahl has left WP Engine to work for Automattic and will be making WPGraphQL a canonical community plugin</a>. We expect others will follow as well.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17956</post-id>	</item>
+		<item>
+		<title>WP Engine Reprieve</title>
+		<link>https://wordpress.org/news/2024/09/wp-engine-reprieve/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Fri, 27 Sep 2024 21:03:26 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17850</guid>
+
+					<description><![CDATA[I&#8217;ve heard from WP Engine customers that they are frustrated that WP Engine hasn&#8217;t been able to make updates, plugin directory, theme directory, and Openverse work on their sites. It saddens me that they&#8217;ve been negatively impacted by Silver Lake&#8216;s commercial decisions. On WP Engine&#8217;s homepage, they promise &#8220;Unmatched performance, automated updates, and bulletproof security [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I&#8217;ve heard from <a href="https://wpengine.com/">WP Engine</a> customers that they are frustrated that WP Engine hasn&#8217;t been able to make updates, plugin directory, theme directory, and Openverse work on their sites. It saddens me that they&#8217;ve been negatively impacted by <a href="https://www.silverlake.com/">Silver Lake</a>&#8216;s commercial decisions.</p>
+
+
+
+<p><a href="https://wpengine.com/">On WP Engine&#8217;s homepage</a>, they promise &#8220;Unmatched performance, automated updates, and bulletproof security ensure your sites thrive.&#8221;</p>
+
+
+
+<p>WP Engine was well aware that we could remove access when they chose to ignore our efforts to resolve our differences and enter into a commercial licensing agreement. <a href="https://usaawards.ceotodaymagazine.com/previous-winner/heather-brunner/">Heather Brunner</a>, <a href="https://www.silverlake.com/people/lee-wittlinger/">Lee Wittlinger</a>, and their Board chose to take this risk. WPE was also aware that they were placing this risk directly on WPE customers. You could assume that WPE has a workaround ready, or they were simply reckless in supporting their customers. Silver Lake and WP Engine put their customers at risk, not me.</p>
+
+
+
+<p>We have lifted the blocks of their servers from accessing ours, until October 1, UTC 00:00. Hopefully this helps them spin up their mirrors of all of WordPress.org&#8217;s resources that they were using for free while not paying, and making legal threats against us.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17850</post-id>	</item>
+		<item>
+		<title>WP Engine is banned from WordPress.org</title>
+		<link>https://wordpress.org/news/2024/09/wp-engine-banned/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Wed, 25 Sep 2024 22:50:29 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17834</guid>
+
+					<description><![CDATA[Pending their legal claims and litigation against WordPress.org, WP Engine no longer has free access to WordPress.org's resources.]]></description>
+										<content:encoded><![CDATA[
+<p>Any WP Engine customers having trouble with their sites should <a href="https://wpengine.com/contact/">contact WP Engine support and ask them to fix it</a>.</p>
+
+
+
+<p>WP Engine needs a trademark license, they don&#8217;t have one. I won&#8217;t bore you with the story of how WP Engine <a href="https://x.com/photomatt/status/1838502185879167069">broke thousands of customer sites yesterday in their haphazard attempt to block our attempts to inform the wider WordPress community</a> regarding their disabling and locking down a WordPress core feature in order to extract profit.</p>
+
+
+
+<p><strong>What I will tell you is that, pending their legal claims and litigation against WordPress.org, WP Engine no longer has free access to WordPress.org&#8217;s resources.</strong></p>
+
+
+
+<p>WP Engine wants to control your WordPress experience, they need to run their own user login system, update servers, plugin directory, theme directory, pattern directory, block directory, translations, photo directory, job board, meetups, conferences, bug tracker, forums, Slack, Ping-o-matic, and showcase. Their servers can no longer access our servers for free.</p>
+
+
+
+<p>The reason WordPress sites don&#8217;t get hacked as much anymore is we work with hosts to block vulnerabilities at the network layer, WP Engine will need to replicate that security research on their own.</p>
+
+
+
+<p>Why should WordPress.org provide these services to WP Engine for free, given their attacks on us?</p>
+
+
+
+<p>WP Engine is free to offer their hacked up, bastardized simulacra of WordPress&#8217;s GPL code to their customers, and they can experience WordPress as WP Engine envisions it, with them getting all of the profits and providing all of the services.</p>
+
+
+
+<p>If you want to experience WordPress, use any other host in the world besides WP Engine. <a href="https://wordpress.org/news/2024/09/wp-engine/">WP Engine is not WordPress</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17834</post-id>	</item>
+		<item>
+		<title>WordPress 6.5.5</title>
+		<link>https://wordpress.org/news/2024/06/wordpress-6-5-5/</link>
+		
+		<dc:creator><![CDATA[Aaron Jorbin]]></dc:creator>
+		<pubDate>Mon, 24 Jun 2024 19:10:30 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[development]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17426</guid>
+
+					<description><![CDATA[WordPress 6.5.5 is now available! This release features three security fixes. Because this is a security release, it is recommended that you update your sites immediately. This minor release also includes 3 bug fixes in Core. You can download WordPress 6.5.5 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">WordPress 6.5.5 is now available!</h2>
+
+
+
+<p>This release features three security fixes. Because this is a security release, <strong>it is recommended that you update your sites immediately. </strong>This minor release also includes <a href="https://core.trac.wordpress.org/query?component=!Build%2FTest+Tools&amp;milestone=6.5.5&amp;col=id&amp;col=summary&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;col=component&amp;order=priority">3 bug fixes</a> in Core.</p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.5.5.zip">download WordPress 6.5.5 from WordPress.org</a>, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will begin automatically.</p>
+
+
+
+<p>WordPress 6.5.5 is a short-cycle release. The next major release will be version 6.6 which is scheduled for July 16, 2024.</p>
+
+
+
+<p>For more information on WordPress 6.5.5, please visit the <a href="https://wordpress.org/documentation/wordpress-version/version-6-5-5/">HelpHub site</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Security updates included in this release</h2>
+
+
+
+<p>The security team would like to thank the following people for <a href="https://hackerone.com/wordpress?type=team">responsibly reporting vulnerabilities</a>, and allowing them to be fixed in this release:</p>
+
+
+
+<ul class="wp-block-list">
+<li>A cross-site scripting (XSS) vulnerability affecting the HTML API reported by Dennis Snell of the WordPress Core Team, along with Alex Concha and Grzegorz (Greg) Ziółkowski of the WordPress security team.</li>
+
+
+
+<li>A cross-site scripting (XSS) vulnerability affecting the Template Part block reported independently by Rafie Muhammad of Patchstack and during a third party security audit.</li>
+
+
+
+<li>A path traversal issue affecting sites hosted on Windows reported independently by Rafie M &amp; Edouard L of Patchstack, David Fifield, <a href="https://hackerone.com/x89">x89</a>, <a href="https://hackerone.com/apple502j">apple502j</a>, and <a href="https://hackerone.com/mishre">mishre</a>.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>.</p>
+
+
+
+<p>WordPress 6.5.5 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver maintenance and security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p class="is-style-wporg-props-medium"><a href="https://profiles.wordpress.org/jorbin">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="https://profiles.wordpress.org/azaozz">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/bernhard-reiter">bernhard-reiter</a>, <a href="https://profiles.wordpress.org/costdev">Colin Stewart</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/dmsnell">Dennis Snell</a>, <a href="https://profiles.wordpress.org/grantmkin">Grant M. Kinney</a>, <a href="https://profiles.wordpress.org/gziolo">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, <a href="https://profiles.wordpress.org/desrosj">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/matveb">Matias Ventura</a>, <a href="https://profiles.wordpress.org/mcsf">Miguel Fonseca</a>, <a href="https://profiles.wordpress.org/peterwilsoncc">Peter Wilson</a>, <a href="https://profiles.wordpress.org/rajinsharwar">Rajin Sharwar</a>, <a href="https://profiles.wordpress.org/coffee2code">Scott Reilly</a>, <a href="https://profiles.wordpress.org/hellofromTonya">Tonya Mork</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a> Slack channel. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/tutorials/faq-for-new-contributors/">Core Contributor Handbook</a>.</p>
+
+
+
+<p><em>Already testing WordPress 6.6? The fourth beta is now available (<a href="https://wordpress.org/wordpress-6.6-beta4.zip">zip</a>) and it contains these security fixes. For more on 6.6, see the <a href="https://wordpress.org/news/2024/06/wordpress-6-6-beta-3/">beta 3 announcement post</a>. Learn more about <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/">testing WordPress 6.6 here</a>.</em></p>
+
+
+
+<p>Props to <a href="https://profiles.wordpress.org/paulkevan/">Paul Kevan</a>, <a href="https://profiles.wordpress.org/ehtis/">Ehtisham Siddiqui</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/hellofromTonya">Tonya Mork</a>, and <a href="https://profiles.wordpress.org/angelasjin/">Angela Jin</a> for reviewing.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17426</post-id>	</item>
+		<item>
+		<title>WordPress 6.5.2 Maintenance and Security Release</title>
+		<link>https://wordpress.org/news/2024/04/wordpress-6-5-2-maintenance-and-security-release/</link>
+		
+		<dc:creator><![CDATA[Aaron Jorbin]]></dc:creator>
+		<pubDate>Tue, 09 Apr 2024 22:00:18 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17195</guid>
+
+					<description><![CDATA[Note: Due to an issue with the initial package, WordPress 6.5.1 was not released. 6.5.2 is the first minor release for WordPress 6.5. This security and maintenance release features 2 bug fixes on Core, 12 bug fixes for the Block Editor, and 1 security fix. Because this is a security release, it is recommended that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Note: Due to an issue with the initial package, WordPress 6.5.1 was not released. 6.5.2 is the first minor release for WordPress 6.5.</strong></p>
+
+
+
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?status=closed&amp;id=!60398&amp;milestone=6.5.2&amp;group=status&amp;order=priority">2 bug fixes on Core</a>, <a href="https://github.com/WordPress/gutenberg/pull/60577">12 bug fixes for the Block Editor</a>, and 1 security fix.</p>
+
+
+
+<p><strong>Because this is a security release, it is recommended that you update your sites immediately.</strong> Backports are also available for other major WordPress releases, 6.0 and later.</p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.5.2.zip">download WordPress 6.5.2 from WordPress.org</a>, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will begin automatically.</p>
+
+
+
+<p>WordPress 6.5.2 is a short-cycle release. The next major release will be <a href="https://make.wordpress.org/core/6-6/">version 6.6</a> and is currently planned for 16 July 2024.</p>
+
+
+
+<h2 class="wp-block-heading">Security updates included in this release</h2>
+
+
+
+<p>The security team would like to thank the following people for responsibly reporting vulnerabilities, and allowing them to be fixed in this release:</p>
+
+
+
+<ul class="wp-block-list">
+<li>A cross-site scripting (XSS) vulnerability affecting the Avatar block type; reported by <a href="https://johnblackbourn.com/">John Blackbourn</a> of the WordPress security team. Many thanks to <a href="https://twitter.com/stealthcopter">Mat Rollings</a> for assisting with the research.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/isabel_brison/">Isabel Brison</a>, and <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>.</p>
+
+
+
+<p>WordPress 6.5.2 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver maintenance and security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p class="is-style-wporg-props-medium"><a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/wildworks">Aki Hamano</a>, <a href="https://profiles.wordpress.org/andraganescu">Andrei Draganescu</a>, <a href="https://profiles.wordpress.org/artemiosans">Artemio Morales</a>, <a href="https://profiles.wordpress.org/iCaleb">Caleb Burks</a>, <a href="https://profiles.wordpress.org/colind">colind</a>, <a href="https://profiles.wordpress.org/talldanwp">Daniel Richards</a>, <a href="https://profiles.wordpress.org/ocean90">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/fabiankaegy">Fabian Kägy</a>, <a href="https://profiles.wordpress.org/mamaduka">George Mamadashvili</a>, <a href="https://profiles.wordpress.org/gziolo">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/isabel_brison">Isabel Brison</a>, <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, <a href="https://profiles.wordpress.org/joemcgill">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/thelovekesh">Lovekesh Kumar</a>, <a href="https://profiles.wordpress.org/mmaattiiaass">Matias Benedetto</a>, <a href="https://profiles.wordpress.org/mukesh27">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/swissspidy">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/peterwilsoncc">Peter Wilson</a>, <a href="https://profiles.wordpress.org/sean212">Sean Fisher</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/coffee2code/">Scott Reilly</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a> channel. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/">Core Contributor Handbook</a>.</p>
+
+
+
+<p><em>Thanks to <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <em><a href="https://profiles.wordpress.org/ehtis">Ehtisham S.</a>,</em></em> <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, <em>and <em><a href="https://profiles.wordpress.org/angelasjin/">Angela Jin</a></em> for proofreading.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17195</post-id>	</item>
+		<item>
+		<title>WordPress 6.4.3 – Maintenance and Security release</title>
+		<link>https://wordpress.org/news/2024/01/wordpress-6-4-3-maintenance-and-security-release/</link>
+		
+		<dc:creator><![CDATA[Aaron Jorbin]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2024 21:22:57 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16754</guid>
+
+					<description><![CDATA[This security and maintenance release features 5 bug fixes on Core, 16 bug fixes for the Block Editor, and 2 security fixes. Because this is a security release, it is recommended that you update your sites immediately. Backports are also available for other major WordPress releases, 4.1 and later. You can download WordPress 6.4.3 from [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?status=closed&amp;component=!Bundled+Theme&amp;id=!59828&amp;milestone=6.4.3&amp;group=status&amp;col=id&amp;col=summary&amp;col=component&amp;col=owner&amp;col=type&amp;col=priority&amp;col=version&amp;col=keywords&amp;order=priority">5 bug fixes on Core</a>, <a href="https://github.com/WordPress/wordpress-develop/pull/5698#issuecomment-1909302298">16 bug fixes for the Block Editor</a>, and 2 security fixes.</p>
+
+
+
+<p><strong>Because this is a security release, it is recommended that you update your sites immediately.</strong> Backports are also available for other major WordPress releases, 4.1 and later.</p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.4.3.zip">download WordPress 6.4.3 from WordPress.org</a>, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will begin automatically.</p>
+
+
+
+<p>WordPress 6.4.3 is a short-cycle release. The next major release will be <a href="https://make.wordpress.org/core/6-5/">version 6.5</a> planned for 26 March 2024. You can review a summary of the maintenance updates in this release by reading the <a href="https://make.wordpress.org/core/2024/01/25/wordpress-6-4-3-rc1-is-now-available/">Release Candidate announcement</a>. For further information on this release, please <a href="https://wordpress.org/support/wordpress-version/version-6-4-3">visit the HelpHub site</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Security updates included in this release</h2>
+
+
+
+<p>The security team would like to thank the following people for responsibly reporting vulnerabilities, and allowing them to be fixed in this release:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://hackerone.com/m4tutocs">m4tuto</a> for finding a PHP File Upload bypass via Plugin Installer (requiring admin privileges).</li>
+
+
+
+<li><a href="https://twitter.com/_s_n_t">@_s_n_t</a> of <a href="https://twitter.com/pentestltd">@pentestltd</a> working with Trend Micro Zero Day Initiative for finding an RCE POP Chains vulnerability.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/mikachan/">Sarah Norris</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, and <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>.</p>
+
+
+
+<p>WordPress 6.4.3 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver maintenance and security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p class="is-style-wporg-props-medium"><a href="https://profiles.wordpress.org/wildworks">Aki Hamano</a>, <a href="https://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="https://profiles.wordpress.org/ajlende">Alex Lende</a>, <a href="https://profiles.wordpress.org/alexstine">Alex Stine</a>, <a href="https://profiles.wordpress.org/afercia">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/andraganescu">Andrei Draganescu</a>, <a href="https://profiles.wordpress.org/azaozz">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/andrewserong">Andrew Serong</a>, <a href="https://profiles.wordpress.org/afragen">Andy Fragen</a>, <a href="https://profiles.wordpress.org/aristath">Ari Stathopoulos</a>, <a href="https://profiles.wordpress.org/artemiosans">Artemio Morales</a>, <a href="https://profiles.wordpress.org/benharri">ben</a>, <a href="https://profiles.wordpress.org/bobbingwide">bobbingwide</a>, <a href="https://profiles.wordpress.org/cbravobernal">Carlos Bravo</a>, <a href="https://profiles.wordpress.org/poena">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/chesio">Česlav Przywara</a>, <a href="https://profiles.wordpress.org/costdev">Colin Stewart</a>, <a href="https://profiles.wordpress.org/mapumba">Daniel Käfer</a>, <a href="https://profiles.wordpress.org/talldanwp">Daniel Richards</a>, <a href="https://profiles.wordpress.org/ocean90">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/ellatrix">Ella</a>, <a href="https://profiles.wordpress.org/kebbet">Erik</a>, <a href="https://profiles.wordpress.org/mamaduka">George Mamadashvili</a>, <a href="https://profiles.wordpress.org/gziolo">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/isabel_brison">Isabel Brison</a>, <a href="https://profiles.wordpress.org/joen">Joen A.</a>, <a href="https://profiles.wordpress.org/johnbillion">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/joppuyo">joppuyo</a>, <a href="https://profiles.wordpress.org/lakshmananphp">Lax Mariappan</a>, <a href="https://profiles.wordpress.org/luisherranz">luisherranz</a>, <a href="https://profiles.wordpress.org/flootr">Markus</a>, <a href="https://profiles.wordpress.org/czapla">Michal Czaplinski</a>, <a href="https://profiles.wordpress.org/mukesh27">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/ntsekouras">Nik Tsekouras</a>, <a href="https://profiles.wordpress.org/dhrupo">Niluthpal Purkayastha</a>, <a href="https://profiles.wordpress.org/noahtallen">Noah Allen</a>, <a href="https://profiles.wordpress.org/swissspidy">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/peterwilsoncc">Peter Wilson</a>, <a href="https://profiles.wordpress.org/ramonopoly">ramonopoly</a>, <a href="https://profiles.wordpress.org/youknowriad">Riad Benguella</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/sabernhardt">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/tykoted">Teddy Patriarca</a>, <a href="https://profiles.wordpress.org/hellofromTonya">Tonya Mork</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a> and <a href="https://wordpress.slack.com/archives/C065MBW03EH">#6-5-release-leads channels</a>. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/">Core Contributor Handbook</a>.</p>
+
+
+
+<p>As a final reminder, The WordPress Security Team will never email you requesting that you install a plugin or theme on your site, and will never ask for an administrator username and password. <a href="https://wordpress.org/news/2023/12/alert-wordpress-security-team-impersonation-scams/">Please stay vigilant against phishing attacks</a>.</p>
+
+
+
+<p><em>Thanks to <a href="https://profiles.wordpress.org/angelasjin/">Angela Jin</a>, <a href="https://profiles.wordpress.org/ehtis">Ehtisham S.</a>, <a href="https://profiles.wordpress.org/audrasjb">Jb Audras,</a> and <a href="https://profiles.wordpress.org/clorith/">Marius L. J.</a> for proofreading.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16754</post-id>	</item>
+		<item>
+		<title>WordPress 6.4.2 Maintenance &#038; Security Release</title>
+		<link>https://wordpress.org/news/2023/12/wordpress-6-4-2-maintenance-security-release/</link>
+		
+		<dc:creator><![CDATA[Aaron Jorbin]]></dc:creator>
+		<pubDate>Wed, 06 Dec 2023 17:03:48 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16562</guid>
+
+					<description><![CDATA[WordPress 6.4.2 is now available! This minor release features 7 bug fixes in Core. The fixes include a bug fix for an issue causing stylesheet and theme directories to sometimes return incorrect results. This release also features one security fix. Because this is a security release, it is recommended that you update your sites immediately. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">WordPress 6.4.2 is now available!</h2>
+
+
+
+<p>This minor release features <a href="https://core.trac.wordpress.org/query?status=closed&amp;milestone=6.4.2&amp;groupdesc=1&amp;group=resolution&amp;col=id&amp;col=summary&amp;col=status&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;col=keywords&amp;order=priority">7 bug fixes</a> in Core. The fixes include a bug fix for an issue causing stylesheet and theme directories to sometimes return incorrect results.</p>
+
+
+
+<p>This release also features one security fix. Because this is a security release, <strong>it is recommended that you update your sites immediately</strong><strong>.</strong></p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.4.2.zip">download WordPress 6.4.2 from WordPress.org</a>, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will begin automatically.</p>
+
+
+
+<p>WordPress 6.4.2 is a short-cycle release. The next major release will be version 6.5 released in early 2024.</p>
+
+
+
+<p>For more information on this release, please visit the <a href="https://wordpress.org/documentation/wordpress-version/version-6-4-2/">HelpHub site</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Security updates included in this release</h2>
+
+
+
+<p>The security team addressed the following vulnerability in this release.</p>
+
+
+
+<ul class="wp-block-list">
+<li>A Remote Code Execution vulnerability that is not directly exploitable in core, however the security team feels that there is a potential for high severity when combined with some plugins, especially in multisite installs.</li>
+</ul>
+
+
+
+<p>To help the security team and WordPressers around the world, you are encouraged to <a href="https://hackerone.com/wordpress?type=team">responsibly report vulnerabilities</a>. This allows vulnerabilities to be fixed in future releases.</p>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>.</p>
+
+
+
+<p>WordPress 6.4.2 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver maintenance and security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p class="is-style-wporg-props-long"><a href="https://profiles.wordpress.org/jorbin">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/wildworks">Aki Hamano</a>, <a href="https://profiles.wordpress.org/atachibana">Akira Tachibana</a>, <a href="https://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="https://profiles.wordpress.org/angelasjin">Angela Jin</a>, <a href="https://profiles.wordpress.org/antonvlasenko">Anton Vlasenko</a>, <a href="https://profiles.wordpress.org/barry">Barry</a>, <a href="https://profiles.wordpress.org/Bernhard%20Reiter">bernhard-reiter</a>, <a href="https://profiles.wordpress.org/icaleb">Caleb Burks</a>, <a href="https://profiles.wordpress.org/coreyw">Corey Worrell</a>, <a href="https://profiles.wordpress.org/crstauf">crstauf</a>, <a href="https://profiles.wordpress.org/nerrad">Darren Ethier (nerrad)</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/dmsnell">Dennis Snell</a>, <a href="https://profiles.wordpress.org/dd32">Dion Hulse</a>, <a href="https://profiles.wordpress.org/kebbet">Erik</a>, <a href="https://profiles.wordpress.org/gaambo">Fabian Todt</a>, <a href="https://profiles.wordpress.org/flixos90">Felix Arntz</a>, <a href="https://profiles.wordpress.org/priethor">Héctor Prieto</a>, <a href="https://profiles.wordpress.org/ironprogrammer">ironprogrammer</a>, <a href="https://profiles.wordpress.org/isabel_brison">Isabel Brison</a>, <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, <a href="https://profiles.wordpress.org/jeffpaul">Jeffrey Paul</a>, <a href="https://profiles.wordpress.org/luminuu">Jessica Lyschik</a>, <a href="https://profiles.wordpress.org/joemcgill">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/kharisblank">Kharis Sulistiyono</a>, <a href="https://profiles.wordpress.org/krupalpanchal">Krupal Panchal</a>, <a href="https://profiles.wordpress.org/kdowns">Kylen Downs</a>, <a href="https://profiles.wordpress.org/meta4">meta4</a>, <a href="https://profiles.wordpress.org/mikeschroder">Mike Schroder</a>, <a href="https://profiles.wordpress.org/mukesh27">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/partyfrikadelle">partyfrikadelle</a>, <a href="https://profiles.wordpress.org/peterwilsoncc">Peter Wilson</a>, <a href="https://profiles.wordpress.org/NekoJonez">Pieterjan Deneys</a>, <a href="https://profiles.wordpress.org/rawrly">rawrly</a>, <a href="https://profiles.wordpress.org/rebasaurus">rebasaurus</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/hellofromTonya">Tonya Mork</a>, <a href="https://profiles.wordpress.org/vortfu">vortfu</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a>. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/tutorials/faq-for-new-contributors/">Core Contributor Handbook</a>.</p>
+
+
+
+<p>As a final reminder, The WordPress Security Team will never email you requesting that you install a plugin or theme on your site, and will never ask for an administrator username and password. <a href="https://wordpress.org/news/2023/12/alert-wordpress-security-team-impersonation-scams/">Please stay vigilant against phishing attacks</a>.</p>
+
+
+
+<p><em>Thanks to <a href="https://profiles.wordpress.org/angelasjin/">@angelasjin</a> and <a href="https://wordpress.slack.com/team/U02SVSW3U">@desrosj</a> for proofreading.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16562</post-id>	</item>
+		<item>
+		<title>Alert: WordPress Security Team Impersonation Scams</title>
+		<link>https://wordpress.org/news/2023/12/alert-wordpress-security-team-impersonation-scams/</link>
+		
+		<dc:creator><![CDATA[Peter Wilson]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 23:13:35 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16547</guid>
+
+					<description><![CDATA[The WordPress Security Team is aware of multiple ongoing phishing scams impersonating both the “WordPress team” and the “WordPress Security Team“ in an attempt to convince administrators to install a plugin on their website which contains malware. The WordPress Security Team will never email you requesting that you install a plugin or theme on your [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The WordPress Security Team is aware of multiple ongoing phishing scams impersonating both the “WordPress team” and the “WordPress Security Team“ in an attempt to convince administrators to install a plugin on their website which contains malware.</p>
+
+
+
+<p><strong>The WordPress Security Team will never email you requesting that you install a plugin or theme on your site, and will never ask for an administrator username and password.</strong></p>
+
+
+
+<p>If you receive an unsolicited email claiming to be from WordPress with instructions similar to those described above, please disregard the emails and indicate that the email is a scam to your email provider.</p>
+
+
+
+<p>These emails link to a phishing site that appears to be the WordPress plugin repository on a domain that is not owned by WordPress or an associated entity. Both <a href="https://patchstack.com/articles/fake-cve-phishing-campaign-tricks-wordpress-users-to-install-malware/">Patchstack</a> and <a href="https://www.wordfence.com/blog/2023/12/psa-fake-cve-2023-45124-phishing-scam-tricks-users-into-installing-backdoor-plugin/">Wordfence</a> have written articles that go in to further detail.</p>
+
+
+
+<p>Official emails from the WordPress project will always:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Come from a <code>@wordpress.org</code> or <code>@wordpress.net</code> domain.</li>
+
+
+
+<li>Should also say “Signed by: wordpress.org” in the email details section.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="450" src="https://i0.wp.com/wordpress.org/news/files/2023/12/email-details-signed-by-wordpressdotorg.png?resize=1024%2C450&#038;ssl=1" alt="Screenshot of email sent by a WordPress.org email account. The details include &quot;mailed-by wordpress.org&quot; and &quot;signed-by wordpress.org&quot;." class="wp-image-16548" srcset="https://i0.wp.com/wordpress.org/news/files/2023/12/email-details-signed-by-wordpressdotorg.png?resize=1024%2C450&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/12/email-details-signed-by-wordpressdotorg.png?resize=300%2C132&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/12/email-details-signed-by-wordpressdotorg.png?resize=768%2C337&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/12/email-details-signed-by-wordpressdotorg.png?w=1202&amp;ssl=1 1202w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>The WordPress Security Team will only communicate with WordPress users in the following locations:</p>
+
+
+
+<ul class="wp-block-list">
+<li>the Making WordPress Secure blog at <a href="https://make.wordpress.org/security">make.wordpress.org/security</a></li>
+
+
+
+<li>the main WordPress News site at <a href="https://wordpress.org/news">wordpress.org/news</a></li>
+</ul>
+
+
+
+<p>The WordPress Plugin team will never communicate directly with a plugin’s users but may email plugin support staff, owners and contributors. These emails will be sent from <a href="mailto:plugins@wordpress.org">plugins@wordpress.org</a> and be signed as indicated above.</p>
+
+
+
+<p>The official WordPress plugin repository is located at <a href="https://wordpress.org/plugins">wordpress.org/plugins</a> with internationalized versions on subdomains, such as <a href="https://fr.wordpress.org/plugins">fr.wordpress.org/plugins</a>, <a href="https://en-au.wordpress.org/plugins">en-au.wordpress.org/plugins</a>, etc. A subdomain may contain a hyphen, however a dot will always appear before wordpress.org.</p>
+
+
+
+<p>A WordPress site’s administrators can also access the plugin repository via the plugins menu in the WordPress dashboard.</p>
+
+
+
+<p>As WordPress is the most used CMS, these types of phishing scams will happen occasionally. Please be vigilant for unexpected emails asking you to install a theme, plugin or linking to a login form.</p>
+
+
+
+<p>The Scamwatch website has some tips for <a href="https://www.scamwatch.gov.au/protect-yourself/ways-to-spot-and-avoid-scams">identifying emails and text messages that are likely to be scams</a>.</p>
+
+
+
+<p>As always, if you believe that you have discovered a security vulnerability in WordPress, please <a href="https://wordpress.org/about/security/">follow the project’s Security policies</a> by privately and responsibly disclosing the issue directly to the WordPress Security team through the project’s official <a href="https://hackerone.com/wordpress">HackerOne page</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p><em>Thank you <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/otto/">Otto</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/chanthaboune/">Josepha Haden Chomphosy</a>, and <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a> for their collaboration on and review of this post.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16547</post-id>	</item>
+		<item>
+		<title>WordPress 6.3.2 &#8211; Maintenance and Security release</title>
+		<link>https://wordpress.org/news/2023/10/wordpress-6-3-2-maintenance-and-security-release/</link>
+		
+		<dc:creator><![CDATA[Jb Audras]]></dc:creator>
+		<pubDate>Thu, 12 Oct 2023 20:44:34 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16122</guid>
+
+					<description><![CDATA[This security and maintenance release features 19 bug fixes on Core, 22 bug fixes for the Block Editor, and 8 security fixes. WordPress 6.3.2 is a short-cycle release. You can review a summary of the maintenance updates in this release by reading the Release Candidate announcement. Because this is a security release, it is recommended [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?milestone=6.3.2&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">19 bug fixes on Core</a>, 22 bug fixes for the Block Editor, and 8 security fixes.</p>
+
+
+
+<p>WordPress 6.3.2 is a short-cycle release. You can review a summary of the maintenance updates in this release by reading the <a href="https://make.wordpress.org/core/2023/10/06/wordpress-6-3-2-rc1-is-now-available/">Release Candidate announcement</a>. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. Backports are also available for other major WordPress releases, 4.1 and later.</p>
+
+
+
+<p>The next major release will be <a href="https://make.wordpress.org/core/6-4/">version 6.4</a> planned for 7 November 2023.</p>
+
+
+
+<p>If you have sites that support automatic background updates, the update process will begin automatically.</p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.3.2.zip">download WordPress 6.3.2 from WordPress.org</a>, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”.</p>
+
+
+
+<p>For more information on this release, please <a href="https://wordpress.org/support/wordpress-version/version-6-3-2">visit the HelpHub site</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Security updates included in this release</h2>
+
+
+
+<p>The security team would like to thank the following people for responsibly reporting vulnerabilities, and allowing them to be fixed in this release:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Marc Montpas of Automattic for finding a potential disclosure of user email addresses.</li>
+
+
+
+<li>Marc Montpas of Automattic for finding an RCE POP Chains vulnerability.</li>
+
+
+
+<li>Rafie Muhammad and Edouard L of <a href="https://patchstack.com/">Patchstack</a> along with a WordPress commissioned third-party audit for each independently identifying a XSS issue in the post link navigation block.</li>
+
+
+
+<li><a href="https://www.linkedin.com/in/audrasjb/">Jb Audras</a> of the WordPress Security Team and Rafie Muhammad of <a href="https://patchstack.com/">Patchstack</a> for each independently discovering an issue where comments on private posts could be leaked to other users.</li>
+
+
+
+<li>John Blackbourn (WordPress Security Team), <a href="https://hackerone.com/jamesgol?type=user">James Golovich</a>, <a href="https://hackerone.com/jdgrimes">J.D Grimes</a>, <a href="https://hackerone.com/numan">Numan Turle</a>, <a href="https://hackerone.com/whitecybersec?type=user">WhiteCyberSec</a> for each independently identifying a way for logged-in users to execute any shortcode.</li>
+
+
+
+<li><a href="https://facebook.com/zino.abdrahim">mascara7784</a> and a third-party security audit for identifying a XSS vulnerability in the application password screen.</li>
+
+
+
+<li><a href="https://profiles.wordpress.org/jorgefilipecosta/">Jorge Costa</a> of the WordPress Core Team for identifying XSS vulnerability in the footnotes block.</li>
+
+
+
+<li><a href="https://hackerone.com/s5s">s5s</a> and <a href="http://twitter.com/Raoufmaklouf">raouf_maklouf</a> for independently identifying a cache poisoning DoS vulnerability.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a> and <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, with the help of<a href="https://profiles.wordpress.org/davidbaumwald/"> David Baumwald</a> on mission control.</p>
+
+
+
+<p>WordPress 6.3.2 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver maintenance and security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p class="is-style-wporg-props-long"><a href="https://profiles.wordpress.org/jorbin">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/wildworks">Aki Hamano</a>, <a href="https://profiles.wordpress.org/akihiroharai">Akihiro Harai</a>, <a href="https://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="https://profiles.wordpress.org/azaozz">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/afragen">Andy Fragen</a>, <a href="https://profiles.wordpress.org/antpb">Anthony Burchell</a>, <a href="https://profiles.wordpress.org/aurooba">Aurooba Ahmed</a>, <a href="https://profiles.wordpress.org/scruffian">Ben Dwyer</a>, <a href="https://profiles.wordpress.org/poena">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/costdev">Colin Stewart</a>, <a href="https://profiles.wordpress.org/coreyw">Corey Worrell</a>, <a href="https://profiles.wordpress.org/colorful tones">Damon Cook</a>, <a href="https://profiles.wordpress.org/david.binda">David Biňovec</a>, <a href="https://profiles.wordpress.org/desmith">David E. Smith</a>, <a href="https://profiles.wordpress.org/dsas">Dean Sas</a>, <a href="https://profiles.wordpress.org/dmsnell">Dennis Snell</a>, <a href="https://profiles.wordpress.org/dhruvishah2203">Dhruvi Shah</a>, <a href="https://profiles.wordpress.org/dd32">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ehtis">Ehtisham S.</a>, <a href="https://profiles.wordpress.org/flixos90">Felix Arntz</a>, <a href="https://profiles.wordpress.org/Mamaduka">George Mamadashvili</a>, <a href="https://profiles.wordpress.org/gziolo">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/huzaifaalmesbah">Huzaifa Al Mesbah</a>, <a href="https://profiles.wordpress.org/isabel_brison">Isabel Brison</a>, <a href="https://profiles.wordpress.org/audrasjb">Jb Audras</a>, <a href="https://profiles.wordpress.org/joehoyle">Joe Hoyle</a>, <a href="https://profiles.wordpress.org/joemcgill">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/spacedmonkey">Jonny Harris</a>, <a href="https://profiles.wordpress.org/jorgefilipecosta">Jorge Costa</a>, <a href="https://profiles.wordpress.org/greenshady">Justin Tadlock</a>, <a href="https://profiles.wordpress.org/kadamwhite">K. Adam White</a>, <a href="https://profiles.wordpress.org/kimannwall">Kim Coleman</a>, <a href="https://profiles.wordpress.org/lhe2012">LarryWEB</a>, <a href="https://profiles.wordpress.org/lgladdy">Liam Gladdy</a>, <a href="https://profiles.wordpress.org/iammehedi1">Mehedi Hassan</a>, <a href="https://profiles.wordpress.org/mcsf">Miguel Fonseca</a>, <a href="https://profiles.wordpress.org/mukesh27">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/nicolefurlan">Nicole Furlan</a>, <a href="https://profiles.wordpress.org/pbiron">Paul Biron</a>, <a href="https://profiles.wordpress.org/paulkevan">Paul Kevan</a>, <a href="https://profiles.wordpress.org/peterwilsoncc">Peter Wilson</a>, <a href="https://profiles.wordpress.org/pooja1210">Pooja N Muchandikar</a>, <a href="https://profiles.wordpress.org/rajinsharwar">Rajin Sharwar</a>, <a href="https://profiles.wordpress.org/rmccue">Ryan McCue</a>, <a href="https://profiles.wordpress.org/salcode">Sal Ferrarello</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/shailu25">Shail Mehta</a>, <a href="https://profiles.wordpress.org/sabernhardt">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/tykoted">Teddy Patriarca</a>, <a href="https://profiles.wordpress.org/TimothyBlynJacobs">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/westonruter">Weston Ruter</a>, <a href="https://profiles.wordpress.org/zunaid321">Zunaid Amin</a>, <a href="https://profiles.wordpress.org/ahardyjpl">ahardyjpl</a>, <a href="https://profiles.wordpress.org/beryldlg">beryldlg</a>, <a href="https://profiles.wordpress.org/floydwilde">floydwilde</a>, <a href="https://profiles.wordpress.org/jastos">jastos</a>, <a href="https://profiles.wordpress.org/martin.krcho">martin.krcho</a>, <a href="https://profiles.wordpress.org/masteradhoc">masteradhoc</a>, <a href="https://profiles.wordpress.org/petitphp">petitphp</a>, <a href="https://profiles.wordpress.org/ramonopoly">ramonopoly</a>, <a href="https://profiles.wordpress.org/vortfu">vortfu</a>, <a href="https://profiles.wordpress.org/zieladam">zieladam</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a> and <a href="https://wordpress.slack.com/archives/C055Y7FKS7N">#6-4-release-leads channels</a>. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/">Core Contributor Handbook</a>.</p>
+
+
+
+<p><em>Already testing WordPress 6.4? The fourth beta is now available (<a href="https://wordpress.org/wordpress-6.4-beta4.zip">zip</a>) and it contains these security fixes. For more on 6.4, see the&nbsp;<a rel="noreferrer noopener" href="https://wordpress.org/news/2023/10/wordpress-6-4-beta-3/" target="_blank">beta 3 announcement post</a>.</em></p>
+
+
+
+<p class="has-text-align-right"><em>Thanks to<em> <a href="https://profiles.wordpress.org/jeffpaul/">@jeffpaul</a>, <a href="https://profiles.wordpress.org/chanthaboune/">@chanthaboune</a>, </em></em><a href="https://profiles.wordpress.org/peterwilsoncc/">@peterwilsoncc</a><em><em> and <a href="https://profiles.wordpress.org/rawrly/">@rawrly</a></em> for proofreading.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16122</post-id>	</item>
+		<item>
+		<title>WordPress 6.2.2 Security Release</title>
+		<link>https://wordpress.org/news/2023/05/wordpress-6-2-2-security-release/</link>
+		
+		<dc:creator><![CDATA[Jonathan Desrosiers]]></dc:creator>
+		<pubDate>Sat, 20 May 2023 04:09:39 +0000</pubDate>
+				<category><![CDATA[Releases]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=14974</guid>
+
+					<description><![CDATA[WordPress 6.2.2 is now available!]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">WordPress 6.2.2 is now available!</h2>
+
+
+
+<p>The 6.2.2 minor release addresses <a href="https://core.trac.wordpress.org/query?milestone=6.2.2&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">1 bug</a> and 1 security issue. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 5.9 have also been updated.</p>
+
+
+
+<p>WordPress 6.2.2 is a rapid response release to address a regression in 6.2.1 and further patch a vulnerability addressed in 6.2.1. The next major release will be<a href="https://make.wordpress.org/core/6-3/"> version 6.3</a> planned for August 2023.</p>
+
+
+
+<p>The update process will begin automatically if you have sites that support automatic background updates.</p>
+
+
+
+<p>You can <a href="https://wordpress.org/wordpress-6.2.2.zip">download WordPress 6.2.2 from WordPress.org</a> or visit your WordPress Dashboard, click “Updates,” and click “Update Now.”</p>
+
+
+
+<p>For more information on this release, please <a href="https://wordpress.org/support/wordpress-version/version-6-2-2">visit the HelpHub site</a>.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Security updates included in this release</strong></h2>
+
+
+
+<p>The security team would like to thank the following people for responsibly reporting vulnerabilities and allowing them to be fixed in this release.&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li>Block themes parsing shortcodes in user-generated data; thanks to Liam Gladdy of<a href="https://wpengine.com/"> WP Engine</a> for reporting this issue.</li>
+</ul>
+
+
+
+<p>The issue above was originally patched in the 6.2.1 release, but needed further hardening here in 6.2.2. The Core team is thankful for the community in their response to 6.2.1 and collaboration on finding the best path forward for proper resolution in 6.2.2. The folks who worked on 6.2.2 are especially appreciative for everyone’s understanding while they worked asynchronously to get this out the door as quickly as possible.</p>
+
+
+
+<h2 class="wp-block-heading">Thank you to these WordPress contributors</h2>
+
+
+
+<p>This release was led by <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>.</p>
+
+
+
+<p>WordPress 6.2.2 would not have been possible without the contributions of the following people. Their asynchronous coordination to deliver security fixes into a stable release is a testament to the power and capability of the WordPress community.</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/antpb/">Anthony Burchell</a>, <a href="https://profiles.wordpress.org/cbringmann/">Chloé Bringmann</a>, <a href="https://profiles.wordpress.org/chriscct7/">chriscct7</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/ehtis/">Ehtisham S.</a>, <a href="https://profiles.wordpress.org/gziolo/">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/priethor/">Héctor Prieto</a>, <a href="https://profiles.wordpress.org/isabel_brison/">Isabel Brison</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/jeffpaul/">Jeffrey Paul</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/chanthaboune/">Josepha</a>, <a href="https://profiles.wordpress.org/Clorith/">Marius L. J.</a>, <a href="https://profiles.wordpress.org/matveb/">Matias Ventura</a>, <a href="https://profiles.wordpress.org/mikeschroder/">Mike Schroder</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/youknowriad/">Riad Benguella</a>, <a href="https://profiles.wordpress.org/noisysocks/">Robert Anderson</a>, <a href="https://profiles.wordpress.org/rmccue/">Ryan McCue</a>, <a href="https://profiles.wordpress.org/Otto42/">Samuel Wood (Otto)</a>, <a href="https://profiles.wordpress.org/coffee2code/">Scott Reilly</a>, and <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a></p>
+
+
+
+<h2 class="wp-block-heading">How to contribute</h2>
+
+
+
+<p>To get involved in WordPress core development, head over to Trac, <a href="https://core.trac.wordpress.org/report/6">pick a ticket</a>, and join the conversation in the <a href="https://wordpress.slack.com/archives/C02RQBWTW">#core</a> and <a href="https://wordpress.slack.com/archives/C051Z1SKBDZ">#6-3-release-leads</a> channels. Need help? Check out the <a href="https://make.wordpress.org/core/handbook/">Core Contributor Handbook</a>.</p>
+
+
+
+<p><em>Thanks to <a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>, <a href='https://profiles.wordpress.org/davidbaumwald/' class='mention'><span class='mentions-prefix'>@</span>davidbaumwald</a>, <a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>, <a href='https://profiles.wordpress.org/jeffpaul/' class='mention'><span class='mentions-prefix'>@</span>jeffpaul</a> for proofreading.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">14974</post-id>	</item>
+	</channel>
+</rss>

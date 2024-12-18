@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Development &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/development/feed/?simply_static_page=2213" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Tue, 05 Nov 2024 22:44:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Development &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>WordPress 6.7 Release Candidate 3</title>
+		<link>https://wordpress.org/news/2024/11/wordpress-6-7-release-candidate-3/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2024 17:02:15 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=18056</guid>
+
+					<description><![CDATA[The third release candidate (RC3) for WordPress 6.7 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended that you evaluate RC3 on a test server and site. Reaching this phase [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The third release candidate (RC3) for WordPress 6.7 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, it’s recommended that you evaluate RC3 on a test server and site.</p>
+
+
+
+<p>Reaching this phase of the release cycle is an important milestone. While release candidates are considered ready for release, testing remains crucial to ensure that everything in WordPress 6.7 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.7 RC3 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.7-RC3.zip">RC3 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the following <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.7-RC3</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22beta%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D" data-type="link" data-id="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=218cf8089bb18bbb3f4f118d3f79a8a57e26f7a6%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D">6.7 RC3 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">You can test the RC3 version in four ways.</figcaption></figure>
+
+
+
+<p>The current target for the WordPress 6.7 release is <strong>November 12, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-7/">6.7 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-7/">6.7-related posts</a> in the coming weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.7 RC3?</h2>
+
+
+
+<p>Get a recap of WordPress 6.7’s highlighted features in the <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/">Beta 1 announcement</a>. For more technical information related to issues addressed since RC2, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.7?since=2024-10-29&amp;until=2024-11-05">GitHub commits for 6.7</a> since October 29</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=10%2F29%2F2024..11%2F05%2F2024&amp;milestone=6.7&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since October 29</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How you can contribute</h2>
+
+
+
+<p>WordPress is open source software made possible by a passionate community of people collaborating on and contributing to its development. The resources below outline various ways you can help the world’s most popular open source web platform, regardless of your technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to ensuring WordPress is performant and stable. It’s also a meaningful way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/10/01/help-test-wordpress-6-7/">This detailed guide</a> will walk you through testing features in WordPress 6.7. For those new to testing, follow <a href="https://make.wordpress.org/test/2024/02/15/help-test-wordpress-6-5-beta-1">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums or directly to <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a> if you are comfortable writing a reproducible bug report. You can also check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Search for vulnerabilities</h3>
+
+
+
+<p>From now until the final release of WordPress 6.7 (scheduled for November 12, 2024), the <a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/">monetary reward for reporting new, unreleased security vulnerabilities</a> is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Update your theme or plugin</h3>
+
+
+
+<p>For plugin and theme authors, your products play an integral role in extending the functionality and value of WordPress for all users.&nbsp;</p>
+
+
+
+<p>Thanks for continuing to test your themes and plugins with the WordPress 6.7 beta releases. With RC3, you’ll want to conclude your testing and update the <em>“Tested up to”</em> version in your <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">plugin’s readme file</a> to 6.7.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? <span lang="es">¿Español?</span> <span lang="fr">Français?</span> <span lang="ru">Русский?</span> <span lang="ja">日本?</span> <span lang="hi">हिन्दी?</span> <span lang="bn">বাংলা?</span> You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Release the haiku</h2>
+
+
+
+<p><em>RC3 arrives,<br>Final polish, last bugs fall,<br>Six point seven calls.</em></p>
+
+
+
+<p><em>Thank you to the following contributors for collaborating on this post:</em> <em><a href='https://profiles.wordpress.org/peterwilsoncc/' class='mention'><span class='mentions-prefix'>@</span>peterwilsoncc</a>, <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a></em>, <a href='https://profiles.wordpress.org/sabernhardt/' class='mention'><span class='mentions-prefix'>@</span>sabernhardt</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18056</post-id>	</item>
+		<item>
+		<title>WordPress 6.7 Release Candidate 2</title>
+		<link>https://wordpress.org/news/2024/10/wordpress-6-7-release-candidate-2/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 29 Oct 2024 17:08:31 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=18043</guid>
+
+					<description><![CDATA[The second release candidate (RC2) for WordPress 6.7 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended that you evaluate RC2 on a test server and site. Reaching this phase [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The second release candidate (RC2) for WordPress 6.7 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, it’s recommended that you evaluate RC2 on a test server and site.</p>
+
+
+
+<p>Reaching this phase of the release cycle is an important milestone. While release candidates are considered ready for release, testing remains crucial to ensure that everything in WordPress 6.7 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.7 RC2 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.7-RC2.zip">RC2 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the following <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.7-RC2</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=218cf8089bb18bbb3f4f118d3f79a8a57e26f7a6%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D" data-type="link" data-id="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=218cf8089bb18bbb3f4f118d3f79a8a57e26f7a6%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D">6.7 RC2 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">You can test the RC2 version in four ways.</figcaption></figure>
+
+
+
+<p>The current target for the WordPress 6.7 release is <strong>November 12, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-7/">6.7 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-7/">6.7-related posts</a> in the coming weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.7 RC2?</h2>
+
+
+
+<p>Get a recap of WordPress 6.7’s highlighted features in the <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/">Beta 1 announcement</a>. For more technical information related to issues addressed since RC1, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.7?since=2024-10-22&amp;until=2024-10-29">GitHub commits for 6.7</a> since October 22</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=10%2F22%2F2024..10%2F29%2F2024&amp;milestone=6.7&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since October 22</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How you can contribute</h2>
+
+
+
+<p>WordPress is open source software made possible by a passionate community of people collaborating on and contributing to its development. The resources below outline various ways you can help the world’s most popular open source web platform, regardless of your technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to ensuring WordPress is performant and stable. It’s also a meaningful way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/10/01/help-test-wordpress-6-7/">This detailed guide</a> will walk you through testing features in WordPress 6.7. For those new to testing, follow <a href="https://make.wordpress.org/test/2024/02/15/help-test-wordpress-6-5-beta-1">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums or directly to <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a> if you are comfortable writing a reproducible bug report. You can also check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Search for vulnerabilities</h3>
+
+
+
+<p>From now until the final release of WordPress 6.7 (scheduled for November 12, 2024), the <a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/">monetary reward for reporting new, unreleased security vulnerabilities</a> is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Update your theme or plugin</h3>
+
+
+
+<p>For plugin and theme authors, your products play an integral role in extending the functionality and value of WordPress for all users.&nbsp;</p>
+
+
+
+<p>Thanks for continuing to test your themes and plugins with the WordPress 6.7 beta releases. With RC2, you’ll want to conclude your testing and update the <em>“Tested up to”</em> version in your <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">plugin’s readme file</a> to 6.7.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? ¿Español? Français? Русский? 日本? हिन्दी? বাংলা? You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>. </p>
+
+
+
+<h2 class="wp-block-heading">Release the haiku</h2>
+
+
+
+<p><em>Six point seven’s dawn,<br>RC2 sweeps bugs away,<br>Sites stand firm and strong.</em></p>
+
+
+
+<p><em>Thank you to the following contributors for collaborating on this post:</em> <em><a href='https://profiles.wordpress.org/jorbin/' class='mention'><span class='mentions-prefix'>@</span>jorbin</a></em>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18043</post-id>	</item>
+		<item>
+		<title>WordPress 6.7 Release Candidate 1</title>
+		<link>https://wordpress.org/news/2024/10/wordpress-6-7-release-candidate-1/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 22 Oct 2024 16:42:07 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=18023</guid>
+
+					<description><![CDATA[The first release candidate (RC1) for WordPress 6.7 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended that you evaluate RC1 on a test server and site. Reaching this phase [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The first release candidate (RC1) for WordPress 6.7 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, it’s recommended that you evaluate RC1 on a test server and site.</p>
+
+
+
+<p>Reaching this phase of the release cycle is an important milestone. While release candidates are considered ready for release, testing remains crucial to ensure that everything in WordPress 6.7 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.7 RC1 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.7-RC1.zip">RC1 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the following <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.7-RC1</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=5087acab42d5354c8766303d13b78c8a77ac331b%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D">6.7 RC1 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">You can test the RC1 version in four ways.</figcaption></figure>
+
+
+
+<p>The current target for the WordPress 6.7 release is <strong>November 12, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-7/">6.7 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-7/">6.7-related posts</a> in the coming weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.7 RC1?</h2>
+
+
+
+<p>Get a recap of WordPress 6.7’s highlighted features in the <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/">Beta 1 announcement</a>. For more technical information related to issues addressed since Beta 3, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.5?since=2024-10-15&amp;until=2024-10-22">GitHub commits for 6.7</a> since October 15</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=10%2F15%2F2024..10%2F22%2F2024&amp;milestone=6.7&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since October 15</li>
+</ul>
+
+
+
+<p>Want to look deeper into the details and technical notes for this release? These recent posts cover some of the latest updates:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://make.wordpress.org/core/2024/10/17/new-block-type-registration-apis-to-improve-performance-in-wordpress-6-7/">New block type registration APIs to improve performance in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/08/15/automatic-conversion-of-heic-images-to-jpeg-in-wordpress-6-7/">Automatic conversion of HEIC images to JPEG in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/18/auto-sizes-for-lazy-loaded-images-in-wordpress-6-7/">Auto Sizes for Lazy Loaded Images in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/20/new-plugin-template-registration-api-in-wordpress-6-7/">New Plugin Template Registration API in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/21/developer-notes-for-zoom-out-in-wordpress-6-7/">Developer Notes for Zoom Out in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/21/block-bindings-improvements-to-the-editor-experience-in-6-7/">Block Bindings: Improvements to the Editor Experience in 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/21/i18n-improvements-6-7/">Internationalization improvements in 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/17/updates-to-the-html-api-in-6-7/">Updates to the HTML API in 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/10/20/miscellaneous-block-editor-changes-in-wordpress-6-7/">Miscellaneous Block Editor Changes in WordPress 6.7</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/tag/dev-notes+6-7/">All 6.7-related developer notes</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How you can contribute</h2>
+
+
+
+<p>WordPress is open source software made possible by a passionate community of people collaborating on and contributing to its development. The resources below outline various ways you can help the world’s most popular open source web platform, regardless of your technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to ensuring WordPress is performant and stable. It’s also a meaningful way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/10/01/help-test-wordpress-6-7/">This detailed guide</a> will walk you through testing features in WordPress 6.7. For those new to testing, follow <a href="https://make.wordpress.org/test/2024/02/15/help-test-wordpress-6-5-beta-1">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums or directly to <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a> if you are comfortable writing a reproducible bug report. You can also check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Search for vulnerabilities</h3>
+
+
+
+<p>From now until the final release of WordPress 6.7 (scheduled for November 12, 2024), the <a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/">monetary reward for reporting new, unreleased security vulnerabilities</a> is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Update your theme or plugin</h3>
+
+
+
+<p>For plugin and theme authors, your products play an integral role in extending the functionality and value of WordPress for all users.&nbsp;</p>
+
+
+
+<p>Thanks for continuing to test your themes and plugins with the WordPress 6.7 beta releases. With RC1, you’ll want to conclude your testing and update the <em>“Tested up to”</em> version in your <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">plugin’s readme file</a> to 6.7.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? ¿Español? Français? Русский? 日本? हिन्दी? বাংলা? You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>. This release milestone (RC1) also marks the <a href="https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze">hard string freeze</a> point of the 6.7 release cycle.</p>
+
+
+
+<h2 class="wp-block-heading">Release the haiku</h2>
+
+
+
+<p>I See An R.C.<br>You See A Chance For Testing<br>Six Seven For The Win!</p>
+
+
+
+<p><em>Thank you to the following contributors for collaborating on this post:</em> <em><a href='https://profiles.wordpress.org/atachibana/' class='mention'><span class='mentions-prefix'>@</span>atachibana</a>, <a href='https://profiles.wordpress.org/jorbin/' class='mention'><span class='mentions-prefix'>@</span>jorbin</a></em>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18023</post-id>	</item>
+		<item>
+		<title>WordPress 6.7 Beta 3</title>
+		<link>https://wordpress.org/news/2024/10/wordpress-6-7-beta-3/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 15 Oct 2024 00:30:07 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17984</guid>
+
+					<description><![CDATA[WordPress 6.7 Beta 3 is now ready for testing! This beta version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended you evaluate Beta 3 on a test server and site. You can test WordPress 6.7 Beta [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-3cf2f536-f167-464f-a4ba-07f45105e476">WordPress 6.7 Beta 3 is now ready for testing!</p>
+
+
+
+<p id="block-b65e3bf0-0494-4039-a701-f21e505600ad"><strong>This beta version of the WordPress software is under development</strong>. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended you evaluate Beta 3 on a test server and site.</p>
+
+
+
+<p id="block-e904322b-c488-4166-8312-0b769067b943">You can test WordPress 6.7 Beta 3 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.7-beta3.zip">Beta 3 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the following <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.7-beta3</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=11b364fbffbab28d9127be91ee2d48f6645a6509%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D">6.7 Beta 3 WordPress Playground instance</a> to test the software directly in your browser without the need for a separate site or setup.&nbsp;</td></tr></tbody></table></figure>
+
+
+
+<p id="block-93b754f0-e211-47b7-ac89-349d85c2f02f">The current target date for the final release of WordPress 6.7 is <strong>November 12, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-7/">6.7 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-7/">6.7-related posts</a> in the coming weeks for more information.</p>
+
+
+
+<p id="block-7b5d791d-225a-4623-83ee-19a586c7094b"><strong>Catch up on what&#8217;s new in WordPress 6.7</strong>: Read the <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/">Beta 1</a> and <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-2/">Beta 2</a> announcements for details and highlights.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-f1abd396-a019-4c9a-bcb8-9ac381a61ca1">How to test this release</h2>
+
+
+
+<p id="block-92dfcab6-d2a8-4753-84ce-8ef7b6dd1e90">Your help testing the WordPress 6.7 Beta 3 version is key to ensuring everything in the release is the best it can be. While testing the upgrade process is essential, trying out new features is equally important. <a href="https://make.wordpress.org/test/2024/10/01/help-test-wordpress-6-7/">This detailed guide</a> will walk you through testing features in WordPress 6.7.</p>
+
+
+
+<p id="block-6519fad7-59ea-45f1-9b8f-ca14c09c865d">If you encounter an issue, please report it to the Alpha/Beta area of the support forums or directly to <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a> if you are comfortable writing a reproducible bug report. You can also check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p id="block-4bd66b13-6784-4a4f-bb7a-b4dab8e5fc12">Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-67b6a6c7-a95e-4b27-8946-a66d15105cb7">Vulnerability bounty doubles during Beta/RC</h2>
+
+
+
+<p id="block-16175da3-84c9-45d0-b735-08a9d4453a14">Between Beta 1, released on October 1, 2024, and the final Release Candidate (RC) scheduled for November 5, 2024, the <a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/">monetary reward for reporting new, unreleased security vulnerabilities</a> is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-14306771-b240-4e15-948f-7504757bbb61">Beta 3 updates and highlights</h2>
+
+
+
+<p id="block-93917d31-4478-45b5-b71c-1c8a1f49cc65">WordPress 6.7 Beta 3 contains more than 26 Editor updates and fixes since the Beta 2 release, including 18 tickets for WordPress core.</p>
+
+
+
+<p id="block-ffdc1220-c2f5-4c23-982b-60c366c629d1">Each beta cycle focuses on bug fixes; more are on the way with your help through testing. You can browse the technical details for all issues addressed since Beta 3 using these links:</p>
+
+
+
+<ul id="block-3fcf78c7-bebc-42e1-96f6-8b605ea23aae" class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.7?since=2024-10-09&amp;until=2024-10-14">GitHub commits for 6.7</a> since October 9, 2024</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=10%2F09%2F2024..10%2F14%2F2024&amp;milestone=6.7&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since October 9, 2024</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading" id="block-c414b25e-802f-4f29-a31c-9e13394a4947">A Beta 3 haiku</h2>
+
+
+
+<p id="block-a0f155a2-19b3-4645-a516-c7ae56541e5f">Code in motion hums,<br>New features bloom, bugs retreat,<br>6.7 calls.</p>
+
+
+
+<p id="block-014ab749-322b-44bd-bf4f-bf5817d90bfd"><em>Props to <a href='https://profiles.wordpress.org/joedolson/' class='mention'><span class='mentions-prefix'>@</span>joedolson</a> and </em><a href='https://profiles.wordpress.org/jeffpaul/' class='mention'><span class='mentions-prefix'>@</span>jeffpaul</a><em> for proofreading and review, and haiku from&nbsp;<a href="https://wordpress.slack.com/team/U030RHV73" target="_blank" rel="noreferrer noopener">@colorful-tones</a></em>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17984</post-id>	</item>
+		<item>
+		<title>WordPress 6.7 Beta 2</title>
+		<link>https://wordpress.org/news/2024/10/wordpress-6-7-beta-2/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 08 Oct 2024 00:44:58 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17887</guid>
+
+					<description><![CDATA[WordPress 6.7 Beta 2 is now ready for testing! This beta version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended you evaluate Beta 2 on a test server and site. You can test WordPress 6.7 Beta [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-3cf2f536-f167-464f-a4ba-07f45105e476">WordPress 6.7 Beta 2 is now ready for testing!</p>
+
+
+
+<p id="block-b65e3bf0-0494-4039-a701-f21e505600ad"><strong>This beta version of the WordPress software is under development</strong>. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended you evaluate Beta 2 on a test server and site.</p>
+
+
+
+<p id="block-e904322b-c488-4166-8312-0b769067b943">You can test WordPress 6.7 Beta 2 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.7-beta2.zip">Beta 2 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the following <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.7-beta2</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22https://playground.wordpress.net/plugin-proxy.php?build-ref=a49bf5596f7258375345826dc136bfc589372e37%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20%5B%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20%5D%20%7D">6.7 Beta 2 WordPress Playground instance</a> to test the software directly in your browser without the need for a separate site or setup.&nbsp;</td></tr></tbody></table></figure>
+
+
+
+<p id="block-93b754f0-e211-47b7-ac89-349d85c2f02f">The current target date for the final release of WordPress 6.7 is <strong>November 12, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-7/">6.7 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-7/">6.7-related posts</a> in the coming weeks for more information.</p>
+
+
+
+<p id="block-7b5d791d-225a-4623-83ee-19a586c7094b"><strong>Catch up on what&#8217;s new in WordPress 6.7</strong>: <a href="https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/">Read the Beta 1 announcement</a> for details and highlights.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-f1abd396-a019-4c9a-bcb8-9ac381a61ca1">How to test this release</h2>
+
+
+
+<p id="block-92dfcab6-d2a8-4753-84ce-8ef7b6dd1e90">Your help testing the WordPress 6.7 Beta 2 version is key to ensuring everything in the release is the best it can be. While testing the upgrade process is essential, trying out new features is equally important. <a href="https://make.wordpress.org/test/2024/10/01/help-test-wordpress-6-7/">This detailed guide</a> will walk you through testing features in WordPress 6.7.</p>
+
+
+
+<p id="block-6519fad7-59ea-45f1-9b8f-ca14c09c865d">If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums or directly to <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a> if you are comfortable writing a reproducible bug report. You can also check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p id="block-4bd66b13-6784-4a4f-bb7a-b4dab8e5fc12">Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-67b6a6c7-a95e-4b27-8946-a66d15105cb7">Vulnerability bounty doubles during Beta/RC</h2>
+
+
+
+<p id="block-16175da3-84c9-45d0-b735-08a9d4453a14">Between Beta 1, released on October 1, 2024, and the final Release Candidate (RC) scheduled for November 5, 2024, the <a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/">monetary reward for reporting new, unreleased security vulnerabilities</a> is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="block-14306771-b240-4e15-948f-7504757bbb61">Beta 2 updates and highlights</h2>
+
+
+
+<p id="block-93917d31-4478-45b5-b71c-1c8a1f49cc65">WordPress 6.7 Beta 2 contains more than 18 Editor updates and fixes since the Beta 1 release, including <a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=02%2F14%2F2024..02%2F19%2F2024&amp;milestone=6.5&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">28 tickets for WordPress core</a>.</p>
+
+
+
+<p id="block-ffdc1220-c2f5-4c23-982b-60c366c629d1">Each beta cycle focuses on bug fixes; more are on the way with your help through testing. You can browse the technical details for all issues addressed since Beta 1 using these links:</p>
+
+
+
+<ul id="block-3fcf78c7-bebc-42e1-96f6-8b605ea23aae" class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.7?since=2024-10-02&amp;until=2024-10-07">GitHub commits for 6.7</a> since October 2, 2024</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=10%2F02%2F2024..10%2F07%2F2024&amp;milestone=6.7&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since October 2, 2024</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading" id="block-c414b25e-802f-4f29-a31c-9e13394a4947">A Beta 2 haiku</h2>
+
+
+
+<p id="block-a0f155a2-19b3-4645-a516-c7ae56541e5f">Beta 2 arrives,<br>October’s code settles in,<br>Change rustles like leaves.</p>
+
+
+
+<p id="block-014ab749-322b-44bd-bf4f-bf5817d90bfd"><em>Props to <a href='https://profiles.wordpress.org/jeffpaul/' class='mention'><span class='mentions-prefix'>@</span>jeffpaul</a></em> for proofreading and review.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17887</post-id>	</item>
+		<item>
+		<title>WordPress 6.7 Beta 1</title>
+		<link>https://wordpress.org/news/2024/10/wordpress-6-7-beta-1/</link>
+		
+		<dc:creator><![CDATA[David Baumwald]]></dc:creator>
+		<pubDate>Tue, 01 Oct 2024 04:41:44 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.7]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17857</guid>
+
+					<description><![CDATA[WordPress 6.7 Beta 1 is now ready for download and testing!
+
+This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended you evaluate Beta 1 on a test server and site.]]></description>
+										<content:encoded><![CDATA[
+<p id="block-0eaa018b-f0fe-49ae-a80b-762dd1f69d27">WordPress 6.7 Beta 1 is ready for download and testing!</p>
+
+
+
+<p><strong>This beta version of the WordPress software is under development.</strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.  Instead, set up a test environment or a local site to explore the new features.</p>
+
+
+
+<h2 class="wp-block-heading">How to Test WordPress 6.7 Beta 1</h2>
+
+
+
+<p>You can test Beta 1 in any of the following ways:&nbsp;</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>WordPress Beta Tester Plugin</strong>                                  </td><td>Install and activate the<a href="https://wordpress.org/plugins/wordpress-beta-tester/"> WordPress Beta Tester</a> plugin on a WordPress install.&nbsp;Select the “Bleeding edge” channel and “Beta/RC Only” stream.</td></tr><tr><td><strong>Direct Download</strong></td><td>Download the<a href="https://wordpress.org/wordpress-6.7-beta1.zip"> Beta 1 version (zip)</a> and install it on a WordPress website.</td></tr><tr><td><strong>Command Line (WP-CLI)</strong>                      </td><td>Use this<a href="https://make.wordpress.org/cli/"> WP-CLI</a> command: <code>wp core update --version=6.7-beta1</code></td></tr><tr><td><strong>WordPress Playground</strong></td><td>Use a<a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22beta%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20[%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20]%20%7D"> 6.7 Beta 1 WordPress Playground instance</a> to test the software directly in your browser. No setup required–-just click and go!</td></tr></tbody></table></figure>
+
+
+
+<p>The scheduled final release date for WordPress 6.7 is <strong>November 12, 2024</strong>. Your help testing Beta and RC versions over the next six weeks is vital to ensuring the final release is everything it should be: stable, powerful, and intuitive.</p>
+
+
+
+<h2 class="wp-block-heading">How important is your testing?</h2>
+
+
+
+<p>Testing for issues is a critical part of developing any software, and it’s a meaningful way for anyone to contribute—whether or not you have experience.</p>
+
+
+
+<p>If you encounter an issue, please share it in the<a href="https://wordpress.org/support/forum/alphabeta/"> Alpha/Beta area</a> of the support forums. If you are comfortable submitting a reproducible bug report, you can do so<a href="https://core.trac.wordpress.org/newticket"> via WordPress Trac</a>. You can also check your issue against a list of<a href="https://core.trac.wordpress.org/tickets/major"> known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general and how to get started? Follow along with the<a href="https://make.wordpress.org/test/"> testing initiatives in Make Core</a> and join the<a href="https://wordpress.slack.com/messages/core-test/"> #core-test channel</a> on<a href="https://wordpress.slack.com/"> Making WordPress Slack</a>.</p>
+
+
+
+<p>WordPress 6.7 will include many new features that were previously only available in the Gutenberg plugin. Learn more about Gutenberg updates since WordPress 6.7 in the<a href="https://make.wordpress.org/core/tag/gutenberg-new/"> What’s New in Gutenberg</a> posts for versions <a href="https://make.wordpress.org/core/2024/06/09/what-is-new-in-gutenberg-18-5-05-jun/">18.5</a>, <a href="https://make.wordpress.org/core/2024/06/20/whats-new-in-gutenberg-18-6/">18.6</a>, <a href="https://make.wordpress.org/core/2024/07/04/whats-new-in-gutenberg-18-7-03-july/">18.7</a>, <a href="https://make.wordpress.org/core/2024/07/17/whats-new-in-gutenberg-18-8-17-july/">18.8</a>, <a href="https://make.wordpress.org/core/2024/07/31/whats-new-in-gutenberg-18-9-31-july/">18.9</a>, <a href="https://make.wordpress.org/core/2024/08/14/whats-new-in-gutenberg-19-0-14-august/">19.0</a>, <a href="https://make.wordpress.org/core/2024/08/28/whats-new-in-gutenberg-19-1-28-august/">19.1</a>, <a href="https://make.wordpress.org/core/2024/09/12/what-is-new-in-gutenberg-19-2-11-september/">19.2</a>, and <a href="https://make.wordpress.org/core/2024/09/25/whats-new-in-gutenberg-19-3-25-september/">19.3</a>.</p>
+
+
+
+<h2 class="wp-block-heading">What’s New in WordPress 6.7 Beta 1</h2>
+
+
+
+<p>WordPress 6.7 Beta 1 contains over 500 enhancements and over 500 bug fixes for the editor, including more than <a href="https://core.trac.wordpress.org/query?status=closed&amp;milestone=6.7&amp;group=component&amp;max=500&amp;col=id&amp;col=summary&amp;col=owner&amp;col=type&amp;col=priority&amp;col=component&amp;col=version&amp;order=priority">200 tickets for WordPress 6.7 Core</a>. Here’s a glimpse of what’s coming:</p>
+
+
+
+<h3 class="wp-block-heading">Meet the Twenty Twenty-Five theme</h3>
+
+
+
+<p>Launching with WordPress 6.7, the new default theme, <a href="https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/">Twenty Twenty-Five</a>, embodies ultimate flexibility and adaptability, showcasing how WordPress empowers you to tell your story with a rich selection of patterns and styles. Inspired by glimpses of natural beauty and ancestry heritage, it evokes ideas of impermanence, the passage of time, and continuous evolution–mirroring life’s journey. Experience effortless site creation with Twenty Twenty-Five and follow its progress or report issues on <a href="https://github.com/wordpress/twentytwentyfive">this GitHub repo</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Zoom Out to Compose with Patterns</h3>
+
+
+
+<p>The Zoom Out view simplifies your editing experience by allowing you to create and edit at the pattern level rather than focusing on individual blocks. Easily toggle this view from the toolbar to streamline your site-building process, making it faster and more intuitive to design pages using patterns.</p>
+
+
+
+<h3 class="wp-block-heading">Media improvements&nbsp;</h3>
+
+
+
+<p>Now supporting HEIC image uploads–automatically converted to JPEG for maximum compatibility–you can add high-quality images without worrying about browser support. Plus, enjoy auto-sizing for lazy-loaded images and expanded background image options at both individual and global levels, giving you greater control over your site&#8217;s visuals and performance.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Expanding Block Supports</h3>
+
+
+
+<p>Several blocks now come with expanded support options, enabling even more design possibilities. Notably, the long-requested shadow support for Group blocks has been added, a big win for designers and theme developers!</p>
+
+
+
+<h3 class="wp-block-heading">Preview Options API&nbsp;</h3>
+
+
+
+<p>The latest WordPress release enhances the Preview Options in the block editor, empowering developers to customize content previews. A new API allows plugins and themes to add custom items to the preview dropdown menu, enabling users to see content in different formats or environments. This flexibility enriches the editing experience while maintaining the existing familiar Preview dropdown structure.</p>
+
+
+
+<h3 class="wp-block-heading">Refined Data Views</h3>
+
+
+
+<p>The Data Views introduced in 6.5 continue to be improved. This release is focused on refining the experience with a few new features aimed at making these views more flexible for customization and more functional to use.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading">Manage Block Bindings Directly</h3>
+
+
+
+<p>Updates to this API in 6.7 polish and open most of the underlying APIs, improving the overall user experience, and add a user interface (UI) that allows you to connect attributes with custom fields to their binding sources. This new UI makes it possible to create bindings directly in a block instead of needing to use the Code Editor. By default admin and editor users can create and modify bindings, but this can be overridden with `block_editor_settings_all or map_meta_cap` filters.</p>
+
+
+
+<h3 class="wp-block-heading">Simplified and Smarter Query Loop Block</h3>
+
+
+
+<p>The Query Loop block is improved, as it now automatically inherits the query from the template by default, eliminating the need for manual configuration. This means your posts display immediately in both the editor and on the front end, streamlining the process so users can focus on content without extra configuration needed.</p>
+
+
+
+<h3 class="wp-block-heading">Edit and Control Font Size Presets</h3>
+
+
+
+<p>An enhanced Styles interface allows for greater flexibility when creating, editing, removing, and applying font size presets. You can now easily modify the presets provided by a theme or create your own custom options. A key feature is the ability to toggle fluid typography, which enables responsive font scaling with additional options for finer control over responsiveness.</p>
+
+
+
+<h3 class="wp-block-heading">View Meta Boxes in the iframed Post Editor</h3>
+
+
+
+<p>A new split view option has been introduced that allows you to access both the editor canvas and metaboxes while editing. This change will provide a consistent WYSIWYG experience between the editor and front end views.</p>
+
+
+
+<h3 class="wp-block-heading">Template Registration API</h3>
+
+
+
+<p>With this release, developers can now more easily register custom block templates without complex filters. Streamline your development process and create custom templates with ease.&nbsp;</p>
+
+
+
+<p><strong><strong>The features included in this first beta may change before the final release of WordPress 6.7, based on what testers like you find.</strong></strong></p>
+
+
+
+<p>Get an overview of the<a href="https://make.wordpress.org/core/6-7/"> 6.7 release cycle</a> and check the<a href="https://make.wordpress.org/core/"> Make WordPress Core blog</a> for<a href="https://make.wordpress.org/core/tag/6-7/"> 6.7-related posts</a> in the next few weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">Vulnerability bounty doubles during Beta &amp; Release Candidate</h2>
+
+
+
+<p>The WordPress community sponsors a<a href="https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/"> monetary reward for reporting new, unreleased security vulnerabilities</a>. This reward doubles during the period between Beta 1 on October 1, 2024 and the final Release Candidate (RC) scheduled for November 5, 2024. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the<a href="https://hackerone.com/wordpress"> HackerOne page</a> and in the<a href="https://wordpress.org/about/security/"> security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Just for you: a Beta 1 haiku</h3>
+
+
+
+<p>Lines of code arise,&nbsp;<br>Testing shapes the future path,&nbsp;&nbsp;<br>WordPress grows once more.</p>
+
+
+
+<p class="has-text-align-left is-style-default"><em>Props to <em><a href='https://profiles.wordpress.org/annezazu/' class='mention'><span class='mentions-prefix'>@</span>annezazu</a>, </em><a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>, <a href='https://profiles.wordpress.org/colorful-tones/' class='mention'><span class='mentions-prefix'>@</span>colorful-tones</a>,</em> <em><em><a href='https://profiles.wordpress.org/courane01/' class='mention'><span class='mentions-prefix'>@</span>courane01</a>, <a href='https://profiles.wordpress.org/desrosj/' class='mention'><span class='mentions-prefix'>@</span>desrosj</a>, <a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a>, and <a href='https://profiles.wordpress.org/priethor/' class='mention'><span class='mentions-prefix'>@</span>priethor</a></em> or reviewing and collaborating on this post!</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17857</post-id>	</item>
+		<item>
+		<title>WP Engine is banned from WordPress.org</title>
+		<link>https://wordpress.org/news/2024/09/wp-engine-banned/</link>
+		
+		<dc:creator><![CDATA[Matt Mullenweg]]></dc:creator>
+		<pubDate>Wed, 25 Sep 2024 22:50:29 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17834</guid>
+
+					<description><![CDATA[Pending their legal claims and litigation against WordPress.org, WP Engine no longer has free access to WordPress.org's resources.]]></description>
+										<content:encoded><![CDATA[
+<p>Any WP Engine customers having trouble with their sites should <a href="https://wpengine.com/contact/">contact WP Engine support and ask them to fix it</a>.</p>
+
+
+
+<p>WP Engine needs a trademark license, they don&#8217;t have one. I won&#8217;t bore you with the story of how WP Engine <a href="https://x.com/photomatt/status/1838502185879167069">broke thousands of customer sites yesterday in their haphazard attempt to block our attempts to inform the wider WordPress community</a> regarding their disabling and locking down a WordPress core feature in order to extract profit.</p>
+
+
+
+<p><strong>What I will tell you is that, pending their legal claims and litigation against WordPress.org, WP Engine no longer has free access to WordPress.org&#8217;s resources.</strong></p>
+
+
+
+<p>WP Engine wants to control your WordPress experience, they need to run their own user login system, update servers, plugin directory, theme directory, pattern directory, block directory, translations, photo directory, job board, meetups, conferences, bug tracker, forums, Slack, Ping-o-matic, and showcase. Their servers can no longer access our servers for free.</p>
+
+
+
+<p>The reason WordPress sites don&#8217;t get hacked as much anymore is we work with hosts to block vulnerabilities at the network layer, WP Engine will need to replicate that security research on their own.</p>
+
+
+
+<p>Why should WordPress.org provide these services to WP Engine for free, given their attacks on us?</p>
+
+
+
+<p>WP Engine is free to offer their hacked up, bastardized simulacra of WordPress&#8217;s GPL code to their customers, and they can experience WordPress as WP Engine envisions it, with them getting all of the profits and providing all of the services.</p>
+
+
+
+<p>If you want to experience WordPress, use any other host in the world besides WP Engine. <a href="https://wordpress.org/news/2024/09/wp-engine/">WP Engine is not WordPress</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17834</post-id>	</item>
+		<item>
+		<title>WordPress 6.6 Release Candidate 3</title>
+		<link>https://wordpress.org/news/2024/07/wordpress-6-6-release-candidate-3/</link>
+		
+		<dc:creator><![CDATA[marybaum]]></dc:creator>
+		<pubDate>Tue, 09 Jul 2024 17:39:24 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.6]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17497</guid>
+
+					<description><![CDATA[WordPress 6.6 RC3 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, please evaluate RC3 on a test server or a local environment. Reaching this phase of the release cycle is a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress 6.6 RC3 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, please evaluate RC3 on a test server or a local environment.</p>
+
+
+
+<p>Reaching this phase of the release cycle is a worthy achievement. While release candidates are considered ready for release, your testing is still vital to make sure everything in WordPress 6.6 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.6 RC3 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.6-RC3.zip">RC3 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the this <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.6-RC3</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22beta%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20[%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20]%20%7D">6.6 RC3 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">Please test WordPress 6.6 RC3 in one or more of these four ways.</figcaption></figure>
+
+
+
+<p>The target for the WordPress 6.6 release is <strong>next Tuesday,</strong> <strong>July 16, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-6/">6.6 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-6/">6.6-related posts</a> in the next few weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.6 RC3?</h2>
+
+
+
+<p>Thanks to your testing (and many other contributors‘ up to now) this release includes eight bug fixes for the Editor and  <a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=06%2F25%2F2024..07%2F01%2F2024&amp;milestone=6.6&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">18 tickets for WordPress Core</a>.</p>
+
+
+
+<p>Get a recap of WordPress 6.6’s highlighted features in the <a href="https://wordpress.org/news/2024/06/wordpress-6-6-beta-1/" data-type="post" data-id="17289">Beta 1 announcement</a>. For more technical information related to issues addressed since RC 2, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.6?since=2024-07-02&amp;until=2024-07-09">GitHub commits for 6.6</a> since July 2</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=06%2F25%2F2024..07%2F01%2F2024&amp;milestone=6.6&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac </a><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=07%2F02%2F2024..07%2F09%2F2024&amp;milestone=6.6&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">tickets</a> since July 2</li>
+</ul>
+
+
+
+<p>Want to look deeper into the details and technical notes for this release? You might want to make your first stop <a href="https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/">The WordPress 6.6 Field Guide</a>. Then, check out this list:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://make.wordpress.org/core/2024/06/20/roster-of-design-tools-per-block-wordpress-6-6-edition/">Roster of design tools per block (WordPress 6.6 edition)</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/tag/dev-notes+6-6/">All 6.6-related developer notes</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">You can contribute. Here&#8217;s how</h2>
+
+
+
+<p>WordPress is the world’s most popular open source web platform, thanks to a passionate community of people who collaborate on its development in a wide variety of ways. You can help—whether or not you have any technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to keeping WordPress speedy, stable, and secure. It’s also a vital way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17392">This detailed guide</a> will walk you through testing features in WordPress 6.6. If you&#8217;re new to testing, follow <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17289">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums. If you are comfortable writing a reproducible bug report, you can also report it on <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a>. Before you do either, you may want to check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Please update your WordPress product</h3>
+
+
+
+<p>If you build themes, plugins, blocks, or patterns, your efforts play an integral role in adding new functionality to WordPress and helping bring new people and ideas to the most vibrant (and massive!) open source community in the world.&nbsp;</p>
+
+
+
+<p>Thanks for continuing to test your products with the WordPress 6.6 betas and release candidates. With RC3, you’ll want to make sure everything is working smoothly, and if it&#8217;s a plugin, update the <em>“Tested up to”</em> version in its <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">readme file</a> to 6.6.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? <bdo lang="es" dir="ltr">¿Español?</bdo> <bdo lang="fr" dir="ltr">Français?</bdo> <bdo lang="ru" dir="ltr">Русский</bdo>? <bdo lang="ja" dir="ltr">日本</bdo>語? <bdo lang="hin" dir="ltr">हिन्दी</bdo>? <bdo lang="bn" dir="ltr">বাংলা</bdo>? You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>.</p>
+
+
+
+<h2 class="wp-block-heading">The RC3 haiku</h2>
+
+
+
+<p>One week to go. Then:<br>Open the paintbox! Try the tools!<br>Play a new jazz tune.</p>
+
+
+
+<p class="has-text-align-right"><em>Props to  <a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a> and <a href='https://profiles.wordpress.org/audrasjb/' class='mention'><span class='mentions-prefix'>@</span>audrasjb</a>. for peer review.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17497</post-id>	</item>
+		<item>
+		<title>WordPress 6.6 Release Candidate 2</title>
+		<link>https://wordpress.org/news/2024/07/wordpress-6-6-release-candidate-2/</link>
+		
+		<dc:creator><![CDATA[marybaum]]></dc:creator>
+		<pubDate>Tue, 02 Jul 2024 17:09:27 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.6]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17469</guid>
+
+					<description><![CDATA[WordPress 6.6 RC2 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, please evaluate RC2 on a test server or a local environment. Reaching this phase of the release cycle is a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress 6.6 RC2 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, please evaluate RC2 on a test server or a local environment.</p>
+
+
+
+<p>Reaching this phase of the release cycle is a worthy achievement. While release candidates are considered ready for release, your testing is still vital to make sure everything in WordPress 6.6 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.6 RC2 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.6-RC2.zip">RC2 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the this <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.6-RC2</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22beta%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20[%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20]%20%7D">6.6 RC2 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">Please test WordPress 6.6 RC2 in one or more of these four ways.</figcaption></figure>
+
+
+
+<p>The target for the WordPress 6.6 release is <strong>July 16, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-6/">6.6 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-6/">6.6-related posts</a> in the next few weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.6 RC2?</h2>
+
+
+
+<p>Thanks to your testing and many other contributors‘ up to now, this release includes more than 19 bug fixes for the Editor and more than <a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=06%2F25%2F2024..07%2F01%2F2024&amp;milestone=6.6&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">20 tickets for WordPress Core</a>.</p>
+
+
+
+<p>Get a recap of WordPress 6.6’s highlighted features in the <a href="https://wordpress.org/news/2024/06/wordpress-6-6-beta-1/" data-type="post" data-id="17289">Beta 1 announcement</a>. For more technical information related to issues addressed since Beta 3, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.6?since=2024-06-24&amp;until=2024-06-30">GitHub commits for 6.6</a> since June 25</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=06%2F25%2F2024..07%2F01%2F2024&amp;milestone=6.6&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since June 25</li>
+</ul>
+
+
+
+<p>Want to look deeper into the details and technical notes for this release? You might want to make your first stop <a href="https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/">The WordPress 6.6 Field Guide</a>. Then, check out this list:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://make.wordpress.org/core/2024/06/20/roster-of-design-tools-per-block-wordpress-6-6-edition/">Roster of design tools per block (WordPress 6.6 edition)</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/07/01/hallway-hangout-section-styles-and-other-block-style-variation-updates/">Hallway Hangout: Section styles and other block style variation updates</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/07/01/recap-hallway-hangout-exploring-grid-layouts/">Recap Hallway Hangout: Exploring Grid Layouts</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/28/editing-custom-fields-from-connected-blocks/">Editing custom fields from connected blocks</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/28/updates-to-the-interactivity-api-in-6-6/">Updates to the Interactivity API in 6.6</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/tag/dev-notes+6-6/">All 6.6-related developer notes</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">You can contribute. Here&#8217;s how</h2>
+
+
+
+<p>WordPress is the world’s most popular open source web platform, thanks to a passionate community of people who collaborate on its development in a wide variety of ways. You can help—whether or not you have any technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to keeping WordPress speedy, stable, and secure. It’s also a vital way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17392">This detailed guide</a> will walk you through testing features in WordPress 6.6. If you&#8217;re new to testing, follow <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17289">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums. If you are comfortable writing a reproducible bug report, you can also report it on <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a>. Before you do either, you may want to check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Search for vulnerabilities</h3>
+
+
+
+<p>From now until the final release candidate of WordPress 6.6 (scheduled for July 9), the <a href="https://make.wordpress.org/security/2024/06/04/wordpress-6-6-is-coming/">financial reward for reporting new, unreleased security vulnerabilities</a> doubles. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Update your theme or plugin</h3>
+
+
+
+<p>If you build themes, plugins, blocks, or patterns, your products play an integral role in extending the functionality and value of WordPress for all users. </p>
+
+
+
+<p>Thanks for continuing to test your products with the WordPress 6.6 beta releases. With RC2, you’ll want to finish your testing and update the <em>“Tested up to”</em> version in your <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">plugin’s readme file</a> to 6.6.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? <bdo lang="es" dir="ltr">¿Español?</bdo> <bdo lang="fr" dir="ltr">Français?</bdo> <bdo lang="ru" dir="ltr">Русский</bdo>? <bdo lang="ja" dir="ltr">日本</bdo>語? <bdo lang="hin" dir="ltr">हिन्दी</bdo>? <bdo lang="bn" dir="ltr">বাংলা</bdo>? You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Release the haiku</h2>
+
+
+
+<p>6.6 draws near.<br>In two weeks the final&#8217;s here.<br>Test. Test. Then test more.</p>
+
+
+
+<p class="has-text-align-right"><em>Props to <a href='https://profiles.wordpress.org/juanmaguitar/' class='mention'><span class='mentions-prefix'>@</span>juanmaguitar</a>, <a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>, <a href='https://profiles.wordpress.org/desrosj/' class='mention'><span class='mentions-prefix'>@</span>desrosj</a></em> <em>and <a href='https://profiles.wordpress.org/atachibana/' class='mention'><span class='mentions-prefix'>@</span>atachibana</a> for peer review.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17469</post-id>	</item>
+		<item>
+		<title>WordPress 6.6 Release Candidate 1</title>
+		<link>https://wordpress.org/news/2024/06/wordpress-6-6-release-candidate-1/</link>
+		
+		<dc:creator><![CDATA[marybaum]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 16:23:50 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[6.6]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=17429</guid>
+
+					<description><![CDATA[The first release candidate (RC1) for WordPress 6.6 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, please evaluate RC1 on a test server or a local environment. Reaching this phase of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The first release candidate (RC1) for WordPress 6.6 is ready for download and testing!</p>
+
+
+
+<p><strong>This version of the WordPress software is under development</strong>.<strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</strong> Instead, please evaluate RC1 on a test server or a local environment.</p>
+
+
+
+<p>Reaching this phase of the release cycle is a worthy achievement. While release candidates are considered ready for release, testing is still vital to make sure everything in WordPress 6.6 is the best it can be.</p>
+
+
+
+<p>You can test WordPress 6.6 RC1 in four ways:</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>Plugin</th><td>Install and activate the <a href="https://wordpress.org/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin on a WordPress install. (Select the “Bleeding edge” channel and “Beta/RC Only” stream).</td></tr><tr><th>Direct Download</th><td>Download the <a href="https://wordpress.org/wordpress-6.6-RC1.zip">RC1 version (zip)</a> and install it on a WordPress website.</td></tr><tr><th>Command Line</th><td>Use the this <a href="https://make.wordpress.org/cli/">WP-CLI</a> command:<br><code>wp core update --version=6.6-RC1</code></td></tr><tr><th>WordPress Playground</th><td>Use the <a href="https://playground.wordpress.net/#%7B%20%22preferredVersions%22:%20%7B%20%22php%22:%20%228.0%22,%20%22wp%22:%20%22beta%22%20%7D,%20%22features%22:%20%7B%20%22networking%22:%20true%20%7D,%20%22steps%22:%20[%20%7B%20%22step%22:%20%22login%22,%20%22username%22:%20%22admin%22,%20%22password%22:%20%22password%22%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/wpaccessibility/a11y-theme-unit-test/master/a11y-theme-unit-test-data.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22importFile%22,%20%22file%22:%20%7B%20%22resource%22:%20%22url%22,%20%22url%22:%20%22https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml%22%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22query-monitor%22%20%7D,%20%22options%22:%20%7B%20%22activate%22:%20false%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22create-block-theme%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22debug-bar%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22health-check%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22test-reports%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D,%20%7B%20%22step%22:%20%22installPlugin%22,%20%22pluginZipFile%22:%20%7B%20%22resource%22:%20%22wordpress.org/plugins%22,%20%22slug%22:%20%22user-switching%22%20%7D,%20%22progress%22:%20%7B%20%22weight%22:%202%20%7D%20%7D%20]%20%7D">6.6 RC1 WordPress Playground instance</a> (available within 35 minutes after the release is ready) to test the software directly in your browser without the need for a separate site or setup.</td></tr></tbody></table><figcaption class="wp-element-caption">Please test WordPress 6.6 RC1 in one or more of these four ways.</figcaption></figure>
+
+
+
+<p>The current target for the WordPress 6.6 release is <strong>July 16, 2024</strong>. Get an overview of the <a href="https://make.wordpress.org/core/6-6/">6.6 release cycle</a>, and check the <a href="https://make.wordpress.org/core/">Make WordPress Core blog</a> for <a href="https://make.wordpress.org/core/tag/6-6/">6.6-related posts</a> in the next few weeks for further details.</p>
+
+
+
+<h2 class="wp-block-heading">Two notes about changes in the RC period</h2>
+
+
+
+<p><strong>Hard string freeze:</strong> From now until July 16, there is a <a href="https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze">hard string freeze</a> in place—no strings may change, and no new strings may be committed. That&#8217;s to give the Polyglots team time to translate WordPress 6.6 into as many languages as possible before final release.</p>
+
+
+
+<p><strong>Two-committer signoff:</strong> Commits in the RC period also require two Core committers to sign off on every merge. Since release candidates are supposed to be ready to go, only major fixes and blessed tasks should merge at this late date.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s in WordPress 6.6 RC1?</h2>
+
+
+
+<p>Thanks to your testing and many other contributors‘ up to now, this release includes more than 40 bug fixes for the Editor and more than <a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=02%2F27%2F2024..03%2F05%2F2024&amp;milestone=6.5&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">40 tickets for WordPress Core</a>.</p>
+
+
+
+<p>Get a recap of WordPress 6.6’s highlighted features in the <a href="https://wordpress.org/news/2024/06/wordpress-6-6-beta-1/" data-type="post" data-id="17289">Beta 1 announcement</a>. For more technical information related to issues addressed since Beta 3, you can browse the following links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/WordPress/gutenberg/commits/wp/6.6?since=2024-06-18&amp;until=2024-06-24">GitHub commits for 6.6</a> since June 18</li>
+
+
+
+<li><a href="https://core.trac.wordpress.org/query?status=closed&amp;changetime=06%2F18%2F24..06%2F24%2F2024&amp;milestone=6.6&amp;max=1000&amp;col=id&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=priority&amp;order=id">Closed Trac tickets</a> since June 18</li>
+</ul>
+
+
+
+<p>Want to look deeper into the details and technical notes for this release? These recent posts cover some of the latest updates:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://make.wordpress.org/core/2024/06/21/wordpress-6-6-css-specificity/">WordPress 6.6 CSS Specificity</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/20/site-wide-background-images-in-wordpress-6-6/">Site-wide background images in WordPress 6.6</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/24/section-styles/">Section Styles</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/20/roster-of-design-tools-per-block-wordpress-6-6-edition/">Roster of design tools per block (WordPress 6.6 edition)</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/">The WordPress 6.6 Field Guide</a></li>
+
+
+
+<li><a href="https://make.wordpress.org/core/tag/dev-notes-6-6/">All 6.6-related developer notes</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How you can contribute</h2>
+
+
+
+<p>WordPress is open source software made possible by a passionate community of people who collaborate on and contribute to to its development. The resources below outline a wide variety of ways you can help the world’s most popular open source web platform, whether or not you have any technical expertise.</p>
+
+
+
+<h3 class="wp-block-heading">Get involved in testing</h3>
+
+
+
+<p>Testing for issues is critical to making sure WordPress is speedy and stable. It’s also a vital way for anyone to contribute. <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17392">This detailed guide</a> will walk you through testing features in WordPress 6.6. If you&#8217;re new to testing, follow <a href="https://make.wordpress.org/test/2024/06/03/help-test-wordpress-6-6/" data-type="post" data-id="17289">this general testing guide</a> for more details on getting set up.</p>
+
+
+
+<p>If you encounter an issue, please report it to the <a href="https://wordpress.org/support/forum/alphabeta/">Alpha/Beta area</a> of the support forums. If you are comfortable writing a reproducible bug report, you can also report it on <a href="https://core.trac.wordpress.org/newticket">WordPress Trac</a>. Before you do either, you may want to check your issue against a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>
+
+
+
+<p>Curious about testing releases in general? Follow along with the <a href="https://make.wordpress.org/test/">testing initiatives in Make Core</a> and join the <a href="https://wordpress.slack.com/messages/core-test/">#core-test channel</a> on <a href="https://wordpress.slack.com/">Making WordPress Slack</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Search for vulnerabilities</h3>
+
+
+
+<p>From now until the final release candidate of WordPress 6.6 (scheduled for July 16), the <a href="https://make.wordpress.org/security/2024/06/04/wordpress-6-6-is-coming/">monetary reward for reporting new, unreleased security vulnerabilities</a> doubles. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the <a href="https://hackerone.com/wordpress">HackerOne page</a> and in the <a href="https://wordpress.org/about/security/">security white paper</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Update your theme or plugin</h3>
+
+
+
+<p>If you build themes, plugins, blocks or patterns, your products play an integral role in extending the functionality and value of WordPress for all users.&nbsp;</p>
+
+
+
+<p>Thanks for continuing to test your themes and plugins with the WordPress 6.6 beta releases. With RC1, you’ll want to finish your testing and update the <em>“Tested up to”</em> version in your <a href="https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/">plugin’s readme file</a> to 6.6.</p>
+
+
+
+<p>If you find compatibility issues, please post detailed information to the <a href="https://wordpress.org/support/forum/alphabeta/">support forum</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Help translate WordPress</h3>
+
+
+
+<p>Do you speak a language other than English? <bdo lang="es" dir="ltr">¿Español?</bdo> <bdo lang="fr" dir="ltr">Français?</bdo> <bdo lang="ru" dir="ltr">Русский</bdo>? <bdo lang="ja" dir="ltr">日本</bdo>語? <bdo lang="hin" dir="ltr">हिन्दी</bdo>? <bdo lang="bn" dir="ltr">বাংলা</bdo>? You can <a href="https://translate.wordpress.org/projects/wp/dev/">help translate WordPress into more than 100 languages</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Release the haiku</h2>
+
+
+
+<p>We&#8217;re here already?<br>RC1 means three weeks left.<br>Have some fun—come test!</p>
+
+
+
+<p><em>Props to <a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>, <a href='https://profiles.wordpress.org/audrasjb/' class='mention'><span class='mentions-prefix'>@</span>audrasjb</a> for collaborating on this post.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">17429</post-id>	</item>
+	</channel>
+</rss>

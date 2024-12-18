@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Interviews &#8211; WordPress News</title>
+	<atom:link href="https://wordpress.org/news/category/interviews/feed/?simply_static_page=2253" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.org/news</link>
+	<description>The latest news about WordPress and the WordPress community</description>
+	<lastBuildDate>Tue, 20 Feb 2024 12:12:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8-alpha-59514</generator>
+
+<image>
+	<url>https://s.w.org/favicon.ico?2</url>
+	<title>Interviews &#8211; WordPress News</title>
+	<link>https://wordpress.org/news</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">14607090</site>	<item>
+		<title>People of WordPress: Sunita Rai</title>
+		<link>https://wordpress.org/news/2024/02/people-of-wordpress-sunita-rai/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Wed, 07 Feb 2024 20:00:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[Nepal]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16761</guid>
+
+					<description><![CDATA[This People of WordPress features Sunita Rai, a content marketer and volunteer translator from Nepal.]]></description>
+										<content:encoded><![CDATA[
+<p class="has-darker-grey-color has-off-white-2-background-color has-text-color has-background has-link-color wp-elements-9b663d0d5861b05380bcaca160ef01c8" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)">The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</p>
+
+
+
+<p>In this edition, we feature Sunita Rai, a content marketer originally from a remote village in the hills of Nepal. Sunita&#8217;s journey to academic and professional success, with help from the WordPress community, will inspire many.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="640" src="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?resize=1024%2C640&#038;ssl=1" alt="Sunita Rai at WordCamp Asia" class="wp-image-16707" srcset="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?resize=1024%2C640&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?resize=768%2C480&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?resize=1536%2C960&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-featured-img.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<h2 class="wp-block-heading">A strong desire to acquire knowledge</h2>
+
+
+
+<p>Schools first opened in Sunita’s village in the late 1970s, but most locals, including her parents, had neither the funds nor opportunities to complete their education. Over the years, they realized that an education could open doors for their children. Sunita&#8217;s parents vowed to ensure she received a full education, no matter the costs or hardships. </p>
+
+
+
+<p>Her father worked as a seasonal laborer in India and ensured Sunita and her siblings could go to school with the proper supplies. Her mother cared for everything at home, both the family and the farm. Money was scarce, but determination was abundant.</p>
+
+
+
+<p>To finish high school, Sunita moved in with her aunt in a nearby city. After graduation, she worked as a teacher. One of the biggest challenges was speaking and writing in English, a requirement for her first job teaching at a private English-language school. Her own education had used Nepali as the language of instruction. Fortunately, she enjoyed writing in English and became more fluent with practice. She discovered that she would always want a career where she could continue learning.</p>
+
+
+
+<p>On top of a demanding teaching schedule, Sunita continued her studies at a college affiliated with Tribhuvan University. She knew that doing both would be difficult, but she wanted to be able to support her family while pursuing ambitious life and career goals. Earning a bachelor’s degree was a hugely motivating achievement that inspired her to begin a master’s degree in sociology.</p>
+
+
+
+<p>Teaching for more than five years had been a full-time commitment, with hours of extra work at home. Preparing lessons, grading assignments, and handling exams made it difficult for her to find the time needed for her own studies. Sunita decided she needed more time for her coursework, so she left her teaching job and sought work that would allow her to focus on her studies while still earning money.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="768" height="1024" src="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-mardi-base-camp-trekking-nepal-nov2023.jpg?resize=768%2C1024&#038;ssl=1" alt="Sunita at basecamp Trekking Nepal in November 2023" class="wp-image-16709" srcset="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-mardi-base-camp-trekking-nepal-nov2023.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-mardi-base-camp-trekking-nepal-nov2023.jpg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-rai-mardi-base-camp-trekking-nepal-nov2023.jpg?w=900&amp;ssl=1 900w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<h2 class="wp-block-heading">From teaching to writing to WordPress</h2>
+
+
+
+<p>After an extensive search, Sunita landed a content writing job at a successful WordPress development firm in Nepal. Her salary as a content writer wasn’t high, but it grew steadily over time. She would later gain some supplementary freelance work after presenting at a WordCamp. She was able to help support her family as she grew in her career, and now she could do more.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>I’m fortunate to have had the education that gave me the capacity to aspire, get into a WordPress job, meet people from around the world, and tell my story!</p>
+<cite>Sunita</cite></blockquote>
+
+
+
+<p>Early in her career, especially in her early days with WordPress, Sunita benefited from the support of excellent mentors who played pivotal roles in her career development, nurturing her skills in content writing, SEO, and general confidence. Now, she has mentored other content writers and advocates for mentoring programs.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="672" src="https://i0.wp.com/wordpress.org/news/files/2024/01/speaker-moment-wrodcampasia2023-sunita-rai.jpg?resize=1024%2C672&#038;ssl=1" alt="Sunita speaking at WordCamp Asia 2023" class="wp-image-16706" srcset="https://i0.wp.com/wordpress.org/news/files/2024/01/speaker-moment-wrodcampasia2023-sunita-rai.jpg?resize=1024%2C672&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2024/01/speaker-moment-wrodcampasia2023-sunita-rai.jpg?resize=300%2C197&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/01/speaker-moment-wrodcampasia2023-sunita-rai.jpg?resize=768%2C504&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/01/speaker-moment-wrodcampasia2023-sunita-rai.jpg?w=1200&amp;ssl=1 1200w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Sunita has engaged in WordCamps, sharing her wealth of knowledge and experiences. Her first WordCamp was <a href="https://nepal.wordcamp.org/2015/">WordCamp Nepal 2015</a>, a pivotal moment where she connected with WordPress enthusiasts from various Nepalese and international companies. She experienced a welcoming environment that inspired her to become involved in the WordPress community. </p>
+
+
+
+<p>At <a href="https://kathmandu.wordcamp.org/2016">WordCamp Kathmandu in 2016</a>, Sunita delivered a talk on <a href="https://wordpress.tv/2016/12/01/sunita-rai-seo-copywriting-for-wordpress/">SEO Copywriting for WordPress</a>, marking a significant milestone in her journey. She later joined a panel discussion titled &#8220;Girls in WordPress – Story, Experience, Opportunity, and Career&#8221; at <a href="https://biratnagar.wordcamp.org/2018/">WordCamp Biratnagar 2018</a>.</p>
+
+
+
+<p>Most recently, Sunita helped organize speakers at WordCamp Kathmandu <a href="https://kathmandu.wordcamp.org/2022/">2022</a> and <a href="https://kathmandu.wordcamp.org/2023/">2023</a>, and also spoke outside her home country at <a href="https://asia.wordcamp.org/2023">WordCamp Asia 2023</a> and <a href="https://sylhet.wordcamp.org/2023/">WordCamp Sylhet, Bangladesh 2023</a>. These events and her <a href="https://wordpress.tv/?s=sunita%20rai">talks</a>, helped her grow stronger connections within the global WordPress community and encourage more women speakers.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="900" height="675" src="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-wordpress-bangladesh-members.jpg?resize=900%2C675&#038;ssl=1" alt="Sunita with members from the WordPress Bangladesh community" class="wp-image-16711" srcset="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-wordpress-bangladesh-members.jpg?w=900&amp;ssl=1 900w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-wordpress-bangladesh-members.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-wordpress-bangladesh-members.jpg?resize=768%2C576&amp;ssl=1 768w" sizes="auto, (max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Translating WordPress and empowering others</h2>
+
+
+
+<p>Reading and writing in your own language is powerful. For Sunita, translation is crucial in bridging gaps and granting access to those with limited platforms to express and share their passions. When she discovered that she could translate WordPress into Nepali, she joined the many other volunteers on the <a href="https://make.wordpress.org/polyglots/">Polyglots team</a>. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<h2 class="wp-block-heading">&#8220;Translating WordPress to Nepali means empowering my people to access the freedom that WordPress provides.&#8221;&nbsp;</h2>
+<cite>Sunita Rai</cite></blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-3-other-female-organizers-wcktm2023.jpg?resize=768%2C1024&#038;ssl=1" alt="Sunita with 3 Female Oganizers WordCamp Kathmandu 2023" class="wp-image-16710" srcset="https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-3-other-female-organizers-wcktm2023.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-3-other-female-organizers-wcktm2023.jpg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/wordpress.org/news/files/2024/01/sunita-with-3-other-female-organizers-wcktm2023.jpg?w=900&amp;ssl=1 900w" sizes="auto, (max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<p>Sunita emphasizes that coding skills are not a prerequisite for contribution: &#8220;The potential impact you can have on the WordPress community is enormous, across areas from local meetups and WordCamps to testing and translating.&#8221;</p>
+
+
+
+<p>She highlights her own experience as a potential path for others. &#8220;WordPress has had a profound impact on my life&#8230; the freedom to work on my own time, to be financially independent, and to overcome my inferiority complex.&#8221;</p>
+
+
+
+<p>Her advice to anyone getting started with WordPress: “Get involved in the WordPress community and contribute as early as possible. By participating, you will better understand the project and its people, so you can advocate WordPress in a better way. It will offer you a sense of satisfaction or meaning as well as success in your career.”</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these open source contributor stories and grow the community. Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>, or continue your own WordPress journey at <a href="https://learn.wordpress.org/">Learn.WordPress.org</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p><em>Thanks to&nbsp;<a href="https://profiles.wordpress.org/sunitarai/">Sunita Rai&nbsp;</a>for sharing about her adventures in WordPress, and to&nbsp;<a href="https://profiles.wordpress.org/webcommsat/" target="_blank" rel="noreferrer noopener">Abha Thakor</a>,&nbsp;<a href="https://profiles.wordpress.org/nalininonstopnewsuk/" target="_blank" rel="noreferrer noopener">Nalini Thakor</a>,&nbsp;<a href="https://profiles.wordpress.org/webtechpooja/">Pooja Derashri,</a> <a href="https://profiles.wordpress.org/meher/" target="_blank" rel="noreferrer noopener">Meher Bala</a>, <em><a href="https://profiles.wordpress.org/eidolonnight/" target="_blank" rel="noreferrer noopener">Nicholas Garofalo</a>,</em>&nbsp;<a href="https://profiles.wordpress.org/cbringmann/" target="_blank" rel="noreferrer noopener">Chloe Bringmann</a>, <a href="https://profiles.wordpress.org/majaloncar/">Maja Loncar</a> and&nbsp;<a href="https://profiles.wordpress.org/marybaum/" target="_blank" rel="noreferrer noopener">Mary Baum</a> for interviews, editorial, images, and reviews.</em></p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16761</post-id>	</item>
+		<item>
+		<title>People of WordPress: Artemy Kaydash</title>
+		<link>https://wordpress.org/news/2023/12/people-of-wordpress-artemy-kaydash/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 14:28:33 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=16470</guid>
+
+					<description><![CDATA[The latest People of WordPress features back-end web developer Artemy Kaydash, from Ukraine. ]]></description>
+										<content:encoded><![CDATA[
+<p class="has-darker-grey-color has-off-white-2-background-color has-text-color has-background has-link-color wp-elements-9b663d0d5861b05380bcaca160ef01c8" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)">The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</p>
+
+
+
+<p>Artemy Kaydash discovered that working with WordPress has opened possibilities greater than he imagined. For him, the &#8220;active, responsive, and enthusiastic community&#8221; makes the software fresh and alive with many ways to experiment and practice adapting it for clients&#8217; needs.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="640" src="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?resize=1024%2C640&#038;ssl=1" alt="Artemy Kaydash stood in front of water" class="wp-image-16242" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?resize=1024%2C640&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?resize=300%2C188&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?resize=768%2C480&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?resize=1536%2C960&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-featured-img.jpg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Back-end development with WordPress has proven to be a rewarding career choice for Artemy. He believes developers can inspire others to choose the same career path by sharing the opportunities and satisfaction of working with the content management system (CMS).</p>
+
+
+
+<h2 class="wp-block-heading">The adventure of learning WordPress</h2>
+
+
+
+<p>Learning new software can be daunting, but Artemy realized that learning with and from inspiring people makes a real difference: &#8220;I vividly remember my first WordPress experience. I was confused, had many questions, and was desperately trying to understand how to do the most simple things.&#8221;</p>
+
+
+
+<p>Working initially in a small agency in Ukraine, Artemy had basic HTML/CSS skills and had just started learning PHP development. His senior colleagues helped him take his first steps in web development and were patient with his questions.</p>
+
+
+
+<p>The agency director later gave him the responsibility of creating a WordPress website for a friend. He recalls being nervous, as he was not yet confident in his PHP skills. Colleagues reassured Artemy as he worked, and he went on to build a career in international web development.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="640" height="1024" src="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?resize=640%2C1024&#038;ssl=1" alt="Artemy reflecting on his learning as he looks outside of a window in a cafe
+" class="wp-image-16241" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?resize=640%2C1024&amp;ssl=1 640w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?resize=188%2C300&amp;ssl=1 188w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?resize=768%2C1229&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?resize=960%2C1536&amp;ssl=1 960w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-at-a-cafe.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 640px) 100vw, 640px" /></figure>
+
+
+
+<p>Like many others, Artemy found that experimenting with WordPress intrigued him, and he wanted to learn more about it. Looking back, he said: &#8220;The first theme I built was awful. It was composed of my own creative solutions and code snippets I found in searches. It had lots of bugs, but as people say, &#8216;the first pancake is always a bit tricky.'&#8221;</p>
+
+
+
+<p>Artemy is a great believer in reflective learning, going back and reviewing a piece of development. He said: &#8220;No matter how bad it was, it was my first experience, and I learned a lot about the basic concepts of WordPress. That&#8217;s why I believe that learning by doing is the best way to learn something new.&#8221;</p>
+
+
+
+<p>He added: &#8220;My advice to others is don&#8217;t be afraid of doing something awful when you create something for the first time. It&#8217;s okay. We&#8217;ve all been through that initial phase.&#8221;</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="640" height="1024" src="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?resize=640%2C1024&#038;ssl=1" alt="Artemy looking across a lake in the winter time" class="wp-image-16245" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?resize=640%2C1024&amp;ssl=1 640w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?resize=188%2C300&amp;ssl=1 188w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?resize=768%2C1229&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?resize=960%2C1536&amp;ssl=1 960w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-winter-lake.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 640px) 100vw, 640px" /></figure>
+
+
+
+<p>&#8220;It&#8217;s nice to have a mentor when you learn something new. Luckily, you don&#8217;t need a person sitting next to you anymore. All of us have got the best mentor possible: the Internet. If you don&#8217;t know how to do something, then search for how other people have done the same thing,&#8221; Artemy said.</p>
+
+
+
+<p>&#8220;No wonder some say that one of the most required skills of every developer is the willingness to learn and to know how to search for information. This is one of the reasons WordPress is one of the best options for beginners. Now there is so much more information and help available to learn, more than there was when I first began.&#8221;</p>
+
+
+
+<p>Artemy feels that the willingness of others to share their experience and problem-solve together is a big strength of the WordPress community and also the reason for its ongoing success: &#8220;When you stumble upon a problem, there&#8217;s a high probability that someone already asked the same question on one of the forums or websites. If you&#8217;re lucky enough, someone already wrote a post about your problem with a great explanation of how to solve it with examples and code snippets.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">WordPress is for beginners and long-term careers</h2>
+
+
+
+<p>WordPress is not a software with strict limits, and it can be adapted and used in many different ways by beginners and advanced developers.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>I like to learn something that excites me and makes my brain work. With WordPress, I am able to find interesting and creative solutions.</p>
+</blockquote>
+
+
+
+<p>There are so many new things to learn that Artemy decided to stay in web development, and he sees it as a perfect channel for his creativity and abstract thinking. It may seem very different from his initial education in literature, sociology, and philosophy. Still, he has found those studies sharpened his skills for understanding, communicating, and working with clients on creative solutions to challenges.</p>
+
+
+
+<p>Artemy enjoys the client side of his work and interacting with different studios and agencies. His international work allows him to use WordPress and WooCommerce in many different environments, both large and small, which keeps the software exciting. He said: &#8220;I believe if you want to learn something you have to practice using it a lot. Open source is a big advantage in this.&#8221; Artemy found that the more he experiences various sites and clients, the more flexible and helpful he can be in helping them find the right solution.</p>
+
+
+
+<h2 class="wp-block-heading">Inspired to help others use WordPress</h2>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="639" src="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?resize=1024%2C639&#038;ssl=1" alt="Artemy standing on the pier" class="wp-image-16243" srcset="https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?resize=1024%2C639&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?resize=300%2C187&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?resize=768%2C480&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?resize=1536%2C959&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/10/artemy-from-pier.jpg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>A willingness to share and grow skills together is what open source environments champion. This collaborative environment inspired Artemy to focus on using WordPress professionally and to share what he learned. &#8220;There is a lot of free code and snippets available for anyone to use. I have been grateful to all of the people who have written answers on sites like Stack Overflow, written blog posts, created free plugins, and other helpful materials. It made me want to help others when I was able to.&#8221;</p>
+
+
+
+<p>In August 2021, Artemy began blogging about using WordPress:&nbsp;&#8220;I like to think that this way I am repaying my learning debt for all the content I have consumed. It makes me happy to see that people really read my posts, and it helps them solve their WordPress problems. So, today, when I face a problem and can&#8217;t find the solution, I think it might be a great idea for a new post!&#8221;</p>
+
+
+
+<p>He also likes to keep up with how other people use WordPress by visiting Stack Overflow, WordPress Facebook groups, and other communities where people ask questions almost daily. He helps where he can in those channels or gains inspiration for new content. He believes&nbsp;<a href="https://learn.wordpress.org/" target="_blank" rel="noreferrer noopener">Learn.WordPress.org</a>&nbsp;and the&nbsp;<a href="https://developer.wordpress.org/news/" target="_blank" rel="noreferrer noopener">Developer Blog</a>&nbsp;are valuable resources for beginners and more advanced developers too. As those resources grow, they will increasingly become a place where others can share their development knowledge and use cases.</p>
+
+
+
+<h2 class="wp-block-heading">Every community is a two-way street</h2>
+
+
+
+<p>Artemy encourages everyone to become a part of the WordPress community. “There are a lot of opportunities for everyone,” he said. “You can help with the translation of your favorite plugins or themes. You can create your own plugin or become a contributor to an already existing open source plugin. You can write tutorials. You can write reviews helping other people to choose the best option for them. You can help people on support forums.”</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Every contribution, big or small, makes WordPress better. It is a great experience to be part of it.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these open source contributor stories and continue to grow the community.&nbsp;Meet more WordPressers in the&nbsp;<a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<p>To discover more about how to use WordPress, and start your own story, visit&nbsp;<a href="https://learn.wordpress.org/">Learn.WordPress.org</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p><em>Thanks to <a href="https://profiles.wordpress.org/kayart/" target="_blank" rel="noreferrer noopener">Artemy Kaydash</a> for sharing about his adventures in WordPress, and to <a href="https://profiles.wordpress.org/webcommsat/" target="_blank" rel="noreferrer noopener">Abha Thakor</a>, <a href="https://profiles.wordpress.org/nalininonstopnewsuk/" target="_blank" rel="noreferrer noopener">Nalini Thakor</a>, <a href="https://profiles.wordpress.org/meher/" target="_blank" rel="noreferrer noopener">Meher Bala</a>, <a href="https://profiles.wordpress.org/marks99/" target="_blank" rel="noreferrer noopener">Mark Smallman</a>, <a href="https://profiles.wordpress.org/eidolonnight/" target="_blank" rel="noreferrer noopener">Nicholas Garofalo</a>, <a href="https://profiles.wordpress.org/cbringmann/" target="_blank" rel="noreferrer noopener">Chloe Bringmann</a>, and <a href="https://profiles.wordpress.org/marybaum/" target="_blank" rel="noreferrer noopener">Mary Baum</a> for interviews, editorial, images, and reviews. </em></p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">16470</post-id>	</item>
+		<item>
+		<title>People of WordPress: Ihtisham Zahoor</title>
+		<link>https://wordpress.org/news/2023/07/people-of-wordpress-ihtisham-zahoor/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Mon, 31 Jul 2023 20:22:31 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=15589</guid>
+
+					<description><![CDATA[People of WordPress features Ihtisham Zahoor, an administrator turned web developer from Pakistan.]]></description>
+										<content:encoded><![CDATA[
+<p>From administrator to web developer thanks to the supportive WordPress community. Through learning from other software users in Pakistan, Ihtisham Zahoor knew that his life would change. He moved cities and careers to make his life through open source.</p>
+
+
+
+<p><strong>The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="768" src="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?resize=1024%2C768&#038;ssl=1" alt="Ihtisham Zahoor in the moutains." class="wp-image-15478" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-2.jpg?w=1900&amp;ssl=1 1900w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Ihtisham, from Haripur, a city in northern Pakistan, said: “The WordPress community made me a firm believer in the power of open source software. This is why I am an enthusiast and one who enjoys contributing back to the community via writing, speaking, and helping organize meetups.”</p>
+
+
+
+<p>When Ihtisham discovered WordPress, his fascination for working with computing grew. He knew he did not want to just work in administration his entire career.</p>
+
+
+
+<p>Ihitsham describes himself as an ‘introvert’ and therefore the idea of remote work appealed as he could still add value to others through technology. He was intrigued by the thought of the freedom to choose his work hours. However, without access to others who had already transformed their careers and lives through web development, he felt he ‘had no path to follow to turn my dream into a reality.’</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Challenges become opportunities to learn when there is an active community&nbsp;&nbsp;</strong></h2>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="900" src="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-4.jpg?resize=675%2C900&#038;ssl=1" alt="Ihtisham Zahoor wearing a sweatshirt with the London tube sign 'Mind the Gap'." class="wp-image-15480" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-4.jpg?w=675&amp;ssl=1 675w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-4.jpg?resize=225%2C300&amp;ssl=1 225w" sizes="auto, (max-width: 675px) 100vw, 675px" /></figure>
+
+
+
+<p>Lacking any kind of informed support network to advise or guide him, Ihtisham devoted time to online research to find the next steps he could take. Looking back, he believes that for those who are not in a network with others with similar interests, it can be hard to keep learning and experimenting with new things. Isolation can be a barrier to working in web development.&nbsp;&nbsp;</p>
+
+
+
+<p>He said: “I think it is not easy to stay motivated when there aren’t immediate rewards for the hard work we do. Sometimes, weeks would go by when my only focus would be to stay motivated rather than give up.”</p>
+
+
+
+<p>After another two years of combining learning and work, Ihtisham took up using WordPress as a full-time career. He moved to the capital of Pakistan, Islamabad. It was not easy at first. He recalls: “After many failed attempts at getting hired and desperate moments, I finally received an offer from a digital agency as a web developer focused on the WordPress platform.”</p>
+
+
+
+<p>He added: “Moving to work with a bigger agency was one of the best decisions of my life as it helped me with my professional growth by becoming familiar with the whole WordPress ecosystem in a supportive environment. I was valued for my opinions in the web projects in which I was involved. I was also appreciated and encouraged for the open source work I did for the company.” He summarized his enthusiasm for WordPress like this: “It is really interesting figuring out what is happening in the backends. I like problem-solving and finding solutions which you can do with WordPress.”</p>
+
+
+
+<p>During the Covid-19 pandemic, Ihtisham moved to join a start-up which provides web development services to international clients. He works as a developer and has the opportunity to learn more about client communication and project management. “WordPress has opened up so many opportunities for me. It has been an exciting journey for me with lots of learning every day,” he said. In particular, he has discovered an interest in APIs and regularly uses his spare time to follow tickets in the hope of one day contributing even more to topics.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Give back through WordPress community</strong></h2>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="800" height="599" src="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-1.jpeg?resize=800%2C599&#038;ssl=1" alt="Ihtisham Zahoor speaking at a meetup." class="wp-image-15477" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-1.jpeg?w=800&amp;ssl=1 800w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-1.jpeg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-1.jpeg?resize=768%2C575&amp;ssl=1 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
+
+
+
+<p>It was not just software that made a difference in Ihtisham’s life. Joining a welcoming and sharing community was transforming for him. Recalling those early days of isolation, he values the WordPress community and is wholly committed to the power of open-source software. He now enjoys writing, speaking, and organizing meetups to give back to the community. He has been involved in developing plugins and themes for the platform, which he describes as a ‘humbling’ experience. He is fond of <a href="https://islamabad.wordcamp.org/">WordCamp Islamabad</a> and in 2023 is on the organizing team to help bring both WordPress and its community to others in Pakistan.</p>
+
+
+
+<p>“My first experience,” he said, “was that everyone was so friendly and open to sharing what they have learned, even though they were all busy working. This really had an impact on me. It really helped me and gave me the confidence that I could work with WordPress…. It was a real step forward for me joining this community.” </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="512" src="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-WC-Karachi.jpg?resize=1024%2C512&#038;ssl=1" alt="Ihtisham visited WordCamp Karachi." class="wp-image-15482" srcset="https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-WC-Karachi.jpg?resize=1024%2C512&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-WC-Karachi.jpg?resize=300%2C150&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-WC-Karachi.jpg?resize=768%2C384&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/07/ihtisham-WC-Karachi.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>A particular meeting in 2018 led to new friendships through the WordPress community. Ihtisham was on a train to Karachi for the first ever Pakistani WordCamp in 2018 and met a group of fellow attendees he now regards as close friends. What impressed him most about the camp was that although he met many people with considerable expertise, they also had a generosity of spirit and humbleness in their willingness to share this knowledge. Now, with this group of friends he is fulfilling another dream of traveling widely across the country. He says these things and other ‘side benefits’ have been made possible by the WordPress community, and for that, he is &#8216;forever grateful&#8217;.<br><br>Ihtisham particularly wanted to share his story through this People of WordPress article to encourage those starting with little or no support to remain persistent. He knows from experience breaking into the tech world can be hard, especially when you may be switching from doing something else and have no ‘track record’ to offer. </p>
+
+
+
+<p>He feels he is a living example of how perseverance can lead to success. He offers these words to anyone thinking of making a move into development using the WordPress platform: “I attribute my success (financial and mental well-being) to the open-source nature of WordPress and its amazing community. It would not be possible to learn and use the plethora of free tools WordPress provides if it weren’t an open-source platform. It is for that reason I feel obligated to contribute back to this platform to the best of my abilities.” To those who are finding getting going difficult, as he did, he adds: “Get yourself a clear learning path and just dive in doing WordPress, and things will get better for you over time as they were for me, I promise. Good Luck!”</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these stories of open source contributors and continue to grow the community.&nbsp;Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<p>To help you discover more about how to use the WordPress software, there is a free resource from the community, <a href="https://learn.wordpress.org/">Learn.WordPress.org</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Ihtisham Zahoor (<a href="https://profiles.wordpress.org/shaampk1/">@shaampk1</a>) for sharing about his adventures in WordPress.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href="//profiles.wordpress.org/webcommsat/">@webcommsat</a>), Nalini Thakor (<a href="//profiles.wordpress.org/nalininonstopnewsuk/">@nalininonstopnewsuk</a>), and Meher Bala (<a href="//profiles.wordpress.org/meher/">@meher</a>) for interviews, the feature and collaborating on images. To Chloe Bringmann (<a href="//profiles.wordpress.org/cbringmann/">@cbringmann</a>), Mark Smallman (<a href="//profiles.wordpress.org/marks99/">@marks99</a>), and Mary Baum (<a href="//profiles.wordpress.org/marybaum/">@marybaum</a>) for reviews. Thanks to the late Surendra Thakor (<a href="//profiles.wordpress.org/sthakor/">@sthakor</a>), Maja Loncar (<a href="//profiles.wordpress.org/majaloncar/">@majaloncar</a>), Maedah Bahtool (<a href="//profiles.wordpress.org/maedahbatool/">@maedahbatool</a>) and other members of the Marketing and Polyglots Team for their contributions.</p>
+
+
+
+<p>The People of WordPress series thanks Josepha Haden (<a href="//profiles.wordpress.org/chanthaboune/">@chanthaboune</a>) and Topher DeRosia (<a href="//profiles.wordpress.org/topher1kenobe/">@topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15589</post-id>	</item>
+		<item>
+		<title>People of WordPress: Allison Dye</title>
+		<link>https://wordpress.org/news/2023/06/people-of-wordpress-allison-dye/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Fri, 30 Jun 2023 21:23:11 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=15287</guid>
+
+					<description><![CDATA[The People of WordPress goes to the US to feature Allison Dye, who uses the software in her work and disability-advocacy.]]></description>
+										<content:encoded><![CDATA[
+<p><strong>A way to escape chronic pain and give a sense of independence, is what using WordPress means for Italian-American Allison Dye. Now as a project manager and social media content manager living in North Carolina, USA, she uses the software in her work and  in disability-advocacy.</strong></p>
+
+
+
+<p><strong>The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="537" src="https://i0.wp.com/wordpress.org/news/files/2023/06/fi-allison-dye.jpg?resize=1024%2C537&#038;ssl=1" alt="Allison Dye" class="wp-image-15292" srcset="https://i0.wp.com/wordpress.org/news/files/2023/06/fi-allison-dye.jpg?resize=1024%2C537&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/06/fi-allison-dye.jpg?resize=300%2C157&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/06/fi-allison-dye.jpg?resize=768%2C403&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/06/fi-allison-dye.jpg?w=1196&amp;ssl=1 1196w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Allison was first introduced to WordPress when she was 13 years old. Her parents gave her own WordPress website to use, play, test, and try whatever she wanted with it. Her health issues had started when she was eight years old, and being able to express who she was and learn new skills provided an escape she needed. </p>
+
+
+
+<h2 class="wp-block-heading">My first encounter with WordPress</h2>
+
+
+
+<p>Allison said: &#8220;While the technical aspects of my new WordPress website intrigued me, I was more interested in the space it made for me to write. All throughout my childhood I had struggled with chronic pain, fatigue, and other unexplained symptoms. Having a private world I could call my own, I was able to write my story.&#8221;</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;There is something truly amazing about having a place to tell your story.&#8221;</p>
+<cite>Allison Dye</cite></blockquote>
+
+
+
+<p>Her family faced many doctors, nurse, specialists and hospital visits, but could not get an answer to the difficulties faced by Allison. She said: &#8220;I felt like my life and world were out of control. But logging onto my little website and typing away on the computer keys gave me a sense of control. I couldn’t always do things that other kids had the energy to do. But I could get lost in writing for hours. I couldn’t control my life story, but I could write about it.&#8221;</p>
+
+
+
+<p>She felt it was like writing letters to her future self and would act as a reminder of how strong she had become. Even now when Allison writes on her website, she feels it is writing letters to her past self, expressing reassurance and pride. The practice of writing online continues to help her reflect on how she coped and made it through the difficulties.</p>
+
+
+
+<h2 class="wp-block-heading">WordPress in the real world</h2>
+
+
+
+<p>Allison hoped her early experiences with hospitals and being unwell was just part of being a child, and that in adulthood she would be healthy. She longed for this time.</p>
+
+
+
+<p>Growing up did not bring her this dream of a healthier life and an end to chronic pain. In fact, her condition worsened as she went through her teens and at 18 she finally received a diagnosis of Multiple Sclerosis.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/wordpress.org/news/files/2023/06/allison-2.jpg?resize=768%2C1024&#038;ssl=1" alt="Allison stood in front of trees" class="wp-image-15290" srcset="https://i0.wp.com/wordpress.org/news/files/2023/06/allison-2.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/06/allison-2.jpg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/wordpress.org/news/files/2023/06/allison-2.jpg?w=900&amp;ssl=1 900w" sizes="auto, (max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Allison enjoying time with nature and trees</figcaption></figure>
+
+
+
+<p>This changed what had been conventional job choices, as she was not able to handle a 9 to 5 work schedule. She could not drive herself to work on some days and relied on her mother to help with transport. She knew that she would have to find another way to work and she was determined to find it.</p>
+
+
+
+<p>She began writing music and book reviews online, and then moved onto writing blog posts. As they were published she started to receive payment and a sense of power over her life. She said: &#8220;WordPress felt familiar, typing on the computer keys felt comfortable, and sharing my words with the world felt surreal.&#8221;</p>
+
+
+
+<p>Allison&#8217;s sense of ownership of the software became part of her strength. &#8220;I think I believed WordPress was mine somehow. I was learning that WordPress is something that belongs to everyone in some way. And I loved it.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">Finding work with WordPress</h2>
+
+
+
+<p>The confidence using the platform gave Allison led her to find more about what it could do and meet other people who used it. She said: &#8220;The thing I love about WordPress is that it’s not just for developers or bloggers or SEO experts. I began to meet more people in the community and was delighted to find people like me, who didn’t know the technical stuff, but were a part of WordPress.&#8221;</p>
+
+
+
+<p>This global community orbiting around the software gave her an opportunity to meet social media managers, designers, and people from many different areas. She found that &#8216;there was a place for everyone&#8217;. The guiding strength and fascination Allison found and still finds today is in that community. Allison said: &#8220;The community felt as important as the rest of everything that makes WordPress what it is. It felt like it was about people and relationships as well as codes and databases.&#8221;</p>
+
+
+
+<p>In 2020, she was hired by a WordPress company. She said: &#8220;I like being a part of a WordPress company, and I love that I contribute to a team that helps people with their websites. I understand the importance of having a space that’s yours. Whether it’s a business or personal site, having a website gives you the power of telling your own story.&#8221;</p>
+
+
+
+<p>WordPress gave Allison a freedom and an independence. She did not have to work a 9 to 5 job, rely on others to drive her on bad days with her MS, nor worry about days when she wanted to stay in her sweatshirts rather than go into an office to work. She said: &#8220;I have a 100% remote job which I can do despite the plot twists in my story, thanks to WordPress and the people in it.&#8221;</p>
+
+
+
+<p>WordPress took Allison into the world of project management for a small agency, and this experience was to help guide her path, skills and confidence into the future. She went on to work in content management in WordPress, building pages for awareness campaigns for non profit organizations and small businesses as a contractor. She helps people update their websites, add and edit content, perform basic updates and help them to learn how to use their sites. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;I tell all my clients to use WordPress because there is really no other solution that can scale as easily for growing organizations and small businesses. I love how WordPress allows them to tell their stories, share their passion, and have a place to call their own on the internet.&#8221;</p>
+<cite>Allison Dye</cite></blockquote>
+
+
+
+<p>As a fluent English and Italian speaker, Allison is able to support clients in different countries from where she lives. &#8220;I love that with WordPress I&#8217;m able to support clients remotely. This is thanks to all of the many WordPress contributors, developers, project managers, content writers, and many, many volunteers that work tirelessly to enable people around the world to use WordPress.&#8221;</p>
+
+
+
+<p>Allison also became a certified as an English As A Second Language (ESL) teacher. &#8220;My affinity for words and languages allows me to teach passionately and creatively. I’m Italian-American and am fluent in English and Italian. Teaching English allows me to share my passion for communication with others.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">Welcomed into the WordPress community</h2>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="562" src="https://i0.wp.com/wordpress.org/news/files/2023/06/WPCoffeeTalk-Allie-Dye.png?resize=1024%2C562&#038;ssl=1" alt="Allie interviewed for a podcast on her use of WordPress" class="wp-image-15293" srcset="https://i0.wp.com/wordpress.org/news/files/2023/06/WPCoffeeTalk-Allie-Dye.png?resize=1024%2C562&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/06/WPCoffeeTalk-Allie-Dye.png?resize=300%2C165&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/06/WPCoffeeTalk-Allie-Dye.png?resize=768%2C422&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/06/WPCoffeeTalk-Allie-Dye.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Allie interviewed for a podcast on her use of WordPress</figcaption></figure>
+
+
+
+<p>Allison attributes mentors and supporters in the WordPress community for helping her appreciate she really is part of it. Allison recalled: &#8220;It felt unreal. I wasn’t a dev, I don’t know how to code, and yet I got to be a part of it all? I felt like I was a fake. But Kimberly continues to remind me that I’m real, I get to be here, I get to stay, I have a place.&#8221;</p>
+
+
+
+<p>She was later encouraged to contribute by a WordPress community member to the Big Orange Heart, which aims to support and promote positive well-being and mental health within remote working communities. She said she felt &#8216;honored typing my words, pieces of my story, and sharing them with a community of people&#8217;.</p>
+
+
+
+<p>She also joined the <a href="https://us.wordcamp.org/2021/">WordCamp US 2021</a> online organizing team. </p>
+
+
+
+<p>Allison enjoys the fact that in the WordPress community, &#8216;everyone here is constantly working to be better and do better&#8217;.</p>
+
+
+
+<h2 class="wp-block-heading">Facing the future with strength from her friends and colleagues in WordPress</h2>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="900" src="https://i0.wp.com/wordpress.org/news/files/2023/06/allison-1.jpg?resize=675%2C900&#038;ssl=1" alt="" class="wp-image-15289" srcset="https://i0.wp.com/wordpress.org/news/files/2023/06/allison-1.jpg?w=675&amp;ssl=1 675w, https://i0.wp.com/wordpress.org/news/files/2023/06/allison-1.jpg?resize=225%2C300&amp;ssl=1 225w" sizes="auto, (max-width: 675px) 100vw, 675px" /></figure>
+
+
+
+<p>Allison was later diagnosed with two additional neurological conditions: Functional Neurological Disorder and Migraine. She said: &#8220;If it were not for WordPress I would really be unable to work. But WordPress and its community continue to be a part of my life and I am grateful to everyone who&#8217;s helped me along my way. I don&#8217;t know where I would even be without it.&#8221;</p>
+
+
+
+<p>She strives to raise awareness of dynamic disabilities and invisible illnesses like her own through podcasts and social media. She feels that her WordPress friends have helped her both in her professional life and in her wish to be an advocate for others with disabilities too.<br><br>Allison hopes reading of her experience will help others who are worried about not progressing in a WordPress career due to health concerns.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;I hope that it will remind anyone reading this that WordPress is a space for everyone. Healthy or not, developer or not, blogger or not — WordPress belongs to you too.&#8221;</p>
+<cite>Allison Dye</cite></blockquote>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these stories of open source contributors and continue to grow the community.&nbsp;Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Allie Dye (<a href='https://profiles.wordpress.org/allisondye/' class='mention'><span class='mentions-prefix'>@</span>allisondye</a>)&nbsp;for sharing about her adventures in WordPress.</p>
+
+
+
+<p>Props to Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>) and the late Surendra Thakor (<a href='https://profiles.wordpress.org/sthakor/' class='mention'><span class='mentions-prefix'>@</span>sthakor</a>) for interviews and writing the feature, Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>) for work on images, and to Meher, Maja Loncan (@mloncar) and Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>) for reviews.</p>
+
+
+
+<p>The&nbsp;<em>People of WordPress</em>&nbsp;series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15287</post-id>	</item>
+		<item>
+		<title>People of WordPress: Stefano Cassone</title>
+		<link>https://wordpress.org/news/2023/05/people-of-wordpress-stefano-cassone/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Wed, 31 May 2023 20:48:58 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=15030</guid>
+
+					<description><![CDATA[The People of WordPress feature series goes to Italy to interview web designer, photographer and translator Stefano Cassone. ]]></description>
+										<content:encoded><![CDATA[
+<p><strong>With <a href="https://europe.wordcamp.org/2023/">WordCamp Europe 2023</a> in June, we feature Stefano Cassone, a web designer, photographer and volunteer translator, who believes his life has been transformed through WordPress and its community.</strong></p>
+
+
+
+<p><strong>The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="535" src="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-featured-img.jpg?resize=1024%2C535&#038;ssl=1" alt="Stefano with a laptop covered in WordPress event stickers" class="wp-image-15027" srcset="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-featured-img.jpg?resize=1024%2C535&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-featured-img.jpg?resize=300%2C157&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-featured-img.jpg?resize=768%2C401&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-featured-img.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Stefano with a laptop covered in WordPress event stickers</figcaption></figure>
+
+
+
+<p>Stefano has always been fascinated by the internet. His initial learning in the 1990s was through joining friends at a local pub where they could explore how websites were structured and learn to use chat software.</p>
+
+
+
+<p>This led to Stefano creating websites for fun in 1998, and his first paid job was for the shop where he bought comics. He turned to content management systems (CMS) to speed up the creation process for sites, but found he needed more documentation to really understand their capabilities. Then he read a magazine article about WordPress, a CMS which was being used to make incredible blog sites, and was supported by an international community and documentation. Over time, Stefano started using that documentation to work on websites in Italian.</p>
+
+
+
+<h2 class="wp-block-heading">WordPress provides a life-changing turning point&nbsp;</h2>
+
+
+
+<p>Stefano describes himself as an introvert. He found that WordPress helped him to work from home, to develop his skills and the quality of what he could produce, as well as build his self-confidence.&nbsp;</p>
+
+
+
+<p>A catalyst for the turning point in his life and career was the discovery of an area for events on the WordPress dashboard. On this page, he found a forthcoming local meetup in Rome.&nbsp;</p>
+
+
+
+<p>In November 2017, Stefano took the step to go along to this event, led by a curiosity of what he might discover and intrigued by how a software could be supported by a vast community. The topic at the event was on <a href="https://make.wordpress.org/cli/">WP-CLI</a>, a command line interface for WordPress. He recalled that he felt outside his comfort zone as he did not regard himself as a developer and at that point, had only used the software for simple jobs. He wondered whether using the software as his only CMS was going to be a long term option and if these meetups were suitable for him.</p>
+
+
+
+<p>At the meetup, people were talking about a forthcoming event, called WordCamp Rome. Through his research, he saw that there was a lot of enthusiasm for this event. This intrigued him and he wondered if it would show him that he could have a career using the software after all.</p>
+
+
+
+<p>Unfamiliar with WordCamps, Stefano found it difficult at first to know what he could go to and how to get involved, but he persevered and attended the event.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;The WordCamp was a great discovery: talks at all levels from basic to those for developers, advanced and very advanced. I was immediately struck by the enthusiasm of the volunteers. It was an environment where I felt very comfortable, so much so, that I asked myself how I could participate in some WordCamps.&#8221;</p>
+<cite>Stefano Cassone</cite></blockquote>
+
+
+
+<p>From this event, Stefano was encouraged by those he met to consider applying as a volunteer for a future WordCamp.</p>
+
+
+
+<p>There was also much talk at the event about ‘Slack’. It was new to Stefano, but with help from those attending, he signed up for the messaging tool Slack, used by the WordPress community. He was still unsure how he could contribute, and if he would be welcome.</p>
+
+
+
+<h3 class="wp-block-heading">Joining thousands of volunteer translators of WordPress</h3>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="800" height="600" src="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-wc-italia-2022.jpg?resize=800%2C600&#038;ssl=1" alt="Italian General Translation Editors at WordPress Italia 2022" class="wp-image-15028" srcset="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-wc-italia-2022.jpg?w=800&amp;ssl=1 800w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-wc-italia-2022.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-wc-italia-2022.jpg?resize=768%2C576&amp;ssl=1 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Italian General Translation Editors at WordPress Italia 2022</figcaption></figure>
+
+
+
+<p>Stefano took the plunge and was excited to find there was a team called Polyglots. In this team, people from across the world<a href="https://make.wordpress.org/polyglots/"> translate the WordPress software into many different languages</a>. He started with translating a theme he was using in his work. Little by little he became more interested in plugins and attended meetings with other translators. He offered his skills to translate into Italian themes and plugins in general and as his experience grew, he took on the volunteer role of a General Translation Editor. He also took care of the translation into Italian of the WordPress Core. More recently he has joined the group of translators for the <a href="https://make.wordpress.org/docs/handbook/helphub/">HelpHub</a>, which is part of the <a href="https://make.wordpress.org/docs/">WordPress documentation</a> system.</p>
+
+
+
+<p>He said: “Participating in the WordPress Slack has helped me enormously: I’ve met a lot of people who I now call friends. Moreover, by translating, I learned a lot about how themes and plugins work.</p>
+
+
+
+<p>“It&#8217;s a great way to contribute to WordPress, especially for someone like me who is not a developer. Translating also allows me to fully understand how WordPress works.&#8221; </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;I always say that translating themes, plugins, and the Core software is the best way to learn WordPress, better than any course or book.”</p>
+<cite>Stefano Cassone</cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">Sharing skills to support Open Source WordPress</h3>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="667" height="500" src="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-WC-2019.jpg?resize=667%2C500&#038;ssl=1" alt="Stefano volunteering as a photographer at a WordCamp in 2019 with other contributors." class="wp-image-15026" srcset="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-WC-2019.jpg?w=667&amp;ssl=1 667w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-WC-2019.jpg?resize=300%2C225&amp;ssl=1 300w" sizes="auto, (max-width: 667px) 100vw, 667px" /><figcaption class="wp-element-caption">Stefano volunteering as a photographer at a WordCamp in 2019 with other contributors.</figcaption></figure>
+
+
+
+<p>Stefano’s growing commitment to the open source WordPress project was further boosted through his volunteering. He was a volunteer at WordCamp Rome 2018 and participated there in his first Contributor Day where he had the opportunity to translate the software with others.&nbsp;</p>
+
+
+
+<p>He was also able to bring his own hobbies and skills to help the project grow and reach others. One example was his passion for photography, and he volunteered as a photographer for many other events in Italy organized by the WordPress community. He said: “This commitment to the community also allows me to have fun: being a photographer means having the opportunity to walk around the halls and capture moments of the life of a WordCamp.” The more WordCamps he attended, the more he wanted to be part of and keep contributing to the wider WordPress community.</p>
+
+
+
+<h2 class="wp-block-heading">Contribution to WordPress is inspiring</h2>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" src="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-the-support-table-contributor-day.jpg?resize=1024%2C683&#038;ssl=1" alt="Stefano at the Support Table at a WordPress Contributor Day" class="wp-image-15025" srcset="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-the-support-table-contributor-day.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-the-support-table-contributor-day.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-the-support-table-contributor-day.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-the-support-table-contributor-day.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Stefano at the Support Table at a WordPress Contributor Day</figcaption></figure>
+
+
+
+<p>When Stefano was asked to become an organizer for the WordPress meetup in Rome in October 2019, he knew he wanted to be part of reaching and supporting more people in his area. He faced challenges with finding venues, but a greater issue was to come: the Covid-19 pandemic.&nbsp;</p>
+
+
+
+<p>Spurred on by the <a href="https://it.wordpress.org/">Italian WordPress community</a> as a whole, he was determined that the meetup was still needed. The regular event was transformed into an online meeting. He was able to gain help from people he had met as a volunteer to share their expertise with meetup attendees.&nbsp;</p>
+
+
+
+<p>The community in Italy also worked together to put on WordCamp Italia online. It brought together the organizers of previous meetups and WordCamps, and new contributors too. Stefano volunteered in both online editions of this camp, including being part of the social and communication team. He found it to not only be a fun experience but also one that helped him grow professionally and learn from so many others.</p>
+
+
+
+<p>He went onto help restart the <a href="https://www.meetup.com/romawordpress/">Rome WordPress meetup</a> in-person meetings in May 2022, was an organizer for the third WordCamp Italy, and has been volunteering for camps in 2023.</p>
+
+
+
+<h3 class="wp-block-heading">What will WordPress bring you?</h3>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="533" height="800" src="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-a-wc.jpg?resize=533%2C800&#038;ssl=1" alt="Stefano inspired by his journey at WordCamps asks what will WordPress bring you?" class="wp-image-15024" srcset="https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-a-wc.jpg?w=533&amp;ssl=1 533w, https://i0.wp.com/wordpress.org/news/files/2023/05/stefano-at-a-wc.jpg?resize=200%2C300&amp;ssl=1 200w" sizes="auto, (max-width: 533px) 100vw, 533px" /><figcaption class="wp-element-caption">Stefano inspired by his journey at WordCamps asks what will WordPress bring you?</figcaption></figure>
+
+
+
+<p>“Persona and professional growth and friendship” are some of the things they have brought Stefano. Contributing boosted his confidence and willingness to try new opportunities in his work.&nbsp;</p>
+
+
+
+<p>He said: “The best thing I got out of joining the WordPress community was the chance to collaborate with some people on a working basis and, I have to say, that was incredible. Being with many of them you have an incredible opportunity to grow in knowledge, you just have to be ready to learn. With WordPress you never stop learning.”</p>
+
+
+
+<p>His top recommendation is: “Join your local meetup or think about organizing one, it will introduce you to an amazing world. Don’t be afraid to meet people at WordCamps and Contributor Days, because you will learn more there than in dozens of courses. Talk to people at those events and don’t worry. The WordPress community is inclusive so you’ll always feel welcome, and you will see enthusiasm like you’ve never seen at other IT events. Sign-up and get involved.”</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these stories of open source contributors and continue to grow the community.&nbsp;Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Stefano Cassone (<a href='https://profiles.wordpress.org/deadpool76/' class='mention'><span class='mentions-prefix'>@</span>deadpool76</a>)&nbsp;for sharing about his adventures in WordPress.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>), the late Surendra Thakor (<a href='https://profiles.wordpress.org/sthakor/' class='mention'><span class='mentions-prefix'>@</span>sthakor</a>) and Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>) for interviews, writing the feature and collaborating on images, to Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>), Mark Smallman (<a href='https://profiles.wordpress.org/marks99/' class='mention'><span class='mentions-prefix'>@</span>marks99</a>), Nalini Thakor (<a href='https://profiles.wordpress.org/nalininonstopnewsuk/' class='mention'><span class='mentions-prefix'>@</span>nalininonstopnewsuk</a>), Mary Baum (<a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a>), and Maja Loncar (<a href='https://profiles.wordpress.org/majaloncar/' class='mention'><span class='mentions-prefix'>@</span>majaloncar</a>) for help with reviews.</p>
+
+
+
+<p>The&nbsp;<em>People of WordPress</em>&nbsp;series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading">Translations</h2>
+
+
+
+<p>This story has been translated into Italian by <a href="https://profiles.wordpress.org/lidialab/">Lidia Pellizzaro</a>.</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-italia wp-block-embed-italia"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="RanlsnQCDB"><a href="https://it.wordpress.org/news/2023/06/chi-contribuisce-a-wordpress-stefano-cassone/">Chi contribuisce a WordPress? Stefano Cassone</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="&#8220;Chi contribuisce a WordPress? Stefano Cassone&#8221; &#8212; Italia" src="https://it.wordpress.org/news/2023/06/chi-contribuisce-a-wordpress-stefano-cassone/embed/#?secret=WhJDKjjojW#?secret=RanlsnQCDB" data-secret="RanlsnQCDB" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">15030</post-id>	</item>
+		<item>
+		<title>People of WordPress: Monika Rao</title>
+		<link>https://wordpress.org/news/2023/04/people-of-wordpress-monika-rao/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Sun, 30 Apr 2023 21:00:00 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=14850</guid>
+
+					<description><![CDATA[People of WordPress features Monika Rao, a product and quality assurance manager in India. ]]></description>
+										<content:encoded><![CDATA[
+<p><strong>This month we feature Monika Rao, a Product and Quality Assurance Manager from India. She finds contributing to the WordPress project a way to deepen her technical skills and further her web career.</strong></p>
+
+
+
+<p><strong>The&nbsp;<em>People of WordPress</em>&nbsp;series shares inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1014" height="627" src="https://i0.wp.com/wordpress.org/news/files/2023/04/feature-img-monika.jpg?resize=1014%2C627&#038;ssl=1" alt="Monika Rao at a WordCamp" class="wp-image-14842" srcset="https://i0.wp.com/wordpress.org/news/files/2023/04/feature-img-monika.jpg?w=1014&amp;ssl=1 1014w, https://i0.wp.com/wordpress.org/news/files/2023/04/feature-img-monika.jpg?resize=300%2C186&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/04/feature-img-monika.jpg?resize=768%2C475&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Monika was born in Udaipur, in the state of Rajasthan, India. At that time, she recalls, there was some resistance to girls&#8217; education in certain subjects. Thanks to her parents&#8217; support and encouragement, she graduated in Computer Science Engineering. Following graduation, she went on to work for an international firm. However, she felt she wanted to work in her home area and so returned to work for a firm based in Udaipur itself.</p>
+
+
+
+<p>Monika started her career journey with WordPress in 2015, and was fascinated as she learnt more of the technology. A few years later, she moved into a&nbsp; role as a WordPress Quality Analyst, enabling her to dive further into the software. </p>
+
+
+
+<p>“From that moment, I decided to make it an integral part of my ever-learning professional career,” she said.</p>
+
+
+
+<p>The more Monika researched WordPress, the more she found it was not just a tool to simplify website building but also a platform where you could “meet new people, share your thoughts, learn from them and improve yourself through the process.”</p>
+
+
+
+<p>When she first started working with WordPress, she found she had many questions, ranging from what are themes and plugins to what is a WordCamp. As her knowledge grew, she knew one day she wanted to be able to contribute to both the code and the community supporting it.</p>
+
+
+
+<h2 class="wp-block-heading">Becoming part of WordPress</h2>
+
+
+
+<p>Monika started contributing to WordPress in 2015 with Theme Review. In this area, she was able to work alongside WordPress code experts and, at the same time, learn the concepts of theme development. She saw this as a great opportunity to learn and improve her development skills.&nbsp;</p>
+
+
+
+<p>She was also very interested in testing from the beginning, so she started contributing to Core. Her first contribution was to the WordPress 4.7 release in 2016. She remembers the day she first saw her name in the WordPress contributor list. This encouraged her to make more contributions including to core and the community team, and each time she felt more like part of the community.</p>
+
+
+
+<p>Thus inspired, Monika delved into making the software more easily available in her native Hindi language through joining other contributors to the Polyglots team. She went on to become a General Translation Editor for the Hindi language, and has continued to contribute in this area.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="902" height="600" src="https://i0.wp.com/wordpress.org/news/files/2023/04/wp-udaipur-2017.png?resize=902%2C600&#038;ssl=1" alt="Monika as part of a panel at WordCamp Udaipur 2017" class="wp-image-14846" srcset="https://i0.wp.com/wordpress.org/news/files/2023/04/wp-udaipur-2017.png?w=902&amp;ssl=1 902w, https://i0.wp.com/wordpress.org/news/files/2023/04/wp-udaipur-2017.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/04/wp-udaipur-2017.png?resize=768%2C511&amp;ssl=1 768w" sizes="auto, (max-width: 902px) 100vw, 902px" /><figcaption class="wp-element-caption">Monika and other panelists at WordCamp Udaipur 2017</figcaption></figure>
+
+
+
+<p>As she became involved with the WordPress community, she looked for ways of sharing it with others in her home city. In 2017 she was part of the organizing team for <a href="https://udaipur.wordcamp.org/2017">WordCamp Udaipur 2017</a> and there shared her contributing journey with others. This was her first WordCamp, and she describes the experience as ‘superb’. It enabled her to connect to both those new to WordPress and those already working with it. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“It was a great moment for me speaking in front of hundreds of people and everyone cherished my journey. It inspired me to continue my contribution to other teams too.” </p>
+<cite>Monika Rao</cite></blockquote>
+
+
+
+<p>She went on to be an organizer for <a href="https://udaipur.wordcamp.org/2018/" data-type="URL" data-id="https://udaipur.wordcamp.org/2018/">WordCamp Udaipur 2018</a> and <a href="https://india.wordcamp.org/2021/">WordCamp India 2021</a>. She also contributes to the Meta and Theme review teams. </p>
+
+
+
+<h2 class="wp-block-heading">Contributing to WordPress software releases</h2>
+
+
+
+<p>2019 was a big year for Monika. She got married and joined a new firm where she could work more on WordPress, learning about marketing and design.</p>
+
+
+
+<p>In November 2019, the WordPress Executive Director Josepha Haden put out a call for an all-women and non-binary release squad. Monika said: “I’ve always felt that not enough women take part in WordPress, so I decided to jump in.” She took on the role of Test Lead.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“It was a wonderful journey— worth every second and this was a proud moment for me when I saw my name on the WordPress Noteworthy list. You feel proud when you see your small contributions in use by 40 per cent of the web.”</p>
+<cite>Monika Rao</cite></blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="660" src="https://i0.wp.com/wordpress.org/news/files/2023/04/monika-5-6.jpg?resize=1024%2C660&#038;ssl=1" alt="Some of the notable contributors for the WordPress 5.6 release" class="wp-image-14849" srcset="https://i0.wp.com/wordpress.org/news/files/2023/04/monika-5-6.jpg?resize=1024%2C660&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/04/monika-5-6.jpg?resize=300%2C193&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/04/monika-5-6.jpg?resize=768%2C495&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/04/monika-5-6.jpg?w=1319&amp;ssl=1 1319w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Monika was part of the notable contributors for the WordPress 5.6 release</figcaption></figure>
+
+
+
+<p>As a Test Lead, her priority was ensuring the release would be stable and, more importantly, ready for production sites. To effectively manage all the testing, test scrubs were run weekly, highlighting the key testing areas to help get the entire team involved. The scrubs also played an important role in picking up tickets needing immediate resolution.<br><br>Monika also continued her role in the WordPress 5.7 release, and focused more on the core software. She believes being part of the Core and Test teams is a good way to watch and learn, as well as take part in the different elements that make up a release.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“Skills you have will eventually fade away unless you work on them and sharpen them. So don’t underestimate the value of any skill. It will eventually help you somehow in your career.”</p>
+<cite>Monika Rao</cite></blockquote>
+
+
+
+<p>She added: &#8220;I owe my skills and knowledge to WordPress and its lovely community. The best part about this platform is that it is free and provides ample opportunities to improve your skills and build a career. The wider WordPress community is highly supportive, and it provides numerous additional resources, such as online forums, tutorials, and meetups, to help people learn and grow. With the help of WordPress, anyone can learn how to create websites, develop plugins, and contribute to the community.&#8221;</p>
+
+
+
+<p>This route for learning has helped Monika in choosing the direction of her career and in keeping her skills up-to-date. In October 2021, she joined a company specializing in producing WordPress plugins and services for online businesses.</p>
+
+
+
+<h2 class="wp-block-heading">Everyone can contribute to WordPress</h2>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="900" src="https://i0.wp.com/wordpress.org/news/files/2023/04/monika-on-holiday2.jpg?resize=675%2C900&#038;ssl=1" alt="Monika pictured during her travels" class="wp-image-14845" srcset="https://i0.wp.com/wordpress.org/news/files/2023/04/monika-on-holiday2.jpg?w=675&amp;ssl=1 675w, https://i0.wp.com/wordpress.org/news/files/2023/04/monika-on-holiday2.jpg?resize=225%2C300&amp;ssl=1 225w" sizes="auto, (max-width: 675px) 100vw, 675px" /><figcaption class="wp-element-caption">Monika pictured during her travels</figcaption></figure>
+
+
+
+<p class="has-text-align-left">Monika is determined more people, especially other women, have opportunities to contribute to open source in general. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="has-text-align-left">&#8220;Many people are using WordPress, but they don’t all know about contribution. Therefore, my future goal is to help people, especially women, contribute more to WordPress.”</p>
+<cite>Monika Rao</cite></blockquote>
+
+
+
+<p class="has-text-align-left">&#8220;When I first started contributing to WordPress, I thought that being from a testing background, I may not be able to contribute much. However, I soon realized that there are various different areas where I could easily contribute and develop my skills,&#8221; said Monika.</p>
+
+
+
+<p class="has-text-align-left">&#8220;So, I would encourage anyone who is interested in contributing to WordPress to find their own area of interest, regardless of their background, be it marketing, content writing, designing, or any other field. The WordPress community welcomes contributions from people of all backgrounds and skill-sets. So, don&#8217;t hesitate to dive in and contribute in a way that suits your interests and skills.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these stories of open source contributors and continue to grow the community.&nbsp;Meet more WordPressers in the&nbsp;<a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<p><a href="https://hi.wordpress.org/2023/07/31/" data-type="link" data-id="https://hi.wordpress.org/2023/07/31/">Hindi translation of this feature is available</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Monika Rao (<a href="https://profiles.wordpress.org/monikarao/">@monikarao</a>) for sharing her adventures in open source.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href="https://profiles.wordpress.org/webcommsat/">@webcommsat</a>) and the late Surendra Thakor (<a href="https://profiles.wordpress.org/sthakor/">@sthakor</a>) for interviews and writing this feature, and to Meher Bala (<a href="https://profiles.wordpress.org/meher/">@meher</a>), Chloe Bringmann (<a href="https://profiles.wordpress.org/cbringmann/">@cbringmann</a>), Mary Baum (<a href="https://profiles.wordpress.org/marybaum/">@marybaum</a>) for work on photographs and review. Hindi translation thanks to Anand Upadhyay (<a href='https://profiles.wordpress.org/anandau14/' class='mention'><span class='mentions-prefix'>@</span>anandau14</a>).</p>
+
+
+
+<p>The&nbsp;<em>People of WordPress</em>&nbsp;series thanks Josepha Haden (<a href="https://profiles.wordpress.org/chanthaboune/">@chanthaboune</a>) and Topher DeRosia (<a href="https://profiles.wordpress.org/topher1kenobe/">@topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+
+
+
+<h2 class="wp-block-heading">Translations</h2>
+
+
+
+<p>This feature is available in <a href="https://hi.wordpress.org/2023/07/31/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B8-%E0%A4%95%E0%A5%87-%E0%A4%B2%E0%A5%8B%E0%A4%97-%E0%A4%AE%E0%A5%8B%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A4%BE/">Hindi</a>, thank you to <a href='https://profiles.wordpress.org/anandau14/' class='mention'><span class='mentions-prefix'>@</span>anandau14</a> </p>
+
+
+
+<p>वर्डप्रेस के लोग: मोनिका राव</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">14850</post-id>	</item>
+		<item>
+		<title>People of WordPress: Hauwa Abashiya</title>
+		<link>https://wordpress.org/news/2023/02/people-of-wordpress-hauwa-abashiya/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2023 21:30:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=14450</guid>
+
+					<description><![CDATA[People of WordPress feature on Hauwa Abashiya, a project manager in UK and Nigeria, and her enthusiasm for open source. ]]></description>
+										<content:encoded><![CDATA[
+<p><strong>This month we feature Hauwa Abashiya, a project manager in Nigeria and the UK, whose passion for community support led her to an adventure in open source.</strong></p>
+
+
+
+<p><strong>The&nbsp;<em>People of WordPress</em>&nbsp;series features inspiring stories of how people’s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1014" height="627" src="https://i0.wp.com/wordpress.org/news/files/2023/02/feature-img-for-hauwa-powp.jpg?resize=1014%2C627&#038;ssl=1" alt="Hauwa portrait picture " class="wp-image-14437" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/feature-img-for-hauwa-powp.jpg?w=1014&amp;ssl=1 1014w, https://i0.wp.com/wordpress.org/news/files/2023/02/feature-img-for-hauwa-powp.jpg?resize=300%2C186&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/02/feature-img-for-hauwa-powp.jpg?resize=768%2C475&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>As we travel through life, sometimes we are drawn to a particular cause, one to which we can get behind and join in. This cause, in whatever field it may be, can help lift us beyond our everyday lives and can help us take stock. This is the journey that depicts Hauwa’s finding a global sense of place and a way to re-look at her life and plans.&nbsp;</p>
+
+
+
+<p>That change agent was discovering and becoming part of open source through WordPress.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Learning development and WordPress</h2>
+
+
+
+<p>In 2017, Hauwa was working full time as an experienced and successful project manager, but was becoming increasingly aware that she did not feel the same excitement for projects as she once had. She was starting to feel bored. “I knew I still loved working with and in project management, but I needed to do something different.” she said.</p>
+
+
+
+<p>Hauwa enrolled in a web development course and studied HTML, CSS and some JavaScript. One of the course options was WordPress, which she elected to take. It was then that a course tutor encouraged her to attend a WordCamp, an event focused on the open source software and its global community.</p>
+
+
+
+<p>She felt that she needed to have a basic knowledge of the software before she arrived at the event, so started to learn WordPress. The first WordCamp she attended was in the seaside town of Brighton on the south coast of England. There she met people who would be friends and mentors for years to come. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;I was inspired by meeting people in the WordPress community.&#8221;</p>
+<cite>Hauwa Abashiya</cite></blockquote>
+
+
+
+<p>She said: “I was inspired by meeting people in the WordPress community. My life and my wish to support communities have been shaped for the better by some of the people I met, and I continue to be grateful for knowing them.”</p>
+
+
+
+<h2 class="wp-block-heading">Global WordPress community: from Germany to Nigeria</h2>
+
+
+
+<p>After discovering a WordPress community in the UK, Hauwa wanted to see first hand just what a global connection it had. She had heard that WordCamp Europe was a flagship event and brought thousands from across the world together. She wanted to be part of this, and its organization appealed to her project management training. She applied to be a volunteer at the three day conference, which in 2019 was held in Berlin, Germany. At this event, Hauwa discovered both a global movement and an active local WordPress community in her home country of Nigeria. She was able to connect with all the different parts of this vast community from wherever she was working through an instant messaging tool.&nbsp;</p>
+
+
+
+<p>Inspired by people she met who were using WordPress to help improve people’s lives in Nigeria and other parts of Africa, Hauwa started to delve further into how this open source software and its global community could provide opportunities and improve understanding across cultures and continents.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="700" height="937" src="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-and-her-mom.jpg?resize=700%2C937&#038;ssl=1" alt="Hauwa and her mother" class="wp-image-14438" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-and-her-mom.jpg?w=700&amp;ssl=1 700w, https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-and-her-mom.jpg?resize=224%2C300&amp;ssl=1 224w" sizes="auto, (max-width: 700px) 100vw, 700px" /><figcaption class="wp-element-caption"><em>Rosalind and Hauwa</em> <em>at an event in Nigeria.</em></figcaption></figure>
+
+
+
+<p>Hauwa’s father, Dr Audu Kwasau Abashiya and her mother Rosalind Zulai Abashiya, were both well known for their philanthropy, especially in giving practical support to people in Kaduna, in the north of Nigeria and Abuja in the center of the country. Hauwa explained: “My mum comes from a family who give and share their skills to give practical help. From friends I had got to know in WordPress, I saw that there were parts of the community that had this same ethos. This could be something I could be part of, and also take back to Nigeria in the future.”</p>
+
+
+
+<p>Her parents had established a charitable foundation focused on helping widows, orphans and children get access to education skills, from finance to music. It connects those who need help and those who can give support. </p>
+
+
+
+<p>Hauwa said: “Teaching people practical skills which can be used to raise an income or be re-shared with family and others in their local area is so important. Projects like this can help grow a community and keep it strong. Skills such as sewing and cookery are not just ones that can put clothing and food on the table, but also are about gaining independence and pride. They are examples of how micro-economies can grow and inspire others to have dreams that they can see becoming real. <br><br>&#8220;I had seen through my work and studies that technology used with care and an understanding of different needs can make a difference in local communities too. Projects like WordPress can be part of this empowerment through localized translations and software which can give a way to share ideas.”</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="900" src="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2022.jpg?resize=675%2C900&#038;ssl=1" alt="Hauwa in Nigeria" class="wp-image-14442" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2022.jpg?w=675&amp;ssl=1 675w, https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2022.jpg?resize=225%2C300&amp;ssl=1 225w" sizes="auto, (max-width: 675px) 100vw, 675px" /></figure>
+
+
+
+<p>With her project management and IT background, Hauwa is getting more involved with how IT skills can be used for not just instilling a sense of community belonging, but also the practical longer term input into the local infrastructure and introduction of fast changing technology.</p>
+
+
+
+<p>She said: “I would love to see many of the people who have been helped by the foundation my parents started be able to share their ideas and their achievements to encourage others. One of the routes could be through open source software that is free to access and can work on mobile phones.  </p>
+
+
+
+<p>&#8220;As a previous volunteer team rep in the WordPress Training Team, I saw first-hand just how important it is for a non-technical end user to be able to use software to share their ideas, without having to become a developer. We can all help give people a voice, and if we are working in technology, we have a role to play in creating and pushing for genuine access of tools.”</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;If we are working in technology, we have a role to play in creating access to tools.&#8221;</p>
+</blockquote>
+
+
+
+<p>On Hauwa’s future wish list is to help African countries access software and technology in their local languages. She said: “This is part of identity, and respecting and valuing different cultures, and not expecting everything to be translated from the English as it is read. It makes it possible for older people to use the software or read content that&#8217;s published.”</p>
+
+
+
+<p>Hauwa learned Hausa (a language spoken across several African countries) and English at the same time as she grew up in Nigeria. She had a multi-location education, like her parents, studying and going on to work in different countries. At 16, she first studied computer science on what she describes as a ‘whim,’ not knowing it would be a significant part of her working life in the future.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="700" height="974" src="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2015.jpg?resize=700%2C974&#038;ssl=1" alt="Hauwa in a cafe in 2015" class="wp-image-14441" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2015.jpg?w=700&amp;ssl=1 700w, https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-in-2015.jpg?resize=216%2C300&amp;ssl=1 216w" sizes="auto, (max-width: 700px) 100vw, 700px" /></figure>
+
+
+
+<p>She intended to go to university to study finance and sociology. When she went to say goodbye to her computer studies class, the teacher asked what she was going to study. On hearing it was finance and sociology, the teacher said: “You don’t want to be doing that, you want to be doing something in computing.” This conversation proved to be a turning point for Hauwa. She went on to study Computing and Information Systems and Object Oriented Information Systems for her Master’s degree in the UK.</p>
+
+
+
+<p>During her second year of university, she also worked with data entry and related areas as she was determined to learn as much as she could about the moving parts of a project. After she completed her master’s, she chose jobs that enabled her to work on systems, out of hours support, project management, supply chain, and procurement. She is an advocate for learning as many aspects of your subject as you can to give you as many tools to really understand what both clients need and how to help them reach workable and timely solutions. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;By contributing to community projects you can share your skills and keep them fresh.&#8221;</p>
+</blockquote>
+
+
+
+<p>These skills proved to be transferable in later years to give her time to support WordCamps, meetups, and the Training Team. She said: “Contributors to open source come from so many different professional and cultural backgrounds. Contributing is a great way to share your skills and keep them fresh and open to new learning opportunities.”</p>
+
+
+
+<p>Hauwa fascination for project management and learning continued, and she gained qualifications in the field, including Prince 2 and PMP. She continues her commitment to ongoing learning in her work today with Agile and other methodologies and draws parallels with this and her interest in community learning. </p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="724" height="399" src="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-at-wc-london-2019-2.jpg?resize=724%2C399&#038;ssl=1" alt="Hauwa at the reception desk at WordCamp London 2019" class="wp-image-14440" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-at-wc-london-2019-2.jpg?w=724&amp;ssl=1 724w, https://i0.wp.com/wordpress.org/news/files/2023/02/hauwa-at-wc-london-2019-2.jpg?resize=300%2C165&amp;ssl=1 300w" sizes="auto, (max-width: 724px) 100vw, 724px" /><figcaption class="wp-element-caption"><em>Hauwa welcomes attendees at WordCamp London in 2019</em></figcaption></figure>
+
+
+
+<p>Committed to supporting her local community in the UK too, Hauwa joined the London WordPress Meetup and in 2019 became an organizer for <a href="https://london.wordcamp.org/2019/">WordCamp London</a> where she was able to use some of her project management expertise. During these events, she had many conversations to encourage others to develop their IT skills and share her own experiences.</p>
+
+
+
+<p>This interest in driving up the skills levels of others naturally led her to become further involved in the Contributor Teams. Inspired to share her skills by another contributor to the project, she joined the <a href="https://make.wordpress.org/training/">Training Team</a> at a WordCamp Contributor Day. In this team, Hauwa found in it a group collaborating on easier online ways for people to keep up with the software, its features, and how they could grow the community in their own local area. </p>
+
+
+
+<p>At the heart of this, Hauwa felt accessibility should be key, and she gave time to better understand documentation. She felt this was essential to give people genuine access and identify where more work was needed. Her belief in this grew when she joined the WordPress <a href="https://wordpress.org/about/accessibility/">Accessibility Team</a> for release 5.6, and she continued to contribute to the team in the area of documentation and training.</p>
+
+
+
+<p>Hauwa devoted many hours to supporting the <a href="https://make.wordpress.org/training/">Training Team</a> for a number of years as part of her conviction that the right resources can really help communities globally use open source software. She also stressed the importance of materials being user-friendly and easy to translate as WordPress has such a large international usage.</p>
+
+
+
+<h2 class="wp-block-heading">Volunteering in open source can re-energize you </h2>
+
+
+
+<p>Through the combination of volunteering efforts in UK and Nigeria, and supporting contributors globally, Hauwa began to re-find her love for helping people with their planning and to achieve their goals. She was able to share her 15 years of project management experience in her volunteering role and encouraged others to consider it as a career.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="500" height="500" src="https://i0.wp.com/wordpress.org/news/files/2023/02/Hauwa-WC-Europe-2019.jpg?resize=500%2C500&#038;ssl=1" alt="Hauwa at WordCamp Europe 2019" class="wp-image-14443" srcset="https://i0.wp.com/wordpress.org/news/files/2023/02/Hauwa-WC-Europe-2019.jpg?w=500&amp;ssl=1 500w, https://i0.wp.com/wordpress.org/news/files/2023/02/Hauwa-WC-Europe-2019.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/02/Hauwa-WC-Europe-2019.jpg?resize=150%2C150&amp;ssl=1 150w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
+
+
+
+<p>She said: “Through volunteering you work alongside people. Project management is about people. It is about helping people achieve. This can be the same through volunteering, and you can learn much through meeting people from different places.&nbsp;</p>
+
+
+
+<p>“One of my drivers is using technology to solve problems. As a project manager, it is a privilege to help guide people and organizations to identify and reach goals. It is helping them gain that value. This is one of the reasons I was drawn to finding out tech communities and contributing to them. If this is something that drives people reading about my experience, there are vast opportunities to to share your skills. Find something that fits you for where you are now.”&nbsp;</p>
+
+
+
+<p>Hauwa encourages anyone working in technology to further their understanding of managing projects and working with different teams. “Project management skills are so important in whatever kind of project you are in. With long working hours over many years, I felt I had lost the connection with the people element. I was stuck in what seemed to be a repeat cycle. With the people I met in the WordPress community and my professional skills being used, I was reminded of my own values and how as a project manager I can support help others reach new heights or make something of value and quality that others can benefit from and use.”&nbsp;&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;Find an area that fits you and where you can make a difference.&#8221;</p>
+</blockquote>
+
+
+
+<p>In 2022, Hauwa returned to working full time for both national and international, medium and&nbsp; large scale projects. Though her volunteering time to global community building initiatives has reduced accordingly, she focuses on encouraging skills learning and on the community cultural side.</p>
+
+
+
+<p>“I will keep my interest in how open source like WordPress, working alongside other solutions, can help not-for-profit ground level and community building. For me, if there are technology-based solutions out there, we can all play some part in helping them grow and making a difference,&#8221; she said. </p>
+
+
+
+<p>&#8220;How we give to wider communities does not have to be the same throughout time. It is important to keep relooking at what is needed and the difference it can make.&#8221;<br><br>She added: &#8220;Find your central wish for the communities you are connected with, and there may be technologies that can support them. I am glad I started my journey.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these stories of open source contributors and continue to grow the community.&nbsp;Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Hauwa Abashiya (<a href='https://profiles.wordpress.org/azhiyadev/' class='mention'><span class='mentions-prefix'>@</span>azhiyadev</a>)&nbsp;for sharing her adventures in open source.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>) for interviews and writing the feature, and to Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>), Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>), Mary Baum (<a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a>), Nalini Thakor (<a href='https://profiles.wordpress.org/nalininonstopnewsuk/' class='mention'><span class='mentions-prefix'>@</span>nalininonstopnewsuk</a>) and Maja Loncar (<a href='https://profiles.wordpress.org/majaloncar/' class='mention'><span class='mentions-prefix'>@</span>majaloncar</a>) for work on photographs and review.</p>
+
+
+
+<p>The&nbsp;<em>People of WordPress</em>&nbsp;series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">14450</post-id>	</item>
+		<item>
+		<title>People of WordPress: Daniel Kossmann</title>
+		<link>https://wordpress.org/news/2023/01/people-of-wordpress-daniel-kossmann/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Tue, 31 Jan 2023 23:00:00 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=14226</guid>
+
+					<description><![CDATA[The latest People of WordPress story features Daniel Kossmann, from Brazil, on his journey from video games fan to community builder.]]></description>
+										<content:encoded><![CDATA[
+<p><strong>This month we feature Daniel Kossmann, a software engineer from South America who shares his enthusiasm for WordPress at every opportunity.</strong></p>
+
+
+
+<p><strong>The <em>People of WordPress</em> series features inspiring stories of how people&#8217;s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1014" height="627" src="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo.jpg?resize=1014%2C627&#038;ssl=1" alt="" class="wp-image-14222" srcset="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo.jpg?w=1014&amp;ssl=1 1014w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo.jpg?resize=300%2C186&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo.jpg?resize=768%2C475&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>Daniel&#8217;s adventure into WordPress began in 2009 when he needed a way to publish and share articles on films. From that small spark, he now enjoys an interesting and varied career in Brazil and beyond, and an ever-expanding community network. </p>
+
+
+
+<p>Following WordPress and its new features fascinates Daniel and he is always looking for ways to share what it has to offer with others. His initial focus on WordPress for content publishing soon became a wider appreciation of the platform’s capacity for building communities and careers.&nbsp; </p>
+
+
+
+<p>Daniel has served as a community organizer for seven years in Curitiba, Brazil and co-organized four annual <a href="https://wptranslationday.org/">WordPress Translation Day</a> events in the city. Community building initiatives, like these, bring in new volunteers and help spur on local user groups.<br><br>Now working as a software engineer manager, Daniel maintains his interest in supporting the WordPress community through a newsletter in Brazilian Portuguese.</p>
+
+
+
+<h2 class="wp-block-heading">Finding WordPress to publish content can be life-changing</h2>
+
+
+
+<p>Daniel&#8217;s web development skills were initially self-taught, and built on his interest in technology and from his earlier interest in video games. He developed systems in ASP and PHP, and created online resources to teach others how to create websites. </p>
+
+
+
+<p>When the time came to choose his academic path, he had no doubt that it would be something related to computers and picked Computer Science at the Federal University of Paraná.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“In order to focus more on content rather than coding, I ended up getting to know WordPress. It was love at first sight!” </p>
+</blockquote>
+
+
+
+<p>In 2009, he launched a public blog about films that became a hub for cultural content related to cinema, literature, and comics. The blog had collaborators from several cities in the country. He found WordPress an easy tool for publishing articles. It allowed him to spend more time on writing content rather than having to use his software engineering skills to write code.</p>
+
+
+
+<p>However, once he discovered the range and versatility of the software, he wanted to build themes and features to customize websites.</p>
+
+
+
+<p>As he searched for learning materials, he came across a WordPress event happening in his own city. This event, <a href="https://curitiba.wordcamp.org/2010/">WordCamp Curitiba 2010</a>, had a deep impact on Daniel.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“Other tech events I attended charged more than double this WordCamp, but hadn’t offered half of the things it did.” </p>
+</blockquote>
+
+
+
+<p>Daniel was inspired not only by the talks but also the kindness shown by others at the event. His inherent shyness meant he had to step out of his comfort zone to socialize. However, the friendliness of attendees and the welcome he received made this less foreboding. He was hooked by the community he met, and he pledged to volunteer at the next WordCamp and even apply as a speaker.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" src="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo-2.jpg?resize=1024%2C683&#038;ssl=1" alt="Daniel giving a talk at WordCamp São Paulo 2018 
+" class="wp-image-14223" srcset="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo-2.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo-2.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo-2.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-saopaulo-2.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption"><em>Daniel giving a talk at WordCamp São Paulo 2018 about Gutenberg</em></figcaption></figure>
+
+
+
+<p>Less than two years later, Daniel helped to organize <a href="https://curitiba.wordcamp.org/2012/">WordCamp in Curitiba 2012</a>, and this was where he gave his first public talk. It was an important moment in his journey. He is determined to keep improving his public speaking skills each time he presents, and help others to do so too. </p>
+
+
+
+<h2 class="wp-block-heading">From WordPress user to entrepreneur</h2>
+
+
+
+<p>Daniel had dreamed of starting his own company since childhood. Following his university graduation in 2011, he decided to fulfil that dream. He started a web development company, envisioning it as a creative project lab.</p>
+
+
+
+<p>Initially, he worked with a variety of systems and programming languages. Soon, he realized that maintaining multiple solutions took considerable time and effort. So he opted to use a single platform, WordPress. It offered ease of use for his clients and the possibility of offering various types of websites. </p>
+
+
+
+<p>“This decision allowed me to dive even deeper into the system, making better and faster-to-deliver solutions for my clients,” said Daniel.&nbsp;&nbsp;</p>
+
+
+
+<p>As the company grew, he expanded the services it offered to include support, maintenance, courses, consulting, and optimized hosting for WordPress. This gave Daniel access to a wider range of clients and greater specialization in the WordPress platform.</p>
+
+
+
+<p>Even as a small company, Daniel wanted to give back to the WordPress community. Through using this open source software, the business had not faced the costs of using commercial platforms. He felt he should invest back into the software and its community it as much as he could, from sponsorship of events to collaborating in the Contributor Teams.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="768" src="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-floripa.jpg?resize=1024%2C768&#038;ssl=1" alt="" class="wp-image-14221" srcset="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-floripa.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-floripa.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-floripa.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2018-wc-floripa.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p>His community contributions include speaking at meetups and WordCamps to share what what he has learned in his day-to-day work. “It was always and still is a big pleasure to be able to make these contributions,” he affirmed.</p>
+
+
+
+<p>In 2019, he decided to close his company after eight years and start a new chapter in Development Coordination. His focus continues to be on WordPress, both professionally and in the community.</p>
+
+
+
+<h2 class="wp-block-heading">Supporting local: re-energising the Curitiba’s WordPress community</h2>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="768" src="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2016-meetup-curitiba.jpg?resize=1024%2C768&#038;ssl=1" alt="Daniel speaking at a meetup in Curitiba in 2016." class="wp-image-14241" style="width:680px;height:510px" srcset="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2016-meetup-curitiba.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2016-meetup-curitiba.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2016-meetup-curitiba.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2016-meetup-curitiba.jpg?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption"><em>Daniel speaking at a meetup in Curitiba in 2016</em></figcaption></figure>
+
+
+
+<p>After WordCamp in Curitiba in 2012, the community there took a break from organizing events. Three years later, Daniel was eager to help restart meetups in Curitiba. He connected with others in the Brazilian community to find a way forward to support both end users of WordPress and firms using the platform. Through instant messaging tool Slack, a rebooted meetup was organized in August 2015. All the planning was done virtually and they only met for the first time in person on the day of the event.</p>
+
+
+
+<p>Although they did not have much initial experience in event planning, the meetup organizers were determined attendees should have fun and enjoy a relaxed atmosphere. They wanted people to feel comfortable socializing and to chat before and after the talks. The tips that attendees shared at every meeting were one of the most successful elements of these user-focused meetups.</p>
+
+
+
+<p>For Daniel, getting up in front of people to introduce the meetup was still not easy. However, he knew continuing to practice and improve his self-confidence was the only way to overcome his shyness. This determination and sense of achievement inspires him to encourage others to present talks and share the tips he uses when presenting.</p>
+
+
+
+<p>The <a href="https://www.meetup.com/wpcuritiba/">Curitiba meetup</a> continues to flourish. Though Daniel has moved to supporting the community in new ways, he has a lasting fondness for it. It has made him an advocate for local groups at the heart of the WordPress community. He believes the shared interest and enthusiasm for learning at meetups helps to increase attendees&#8217; interest in both the software and its community, and their willingness to participate .</p>
+
+
+
+<h2 class="wp-block-heading">Sharing the benefit of WordPress across Brazil</h2>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" width="991" height="600" src="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2019-meetup-curitiba-4.jpg?resize=991%2C600&#038;ssl=1" alt="Daniel presenting at a Curitiba meetup in 2019." class="wp-image-14242" style="width:680px;height:411px" srcset="https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2019-meetup-curitiba-4.jpg?w=991&amp;ssl=1 991w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2019-meetup-curitiba-4.jpg?resize=300%2C182&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2023/01/daniel-kossmann-2019-meetup-curitiba-4.jpg?resize=768%2C465&amp;ssl=1 768w" sizes="auto, (max-width: 991px) 100vw, 991px" /><figcaption class="wp-element-caption"><em>Daniel presenting at a Curitiba meetup in 2019</em></figcaption></figure>
+
+
+
+<p>In June 2019, Daniel created a newsletter to spread content about WordPress in Brazilian Portuguese and inspire others to create content in the language. Translating, Daniel believes is a powerful way to make WordPress more accessible to people who do not speak English, which is the case for a lot of people in Brazil. In 2021, Daniel started writing regularly about WordPress on his blog too. He continues to publish weekly news, tutorials, tips, and share events. </p>
+
+
+
+<h2 class="wp-block-heading">Advice to future WordPress contributors</h2>
+
+
+
+<p>Daniel believes that the WordPress community is a key strength of the platform. It attracts people with a range of technical skills and backgrounds, and strives to have a diverse and open space for exchange. </p>
+
+
+
+<p>There are so many ways to contribute to WordPress without working with the code. He said: “I&#8217;m a big evangelizer of learning in public. A great way to collaborate is to create your blog in WordPress itself and share your journey of using it, and to write about tips and useful resources. This will eventually lead you to the official WordPress documentation and, the more you use it, the more opportunities for improvements you will see. Then you can start contributing to improving it. Besides this, you can pick a plugin or theme that you use and help with its translation.&#8221;<br><br>He added: “My biggest advice for those who are starting to contribute to WordPress is to start with a small step, maybe solving an easy bug or fixing a typo, and create a routine to consistently work on it, like an hour every weekend.&#8221;</p>
+
+
+
+<p>Daniel has made several lasting friendships, received professional referrals through his participation in community events, and enjoys a career that continues to have variety and new things to learn. </p>
+
+
+
+<p>His final message is to join WordPress <a href="https://www.meetup.com/topics/wordpress/">meetups locally</a> or online in other cities, and be inspired like he has been for 14 years and still counting. </p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these open source contributor stories and grow the community. Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>, or continue your own WordPress journey at <a href="https://learn.wordpress.org/">Learn.WordPress.org</a></p>
+
+
+
+<p>A <a href="https://br.wordpress.org/2024/01/24/pessoas-do-wordpress-daniel-kossmann/">Brazilian Portuguese translation</a> of this feature on Daniel Kossmann is available.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thank you to <a href='https://profiles.wordpress.org/kossmann/' class='mention'><span class='mentions-prefix'>@</span>kossmann</a> for sharing his adventures in WordPress.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>), Larissa Murillo (<a href='https://profiles.wordpress.org/lmurillom/' class='mention'><span class='mentions-prefix'>@</span>lmurillom</a>), Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>), Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>) for research, interviews, and writing this feature article.</p>
+
+
+
+<p>The <em>People of WordPress</em> series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">14226</post-id>	</item>
+		<item>
+		<title>People of WordPress: Huanyi Chuang</title>
+		<link>https://wordpress.org/news/2022/11/people-of-wordpress-huanyi-chuang/</link>
+		
+		<dc:creator><![CDATA[Abha Thakor]]></dc:creator>
+		<pubDate>Wed, 30 Nov 2022 20:09:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=13562</guid>
+
+					<description><![CDATA[The latest People of WordPress story features Huanyi Chuang, from #Taiwan, on his journey to become a digital marketer and front end developer. ]]></description>
+										<content:encoded><![CDATA[
+<p><strong>This month we feature Huanyi (Eric) Chuang, a front end developer from Taiwan, who helps connect local groups to WordPress and the worldwide open source community. He is part of the team helping to make the first WordCamp Asia a success in 2023.</strong></p>
+
+
+
+<p><strong>The <em>People of WordPress</em> series features inspiring stories of how people&#8217;s lives can change for the better through WordPress and its global community of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1014" height="627" src="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-featured-img.jpg?resize=1014%2C627&#038;ssl=1" alt="Huanyi pictured sitting inside a rock formation." class="wp-image-13479" srcset="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-featured-img.jpg?w=1014&amp;ssl=1 1014w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-featured-img.jpg?w=300&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-featured-img.jpg?w=768&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Discovering WordPress and the benefit of child themes </h2>
+
+
+
+<p>Huanyi’s first footsteps in WordPress began in 2017 when he worked for a firm that built blogs and developed ad content for clients.</p>
+
+
+
+<p>After building a few sites using the platform, he discovered child themes and through them opened up a world of possibilities for his clients. To this day, he uses child themes to deliver truly custom designs and functionality for clients.</p>
+
+
+
+<p>Later in his career, Huanyi moved into digital marketing, integrating sites with massive ad platforms like Google and Facebook. This led him to learn to work with tracking code and JavaScript. He also began his learning journey in HTML, CSS, and PHP, to be able to improve his development skills and customize child themes.</p>
+
+
+
+<h2 class="wp-block-heading">Meetups bring together software users to learn together</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="800" src="https://i2.wp.com/wordpress.org/news/files/2022/09/huanyi-1.jpg?fit=600%2C800&amp;ssl=1" alt="Huanyi and a koala." class="wp-image-13476" srcset="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-1.jpg?w=600&amp;ssl=1 600w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-1.jpg?w=225&amp;ssl=1 225w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption"><em>Huanyi pictured in Australia during one of his travels meeting a koala bear.</em></figcaption></figure>
+
+
+
+<p>When Huanyi had a problem with a client&#8217;s site, he looked to WordPress meetups near where he lived in <a href="https://www.meetup.com/Taipei-WordPress/">Taipei</a> to help find the solutions.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“When I encountered an issue with the custom archive pages, a local meetup announcement showed up on my WordPress dashboard.&#8221;</p>
+<cite>Huanyi Chuang</cite></blockquote>
+
+
+
+<p>At the meetup, he met more experienced WordPress users and developers there, who answered his questions and helped him learn.</p>
+
+
+
+<p>“When I encountered an issue with the custom archive pages, a local meetup announcement showed up on my WordPress dashboard. That was my original connection with the local community,” Huanyi said.</p>
+
+
+
+<p>The WordPress community gave Huanyi a chance to connect with people, feed his curiosity about the software, and join a circle of people he could share this interest.</p>
+
+
+
+<p>At first, he thought meetups were an opportunity to source new clients, and he took his business cards to every event. However, he soon found that these events offered him the opportunity to make friends and share knowledge.</p>
+
+
+
+<p>From then on, Huanyi started focusing more on what he could give to these events and networks, making new friends, and listening to people. This led him to share as a meetup speaker his own commercial website management experience.</p>
+
+
+
+<h2 class="wp-block-heading">The road to WordCamp</h2>
+
+
+
+<p>It was going to his first meetup and then getting involved with WordCamps that changed Huanyi&#8217;s whole relationship with WordPress.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="600" height="800" src="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-2.jpg?resize=600%2C800&#038;ssl=1" alt="Huanyi pictured on an outing, stood next to a white car." class="wp-image-13477" srcset="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-2.jpg?w=600&amp;ssl=1 600w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-2.jpg?w=225&amp;ssl=1 225w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
+
+
+
+<p>In 2018, he took the step to help as an organizer, having joined the Taoyuan Meetup in Taiwan. He played several parts across the organizing team, and the welcoming feeling he got in every situation encouraged him to get more involved.</p>
+
+
+
+<p>He recalls meeting new friends from different fields and other countries, which gave him a great sense of achievement and strengthened his passion for participating in the community.</p>
+
+
+
+<p>When the team started this meetup, numbers were much lower than in the group in the city of Taipei, but they were not disheartened and gradually grew the local WordPress community.</p>
+
+
+
+<p>They created a pattern of ‘multiple organizers,’ which spread the workload and grew friendships.&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“Being connected to and from meetups is the most valuable part of the community. Having these friends makes me gather more information. We share information and benefit from others’ information, and thus we gain more trust in each other. With such credibility, we share more deeply and build deeper relations.” </p>
+<cite>Huanyi Chuang</cite></blockquote>
+
+
+
+<p>Before the pandemic, the meetup met every month and grew to become the second largest meetup in Taiwan. Huanyi also contributed to the WordPress community as an organizer of WordCamp Taipei 2018 in the speaker team and lead organizer of <a href="https://taiwan.wordcamp.org/2021/">WordCamp Taiwan 2021</a>.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>So why should you join the community?</strong></h2>
+
+
+
+<p>According to Huanyi, you will always have something to take home with you. It might be new information or experiences. It might be plugins or theme ideas. But most of all, it is the chance to meet fascinating people and make new friends.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Huanyi’s message to other contributors:<br>&#8220;Keep participating, and you will find more you can achieve than you expect.” </p>
+</blockquote>
+
+
+
+<p>He added that long-term participation will &#8216;let you feel the humanity behind the project&#8217;.</p>
+
+
+
+<h2 class="wp-block-heading">Localize: the road ahead for WordPress</h2>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="900" height="675" src="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-3.jpg?resize=900%2C675&#038;ssl=1" alt="Huanyi standing on a sandy beach." class="wp-image-13478" srcset="https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-3.jpg?w=900&amp;ssl=1 900w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-3.jpg?w=300&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/09/huanyi-3.jpg?w=768&amp;ssl=1 768w" sizes="auto, (max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<p>Huanyi believes WordPress has the power to break down the barriers between designers, project managers, developers, marketers, writers, and publishers. In Taiwan, he said WordPress is &#8216;a common protocol&#8217; that lets people from all of these disciplines work and communicate together more easily than they ever have before.</p>
+
+
+
+<p>That is why he works on and encourages others to localize plugins today. He believes localization of the software is the foundation for the extension of the WordPress community as it enables people to ‘Flex their Freedom’ in a language they speak!</p>
+
+
+
+<p>He has helped to organize online events around previous <a href="https://wptranslationday.org/">WordPress Translation Day</a> events.</p>
+
+
+
+<p>Huanyi said: “I think it&#8217;s important to localize WordPress because its very concept of ‘open source’ means that people can access it freely. In another way, free from the monopoly of knowledge and speech. To achieve it, it&#8217;s important that people can access it with their own language.</p>
+
+
+
+<p>“Localization is the foundation of the extension of WordPress community because it helps people using different languages to access the project and lowers the hurdle to understand how things work.”</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these open source contributor stories and grow the community. Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>, or continue your own WordPress journey at <a href="https://learn.wordpress.org/">Learn.WordPress.org</a></p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thank you to <a href='https://profiles.wordpress.org/no249a002/' class='mention'><span class='mentions-prefix'>@</span>no249a002</a> for sharing his adventures in WordPress.</p>
+
+
+
+<p>Thank you to Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>), Mary Baum (<a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a>), Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>), Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>), Surendra Thakor (<a href='https://profiles.wordpress.org/sthakor/' class='mention'><span class='mentions-prefix'>@</span>sthakor</a>), Adeeb Malik (<a href='https://profiles.wordpress.org/adeebmalik/' class='mention'><span class='mentions-prefix'>@</span>adeebmalik</a>) for research, interviews, and contributing to this feature article.</p>
+
+
+
+<p>The <em>People of WordPress</em> series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">13562</post-id>	</item>
+		<item>
+		<title>People of WordPress: Raghavendra Satish Peri</title>
+		<link>https://wordpress.org/news/2022/10/people-of-wordpress-raghavendra-satish-peri/</link>
+		
+		<dc:creator><![CDATA[Meher Bala]]></dc:creator>
+		<pubDate>Mon, 31 Oct 2022 19:00:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Interviews]]></category>
+		<category><![CDATA[HeroPress]]></category>
+		<category><![CDATA[People of WordPress]]></category>
+		<guid isPermaLink="false">https://wordpress.org/news/?p=13705</guid>
+
+					<description><![CDATA[The latest People of WordPress story features Raghavendra Satish Peri, a digital entrepreneur in web accessibility and digital marketing. ]]></description>
+										<content:encoded><![CDATA[
+<p><strong>This month, in the run up to WordPress Accessibility Day, we feature Raghavendra Satish Peri, a blogger turned digital entrepreneur based in India, who specializes</strong> <strong>in web accessibility and digital marketing</strong>.</p>
+
+
+
+<p><strong>The People of WordPress series shares inspiring stories of how people&#8217;s lives can change for the better through WordPress and its global network of contributors.</strong></p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1014" height="627" src="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-featured-img.jpg?resize=1014%2C627&#038;ssl=1" alt="Raghavendra speaking at a Blogger event, 2015." class="wp-image-13701" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-featured-img.jpg?w=1014&amp;ssl=1 1014w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-featured-img.jpg?resize=300%2C186&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-featured-img.jpg?resize=768%2C475&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Raghavendra speaking at a blogger event, 2015</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Expressing myself through WordPress</h2>
+
+
+
+<p>Raghavendra Satish Peri says WordPress is more than a way to succeed online. It&#8217;s a community that has always answered his questions and helped him learn, and has enabled his voice to be heard across the world.</p>
+
+
+
+<p>These are motivating benefits for Raghavendra, who has a vision impairment that introduces challenges to many of the things he wants to do. The WordPress community has helped him make some of his dreams come true. After chatting with others at WordPress events, about his wish to go trekking and running, he found he was later contacted by people in the community went with him to do just that.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="534" height="748" src="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-3.jpg?resize=534%2C748&#038;ssl=1" alt="Raghavendra training for a marathon in 2013." class="wp-image-13702" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-3.jpg?w=534&amp;ssl=1 534w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-3.jpg?resize=214%2C300&amp;ssl=1 214w" sizes="auto, (max-width: 534px) 100vw, 534px" /><figcaption class="wp-element-caption">Raghavendra training for a marathon in 2013</figcaption></figure>
+
+
+
+<p>He also found WordPress events a way to raise the importance of accessibility issues, share tips, and connect local communities so they can collaborate on items both within and outside WordPress.</p>
+
+
+
+<h2 class="wp-block-heading">Life growing up with an enabling family</h2>
+
+
+
+<p>A key asset for Raghavendra has been the support of his family as he coped with his progressive blindness. His sister took charge of teaching him important social and life skills, so he could navigate his country&#8217;s rigorous education system.</p>
+
+
+
+<p>Those were the early days of technology everywhere, and nobody much was thinking about using it in education and day-to-day life.</p>
+
+
+
+<p>When Raghavendra got his first computer, in 2004, it was a revelation. His sister taught him to use the internet efficiently, and he taught himself a few basics of programming. Soon he was spending 10 to 12 hours a day exploring the online world and learning about the web.</p>
+
+
+
+<h2 class="wp-block-heading">Discovering WordPress and blogging</h2>
+
+
+
+<p>In 2006, he learned basic web design and began to sell website templates. His growing interest in search engines and content led him to WordPress. As the years progressed, his eyesight deteriorated. He had to relearn his skills and acquire new ones to compensate. When he could no longer see the computer screen, he learnt to use screen readers.&nbsp;</p>
+
+
+
+<p>At that point there was a gap: he had the same business skills, but he couldn&#8217;t apply them as effectively until he got comfortable with using screen readers.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="800" height="534" src="https://i0.wp.com/wordpress.org/news/files/2022/10/4.jpg?resize=800%2C534&#038;ssl=1" alt="Raghavendra speaking at an event in Bangalore, India in 2014. Photo Credit: Two Feet To Fly - fLaShBuLbZz Photography" class="wp-image-13790" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/4.jpg?w=800&amp;ssl=1 800w, https://i0.wp.com/wordpress.org/news/files/2022/10/4.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/wordpress.org/news/files/2022/10/4.jpg?resize=768%2C513&amp;ssl=1 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Raghavendra speaking at an event in Bengalaru, India in 2014</figcaption></figure>
+
+
+
+<p>To help achieve that, Raghavendra moved to Bengalaru, where he got a full education in screen-reader technology and took a job as a consultant in digital accessibility.</p>
+
+
+
+<p>He recalls learning from that time that, in his words: “Some things are important, but one needs to let them go so that more important things can take the new space.”</p>
+
+
+
+<p>During his stay in Bengaluru, he stumbled on the idea of blogging and audiobooks. On his 23rd birthday, he had two firsts: registering a domain and publishing a blog post. At first he wrote about things happening in his daily life, which initially got low responses. But when he started attending blogging and tech meetups, he received encouragement from fellow bloggers who complimented him on his writing style. </p>
+
+
+
+<p>Using WordPress to publish his story, Raghavendra found a love for writing and this made him want to learn and understand WordPress much better.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<h2 class="wp-block-heading">“Writing freed my mind and soul from the pain and sorrow; it takes a person into a Zen state where one can understand their soul once they see their own thoughts on paper.”</h2>
+<cite>Raghavendra Satish Peri</cite></blockquote>
+
+
+
+<p>There were still some ongoing challenges arising from his difficulties with seeing. For example, Raghavendra found coding was made more complicated. But he took it slowly, and he improved steadily.&nbsp;</p>
+
+
+
+<p>He started as many WordPressers do, installing themes and plugins, and making minor changes to the code. Ultimately, he moved all of his sites to WordPress, and as he learned more about WordPress, he could help his friends and family more with their projects.</p>
+
+
+
+<p>After just a few years, Raghavendra had the skills and the confidence to build just about anything in WordPress, progressing from simple to complex websites.</p>
+
+
+
+<p>Today Raghavendra is a successful entrepreneur. He sees his life as full of promise. WordPress still helps him grow every day, professionally and personally.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“There is always hope for tomorrow! Do not look for the light at the end of the tunnel, embrace the darkness, listen to the quietness, and feel the airflow. You will know that light is ahead even before you see it.&#8221;&nbsp;</p>
+<cite>Raghavendra Satish Peri</cite></blockquote>
+
+
+
+<h2 class="wp-block-heading">Contribute to accessibility and WordPress</h2>
+
+
+
+<p>Another thing Raghavendra has in common with many WordPressers is his enthusiasm and involvement in the community. As he has learnt more about the software, he felt he needed to be involved with improving accessibility too. He started to help organize local meetups and conferences and encourages others to give time and skills to contribute too.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-recalc-dims="1" loading="lazy" decoding="async" width="704" height="500" src="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-5.jpg?resize=704%2C500&#038;ssl=1" alt="2016, Raghavendra on stage speaking at WordCamp Mumbai" class="wp-image-13699" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-5.jpg?w=704&amp;ssl=1 704w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-5.jpg?resize=300%2C213&amp;ssl=1 300w" sizes="auto, (max-width: 704px) 100vw, 704px" /><figcaption class="wp-element-caption">2016, Raghavendra speaking at WordCamp Mumbai</figcaption></figure>
+
+
+
+<p>He follows software development closely, especially where WordPress meets accessibility.</p>
+
+
+
+<p>In 2020, on learning about a global WordPress Accessibility event, he applied and became a speaker. His topic was <a href="https://youtu.be/bvgLjWCRfrQ">Gutenberg Accessibility, A Screen Reader User&#8217;s Perspective</a>. His interest continued as a result of this event, and he wanted to be part of growing its audience and impact, initially through joining its dedicated channel on Slack. Eventually, he joined the organizing team for future events.</p>
+
+
+
+<p>Helping run WordPress events brought together all of Raghavendra&#8217;s existing skills. It taught him a lot about what it takes to make an event truly inclusive, from captions and sign language to media players and more.&nbsp;</p>
+
+
+
+<p>As his involvement has grown, Raghavendra has found it has become easier to source and use resources that make events and presentations more accessible. But knows there&#8217;s always more that can be learnt in this area, and encourages others to use understanding from events like the Accessibility Days in their conferences.</p>
+
+
+
+<p>Join the global WordPress Accessibility Day 2022 online on November 2-3, 2022.&nbsp;It&#8217;s <a href="https://wpaccessibility.day/">free to register</a>!</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://wpaccessibility.day/" target="_blank" rel="noreferrer noopener"><img data-recalc-dims="1" loading="lazy" decoding="async" width="568" height="173" src="https://i0.wp.com/wordpress.org/news/files/2022/10/wp-accessibility-day-22.png?resize=568%2C173&#038;ssl=1" alt="WordPress Accessibility Day 2022 logo in purple and turquoise" class="wp-image-13783" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/wp-accessibility-day-22.png?w=568&amp;ssl=1 568w, https://i0.wp.com/wordpress.org/news/files/2022/10/wp-accessibility-day-22.png?resize=300%2C91&amp;ssl=1 300w" sizes="auto, (max-width: 568px) 100vw, 568px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading"><br>Sharing learning on accessibility can be a motivator </h2>
+
+
+
+<p>In 2021, Raghavendra underwent his most challenging event to date, when he had a kidney transplant. To motivate himself, he started a website that focuses on accessibility and inclusive design. This prompted him to start an accessibility community to help fill the gaps in accessibility knowledge. Today, it is one of India’s largest online accessibility communities, educating developers and designers and training people with disabilities to build a career in accessibility testing.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-6.jpg?resize=680%2C790&#038;ssl=1" alt="Portrait photo of Raghavendra post his organ transplant, 2021." class="wp-image-13698" width="680" height="790" srcset="https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-6.jpg?w=774&amp;ssl=1 774w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-6.jpg?resize=258%2C300&amp;ssl=1 258w, https://i0.wp.com/wordpress.org/news/files/2022/10/raghavendra-6.jpg?resize=768%2C893&amp;ssl=1 768w" sizes="auto, (max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption">Raghavendra after his organ transplant in 2021</figcaption></figure>
+
+
+
+<p>Raghavendra is also a keen user of the WordPress Gutenberg editor and builds all his websites using it. Though content creation and editing can still pose him difficulties, he finds the front end of the Gutenberg blocks very accessible. He believes in participating in the software to make it a better experience for all.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;I decided to live my life to the fullest and make my mark on the world. This thought keeps me motivated.&#8221;</p>
+<cite>Raghavendra Satish Peri</cite></blockquote>
+
+
+
+<p>After a successful transplant, he lives a disciplined life with a few restrictions. He continues to enjoy working in-depth in disability, accessibility, and inclusion spaces. Raghavendra hopes others will join with him and the thousands of other people who collaborate to make a difference.</p>
+
+
+
+<h2 class="wp-block-heading">Share the stories</h2>
+
+
+
+<p>Help share these open source contributor stories and grow the community. Meet more WordPressers in the <a href="https://wordpress.org/news/category/newsletter/interviews/">People of WordPress series</a>, or continue your own WordPress journey at <a href="https://learn.wordpress.org/">Learn.WordPress.org</a></p>
+
+
+
+<p>Thank you to Raghavendra Satish Peri (<a href='https://profiles.wordpress.org/tarkham/' class='mention'><span class='mentions-prefix'>@</span>tarkham</a>) for sharing his experiences for this latest edition.</p>
+
+
+
+<h2 class="wp-block-heading">Contributors</h2>
+
+
+
+<p>Thanks to Meher Bala (<a href='https://profiles.wordpress.org/meher/' class='mention'><span class='mentions-prefix'>@</span>meher</a>), Abha Thakor (<a href='https://profiles.wordpress.org/webcommsat/' class='mention'><span class='mentions-prefix'>@</span>webcommsat</a>) and Surendra Thakor (<a href='https://profiles.wordpress.org/sthakor/' class='mention'><span class='mentions-prefix'>@</span>sthakor</a>) for interviews and writing this feature, to Mary Baum (<a href='https://profiles.wordpress.org/marybaum/' class='mention'><span class='mentions-prefix'>@</span>marybaum</a>), Chloe Bringmann (<a href='https://profiles.wordpress.org/cbringmann/' class='mention'><span class='mentions-prefix'>@</span>cbringmann</a>), and Larissa Murillo (<a href='https://profiles.wordpress.org/lmurillom/' class='mention'><span class='mentions-prefix'>@</span>lmurillom</a>) for reviews.</p>
+
+
+
+<p>The <em>People of WordPress</em> series thanks Josepha Haden (<a href='https://profiles.wordpress.org/chanthaboune/' class='mention'><span class='mentions-prefix'>@</span>chanthaboune</a>) and Topher DeRosia (<a href='https://profiles.wordpress.org/topher1kenobe/' class='mention'><span class='mentions-prefix'>@</span>topher1kenobe</a>) for their support.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:29% auto"><figure class="wp-block-media-text__media"><img data-recalc-dims="1" loading="lazy" decoding="async" width="180" height="135" src="https://i0.wp.com/wordpress.org/news/files/2020/03/heropress_logo_180.png?resize=180%2C135&#038;ssl=1" alt="HeroPress logo" class="wp-image-8409 size-full" /></figure><div class="wp-block-media-text__content">
+<p class="has-small-font-size"><em>This People of WordPress feature is inspired by an essay originally published on </em><a href="https://heropress.com/"><em>HeroPress.com</em></a><em>, a community initiative created by Topher DeRosia. It highlights people in the WordPress community who have overcome barriers and whose stories might otherwise go unheard. </em>#HeroPress </p>
+</div></div>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">13705</post-id>	</item>
+	</channel>
+</rss>

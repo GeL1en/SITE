@@ -1,0 +1,1676 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>P2 — The New&nbsp;Working</title>
+
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+		<script type="text/javascript">
+	// Try to remain compatible with older browsers
+	( function() {
+		try {
+			var cookies = document.cookie.split( ';' );
+			// Don't set if already set
+			for ( var i = 0; i < cookies.length; i++ ) {
+				if ( cookies[ i ].trim().indexOf( 'tk_ai=' ) == 0 ) {
+					return;
+				}
+			}
+
+			var randomBytes = [];
+			if ( window.crypto && window.crypto.getRandomValues ) {
+				randomBytes = new Uint8Array( 18 );
+				window.crypto.getRandomValues( randomBytes );
+			} else {
+				for ( var i = 0; i < 18; i++ ) {
+					randomBytes[ i ] = Math.floor( Math.random() * 256 );
+				}
+			}
+
+			var anonId = btoa( String.fromCharCode.apply( String, randomBytes ) );
+			var date = new Date();
+			date.setFullYear( date.getFullYear() + 5 );
+			document.cookie =
+				'tk_ai=' + encodeURIComponent( anonId )
+				+ '; domain=.wordpress.com; path=/; expires=' + date.toUTCString();
+		} catch ( e ) {
+			return;
+		}
+	} )();
+	</script><link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??/wp-content/plugins/gutenberg-core/v19.8.0/build/block-library/style.css,/wp-content/themes/h4/landing/marketing/pages/wp-for-teams/style.css?m=1733324323j&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+</style>
+<!--[if lte IE 11]>
+<link rel='stylesheet' id='h4-landing-marketing-ie-css' href='https://s1.wp.com/wp-content/themes/h4/landing/marketing/css/page-landing-ie.css?m=1483026311i&#038;ver=20160517' media='all' />
+<![endif]-->
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/wp-content/plugins/a4a-partner-directory/build/partner-listing-block/style-index.css?m=1726465813i&cssminify=yes' type='text/css' media='all' />
+<style id='a4a-partner-directory-partner-details-style-inline-css'>
+.a4a-partner-directory-form-label{display:flex;flex-direction:column;font-size:14px;font-style:normal;font-weight:500;gap:8px;line-height:20px}.a4a-partner-directory-input{background-color:#fff;border:1px solid #c3c4c7;border-radius:4px;box-shadow:0 1px 2px 0 rgba(0,0,0,.05);font-size:1em;height:36px;padding:8px 12px;text-align:left;width:100%}.a4a-partner-directory-input[type=search]{padding-left:40px!important}.a4a-partner-directory-search-input-wrapper{flex-grow:1;position:relative}.a4a-partner-directory-search-input-wrapper:before{align-items:center;content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2715%27 height=%2715%27 fill=%27none%27%3E%3Cpath fill=%27%23646970%27 fill-rule=%27evenodd%27 d=%27M15 6a6 6 0 0 1-9.68 4.74l-3.79 3.79-1.06-1.06 3.79-3.79A6 6 0 1 1 15 6m-1.5 0a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0%27 clip-rule=%27evenodd%27/%3E%3C/svg%3E");display:block;display:flex;height:24px;justify-content:center;margin-left:12px;margin-top:8px;pointer-events:none;position:absolute;width:24px}.a4a-partner-directory-dropdown:has(:popover-open) .a4a-partner-directory-dropdown__trigger:after{rotate:180deg;top:50%}.a4a-partner-directory-dropdown__trigger{background-color:#fff;border:1px solid #c3c4c7;border-radius:4px;box-shadow:0 1px 2px 0 rgba(0,0,0,.05);cursor:pointer;font-size:1em;font-weight:400;height:36px;overflow:hidden;padding:8px 24px 8px 12px;position:relative;text-align:left;text-overflow:ellipsis;text-transform:capitalize;text-wrap:nowrap;width:100%}.a4a-partner-directory-dropdown__trigger:hover{background-color:#fff;color:initial}.a4a-partner-directory-dropdown__trigger:after{align-items:center;content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2710%27 height=%276%27 fill=%27none%27%3E%3Cpath fill=%27%231E1E1E%27 fill-rule=%27evenodd%27 d=%27M9.503.916 5 5.01.497.916l.756-.832L5 3.49 8.747.084z%27 clip-rule=%27evenodd%27/%3E%3C/svg%3E");display:flex;height:3px;position:absolute;right:12px;top:calc(50% - 3px)}.a4a-partner-directory-dropdown__dropdown{border:1px solid #dcdcde;border-radius:8px;box-shadow:0 3px 5px 0 rgba(0,0,0,.06);margin:4px 0 0;max-height:368px;opacity:0;position:absolute}.a4a-partner-directory-dropdown__content{display:flex;flex-direction:column;padding:8px}.a4a-partner-directory-dropdown__content-input{margin-bottom:8px}.a4a-partner-directory-dropdown__content label{border-radius:4px;cursor:pointer;font-weight:400}.a4a-partner-directory-dropdown__content label[hidden]{display:none!important}.a4a-partner-directory-dropdown__content label:has(input[type=checkbox]){padding:6px 4px}.a4a-partner-directory-dropdown__content label:has(input[type=checkbox]) input[type=checkbox]{-webkit-appearance:auto;-moz-appearance:auto;appearance:auto;display:inline;float:left;height:14px;margin:3px 3px 3px 4px;width:14px}.a4a-partner-directory-dropdown__content label:has(input[type=checkbox])>span{display:block;padding-left:28px}.a4a-partner-directory-dropdown__content label:has(input:focus),.a4a-partner-directory-dropdown__content label:has(input:hover){background:#f1f1f1}.a4a-partner-directory-dropdown__content label:has(input[type=radio]){border:2px solid transparent;padding:6px 8px}.a4a-partner-directory-dropdown__content label:has(input[type=radio]) input[type=radio]{opacity:0;position:fixed}.a4a-partner-directory-dropdown__content label:has(input[type=radio]):has(input[type=radio]:checked){border-color:#0277a8;box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}.a4a-partner-directory-dropdown__content label .a4a-partner-directory-form-label__count{margin-left:auto}.a4a-partner-directory-dropdown__clear-filter{background-color:transparent;border:none;color:#006088;font-size:14px;margin-left:auto;text-decoration:underline;white-space:nowrap}.a4a-partner-directory-switch{display:flex;flex-direction:row;font-weight:400;gap:10px;position:relative}.a4a-partner-directory-switch input{height:0;opacity:0;position:absolute;width:0}.a4a-partner-directory-switch .a4a-partner-directory-switch__slider{align-self:center;background-color:#ccc;border-radius:34px;cursor:pointer;height:16px;position:relative;transition:transform .4s;width:32px}.a4a-partner-directory-switch .a4a-partner-directory-switch__slider:before{background-color:#fff;border-radius:50%;bottom:2px;content:"";height:12px;left:2px;position:absolute;transition:transform .4s;width:12px}.a4a-partner-directory-switch input:checked+.a4a-partner-directory-switch__slider{background-color:#2196f3}.a4a-partner-directory-switch input:focus+.a4a-partner-directory-switch__slider{outline:medium auto currentColor;outline:medium auto invert;outline:5px auto #0277a8;outline-offset:2px}.a4a-partner-directory-switch input:checked+.a4a-partner-directory-switch__slider:before{transform:translateX(16px)}.partner-availability-badge{align-items:center;align-self:flex-start;border-radius:12px;display:inline-flex;gap:4px;padding:0 8px 0 2px}.partner-availability-badge.partner-available{background:#e6f2e8;color:#005c12}.partner-availability-badge.partner-unavailable{background-color:#dcdcde;color:#3c434a}.partner-filter-tag{align-items:center;background-color:#f1f1f1;border-radius:4px;color:#2c3338;display:inline-flex;gap:4px;padding:2px 4px 2px 8px}.partner-filter-tag button{align-items:center;background-color:transparent;border:none;display:inline-flex;justify-content:center;margin-bottom:0;padding:0}.partner-filter-tag button:hover{color:initial}.wp-block-a4a-partner-directory-partner-details *,.wp-block-a4a-partner-directory-partner-listing *{box-sizing:border-box!important}.wp-block-a4a-partner-directory-partner-details ::backdrop,.wp-block-a4a-partner-directory-partner-listing ::backdrop{background:none!important}.wp-block-a4a-partner-directory-partner-details .a4a-partner-directory-switch__slider:focus-visible,.wp-block-a4a-partner-directory-partner-details input:focus-visible,.wp-block-a4a-partner-directory-partner-listing .a4a-partner-directory-switch__slider:focus-visible,.wp-block-a4a-partner-directory-partner-listing input:focus-visible{outline-color:#0277a8!important}.wp-block-a4a-partner-directory-partner-details button:focus-visible,.wp-block-a4a-partner-directory-partner-listing button:focus-visible{outline:1px solid #0277a8!important}.wp-block-a4a-partner-directory-partner-details button:hover:not([disabled]),.wp-block-a4a-partner-directory-partner-listing button:hover:not([disabled]){cursor:pointer}.wp-block-a4a-partner-directory-partner-details a:active,.wp-block-a4a-partner-directory-partner-details button:active,.wp-block-a4a-partner-directory-partner-listing a:active,.wp-block-a4a-partner-directory-partner-listing button:active{opacity:.5}.wp-block-a4a-partner-directory-partner-details div[hidden] *,.wp-block-a4a-partner-directory-partner-listing div[hidden] *{display:none!important}.wp-block-a4a-partner-directory-partner-details{container:partner-details/inline-size}.a4a-partner-directory-partner-details{display:flex;flex-direction:column;gap:24px;max-width:100%!important;text-align:left}.a4a-partner-directory-partner-details-header-links{display:flex;justify-content:space-between}.a4a-partner-directory-partner-details-header-links a{font-size:14px;font-style:normal;font-weight:400;letter-spacing:-.28px;line-height:16px;text-decoration:none}.a4a-partner-directory-partner-details-next-partner-link{display:none;margin-left:auto}.a4a-partner-directory-partner-details-content{display:flex;flex-direction:column;gap:24px}@container partner-details (min-width: 660px){.a4a-partner-directory-partner-details-content{flex-direction:row}}@container partner-details (min-width: 850px){.a4a-partner-directory-partner-details-content{gap:64px}}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar{display:flex;flex-direction:column;flex-shrink:0;gap:24px;width:100%}@container partner-details (min-width: 660px){.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar{width:352px}}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card{align-items:center;background:#fff;border:1px solid #dcdcde;border-radius:8px;box-shadow:0 1px 2px 0 rgba(0,0,0,.039),0 3px 5px 0 rgba(0,0,0,.059);display:flex;flex-direction:column;gap:16px;padding:24px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card .partner-availability-badge{align-self:center}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__logo{height:116px;width:300px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__partner-name{color:var(--black-white-black,#000);font-family:var(--wp--preset--font-family--body);font-feature-settings:"clig" off,"liga" off;font-size:24px;font-style:normal;font-weight:510;letter-spacing:-.48px;line-height:104%;margin:0;text-align:center}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__location{align-items:center;color:#646970;display:flex}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__location span{font-size:14px;font-style:normal;font-weight:400;line-height:20px;overflow:hidden;text-overflow:ellipsis}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__link-button{align-items:center;align-self:stretch;background-color:#0277a8;border-radius:4px;color:#fff;display:flex;gap:8px;height:40px;justify-content:center;padding:12px 16px;text-decoration:none}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-card__link-button span{color:#fff;font-size:14px;font-style:normal;font-weight:400;letter-spacing:-.28px;line-height:14px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-features{align-items:flex-start;display:flex;flex-direction:column;gap:16px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-features .a4a-partner-directory-partner-details-feature{align-items:flex-start;align-self:stretch;display:flex;flex-direction:column;gap:8px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-features .a4a-partner-directory-partner-details-feature h5{color:initial;font-family:var(--wp--preset--font-family--body);font-size:16px;font-style:normal;font-weight:600;letter-spacing:-.32px;line-height:20px;margin:0;overflow:hidden;text-overflow:ellipsis}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-features .a4a-partner-directory-partner-details-feature ul{margin:0;padding:0 0 0 16px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-sidebar-features .a4a-partner-directory-partner-details-feature ul li{align-self:stretch;font-size:14px;font-style:normal;font-weight:400;line-height:20px;list-style-type:disc;text-overflow:ellipsis}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details{display:flex;flex-direction:column;gap:28px;max-width:808px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h1,.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h2,.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h3{font-family:var(--wp--preset--font-family--body);font-feature-settings:"clig" off,"liga" off;font-style:normal;font-weight:510;margin:0}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h1{font-size:24px;line-height:26px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h2{font-size:20px;line-height:24px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details h3{font-size:18px;line-height:24px}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details-content{font-size:16px;font-style:normal;font-weight:400;letter-spacing:-.32px;line-height:24px;margin:0}.a4a-partner-directory-partner-details-content .a4a-partner-directory-partner-details-details-content li{font-size:16px!important}
+
+</style>
+<style id='wp-parsely-recommendations-style-inline-css'>
+.parsely-recommendations-list-title{font-size:1.2em}.parsely-recommendations-list{list-style:none;padding:unset}.parsely-recommendations-cardbody{overflow:hidden;padding:.8em;text-overflow:ellipsis;white-space:nowrap}.parsely-recommendations-cardmedia{padding:.8em .8em 0}
+
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s1.wp.com/_static/??-eJyVzDEOgCAMQNELiQU1Jg7Gs2AlDYpAaInx9ro5O/7hfbiywhTFRYEcKvnIQPXN1RVSa0h4MOxOssVDBXunKoqK34DlDq5F5gb+LIoVH4k/vpyzGYe+03oyw/4AcmU1KQ==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--nano: 12px;--wp--preset--font-size--tiny: 14px;--wp--preset--font-size--normal: 18px;--wp--preset--font-size--normal-p: 24px;--wp--preset--font-size--grand: 48px;--wp--preset--font-size--huge: 56px;--wp--preset--font-size--huge-p: 64px;--wp--preset--font-size--huge-pp: 72px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-nano-font-size{font-size: var(--wp--preset--font-size--nano) !important;}.has-tiny-font-size{font-size: var(--wp--preset--font-size--tiny) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-normal-p-font-size{font-size: var(--wp--preset--font-size--normal-p) !important;}.has-grand-font-size{font-size: var(--wp--preset--font-size--grand) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}.has-huge-p-font-size{font-size: var(--wp--preset--font-size--huge-p) !important;}.has-huge-pp-font-size{font-size: var(--wp--preset--font-size--huge-pp) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s1.wp.com/_static/??-eJyFzVEKwjAQBNALGZcWtfghniVNtkl0u1uaTaW3txYERdS/GZjHwG0wTliRFQYqIXEGsuwH667QlkQe2E4m60y4dTlv4D/oRBTHL0Yj9pgh7laVOIDlWeMSMiWP4wfoi3n+jNiShPBAy+ql/kIBxZA4q0n4rZiObFr/zv2paurjoanqfX25A0O+ZpA=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+@import url('https://fonts-api.wp.com/css?family=Raleway:thin,extralight,light,regular,medium,semibold,bold,italic,bolditalic,extrabold,black|Cabin:thin,extralight,light,regular,medium,semibold,bold,italic,bolditalic,extrabold,black|');:root { --font-headings: Cabin; --font-base: Raleway; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s1.wp.com/wp-content/themes/h4/global.css?m=1420737423i&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript">
+if ( window.top !== window.self ) {
+	if ( 'blob:' !== window.self.location.protocol ) {
+		if ( window.top.location.hostname !== window.self.location.hostname || window.top.location.protocol !== window.top.location.protocol ) {
+			window.top.location.href = window.self.location.href;
+		}
+	}
+}
+</script>
+<script type="text/javascript" crossorigin='anonymous' src="//stats.wp.com/w.js?67" id="wpcom-stats-js"></script>
+<script type="text/javascript" id="jetpack-mu-wpcom-settings-js-before">
+/* <![CDATA[ */
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/sun\/vendor\/automattic\/jetpack-mu-wpcom\/src\/build\/"};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/_static/??-eJyNkEtuwzAMRC9UmrDRNuii6FkUmZEl61eSTuPbRylsIGgXyYokOG8wGPypYEtWyoo6USLB6RVrXJzPgkGAmAsLxuK2tQvygndUEOSoULlc1r+/3SeaPFZjZzwuPo6YzflJ5TEWO4ONvmlALPuqcCpFiUHIqi95N/LZxmWkW2YM3wvxuo0u+cciSN6xUboX/6/lFs5ntxubvOrUbol+JH4aIyPt6vpueIwkwzPpLyy4ZYQTlwQNo9wqI6jGUXP6Sp/9Yfh4P/TD2xCu8jCu9w=='></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+/* ]]> */
+</script>
+<script type="text/javascript" id="landpack-nav-script-js-after">
+/* <![CDATA[ */
+document.addEventListener("DOMContentLoaded", () => {
+    const API_GEO_ENDPOINT = 'https://public-api.wordpress.com/geo/';
+    const FCCA_LINK_SELECTOR = '.lp-footer-stack [data-is-fcca]';
+
+    function fetchGeoData() {
+        return fetch( API_GEO_ENDPOINT ).then( res => res.json() );
+    }
+
+    function removeLink( selector, condition ) {
+        document.querySelectorAll( selector ).forEach( element => {
+            const parent = element.parentNode;
+            const parentTagName = parent.tagName.toLowerCase();
+
+            if ( condition ) {
+                (parentTagName === 'li' ? parent : element).remove();
+            }
+        });
+    }
+
+    /**
+     * Checks if the given data pertains to the specified region or country
+     * @param {string} key - The key to check in the data
+     * @param {string} name - The region or country name to check for
+     * @param {object} data - The geolocation data
+     * @returns {boolean} - True if the data pertains to the specified region or country
+     */
+    function pertainsTo( key, name, data ) {
+        if ( data && data[ key ] && name ) {
+            return data[ key ].toLowerCase() === name.toLowerCase();
+        }
+
+        return false;
+    }
+
+    fetchGeoData().then(data => {
+        const isFCCA = pertainsTo( 'country_long', 'germany', data );
+        removeLink( FCCA_LINK_SELECTOR, ! isFCCA );
+    });
+});
+/* ]]> */
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='https://wp.me/P1-1dyIu' />
+	<style>
+		@font-face {
+			font-family: Recoleta;
+			font-display: swap;
+			src: url('https://s1.wp.com/i/fonts/recoleta/400.woff2')
+		}
+	</style>
+	<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fwordpress.com%2Fp2%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fwordpress.com%2Fp2%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="P2 — The New&nbsp;Working" />
+<meta property="og:url" content="https://wordpress.com/p2/" />
+<meta property="og:description" content="Share, discuss, review, and collaborate with your team in a single place, without interruptions." />
+<meta property="article:published_time" content="2020-04-03T14:30:01+00:00" />
+<meta property="article:modified_time" content="2024-04-12T12:12:21+00:00" />
+<meta property="og:site_name" content="WordPress.com" />
+<meta property="og:image" content="https://wpcom.files.wordpress.com/2022/04/social-media-preview.png" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="538" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:creator" content="@WordPressDotCom" />
+<meta name="twitter:site" content="@WordPressDotCom" />
+<meta name="twitter:image" content="https://wpcom.files.wordpress.com/2022/04/social-media-preview.png?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="P2 — The New&nbsp;Working" />
+<meta name="twitter:description" content="Share, discuss, review, and collaborate with your team in a single place, without interruptions." />
+<meta name="twitter:app:name:iphone" content="Jetpack" />
+<meta name="twitter:app:id:iphone" content="1565481562" />
+<meta name="twitter:app:name:ipad" content="Jetpack" />
+<meta name="twitter:app:id:ipad" content="1565481562" />
+<meta name="twitter:app:name:googleplay" content="Jetpack" />
+<meta name="twitter:app:id:googleplay" content="com.jetpack.android" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel='openid.server' href='https://wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://wordpress.com/osd.xml" title="WordPress.com" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<link rel="canonical" href="https://wordpress.com/p2/" />
+<script type="application/ld+json">
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"Corporation","@id":"https:\/\/automattic.com\/#organization","url":"https:\/\/automattic.com\/","name":"Automattic","legalName":"Automattic Inc.","foundingDate":"2005-08-01","slogan":"We don\u2019t make software for free, we make it for freedom.","description":"We are the people behind <a href=\"https:\/\/wordpress.com\/\">WordPress.com<\/a>, <a href=\"https:\/\/woocommerce.com\/\">WooCommerce<\/a>, <a href=\"https:\/\/jetpack.com\/\">Jetpack<\/a>, <a href=\"https:\/\/simplenote.com\/\">Simplenote<\/a>, <a href=\"https:\/\/longreads.com\/\">Longreads<\/a>, <a href=\"https:\/\/vaultpress.com\/\">VaultPress<\/a>, <a href=\"https:\/\/akismet.com\/\">Akismet<\/a>, <a href=\"https:\/\/gravatar.com\/\">Gravatar<\/a>, <a href=\"\">Crowdsignal<\/a>, <a href=\"https:\/\/cloudup.com\/\">Cloudup<\/a>, and more. We believe in making the web a better place, and <a href=\"https:\/\/github.com\/Automattic\">we believe in Open Source<\/a>. The vast majority of our work is available under the GPL.","logo":{"@type":"ImageObject","@id":"https:\/\/automattic.com\/#logo","url":"https:\/\/automattic.com\/wp-content\/themes\/a8c\/automattic-2011\/images\/automattic-logo-2x.png","width":552,"height":60,"caption":"Automattic"},"image":{"@id":"https:\/\/automattic.com\/#logo"},"address":{"@type":"PostalAddress","streetAddress":"60 29th Street #343","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94110","addressCountry":"US"},"founder":{"@type":"Person","@id":"https:\/\/wordpress.com\/schema.org\/author\/5#person","name":"Matt Mullenweg","description":"In 2002 I started contributing to Open Source software, and life has just gotten better from there. Co-founder of WordPress, founder Automattic.","image":{"@type":"ImageObject","@id":"https:\/\/wordpress.com\/schema.org\/author\/5#personimage","url":"https:\/\/secure.gravatar.com\/avatar\/767fc9c115a1b989744c755db47feb60?s=96&d=retro&r=g","width":96,"height":96,"caption":"Matt Mullenweg"}},"numberOfEmployees":1744,"sameAs":["https:\/\/twitter.com\/automattic","https:\/\/www.facebook.com\/AutomatticInc","https:\/\/www.linkedin.com\/company\/automattic\/","https:\/\/en.wikipedia.org\/wiki\/Automattic","https:\/\/www.youtube.com\/c\/automattic"],"subOrganization":{"@id":"https:\/\/wordpress.com\/#organization"}},{"@type":"Organization","@id":"https:\/\/wordpress.com\/#organization","url":"https:\/\/wordpress.com\/","name":"WordPress.com","legalName":"Automattic Inc.","foundingDate":"2005-08-01","slogan":"Build a website, build a movement.","description":"Create a free website or build a blog with ease on WordPress.com. Dozens of free, customizable, mobile-ready designs and themes. Free hosting and support.","logo":{"@type":"ImageObject","@id":"https:\/\/wordpress.com\/#logo","url":"https:\/\/s1.wp.com\/home.logged-out\/images\/wpcom-a-website-that-can.jpg","width":1024,"height":512,"caption":"WordPress.com"},"image":{"@id":"https:\/\/wordpress.com\/#logo"},"address":{"@type":"PostalAddress","streetAddress":"60 29th Street #343","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94110","addressCountry":"US"},"founder":{"@type":"Person","@id":"https:\/\/wordpress.com\/schema.org\/author\/5#person","name":"Matt Mullenweg","description":"In 2002 I started contributing to Open Source software, and life has just gotten better from there. Co-founder of WordPress, founder Automattic.","image":{"@type":"ImageObject","@id":"https:\/\/wordpress.com\/schema.org\/author\/5#personimage","url":"https:\/\/secure.gravatar.com\/avatar\/767fc9c115a1b989744c755db47feb60?s=96&d=retro&r=g","width":96,"height":96,"caption":"Matt Mullenweg"}},"numberOfEmployees":1744,"sameAs":["https:\/\/twitter.com\/wordpressdotcom","https:\/\/www.facebook.com\/WordPresscom","https:\/\/www.instagram.com\/wordpressdotcom\/","https:\/\/www.linkedin.com\/company\/wordpress","https:\/\/www.youtube.com\/WordPressdotcom","https:\/\/www.pinterest.com\/wordpressdotcom\/","https:\/\/en.wikipedia.org\/wiki\/WordPress.com"],"parentOrganization":{"@id":"https:\/\/automattic.com\/#organization"}},{"@type":"WebSite","@id":"https:\/\/wordpress.com\/#website","url":"https:\/\/wordpress.com\/","name":"WordPress.com","description":"WordPress.com is the best place for your personal blog or business site.","potentialAction":{"@type":"SearchAction","target":"https:\/\/wordpress.com\/go\/?s1={search_term_string}","query-input":"required name=search_term_string"},"publisher":{"@id":"https:\/\/wordpress.com\/#organization"},"image":{"@id":"https:\/\/wordpress.com\/#logo"},"sameAs":["https:\/\/twitter.com\/wordpressdotcom","https:\/\/www.facebook.com\/WordPresscom","https:\/\/www.instagram.com\/wordpressdotcom\/","https:\/\/www.linkedin.com\/company\/wordpress","https:\/\/www.youtube.com\/WordPressdotcom","https:\/\/www.pinterest.com\/wordpressdotcom\/","https:\/\/en.wikipedia.org\/wiki\/WordPress.com"]},{"@type":"BreadcrumbList","@id":"https:\/\/wordpress.com\/p2\/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":0,"item":{"@type":"WebSite","@id":"https:\/\/wordpress.com\/#website-breadcrumb","url":"https:\/\/wordpress.com\/","name":"Home"}},{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/wordpress.com\/p2\/#webpage-breadcrumb","url":"https:\/\/wordpress.com\/p2\/","name":"P2 \u2014 The New\u00a0Working"}}]},{"@type":"ImageObject","@id":"https:\/\/wordpress.com\/p2\/#primaryimage","url":"https:\/\/s1.wp.com\/home.logged-out\/images\/wpcom-a-website-that-can.jpg","width":1024,"height":512,"caption":"P2 \u2014 The New\u00a0Working"},{"@type":"WebPage","@id":"https:\/\/wordpress.com\/p2\/#webpage","url":"https:\/\/wordpress.com\/p2\/","name":"P2 \u2014 The New\u00a0Working","description":"Create a free website or easily build a blog on WordPress.com. Dozens of free, customizable, mobile-ready designs and themes. Free hosting and support.","inLanguage":"en","isPartOf":{"@id":"https:\/\/wordpress.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/wordpress.com\/p2\/#primaryimage"},"breadcrumb":{"@id":"https:\/\/wordpress.com\/p2\/#breadcrumbs"},"publisher":{"@id":"https:\/\/wordpress.com\/#organization"},"datePublished":"2020-04-03T14:30:01+0000","dateModified":"2024-04-12T12:12:21+0000"},{"@type":"Article","@id":"https:\/\/wordpress.com\/p2\/#article","headline":"P2 \u2014 The New\u00a0Working","commentCount":0,"keywords":"","datePublished":"2020-04-03T14:30:01+0000","dateModified":"2024-04-12T12:12:21+0000","mainEntityOfPage":{"@id":"https:\/\/wordpress.com\/p2\/#webpage"},"isPartOf":{"@id":"https:\/\/wordpress.com\/p2\/#webpage"},"image":{"@id":"https:\/\/wordpress.com\/p2\/#primaryimage"},"publisher":{"@id":"https:\/\/wordpress.com\/#organization"},"author":{"@id":"https:\/\/wordpress.com\/#organization"}}]}
+</script>
+<meta name="description" content="Share, discuss, review, and collaborate with your team in a single place, without interruptions." />
+</head>
+
+<body class="page-template page-template-page-landing-marketing page-template-page-landing-marketing-php page page-id-18008054 page-parent wp-embed-responsive jetpack-reblog-enabled">
+<span style="display:none" id="cta-url" data-cta-url="https://wordpress.com/p2/contact/?ref=p2-lp"></span>
+<header class="p2-main-header " id="p2-main-header">
+	<nav class="p2-layout-container-narrow">
+		<div class="p2-main-header__inner">
+			<div class="p2-main-header__heading-part">
+				<h1 class="p2-main-header__heading">
+					<a href="https://wordpress.com/p2/"
+						class="p2-main-header__logo"
+						aria-label="P2 Home"
+					></a>
+				</h1>
+			</div>
+			<div class="p2-main-menu " id="p2-main-menu-desktop">
+				<ul class="p2-main-menu__list">
+					<li class="p2-main-menu__item">
+						<a href="https://wordpress.com/p2/"
+							class="p2-main-menu__item-tabbable is-current-page"
+						>
+							Home						</a>
+					</li>
+										<li class="p2-main-menu__item js-accordion-container">
+						<button
+							type="button"
+							data-tippy-menu="p2-main-menu-resources"
+							class="p2-main-menu__item-tabbable has-subitems "
+						>
+							Resources						</button>
+						<ul id="p2-main-menu-resources" hidden class="p2-main-menu__submenu">
+							<li>
+								<a href="https://p2help.wordpress.com/" class="p2-main-menu__item-tabbable">
+									Help Center								</a>
+							</li>
+							<li>
+								<a href="https://p2guides.wordpress.com/" class="p2-main-menu__item-tabbable">
+									Guides								</a>
+							</li>
+							<li>
+								<a href="https://distributed.blog/" class="p2-main-menu__item-tabbable">
+									Distributed Blog
+								</a>
+							</li>
+							<li>
+								<a href="https://wordpress.com/p2/faq/"
+									class="p2-main-menu__item-tabbable  "
+								>
+									FAQs								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="p2-main-menu__item">
+						<a href="https://wordpress.com/p2/contact/"
+							class="p2-main-menu__item-tabbable"
+						>
+							Contact us						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="p2-main-menu-hamburger">
+				<button
+					class="hamburger hamburger--elastic"
+					type="button"
+					aria-label="Menu"
+					data-mobile-menu-trigger
+				>
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+
+		</div>
+	</nav>
+</header>
+
+<main>
+	
+<div class="wp-block-group p2-section-home-1-hero is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading p2-section-home-1-hero__heading" id="p2-is-your-team-sshared-workspace">P2 is your team’s<br><em>shared workspace</em></h2>
+
+
+
+<!-- Put the longest heading here as a placeholder to prevent layout shifts -->
+<h2 class="p2-section-home-1-hero__heading is-hidden-placeholder">
+P2 is your team’s<br>
+permanent memory
+</h2>
+
+
+
+<ul class="p2-section-home-1-hero__dynamic-text-list wp-block-list">
+<li>shared workspace</li>
+
+
+
+<li>collective brain</li>
+
+
+
+<li>permanent memory</li>
+
+
+
+<li>internal forum</li>
+
+
+
+<li>meeting room</li>
+
+
+
+<li>whiteboard</li>
+
+
+
+<li>open directory</li>
+
+
+
+<li>knowledge base</li>
+</ul>
+
+
+
+<p>A platform for teams to share, discuss, and collaborate openly, without interruption.</p>
+
+
+
+<div class="wp-block-group p2-section-home-1-hero__responsive-images is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016640" data-permalink="https://wordpress.com/mkt-asset-01-mobile/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png" data-orig-size="480,1038" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-01-mobile" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=139" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=474" width="474" height="1025" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=474" alt="" class="wp-image-18016640" style="width:240px;height:519px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=474 474w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=69 69w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png?w=139 139w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-mobile.png 480w" sizes="(max-width: 474px) 100vw, 474px"></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img data-attachment-id="18016645" data-permalink="https://wordpress.com/mkt-asset-01-1/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png" data-orig-size="2880,1670" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-01-1" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=1024" width="1024" height="593" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=1024" alt="" class="wp-image-18016645" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=2045 2045w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-01-1.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-2-blurbs is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<aside class="wp-block-group p2-section-home-2-blurbs__quotes is-layout-flow wp-block-group-is-layout-flow">
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“Instead of email, which decays over time and empowers the sender, P2s are permanent and empower the group”</p>
+<cite><a href="https://www.fastcompany.com/3035463/how-matts-machine-works">How Matt’s machine works</a><br><strong>FastCompany</strong></cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>“A special kind of blog, called a P2, solves many of the annoyances of email, and simultaneously facilitates remote work.”</p>
+<cite><a href="https://hbr.org/2013/03/how-wordpress-thrives-with-a-1">How WordPress Thrives with a 100% Remote Workforce</a><br><strong>Harvard Business Review</strong></cite></blockquote>
+</aside>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-3-advantages is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="breakout-of-silos">Break<br>out of silos</h2>
+
+
+
+<p>Take your communications and important work out of email, closed messaging apps, and undiscoverable documents, and bring it into a shared workspace, accessible by your entire team.</p>
+</div></div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="keep-a-permanent-record-of-your-team-s-work">Keep a permanent record of your team’s work</h2>
+
+
+
+<p>Whatever you discuss, document, or share is always a quick scroll or search away from anyone on the team.</p>
+</div></div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="fewer-meetings-more-work">Fewer meetings, more work</h2>
+
+
+
+<p>Collaborate, share, discuss, brainstorm, and document work in a structured way, across multiple time zones with a single place for your team to move things forward.</p>
+</div></div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="built-on-wordpress">Built on WordPress</h2>
+
+
+
+<p>P2 is fully customizable, highly secure, mobile-friendly, and comes with a built-in WordPress editor which will improve over time.</p>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<section class="wp-block-group p2-section-home-4-use-cases is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group p2-section-home-4-use-cases__header is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="there-are-lots-ofways-to-p2">There are lots of<br>ways to P2</h2>
+
+
+
+<p>Run a company, work on a project or build a community. The possibilities are endless. At <a href="http://automattic.com">Automattic Inc.</a> we use it for company-wide distributed collaboration and it’s our most important tool.</p>
+</div></div>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-4-use-cases__carousel is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-4-use-cases__card is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading" id="project-collaboration">Project collaboration</h3>
+
+
+
+<p>Conduct daily stand-ups, track and manage projects, discuss, brainstorm, plan and execute work.</p>
+
+
+
+<p class="p2-section-home-4-use-cases__users"><img data-attachment-id="18015869" data-permalink="https://wordpress.com/image-3-2/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/image-3.png" data-orig-size="200,80" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-3" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/image-3.png?w=200" data-large-file="https://wpcom.files.wordpress.com/2021/05/image-3.png?w=200" width="200" height="80" class="wp-image-18015869" style="width:150px" src="https://wpcom.files.wordpress.com/2021/05/image-3.png" alt="Avatars of users" srcset="https://wpcom.files.wordpress.com/2021/05/image-3.png 200w, https://wpcom.files.wordpress.com/2021/05/image-3.png?w=150&amp;h=60 150w" sizes="(max-width: 200px) 100vw, 200px"> + 24 members</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-4-use-cases__card is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading" id="onboardingnew-hires">Onboarding<br>new hires</h3>
+
+
+
+<p>Welcome new hires, answer questions, co-ordinate key onboarding tasks and activities.</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-4-use-cases__card is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading" id="company-wide-announcements">Company-wide announcements</h3>
+
+
+
+<p>Keep employees up to date on company-wide developments and announcements.</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-4-use-cases__card is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading" id="division-wide-updates">Division-wide updates</h3>
+
+
+
+<p>Keep a pulse on important updates, announcements, and project status across teams within your group or division.</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-4-use-cases__card is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading" id="company-watercooler">Company watercooler</h3>
+
+
+
+<p>A place for casual conversations, musings and chit chat about interests outside of work.</p>
+</div></div>
+</div></div>
+</section>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-5-tabpanels is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="think-collectively-collaborate-with-intent">Think collectively, collaborate with intent</h2>
+
+
+
+<div class="wp-block-group p2-section-home-5-tabpanels__panel is-open is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-5-tabpanels__heading is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading p2-section-home-5-tabpanels__tab" id="share">🎤 Share</h3>
+
+
+
+<p>Showcase your work with our powerful and flexible editor that’s connected to all your favorite tools.</p>
+</div></div>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016617" data-permalink="https://wordpress.com/mkt-asset-02/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png" data-orig-size="2880,1800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-02" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=1024" loading="lazy" width="1024" height="640" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=1024" alt="" class="wp-image-18016617" style="width:736px;height:460px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=2048 2048w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-02.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-5-tabpanels__panel is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-5-tabpanels__heading is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading p2-section-home-5-tabpanels__tab" id="discuss">💬 Discuss</h3>
+
+
+
+<p>Use comment threads to brainstorm, get feedback, discuss and make decisions.</p>
+</div></div>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016643" data-permalink="https://wordpress.com/mkt-asset-03-1/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png" data-orig-size="2880,1800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-03-1" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=1024" loading="lazy" width="1024" height="640" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=1024" alt="" class="wp-image-18016643" style="width:736px;height:460px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=2048 2048w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-03-1.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-5-tabpanels__panel is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-5-tabpanels__heading is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading p2-section-home-5-tabpanels__tab" id="discover">🔍 Discover</h3>
+
+
+
+<p>Powerful search and discovery interface to discover all your content with a few keystrokes.</p>
+</div></div>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016622" data-permalink="https://wordpress.com/mkt-asset-04/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png" data-orig-size="2880,1800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-04" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=1024" loading="lazy" width="1024" height="640" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=1024" alt="" class="wp-image-18016622" style="width:736px;height:460px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=2048 2048w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-04.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-5-tabpanels__panel is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-5-tabpanels__heading is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h3 class="wp-block-heading p2-section-home-5-tabpanels__tab" id="notify">📣 Notify</h3>
+
+
+
+<p>Stay up to date on your team’s activity with notifications and newsfeeds both in P2 and in your inbox.</p>
+</div></div>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016625" data-permalink="https://wordpress.com/mkt-asset-05-1/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png" data-orig-size="2880,1800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-05-1" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=1024" loading="lazy" width="1024" height="640" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=1024" alt="" class="wp-image-18016625" style="width:736px;height:460px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=2048 2048w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-05-1.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-6-projects is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-6-projects__header is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="keep-your-team-tracking-towards-deadlines">Keep your team tracking towards deadlines</h2>
+
+
+
+<p>Organize your projects into tasks and easily track progress. Add as little or as much context to tasks as you want, delegate them and set due dates.</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-6-projects__responsive-images is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016694" data-permalink="https://wordpress.com/mkt-asset-06-mobile-1/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png" data-orig-size="524,1083" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-06-mobile-1" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=145" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=495" loading="lazy" width="495" height="1023" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=495" alt="" class="wp-image-18016694" style="width:262px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=495 495w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=73 73w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png?w=145 145w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06-mobile-1.png 524w" sizes="(max-width: 495px) 100vw, 495px"></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-attachment-id="18016689" data-permalink="https://wordpress.com/mkt-asset-06/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png" data-orig-size="1947,1073" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mkt-asset-06" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=1024" loading="lazy" width="1024" height="564" src="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=1024" alt="" class="wp-image-18016689" style="width:924px;height:488px" srcset="https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png?w=768 768w, https://wpcom.files.wordpress.com/2021/06/mkt-asset-06.png 1947w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+</div></div>
+
+
+
+<ul class="p2-section-home-6-projects__bullets wp-block-list">
+<li>Track project progress</li>
+
+
+
+<li>Set due dates</li>
+
+
+
+<li>Assign tasks</li>
+</ul>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-7-blocks is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-7-blocks__header is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="elevate-your-discussions-with-long-form-content-and-rich-media">Elevate your discussions with long-form content and rich media</h2>
+
+
+
+<p>Unlike email or other simple messaging tools, P2’s powerful editor makes it easy to showcase your work using a variety of content types and media.</p>
+</div></div>
+
+
+
+<div class="wp-block-group p2-section-home-7-blocks__images is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016050" data-permalink="https://wordpress.com/rectangle-344/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/rectangle-344.png" data-orig-size="904,540" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Rectangle 344" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=904" loading="lazy" width="660" height="394" src="https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=660" alt="A post with a video block." class="wp-image-18016050" style="width:448px" srcset="https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=660 660w, https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=150 150w, https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=300 300w, https://wpcom.files.wordpress.com/2021/05/rectangle-344.png?w=768 768w, https://wpcom.files.wordpress.com/2021/05/rectangle-344.png 904w" sizes="(max-width: 660px) 100vw, 660px"><figcaption class="wp-element-caption">Include video, gif, and audio formats in your posts</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016044" data-permalink="https://wordpress.com/image-12/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/image-12.png" data-orig-size="666,840" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-12" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/image-12.png?w=238" data-large-file="https://wpcom.files.wordpress.com/2021/05/image-12.png?w=666" loading="lazy" width="666" height="840" src="https://wpcom.files.wordpress.com/2021/05/image-12.png?w=666" alt="A tiled gallery of images." class="wp-image-18016044" style="width:333px" srcset="https://wpcom.files.wordpress.com/2021/05/image-12.png 666w, https://wpcom.files.wordpress.com/2021/05/image-12.png?w=119 119w, https://wpcom.files.wordpress.com/2021/05/image-12.png?w=238 238w" sizes="(max-width: 666px) 100vw, 666px"><figcaption class="wp-element-caption">Showcase your work with image galleries and slideshows</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016049" data-permalink="https://wordpress.com/rectangle-346/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/rectangle-346.png" data-orig-size="896,540" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Rectangle 346" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=896" loading="lazy" width="660" height="397" src="https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=660" alt="File blocks with Download buttons." class="wp-image-18016049" style="width:448px" srcset="https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=660 660w, https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=150 150w, https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=300 300w, https://wpcom.files.wordpress.com/2021/05/rectangle-346.png?w=768 768w, https://wpcom.files.wordpress.com/2021/05/rectangle-346.png 896w" sizes="(max-width: 660px) 100vw, 660px"><figcaption class="wp-element-caption">Embed documents and files for easy access by your team</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016700" data-permalink="https://wordpress.com/poll-1-2/" data-orig-file="https://wpcom.files.wordpress.com/2021/06/poll-1-2.png" data-orig-size="1566,1284" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="poll-1-2" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=1024" loading="lazy" width="1024" height="839" src="https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=1024" alt="" class="wp-image-18016700" style="width:333px" srcset="https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=1024 1024w, https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=150 150w, https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=300 300w, https://wpcom.files.wordpress.com/2021/06/poll-1-2.png?w=768 768w, https://wpcom.files.wordpress.com/2021/06/poll-1-2.png 1566w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption class="wp-element-caption">Survey your team and collect feedback quickly</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016048" data-permalink="https://wordpress.com/rectangle-347/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/rectangle-347.png" data-orig-size="896,540" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Rectangle 347" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=896" loading="lazy" width="660" height="397" src="https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=660" alt='The Changelog block with "New", "Improved", and "Fixed" statuses.' class="wp-image-18016048" style="width:448px" srcset="https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=660 660w, https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=150 150w, https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=300 300w, https://wpcom.files.wordpress.com/2021/05/rectangle-347.png?w=768 768w, https://wpcom.files.wordpress.com/2021/05/rectangle-347.png 896w" sizes="(max-width: 660px) 100vw, 660px"><figcaption class="wp-element-caption">Communicate the status of current and new features</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016047" data-permalink="https://wordpress.com/rectangle-348/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/rectangle-348.png" data-orig-size="666,840" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Rectangle 348" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=238" data-large-file="https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=666" loading="lazy" width="660" height="832" src="https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=660" alt="" class="wp-image-18016047" style="width:333px" srcset="https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=660 660w, https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=119 119w, https://wpcom.files.wordpress.com/2021/05/rectangle-348.png?w=238 238w, https://wpcom.files.wordpress.com/2021/05/rectangle-348.png 666w" sizes="(max-width: 660px) 100vw, 660px"><figcaption class="wp-element-caption">Include live drawings and designs in your posts</figcaption></figure>
+
+
+
+<p class="p2-section-home-7-blocks__more">and much more!</p>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-8-integrations is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<div class="wp-block-group p2-section-home-8-integrations__header is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+<h2 class="wp-block-heading" id="bring-all-yourwork-together">Bring all your<br>work together</h2>
+
+
+
+<p>With over 20 integrations, P2 seamlessly brings collaboration and conversations to a single, focal point for your team.<br><strong>More integrations coming soon!</strong></p>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="18016060" data-permalink="https://wordpress.com/p2/attachment/integrations/" data-orig-file="https://wpcom.files.wordpress.com/2021/05/integrations.png" data-orig-size="902,434" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="integrations" data-image-description="" data-image-caption="" data-medium-file="https://wpcom.files.wordpress.com/2021/05/integrations.png?w=300" data-large-file="https://wpcom.files.wordpress.com/2021/05/integrations.png?w=902" loading="lazy" width="660" height="317" src="https://wpcom.files.wordpress.com/2021/05/integrations.png?w=660" alt="Logos for Crowdsignal, Figma, Twitter, GitHub, YouTube, Vimeo, Google Calendar, and Loom" class="wp-image-18016060" style="width:451px;height:217px" srcset="https://wpcom.files.wordpress.com/2021/05/integrations.png?w=660 660w, https://wpcom.files.wordpress.com/2021/05/integrations.png?w=150 150w, https://wpcom.files.wordpress.com/2021/05/integrations.png?w=300 300w, https://wpcom.files.wordpress.com/2021/05/integrations.png?w=768 768w, https://wpcom.files.wordpress.com/2021/05/integrations.png 902w" sizes="(max-width: 660px) 100vw, 660px"></figure>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<div class="wp-block-group p2-section-home-9-pricing is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container"></div></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-hidden" />
+
+
+
+<section class="wp-block-group p2-section-footer-cta p2-layout-container-narrow is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading has-text-align-center" id="ready-for-a-better-way-of-working">P2 signups are currently closed</h2>
+</section>
+</main>
+
+
+		<footer class="p2-main-footer">
+			<section class="p2-main-footer__section is-p2">
+				<div class="p2-layout-container">
+					<div class="p2-main-footer__section-inner">
+						<div>
+							<a href="https://wordpress.com/p2/"
+								class="p2-main-footer__logo"
+								aria-label="P2 Home"
+							></a>
+						</div>
+
+						<div class="p2-main-footer__links">
+							<section>
+								<h2 class="p2-main-footer__links-heading">
+									Product								</h2>
+								<ul>
+									<li>
+										<a href="https://wordpress.com/p2/"
+											class="p2-main-footer__link-item"
+										>
+											P2										</a>
+									</li>
+																	</ul>
+							</section>
+
+							<section>
+								<h2 class="p2-main-footer__links-heading">
+									Learn								</h2>
+								<ul>
+									<li>
+										<a href="https://p2help.wordpress.com/what-is-p2/differences-between-p2-and-chat/" class="p2-main-footer__link-item">
+											P2 vs Chat										</a>
+									</li>
+									<li>
+										<a href="https://p2help.wordpress.com/what-is-p2/differences-between-p2-and-email/" class="p2-main-footer__link-item">
+											P2 vs Email										</a>
+									</li>
+									<li>
+										<a href="https://p2help.wordpress.com/what-is-p2/differences-between-p2-and-a-traditional-blog/" class="p2-main-footer__link-item">
+											P2 vs Blog										</a>
+									</li>
+								</ul>
+							</section>
+
+							<section>
+								<h2 class="p2-main-footer__links-heading">
+									Resources								</h2>
+								<ul>
+									<li>
+										<a href="https://p2help.wordpress.com/" class="p2-main-footer__link-item">
+											Help Center										</a>
+									</li>
+									<li>
+										<a href="https://p2guides.wordpress.com/" class="p2-main-footer__link-item">
+											P2 Guides										</a>
+									</li>
+									<li>
+										<a href="https://wordpress.com/p2/faq/"
+											class="p2-main-footer__link-item"
+										>
+											FAQs										</a>
+									</li>
+									<li>
+										<a href="https://distributed.blog/" class="p2-main-footer__link-item">
+											Distributed Blog
+										</a>
+									</li>
+								</ul>
+							</section>
+
+							<section>
+								<h2 class="p2-main-footer__links-heading">
+									Other								</h2>
+								<ul>
+									<li>
+										<a href="https://wordpress.com/p2/contact/"
+											class="p2-main-footer__link-item"
+										>
+											Contact Us										</a>
+									</li>
+									<li>
+										<a href="https://apps.wordpress.com/" class="p2-main-footer__link-item">
+											WordPress Apps										</a>
+									</li>
+									<li>
+										<a href="https://automattic.com/privacy/" class="p2-main-footer__link-item">
+											Privacy Policy										</a>
+									</li>
+									<li>
+										<a href="https://wordpress.com/tos/" class="p2-main-footer__link-item">
+											Terms of Service										</a>
+									</li>
+									<li>
+										<a href="https://wordpress.com/advertising-program-optout/" class="p2-main-footer__link-item">
+											Do Not Sell or Share My Personal Information										</a>
+									</li>
+
+									<li>
+										<a
+												href="https://automattic.com/privacy/#california-consumer-privacy-ac
+t-ccpa"
+												class="p2-main-footer__link-item">
+											Privacy Notice for California Users										</a>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="p2-main-footer__section is-wpcom">
+				<div class="p2-layout-container">
+					<div class="p2-main-footer__section-inner is-compact">
+						<a href="https://wordpress.com" class="p2-main-footer__credit-wpcom">
+							<img
+								src="https://s2.wp.com/wp-content/themes/h4/landing/marketing/pages/wp-for-teams/media/logo-wordpress.svg"
+								alt=""
+							>
+							Powered by WordPress.com
+						</a>
+						<div class="p2-main-footer__links is-single-column">
+							<a href="https://wordpress.com/start/" class="p2-main-footer__link-item">
+								Create a Site							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="p2-main-footer__section is-a8c">
+				<div class="p2-layout-container">
+					<div class="p2-main-footer__section-inner is-compact">
+						<div class="p2-main-footer__credit-a8c">
+							An
+							<a href="https://automattic.com">
+								<img
+									src="https://s2.wp.com/wp-content/themes/h4/landing/marketing/pages/wp-for-teams/media/logo-automattic.svg"
+									alt="Automattic"
+									role="img"
+								>
+							</a>
+							venture
+						</div>
+						<div class="p2-main-footer__links is-single-column">
+							<a href="https://automattic.com/work-with-us/" class="p2-main-footer__link-item">
+								Work With Us							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+		<div class="p2-mobile-menu-modal" id="p2-mobile-menu-modal" role="dialog" aria-label="Menu">
+			<div class="p2-layout-container">
+				<div class="p2-mobile-menu-modal__content">
+					<nav id="p2-mobile-menu-target"></nav>
+					<button class="p2-mobile-menu-modal__hidden-close-button" data-micromodal-close>
+						Close menu					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="bilmur" data-provider="wordpress.com" data-service="simple"></div>
+		<!-- wpcom_wp_footer -->
+		<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<div id="jp-carousel-comment-form-commenting-as">
+												<p id="jp-carousel-commenting-as">
+													You must be <a href="#" class="jp-carousel-comment-login">logged in</a> to post a comment.												</p>
+											</div>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/modules/carousel/jetpack-carousel.css?m=1685115060i&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="coblocks-loader-js-extra">
+/* <![CDATA[ */
+var wpcom_coblocks_js = {"coblocks_masonry_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-masonry.min.js","coblocks_lightbox_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-lightbox.min.js","jquery_core_js":"\/wp-includes\/js\/jquery\/jquery.min.js","jquery_migrate_js":"\/wp-includes\/js\/jquery\/jquery-migrate.min.js","masonry_js":"\/wp-includes\/js\/masonry.min.js","imagesloaded_js":"\/wp-includes\/js\/imagesloaded.min.js"};
+var coblocksLigthboxData = {"closeLabel":"Close Gallery","leftLabel":"Previous","rightLabel":"Next"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/wordpress.com\/wp-admin\/admin-ajax.php","nonce":"68d6d80c7a","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","image_label":"Open image in full-screen.","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fwordpress.com%2Fp2%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=1&v=wpcom&tz=0&user_id=0&subd=wordpress.com","is_public":"1"};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/_static/??-eJytlN1uwyAMhV9oBGVt93Mx7VEmAm7jFGyEoV339CNVM23dpF2UO2wOn9GxQR+jskwZKOtJdOABPagikMyu5hTSlrtJ7vRPXVWFkrqAdL2ZRwggelxrb8gh7XQwaQ95XsXKlFm85aQymCAz6wDkOOkt2yLqgIKDh2bUgDZxYGd808saazk5ZGpDvdgegEqzK0aOEdq2KGOMJzUUcrVDJbg2cCTM6oy+neXZGo8f4FRMaKvuduQIiZU7kamjVLPvuZmdcsTaocXPJl4uSF/SIM1w1iTXgJbNEA2Bb4Cy2aiS/DUo+rJDqts81EnYi77v+qeuV4Ih1veV4NCttUM5/2GLSHk27r+XMpsRjPdiE8AvXShqKT1BjsbuL7GWQvoNyeqhoHe6Osn1c/VfsiXxV/Vv1EWmjtFyuArrudfw0j+uVs/9w2a1mT4Bp/ArOA=='></script>
+
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?67" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'1','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'1','v':'wpcom','tz':'0','user_id':'0','post':'18008054','subd':'wordpress.com'}]);
+_stq.push(['extra', {'crypt':'UE5VRnhUZ2VGQSYvTVglSnBOaVR1Jk9bYn5tNmJ+TXolcGJkQ1ouL3Zddko0NmdGQnYsc1JpYix+bUIyLGtOS3duTG1QP1p2ek9xMS0lbS1RLVZFVFFfUUpMZG9MUEZ+bFVaczNwK0t5TFE1aGQsV3NMMjd3VGFJN1srZG9YX34zaCt0cVo/YW9mWGpLNiYvUjhNWGElaTNqQTVpME54R01yPXhsM1NOMEhhR292bmxuJmF+MHZbKz9Yb3ZwWWR0ZHEud2ldNmxXZEdXXW00M3pBeDM5TmtMKzdhLXIrazQ9VjlaOUNWfmduXy9dZFp4YUd2VlEzST1pQ2s4MyVSJTIwanlBVkMtbEE2Vk9xXVowV3A5NkZoLTRoZXV5UGR5WFJRels3JXhtLGtPVDYrWCZvOQ=='}]);
+_stq.push([ 'clickTrackerInit', '1', '18008054' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script defer id="bilmur" data-customproperties="{&quot;subservice&quot;:&quot;landpack&quot;,&quot;enq_jquery&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;h4&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="simple"   src="/wp-content/js/bilmur.min.js?i=12&m=202450"></script><script defer id="bilmur" data-customproperties="{&quot;subservice&quot;:&quot;landpack&quot;,&quot;enq_jquery&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;h4&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="simple"   src="/wp-content/js/bilmur-4.min.js?i=12&m=202450"></script><script>
+( function() {
+	function getMobileUserAgentInfo() {
+		if ( typeof wpcom_mobile_user_agent_info === 'object' ) {
+			wpcom_mobile_user_agent_info.init();
+			var mobileStatsQueryString = '';
+
+			if ( wpcom_mobile_user_agent_info.matchedPlatformName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.matchedUserAgentName !== false ) {
+				mobileStatsQueryString += '&x_' + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+			}
+
+			if ( wpcom_mobile_user_agent_info.isIPad() ) {
+				mobileStatsQueryString += '&x_' + 'ipad_views' + '=' + 'views';
+			}
+
+			if ( mobileStatsQueryString != '' ) {
+				new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+			}
+		}
+	}
+
+	document.addEventListener( 'DOMContentLoaded', getMobileUserAgentInfo );
+} )();
+</script>					<!-- A8C Analytics [start] -->
+			<script type="text/javascript">
+				( function() {
+					'use strict';
+
+					var setupAnalytics = function() {
+						window.a8cAnalyticsConfig = {"cookieBanner":{"version":"2","cssZIndex":50001,"skipBanner":false,"cookieDomain":"wordpress.com","v1CookieName":"sensitive_pixel_option","v2CookieName":"sensitive_pixel_options","v1Text":"Our websites and dashboards use cookies. By continuing, you agree to their use. <a target=\"_blank\" href=\"https:\/\/automattic.com\/cookies\/\">Learn more<\/a>, including how to control cookies.","v2Text":"As an open source company, we take your privacy seriously and want to be as transparent as possible. So: We use cookies to collect some personal data from you (like your browsing data, IP addresses, and other unique identifiers). Some of these cookies we absolutely need in order to make things work, and others you can choose in order to optimize your experience while using our site and services.","v2OptionsText":"Your privacy is critically important to us. We and our partners use, store, and process your personal data to optimize: our <strong>website<\/strong> such as by improving security or conducting analytics, <strong>marketing activities<\/strong> to help deliver relevant marketing or content, and your <strong>user experience<\/strong> such as by remembering your account name, language settings, or cart information, where applicable. You can customize your cookie settings below. Learn more in our <a href=\"https:\/\/automattic.com\/privacy\/\" target=\"_blank\">Privacy Policy<\/a> and <a href=\"https:\/\/automattic.com\/cookies\/\" target=\"_blank\">Cookie Policy<\/a>.","v2EssentialOptionHeading":"Required","v2EssentialOptionText":"These cookies are essential for our websites and services to perform basic functions and are necessary for us to operate certain features, like allowing registered users to authenticate and perform account-related functions, storing preferences set by users (like account name, language, and location), and ensuring our services operate properly.","v2AnalyticsOptionHeading":"Analytics","v2AnalyticsOptionText":"These cookies allow us to optimize performance by collecting information on how users interact with our websites.","v2AdvertisingOptionHeading":"Advertising","v2AdvertisingOptionText":"We and our advertising partners set these cookies to provide you with relevant content and to understand that content\u2019s effectiveness.","v1ButtonText":"Got It!","v2CustomizeButtonText":"Customize","v2AcceptAllButtonText":"Accept all","v2AcceptSelectionButtonText":"Accept selection","hiddenConsents":[],"isLoggedIn":false},"doNotSellDialog":{"contactEmailAddress":"privacypolicyupdates@automattic.com"},"adminAnalytics":"analytics-wpcom-admin.php","fireAnalyticsOptions":{"lpName":"p2","lpSegment":"","lpVariation":"","lpPersonalVariation":""}};
+					};
+
+					if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+						defQueue.items.push( setupAnalytics );
+					} else {
+						setupAnalytics();
+					}
+				} )();
+			</script>
+
+			<div style="display: none;" id="a8c-analytics">
+	<script type="text/javascript">
+	( function() {
+		'use strict';
+
+		/**
+		 * Establish the farthest away parent from an element matching
+		 * a given list of selectors. Selectors can be css classes, IDs,
+		 * element types, etc. (e.g. '.my-class', '#my-id', 'div', etc.)
+		 */
+		const getLastMatchingAncestor = ( event, selectors ) => {
+			let { target: element } = event;
+
+			let foundElement = null;
+
+			while ( element && !foundElement ) {
+				for ( const selector of selectors ) {
+					if ( element.matches( selector ) ) {
+						foundElement = element;
+						break;
+					}
+				}
+
+				element = element.parentElement;
+			}
+
+			return foundElement;
+		}
+
+		/**
+		 * Establish the closest parent from an element matching
+		 * a given list of selectors. Selectors can be css classes, IDs,
+		 * element types, etc. (e.g. '.my-class', '#my-id', 'div', etc.)
+		 */
+		const getClosestMatchingAncestor = ( event, selectors ) => {
+			let { target: element } = event;
+			let foundElement;
+
+			for ( const selector of selectors ) {
+				foundElement = element.closest( selector );
+				if ( foundElement ) {
+					break;
+				}
+			}
+
+			return foundElement;
+		}
+
+		/**
+		 * Main function to setup analytics.
+		 */
+		const setupAnalytics = () => {
+			/**
+			 * Returns the current page path.
+			 */
+			function getCurrentPagePath( pathname = '' ) {
+				return ( pathname || window.location.pathname ).replace( /^\/|\/$/g, '' );
+			}
+
+			/**
+			 * Returns the current page name.
+			 */
+			function getCurrentPageName( pathname = '' ) {
+				return getCurrentPagePath( pathname ).replace( getLocaleInPagePathRegExp(), '' );
+			}
+
+			/**
+			 * Returns the current page locale.
+			 */
+			function getCurrentPageLocale() {
+				const currentPagePath = getLocaleInPagePathRegExp().exec( getCurrentPagePath() );
+				return currentPagePath !== null && currentPagePath.length === 2 ? currentPagePath[1] : '';
+			}
+			/**
+			 * Helper function to extract locale from page path.
+			 */
+			function getLocaleInPagePathRegExp() {
+				return /^(af|als|am|an|ar|arc|as|ast|av|ay|az|ba|bel|bg|bm|bn|bo|br|bs|ca|ce|ckb|cs|csb|cv|cy|da|de|dv|dz|el|el\-po|en|en\-gb|eo|es|es\-mx|et|eu|fa|fi|fo|fr|fr\-be|fr\-ca|fr\-ch|fur|fy|ga|gd|gl|gn|gu|he|hi|hr|hu|hy|ia|id|ii|ilo|is|it|ja|ka|kal|kir|km|kn|ko|kk|ks|kv|la|li|lo|lv|lt|mk|ml|mwl|mn|mr|ms|mya|nah|nap|ne|nds|nl|nn|nb|non|nv|oci|or|os|pa|pl|ps|pt|pt\-br|qu|ro|ru|rup|sc|si|sk|skr|sl|snd|so|sq|sr|su|sv|ta|te|th|tl|tir|tr|tt|ty|udm|ug|uk|ur|uz|vec|vi|wa|xal|yi|yo|za|zh\-cn|zh\-hk|zh\-tw)(?:\/|$)/;
+			}
+
+			/**
+			 * Returns the config for WPcom analytics. Sets various event props
+			 * used in tracking, e.g. locale, page path, etc. Mainly used for Tracks
+			 * event props.
+			 */
+			function getWPCOMAnalyticsDefaultConfig() {
+								const currentGenericPageName = null;
+				const cannonicalPath = "\/p2\/";
+				return {
+					// Current page props.
+					currentPagePath: getCurrentPagePath(),
+					currentPageName: getCurrentPageName(),
+					
+					currentGenericPageName: currentGenericPageName ?? getCurrentPageName( cannonicalPath ),
+					currentPageLocale: getCurrentPageLocale(),
+
+					// Page variation props.
+					pageVariation: '',
+					pagePersonalVariation: '',
+
+					// Current user props.
+					currentUserIdHash: "",
+					currentUserIdHashShort: "",
+					currentUserEmailHash: "",
+
+					// Other misc. props.
+					isHomepage: false,
+					affiliateJSVersion: "1716355472",
+				}
+			}
+
+
+			// When a8c-analytics:loaded is fired, start main event handling.
+			document.addEventListener( 'a8c-analytics:loaded', () => {
+				const cb            = window.a8cAnalytics.cb;
+				const kit           = window.a8cAnalytics.kit;
+				const config        = getWPCOMAnalyticsDefaultConfig();
+				const configOptions = window.a8cAnalyticsConfig.fireAnalyticsOptions;
+
+				// Extend config with any custom props.
+				Object.assign( window.a8cAnalyticsConfig, config );
+
+				// Backcompat. for `lpName` and `lpVariation` config properties.
+				config.currentPageName = ! configOptions.currentPageName && 'logged-out-homepage' === configOptions.lpName ? configOptions.lpName : config.currentPageName;
+				config.currentPageName = ! configOptions.currentPageName && 'logged-out-app-promo' === configOptions.lpName ? configOptions.lpName : config.currentPageName;
+
+				// Backcompat. for `lpPersonalVariation` config property.
+				config.pageVariation        = ! configOptions.pageVariation && configOptions.lpVariation ? configOptions.lpVariation : config.pageVariation;
+				config.pagePersonalVariation = ! configOptions.pagePersonalVariation && configOptions.lpPersonalVariation ? configOptions.lpPersonalVariation : config.pagePersonalVariation;
+
+				/**
+				 * Applies linkers, e.g. for "forwarding" certain URL parameters between WordPress.com
+				 * and other properties (e.g. Jetpack.com). Used for affiliate tracking, coupons, etc.
+				 */
+				const applyLinkers = () => {
+					kit.linkQueryVars( [
+						{
+							includeRegExps: [
+								/^(?:[^\/]+\.)?(?:wordpress|jetpack|woocommerce|crowdsignal|wpjobmanager)\.com(?:\/|$)/i,
+							],
+							linkQueryVars: [
+								'aff',
+								'affiliate',
+								'cid', // Aff campaign ID.
+								'sid', // Aff sub ID.
+								'irclickid' // Impact Affiliate Click ID
+							],
+						},
+						{
+							includeRegExps: [
+								/^(?:[^\/]+\.)?(?:wordpress|jetpack)\.com(?:\/|$)/i,
+							],
+							linkQueryVars: [
+								'coupon',
+							],
+						},
+					] );
+				}
+
+				/**
+				 * Handles currencies. Gets the currency value from cookies, and sets the currency
+				 * if the cookie is not present. Can also be overridden by setting the `currency` URL
+				 * paramter.
+				 */
+				const fireCurrencyHandlers = () => {
+					let currency = kit.getQueryVar( 'currency' ) || '';
+
+					if ( ! currency && 'amex-business-in' === config.currentPageName ) {
+						currency = 'USD'; // Special case for this LP.
+					}
+					if ( currency ) {
+						kit.docCookies.setItem( 'landingpage_currency', currency, 31536000, '/', '.rootDomain' );
+					}
+				};
+
+				/**
+				 * Fires the `wpcom_page_view` Tracks event.
+				*/
+				const fireTracks = () => {
+					const props = Object.assign( {}, kit.getQueryVars( '', kit.QUERY_PARAMS ), {
+						// Page props.
+						path: config.currentPagePath,
+						name: config.currentPageName,
+						locale: config.currentPageLocale,
+						variation: config.pageVariation,
+						personal_variation: config.pagePersonalVariation,
+
+						// Back compat. LP props.
+						lp_name: config.currentGenericPageName,
+						lp_variation: config.pageVariation,
+						lp_personal_variation: config.pagePersonalVariation,
+					} );
+					window._tkq.push( [ 'recordEvent', 'wpcom_page_view', props ] );
+				};
+				function fireRedditAdvertisingPixel() {
+					!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);
+					rdt('init','a2_ehx23cq176s3');
+					rdt('track', 'PageVisit');
+				}
+
+				/**
+				 * Handles the referral tracking.
+				*/
+				const fireAffiliateReferrals = () => {
+					kit.attachScriptElement( 'https://s1.wp.com/wp-content/themes/h4/landing/marketing/js/affiliate-referrals.js?v=' + config.affiliateJSVersion );
+				};
+
+				/**
+				 * Loads the Google Ads gtag.
+				 */
+				const loadGoogleAdsGtag = () => {
+						kit.loadGtag( 'AW-946162814' );
+				}
+
+				/**
+				 * Loads and fires the Google Analytics 4.
+				*/
+				const fireGoogleAnalyticsFour = () => {
+					const gtagOptions = {
+						'anonymize_ip': true,
+						'use_amp_client_id': true
+					};
+
+					kit.loadGtag( 'G-1H4VG5F5JF', gtagOptions );
+				}
+
+				const fireParsely = ( trackingId ) => {
+					kit.loadParselyTracker( trackingId );
+				}
+
+				const fireHotJar = () => { 
+					if ( ! kit.pertainsToSTS() ) {
+						kit.fireHotjar( 227769 );
+					}
+				}
+				const fireHubspot = () => {
+					if ( config.currentPageLocale !== 'es' ) {
+						return;
+					}
+					kit.loadHubSpot( 145630858 );
+					// TODO: Identify user via email
+				}
+				
+				/**
+				 * Loads and fires the Facebook Pixel.
+				 */
+				const fireFacebook = () => {
+					kit.loadFacebook();
+					fbq( 'init', '823166884443641' );
+					fbq( 'track', 'PageView' );
+				}
+
+				/**
+				 * Loads and fires Microsoft Clarity
+				 */
+				const fireMicrosoftClarity = () => {
+					if ( window.clarity ) {
+						return;
+					}
+
+					// Needs to be set prior to loading the external script.
+					window.clarity =
+						window.clarity ||
+						function () {
+							( window.clarity.q = window.clarity.q || [] ).push( arguments );
+						};
+
+					const clarityScript = kit.attachScriptElement( 'https://www.clarity.ms/tag/j0cc1i1dba' );
+
+					document.body.appendChild( clarityScript );
+				};
+
+				const fireImpactAffiliate = () => {
+					kit.loadImpactAffiliate( config.currentUserIdHash, config.currentUserEmailHash );
+				}
+
+				/**
+				 * Handles scroll percentage tracking.
+				 */
+				const trackScrollPercentage = () => {
+					const scrollPosition = window.pageYOffset;
+					const pageHeight = document.body.scrollHeight - window.innerHeight;
+					const scrollProgress = ( scrollPosition / pageHeight ) * 100;
+
+					// Check if the user has scrolled to 25%, 50%, 75%, or 100% of the page
+					if ( scrollProgress >= 25 && scrollProgress < 50 ) {
+						dispatchScrollCustomEvent( 25 )
+					} else if ( scrollProgress >= 50 && scrollProgress < 75 ) {
+						dispatchScrollCustomEvent( 50 )
+					} else if ( scrollProgress >= 75 && scrollProgress < 100 ) {
+						dispatchScrollCustomEvent( 75 )
+					} else if ( scrollProgress >= 100 ) {
+						dispatchScrollCustomEvent( 100 )
+					}
+				}
+
+				/**
+				 * Dispatches a custom event with the scroll percentage.
+				 */
+				const dispatchScrollCustomEvent = ( scrollPercentage ) => {
+					const event = new CustomEvent( `PageScrollPercentage${scrollPercentage}`, { detail: scrollPercentage } );
+					window.dispatchEvent(event);
+				}
+
+				/**
+				 * Handles the scroll tracking callback. E.g. firing Tracks and GA events.
+				 */
+				const scrollTrackingCallback = ( event ) => {
+					const { detail: scrollPercentage } = event;
+					const trackingProps = {};
+
+					// Event props.
+					trackingProps.percent = event.detail ?? 0;
+					trackingProps.path = config.currentPagePath || '';
+					trackingProps.name = config.currentPageName || '';
+					trackingProps.locale = config.currentPageLocale || '';
+					trackingProps.variation = config.pageVariation || '';
+					trackingProps.personal_variation = config.pagePersonalVariation || '';
+					trackingProps.lp_name = config.currentGenericPageName || '';
+					trackingProps.lp_variation = config.pageVariation || '';
+					trackingProps.lp_personal_variation = config.pagePersonalVariation || '';
+
+					tracksAnalyticsScrollEvent( trackingProps );
+				}
+
+				/**
+				 * Dispatches a Tracks event for page scroll.
+				 */
+				const tracksAnalyticsScrollEvent = ( trackingProps ) => {
+					window._tkq.push( [ 'recordEvent', 'wpcom_page_scroll', trackingProps ] );
+				}
+
+				// Call the trackScrollProgress function every time the user scrolls
+				window.addEventListener( 'scroll', trackScrollPercentage );
+
+				// Listen to events for specific scroll percentages, each event is only acted upon once.
+				window.addEventListener( 'PageScrollPercentage25', scrollTrackingCallback, { once: true } )
+				window.addEventListener( 'PageScrollPercentage50', scrollTrackingCallback, { once: true } )
+				window.addEventListener( 'PageScrollPercentage75', scrollTrackingCallback, { once: true } )
+				window.addEventListener( 'PageScrollPercentage100', scrollTrackingCallback, { once: true } )
+
+				/**
+				 * Handles click tracking for certain elements in Tracks and GA.
+				 */
+				const setupTracksGAClickTracking = () => {
+					document.querySelector( 'body' ).addEventListener( 'click', ( event ) => {
+						// We only care about clicks on certain elements.
+						if ( event.target.matches( 'a, button, .click-tracking-enable' ) ) {
+							const { target: clickEventTarget } = event;
+
+							// Initialize eventProps object with some defaults.
+							const eventProps = {};
+							eventProps.path = config.currentPagePath || '';
+							eventProps.name = config.currentPageName || '';
+							eventProps.lp_name = config.currentGenericPageName || '';
+							eventProps.locale = config.currentPageLocale || '';
+							eventProps.variation = config.pageVariation || '';
+							eventProps.personal_variation = config.pagePersonalVariation || '';
+
+							// Identify farthest and closest parent element.
+							const selectors = [ '.wpcom-masterbar.wpcom-header', '.lpc', '.lp-block', '.lp-module', 'section', 'post', 'article' ];
+							const section = getLastMatchingAncestor( event, selectors );
+							const container = getClosestMatchingAncestor( event, selectors );
+
+							// Get class name and ID for container and add to props.
+							eventProps.container_id = container ? container.getAttribute( 'id' ) : '';
+							eventProps.container_class = container ? container.getAttribute( 'class' ) : '';
+							eventProps.container = eventProps.container_id || eventProps.container_class;
+
+							// What type of element have we clicked?
+							eventProps.is_cta = clickEventTarget.matches( 'is-cta' ) ?? false;
+							eventProps.is_in_header_nav = clickEventTarget.classList.contains('x-nav-link') || clickEventTarget.classList.contains('x-dropdown-link') || clickEventTarget.classList.contains('x-menu-link') || section === 'lpc-header-nav' || section === 'wpcom-masterbar.wpcom-header';
+							const isClickedElementButton = clickEventTarget.classList.contains('lpc-button') || clickEventTarget.classList.contains('button') || clickEventTarget.classList.contains('wp-block-button__link');
+							const isParentElementButton = clickEventTarget.parentElement && (clickEventTarget.parentElement.classList.contains('lpc-button') || clickEventTarget.parentElement.classList.contains('button') || clickEventTarget.parentElement.classList.contains('wp-block-button__link'));
+							eventProps.is_button = isClickedElementButton || isParentElementButton;
+
+							// Link data.
+							eventProps.href = clickEventTarget.getAttribute( 'href' ) || '';
+							eventProps.target = clickEventTarget.getAttribute( 'target' ) || '';
+							eventProps.text = clickEventTarget.innerText || '';
+							eventProps.use_beacon = true;
+
+							// Emit tracking event in Tracks and GA.
+							window._tkq.push( [ 'recordEvent', 'wpcom_link_click', eventProps ] );
+
+							// TODO: Implement a click delay on navigation links and CTA buttons to improve data integrity.
+							// if ( props.is_in_header_nav || props.is_cta || props.is_button ) {
+							// 	if ( props.href && 0 !== props.href.indexOf( '#' ) && -1 !== [ '', '_top', '_self' ].indexOf( props.target ) ) {
+							// 		event.preventDefault(); // Allow time for trackers to record the click.
+
+							// 		setTimeout( function() {
+							// 			document.location = props.href;
+							// 		}, 300 );
+							// 	}
+							// }
+
+						}
+					});
+				}
+
+
+				/**
+				 * Add cookie and stats tracking for the Landpack language picker.
+				 */
+				const setupLocaleChangeTracking = () => {
+
+					function createLocaleCookie( locale ) {
+						const cookieDomain = '.wordpress.com';
+						const cookieName   = 'wpcom_locale';
+
+						const date = new Date();
+						date.setTime( date.getTime() + ( 5 * 365 * 24 * 60 * 60 * 1000 ) );
+
+						const expires = " expires=" + date.toGMTString();
+						document.cookie = cookieName + '=' + locale + ';' + expires +'; path=/; domain=' + cookieDomain;
+					}
+
+					function createStatsRequest( locale, href ) {
+						const languageChangeStat = new Image();
+						languageChangeStat.onload = () => window.location.href = href;
+
+						languageChangeStat.onerror = languageChangeStat.onload;
+						languageChangeStat.src     = 'https://pixel.wp.com/g.gif?v=wpcom-no-pv&x_language-switcher=manual-switch-' + locale + '&rm=' + Math.random();
+					}
+
+					document.body.addEventListener( 'click', ( event ) => {
+						const { target } = event;
+
+						if ( target.matches( '.lp-language-picker a[lang]' ) ) {
+							event.preventDefault();
+
+							const code = target.getAttribute( 'lang' );
+							const href = target.getAttribute( 'href' );
+
+							createLocaleCookie( code );
+							createStatsRequest( code, href );
+						}
+					});
+				}
+
+				/**
+				 * Loads and fires the Bing tracking pixel.
+				 */
+				const fireBing = () => {
+					( function( w, d, t, r, u ) {
+						var f, n, i;
+						w[ u ] = w[ u ] || [], f = function() {
+							var o = { ti: "4074038" };
+							o.q = w[ u ], w[ u ] = new UET( o ), w[ u ].push( "pageLoad" )
+						}, n = d.createElement( t ), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function() {
+							var s = this.readyState;
+							s && s !== "loaded" && s !== "complete" || ( f(), n.onload = n.onreadystatechange = null )
+						}, i = d.getElementsByTagName( t )[ 0 ], i.parentNode.insertBefore( n, i )
+					} )( window, document, "script", "//bat.bing.com/bat.js", "uetq" );
+				}
+
+				/**
+				 * Adds a click event for Facebook pixel tracking on the /webinar sub pages.
+				 */
+				const trackFacebookWebinarClicks = () => {
+					const facebookPixelURL = 'https://www.facebook.com/tr?id=759053181468957&ev=SubscribedButtonClick&noscript=1';
+
+					const elementsToTrack = document.getElementsByClassName( 'webinar-facebook-click-track' );
+
+					const handleFacebookClickEvent = ( event ) => {
+						const facebookImgPixel = document.createElement( 'img' );
+						facebookImgPixel.width = 1;
+						facebookImgPixel.height = 1;
+						facebookImgPixel.src = facebookPixelURL;
+
+						document.body.appendChild( facebookImgPixel );
+					}
+
+					Array.from( elementsToTrack ).forEach( ( element ) => element.addEventListener( 'click', handleFacebookClickEvent ));
+				}
+
+				// Apply the URL parameter linkers.
+				applyLinkers();
+
+				// Add "essential" trackers to queue.
+				cb.addTracker( 'essential', false, fireCurrencyHandlers );
+
+				// Add "analytics" trackers to queue.
+				cb.addTracker( 'analytics', false, fireTracks );
+				cb.addTracker( 'analytics', false, fireAffiliateReferrals );
+				cb.addTracker( 'analytics', false, setupTracksGAClickTracking );
+				cb.addTracker( 'analytics', false, trackScrollPercentage );
+				cb.addTracker( 'analytics', false, setupLocaleChangeTracking );
+				cb.addTracker( 'analytics', true, fireGoogleAnalyticsFour );
+				cb.addTracker( 'analytics', true, () => fireParsely( 'wordpress.com' ) );
+				cb.addTracker( 'analytics', true, fireHubspot );
+
+				// Add "advertising" trackers to queue.
+				cb.addTracker( 'advertising', true, loadGoogleAdsGtag );
+				cb.addTracker( 'advertising', true, fireFacebook );
+				cb.addTracker( 'advertising', true, trackFacebookWebinarClicks );
+				cb.addTracker( 'advertising', true, fireBing );
+				cb.addTracker( 'advertising', true, fireRedditAdvertisingPixel);
+				// cb.addTracker( 'advertising', true, fireHotJar ); - Disabling for now. Enable when Hotjar is required to be used.
+				// cb.addTracker( 'advertising', true, fireMicrosoftClarity ); - Disabling for now.
+				cb.addTracker( 'advertising', true, fireImpactAffiliate );
+
+				// Maybe fire trackers now, via cookie banner, based on bucketed consent.
+				cb.maybeFireTrackers();
+			});
+		};
+		// CCPA - Do Not Sell My Data.
+		document.addEventListener( 'a8c-analytics:loaded-is-ccpa', ( event ) => {
+			const { detail } = event;
+			const isCCPAEligible = JSON.parse( detail ).isCCPA;
+
+			if ( ! isCCPAEligible ) {
+				document.querySelectorAll( '[data-is-ccpa-dnsd]' ).forEach( ( element ) => {
+					const parent = element.parentNode;
+					const parentTagName = parent.tagName.toLowerCase();
+
+					// If the link in a part of a list, remove the entire parent item.
+					// Otherwise, remove only the link element.
+					( parentTagName === 'li' ? parent : element ).remove();
+				} );
+				return;
+			}
+
+			document.querySelector( '[data-is-ccpa-dnsd-trigger]' ).onclick = ( event ) => {
+				event.preventDefault();
+				window.a8cAnalytics.dnsd.show();
+			};
+		} );
+
+		if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+			defQueue.items.push( setupAnalytics );
+		} else {
+			setupAnalytics();
+		}
+	} )();
+	</script>
+</div>
+
+			<script type="text/javascript">
+				( function() {
+					'use strict';
+					var currentScript = document.currentScript;
+
+					var setupAnalytics = function() {
+						function getScript() {
+							var script = document.createElement( 'script' );
+							var prev = currentScript || document.getElementsByTagName( 'script' )[ 0 ];
+							script.setAttribute( 'src', "https:\/\/s0.wp.com\/wp-content\/mu-plugins\/a8c-analytics\/a8c-analytics.js?v=1729607242" );
+							script.setAttribute( 'async', true );
+							prev.parentNode.insertBefore( script, prev );
+						}
+
+													getScript();
+											};
+
+					if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+						defQueue.items.push( setupAnalytics );
+					} else {
+						setupAnalytics();
+					}
+				} )();
+			</script>
+			<!-- A8C Analytics [end] -->
+		
+	</body>
+</html>
